@@ -1,0 +1,802 @@
+[
+    {
+        "english": "ambition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抱负"
+            }
+        ],
+        "phonetic": "/æmˈbɪʃən/"
+    },
+    {
+        "english": "ambitious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有雄心的"
+            }
+        ],
+        "phonetic": "/æmˈbɪʃəs/"
+    },
+    {
+        "english": "someday",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "某一天"
+            }
+        ],
+        "phonetic": "/ˈsʌmˌdeɪ/"
+    },
+    {
+        "english": "matter-of-factly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "实事求是地"
+            }
+        ],
+        "phonetic": "/ˌmætərəvˈfæktli/"
+    },
+    {
+        "english": "biology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生物学"
+            }
+        ],
+        "phonetic": "/baɪˈɑːlədʒi/"
+    },
+    {
+        "english": "resolve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "决心，解决"
+            }
+        ],
+        "phonetic": "/rɪˈzɑːlv/"
+    },
+    {
+        "english": "fiction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小说，虚构"
+            }
+        ],
+        "phonetic": "/ˈfɪkʃən/"
+    },
+    {
+        "english": "freshman",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新生"
+            }
+        ],
+        "phonetic": "/ˈfrɛʃmən/"
+    },
+    {
+        "english": "pretend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "假装"
+            }
+        ],
+        "phonetic": "/prɪˈtɛnd/"
+    },
+    {
+        "english": "desperate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "绝望的"
+            }
+        ],
+        "phonetic": "/ˈdɛspərət/"
+    },
+    {
+        "english": "buddy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "伙伴"
+            }
+        ],
+        "phonetic": "/ˈbʌdi/"
+    },
+    {
+        "english": "entertaining",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有趣的，娱乐性的"
+            }
+        ],
+        "phonetic": "/ˌɛntərˈteɪnɪŋ/"
+    },
+    {
+        "english": "apologetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "道歉的，抱歉的"
+            }
+        ],
+        "phonetic": "/əˌpɒlədʒˈɛtɪk/"
+    },
+    {
+        "english": "attain",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "获得，达到"
+            }
+        ],
+        "phonetic": "/əˈteɪn/"
+    },
+    {
+        "english": "attainable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可获得的"
+            }
+        ],
+        "phonetic": "/əˈteɪnəbəl/"
+    },
+    {
+        "english": "determination",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "决心"
+            }
+        ],
+        "phonetic": "/dɪˌtɜːrmɪˈneɪʃən/"
+    },
+    {
+        "english": "realistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "现实的"
+            }
+        ],
+        "phonetic": "/ˌriːəˈlɪstɪk/"
+    },
+    {
+        "english": "ethologist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动物行为学家"
+            }
+        ],
+        "phonetic": "/ɪˈθɒlədʒɪst/"
+    },
+    {
+        "english": "jungle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "丛林"
+            }
+        ],
+        "phonetic": "/ˈdʒʌŋɡl/"
+    },
+    {
+        "english": "fated",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "命中注定的"
+            }
+        ],
+        "phonetic": "/ˈfeɪtɪd/"
+    },
+    {
+        "english": "adventurous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "爱冒险的"
+            }
+        ],
+        "phonetic": "/ədˈvɛntʃərəs/"
+    },
+    {
+        "english": "exotic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "异国情调的"
+            }
+        ],
+        "phonetic": "/ɪɡˈzɒtɪk/"
+    },
+    {
+        "english": "string",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "线，串"
+            }
+        ],
+        "phonetic": "/strɪŋ/"
+    },
+    {
+        "english": "conflict",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冲突"
+            }
+        ],
+        "phonetic": "/ˈkɒnflɪkt/"
+    },
+    {
+        "english": "whole-heartedly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "全心全意地"
+            }
+        ],
+        "phonetic": "/ˌhoʊlˈhɑːrtɪdli/"
+    },
+    {
+        "english": "single-mindedly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "一心一意地"
+            }
+        ],
+        "phonetic": "/ˈsɪŋɡlˈmaɪndɪdli/"
+    },
+    {
+        "english": "greedy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "贪婪的"
+            }
+        ],
+        "phonetic": "/ˈɡriːdi/"
+    },
+    {
+        "english": "sustainable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可持续的"
+            }
+        ],
+        "phonetic": "/səˈsteɪnəbl/"
+    },
+    {
+        "english": "chaotic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "混乱的"
+            }
+        ],
+        "phonetic": "/keɪˈɒtɪk/"
+    },
+    {
+        "english": "fitness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "健康，适合性"
+            }
+        ],
+        "phonetic": "/ˈfɪtnəs/"
+    },
+    {
+        "english": "overdue",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "过期的，延误的"
+            }
+        ],
+        "phonetic": "/ˌoʊvərˈduː/"
+    },
+    {
+        "english": "creativity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "创造力"
+            }
+        ],
+        "phonetic": "/ˌkriːeɪˈtɪvəti/"
+    },
+    {
+        "english": "mature",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "成熟的"
+            }
+        ],
+        "phonetic": "/məˈtʊr/"
+    },
+    {
+        "english": "marathon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "马拉松"
+            }
+        ],
+        "phonetic": "/ˈmærəθən/"
+    },
+    {
+        "english": "assign",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "分配，指派"
+            }
+        ],
+        "phonetic": "/əˈsaɪn/"
+    },
+    {
+        "english": "pediatrician",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "儿科医生"
+            }
+        ],
+        "phonetic": "/ˌpiːdiəˈtrɪʃən/"
+    },
+    {
+        "english": "literally",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "字面地，简直"
+            }
+        ],
+        "phonetic": "/ˈlɪtərəli/"
+    },
+    {
+        "english": "overextend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "过度扩展"
+            }
+        ],
+        "phonetic": "/ˌoʊvərɪkˈstɛnd/"
+    },
+    {
+        "english": "best-seller",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "畅销书"
+            }
+        ],
+        "phonetic": "/ˈbɛstˌsɛlər/"
+    },
+    {
+        "english": "obsess",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使着迷"
+            }
+        ],
+        "phonetic": "/əbˈsɛs/"
+    },
+    {
+        "english": "anymore",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "再也（不）"
+            }
+        ],
+        "phonetic": "/ˌɛniˈmɔːr/"
+    },
+    {
+        "english": "maximum",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "最大量"
+            }
+        ],
+        "phonetic": "/ˈmæksɪməm/"
+    },
+    {
+        "english": "from one reason or another",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "因某种原因"
+            }
+        ],
+        "phonetic": "/frəm wʌn ˈriːzən ɔːr əˈnʌðər/"
+    },
+    {
+        "english": "grab for /at",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "抓住，抢夺"
+            }
+        ],
+        "phonetic": "/ɡræb fɔːr / æt/"
+    },
+    {
+        "english": "come to terms with",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "接受（不愉快的事情）"
+            }
+        ],
+        "phonetic": "/kʌm tʊ tɜːrmz wɪð/"
+    },
+    {
+        "english": "Secretary of State",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "国务卿"
+            }
+        ],
+        "phonetic": "/ˈsɛkrəteri əv steɪt/"
+    },
+    {
+        "english": "workout",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "锻炼"
+            }
+        ],
+        "phonetic": "/ˈwɜːrkaʊt/"
+    },
+    {
+        "english": "strive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "努力奋斗"
+            }
+        ],
+        "phonetic": "/straɪv/"
+    },
+    {
+        "english": "unlike",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "不像，不同"
+            }
+        ],
+        "phonetic": "/ˈʌnˌlaɪk/"
+    },
+    {
+        "english": "best-selling",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "畅销的"
+            }
+        ],
+        "phonetic": "/ˈbɛstˈsɛlɪŋ/"
+    },
+    {
+        "english": "paradox",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "悖论"
+            }
+        ],
+        "phonetic": "/ˈpærəˌdɒks/"
+    },
+    {
+        "english": "appealing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "吸引人的"
+            }
+        ],
+        "phonetic": "/əˈpiːlɪŋ/"
+    },
+    {
+        "english": "perform",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "表演，执行"
+            }
+        ],
+        "phonetic": "/pərˈfɔːrm/"
+    },
+    {
+        "english": "tongue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "舌头，语言"
+            }
+        ],
+        "phonetic": "/tʌŋ/"
+    },
+    {
+        "english": "chase",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "追逐，追求"
+            }
+        ],
+        "phonetic": "/ʧeɪs/"
+    },
+    {
+        "english": "depression",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抑郁，萧条"
+            }
+        ],
+        "phonetic": "/dɪˈprɛʃən/"
+    },
+    {
+        "english": "grounded",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "脚踏实地的"
+            }
+        ],
+        "phonetic": "/ˈɡraʊndɪd/"
+    },
+    {
+        "english": "isolation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "隔离，孤立"
+            }
+        ],
+        "phonetic": "/ˌaɪsəˈleɪʃən/"
+    },
+    {
+        "english": "productive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "高效的，有成效的"
+            }
+        ],
+        "phonetic": "/prəˈdʌktɪv/"
+    },
+    {
+        "english": "employee",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "雇员"
+            }
+        ],
+        "phonetic": "/ɪmˈplɔɪiː/"
+    },
+    {
+        "english": "ethos",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "道德观，精神"
+            }
+        ],
+        "phonetic": "/ˈiːθɒs/"
+    },
+    {
+        "english": "philosopher",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "哲学家"
+            }
+        ],
+        "phonetic": "/fɪˈlɒsəfə/"
+    },
+    {
+        "english": "hold back",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "阻止，抑制"
+            }
+        ],
+        "phonetic": "/hoʊld bæk/"
+    },
+    {
+        "english": "unfold",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "展开，展现"
+            }
+        ],
+        "phonetic": "/ʌnˈfoʊld/"
+    },
+    {
+        "english": "mindset",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "心态"
+            }
+        ],
+        "phonetic": "/ˈmaɪndˌsɛt/"
+    },
+    {
+        "english": "roll/trip off the tongue",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "朗朗上口"
+            }
+        ],
+        "phonetic": "/roʊl/trɪp ɒf ðə tʌŋ/"
+    },
+    {
+        "english": "lessen",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "减少"
+            }
+        ],
+        "phonetic": "/ˈlɛsən/"
+    },
+    {
+        "english": "be/get/feel burned out",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "感到筋疲力尽"
+            }
+        ],
+        "phonetic": "/biː/ɡɛt/fiːl bɜːrnd aʊt/"
+    },
+    {
+        "english": "emotional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "情绪的"
+            }
+        ],
+        "phonetic": "/ɪˈmoʊʃənəl/"
+    },
+    {
+        "english": "the here and now",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "现时，眼前"
+            }
+        ],
+        "phonetic": "/ðə hɪər ənd naʊ/"
+    },
+    {
+        "english": "perceive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "感知，察觉"
+            }
+        ],
+        "phonetic": "/pərˈsiːv/"
+    },
+    {
+        "english": "come up short",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "未达到预期"
+            }
+        ],
+        "phonetic": "/kʌm ʌp ʃɔːrt/"
+    },
+    {
+        "english": "heroic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "英雄的"
+            }
+        ],
+        "phonetic": "/hɪˈroʊɪk/"
+    },
+    {
+        "english": "add up",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "累积，合计"
+            }
+        ],
+        "phonetic": "/æd ʌp/"
+    },
+    {
+        "english": "consistent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "一致的"
+            }
+        ],
+        "phonetic": "/kənˈsɪstənt/"
+    },
+    {
+        "english": "string together",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "连接起来"
+            }
+        ],
+        "phonetic": "/strɪŋ təˈɡɛðər/"
+    },
+    {
+        "english": "prior to",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "在…之前"
+            }
+        ],
+        "phonetic": "/ˈpraɪər tə/"
+    },
+    {
+        "english": "at peace",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "平静，安宁"
+            }
+        ],
+        "phonetic": "/ət piːs/"
+    },
+    {
+        "english": "quite/just the opposite",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "正好相反"
+            }
+        ],
+        "phonetic": "/kwaɪt/ʌst ði ˈɒpəzɪt/"
+    },
+    {
+        "english": "run/be/go counter to",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "与…相悖"
+            }
+        ],
+        "phonetic": "/rʌn/biː/ɡəʊ ˈkaʊntər tə/"
+    }
+]

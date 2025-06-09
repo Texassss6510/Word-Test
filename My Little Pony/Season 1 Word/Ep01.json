@@ -1,0 +1,622 @@
+[
+    {
+        "english": "equestrian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "马术"
+            }
+        ],
+        "phonetic": "/ɪˈkwestriən/"
+    },
+    {
+        "english": "regal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "帝王的；高贵的"
+            }
+        ],
+        "phonetic": "/ˈriːɡəl/"
+    },
+    {
+        "english": "subject",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "臣民；主题"
+            }
+        ],
+        "phonetic": "/ˈsʌbdʒɪkt/"
+    },
+    {
+        "english": "resentful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "愤恨的"
+            }
+        ],
+        "phonetic": "/rɪˈzɛntfəl/"
+    },
+    {
+        "english": "relish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "喜爱；享受"
+            }
+        ],
+        "phonetic": "/ˈrɛlɪʃ/"
+    },
+    {
+        "english": "shun",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "避开；回避"
+            }
+        ],
+        "phonetic": "/ʃʌn/"
+    },
+    {
+        "english": "fateful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "决定命运的；重大的"
+            }
+        ],
+        "phonetic": "/ˈfeɪtfəl/"
+    },
+    {
+        "english": "wicked",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "邪恶的；恶毒的"
+            }
+        ],
+        "phonetic": "/ˈwɪkɪd/"
+    },
+    {
+        "english": "mare",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "母马"
+            }
+        ],
+        "phonetic": "/meər/"
+    },
+    {
+        "english": "nightmare",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "噩梦"
+            }
+        ],
+        "phonetic": "/ˈnaɪtˌmɛər/"
+    },
+    {
+        "english": "vow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "誓言"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "发誓"
+            }
+        ],
+        "phonetic": "/vaʊ/"
+    },
+    {
+        "english": "shroud",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "覆盖"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "裹尸布"
+            }
+        ],
+        "phonetic": "/ʃraʊd/"
+    },
+    {
+        "english": "eternal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "永恒的；不朽的"
+            }
+        ],
+        "phonetic": "/ɪˈtɜːrnəl/"
+    },
+    {
+        "english": "reluctantly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "勉强地；不情愿地"
+            }
+        ],
+        "phonetic": "/rɪˈlʌktəntli/"
+    },
+    {
+        "english": "mythical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神话的；虚构的"
+            }
+        ],
+        "phonetic": "/ˈmɪθɪkəl/"
+    },
+    {
+        "english": "harness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "马具"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "利用，驾驭"
+            }
+        ],
+        "phonetic": "/ˈhɑːrnəs/"
+    },
+    {
+        "english": "banish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "驱逐；放逐"
+            }
+        ],
+        "phonetic": "/ˈbænɪʃ/"
+    },
+    {
+        "english": "twilight",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "黄昏；暮光"
+            }
+        ],
+        "phonetic": "/ˈtwaɪlaɪt/"
+    },
+    {
+        "english": "courtyard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "庭院；院子"
+            }
+        ],
+        "phonetic": "/ˈkɔːrtyɑːrd/"
+    },
+    {
+        "english": "spike",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "尖刺"
+            }
+        ],
+        "phonetic": "/spaɪk/"
+    },
+    {
+        "english": "prophecy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "预言"
+            }
+        ],
+        "phonetic": "/ˈprɒfəsi/"
+    },
+    {
+        "english": "imprison",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "囚禁；监禁"
+            }
+        ],
+        "phonetic": "/ɪmˈprɪzən/"
+    },
+    {
+        "english": "precipice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "悬崖；绝壁；险境"
+            }
+        ],
+        "phonetic": "/ˈpresəpɪs/"
+    },
+    {
+        "english": "threshold",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "门槛；阈值；开端"
+            }
+        ],
+        "phonetic": "/ˈθreʃhoʊld/"
+    },
+    {
+        "english": "brink",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "边缘；临界点"
+            }
+        ],
+        "phonetic": "/brɪŋk/"
+    },
+    {
+        "english": "imperative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "必要的；紧急的"
+            }
+        ],
+        "phonetic": "/ɪmˈperətɪv/"
+    },
+    {
+        "english": "mentor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "导师；顾问"
+            }
+        ],
+        "phonetic": "/ˈmentər/"
+    },
+    {
+        "english": "diligence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "勤奋；勤勉"
+            }
+        ],
+        "phonetic": "/ˈdɪlɪdʒəns/"
+    },
+    {
+        "english": "industrious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "勤劳的；勤奋的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʌstriəs/"
+    },
+    {
+        "english": "supervise",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "监督；管理"
+            }
+        ],
+        "phonetic": "/ˈsuːpərvaɪz/"
+    },
+    {
+        "english": "arrange for",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "安排"
+            }
+        ],
+        "phonetic": "/əˈreɪndʒ fɔːr/"
+    },
+    {
+        "english": "rest on",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "依靠；依赖"
+            }
+        ],
+        "phonetic": "/rɛst ɒn/"
+    },
+    {
+        "english": "fate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "命运；宿命"
+            }
+        ],
+        "phonetic": "/feɪt/"
+    },
+    {
+        "english": "ville",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "镇（后缀）"
+            }
+        ],
+        "phonetic": "/vɪl/"
+    },
+    {
+        "english": "overseer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "监督者；工头"
+            }
+        ],
+        "phonetic": "/ˌoʊvərˈsiːr/"
+    },
+    {
+        "english": "banquet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "宴会；盛宴"
+            }
+        ],
+        "phonetic": "/ˈbæŋkwɪt/"
+    },
+    {
+        "english": "sample",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "样品"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "品尝"
+            }
+        ],
+        "phonetic": "/ˈsæmpəl/"
+    },
+    {
+        "english": "fritter",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "油炸果饼；油炸小食"
+            }
+        ],
+        "phonetic": "/ˈfrɪtər/"
+    },
+    {
+        "english": "bumpkin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "乡巴佬；土包子"
+            }
+        ],
+        "phonetic": "/ˈbʌmpkɪn/"
+    },
+    {
+        "english": "pegasus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "飞马（希腊神话中长翼的马）"
+            }
+        ],
+        "phonetic": "/ˈpeɡəsəs/"
+    },
+    {
+        "english": "one and only",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "唯一的；独一无二的"
+            }
+        ],
+        "phonetic": "/wʌn ənd ˈoʊnli/"
+    },
+    {
+        "english": "jiffy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "瞬间；片刻"
+            }
+        ],
+        "phonetic": "/ˈdʒɪfi/"
+    },
+    {
+        "english": "measly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "微不足道的；少得可怜的"
+            }
+        ],
+        "phonetic": "/ˈmiːzli/"
+    },
+    {
+        "english": "decor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "装饰；布置"
+            }
+        ],
+        "phonetic": "/deɪˈkɔːr/"
+    },
+    {
+        "english": "come along",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "取得进展；出现"
+            }
+        ],
+        "phonetic": "/kʌm əˈlɔːŋ/"
+    },
+    {
+        "english": "spine",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "脊柱；书脊；刺"
+            }
+        ],
+        "phonetic": "/spaɪn/"
+    },
+    {
+        "english": "rarity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "稀有；珍贵"
+            }
+        ],
+        "phonetic": "/ˈrerəti/"
+    },
+    {
+        "english": "mane",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鬃毛"
+            }
+        ],
+        "phonetic": "/meɪn/"
+    },
+    {
+        "english": "envious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "羡慕的；嫉妒的"
+            }
+        ],
+        "phonetic": "/ˈɛnviəs/"
+    },
+    {
+        "english": "spectacular",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "壮观的；引人注目的"
+            }
+        ],
+        "phonetic": "/spekˈtækjələr/"
+    },
+    {
+        "english": "glamour",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "魅力；吸引力"
+            }
+        ],
+        "phonetic": "/ˈɡlæmər/"
+    },
+    {
+        "english": "sophistication",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "精致；复杂；老练"
+            }
+        ],
+        "phonetic": "/ˌsɒfɪstɪˈkeɪʃən/"
+    },
+    {
+        "english": "emerald",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "翡翠；绿宝石"
+            }
+        ],
+        "phonetic": "/ˈemərəld/"
+    },
+    {
+        "english": "ruby",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "红宝石"
+            }
+        ],
+        "phonetic": "/ˈruːbi/"
+    },
+    {
+        "english": "dye",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "染料"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "染色"
+            }
+        ],
+        "phonetic": "/daɪ/"
+    },
+    {
+        "english": "teeny",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极小的；微小的"
+            }
+        ],
+        "phonetic": "/ˈtiːni/"
+    },
+    {
+        "english": "ridiculous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "荒谬的；可笑的"
+            }
+        ],
+        "phonetic": "/rɪˈdɪkjələs/"
+    },
+    {
+        "english": "reasonable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "合理的；适度的"
+            }
+        ],
+        "phonetic": "/ˈriːzənəbl/"
+    },
+    {
+        "english": "coiffure",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "发型"
+            }
+        ],
+        "phonetic": "/kwaːˈfjʊər/"
+    },
+    {
+        "english": "puffy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "浮肿的；蓬松的"
+            }
+        ],
+        "phonetic": "/ˈpʌfi/"
+    }
+]

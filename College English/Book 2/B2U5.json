@@ -1,0 +1,822 @@
+[
+    {
+        "english": "console",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "安慰"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "控制台"
+            }
+        ],
+        "phonetic": "/kənˈsəʊl/"
+    },
+    {
+        "english": "transience",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "短暂"
+            }
+        ],
+        "phonetic": "/ˈtrænʃəns/"
+    },
+    {
+        "english": "distinction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "区别，杰出"
+            }
+        ],
+        "phonetic": "/dɪˈstɪŋkʃən/"
+    },
+    {
+        "english": "heal",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "治愈"
+            }
+        ],
+        "phonetic": "/hiːl/"
+    },
+    {
+        "english": "messy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "混乱的，棘手的"
+            }
+        ],
+        "phonetic": "/ˈmɛsi/"
+    },
+    {
+        "english": "coincidence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "巧合"
+            }
+        ],
+        "phonetic": "/kəʊˈɪnsɪdəns/"
+    },
+    {
+        "english": "prevalent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "流行的，普遍的"
+            }
+        ],
+        "phonetic": "/ˈprɛvələnt/"
+    },
+    {
+        "english": "grief",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "悲痛"
+            }
+        ],
+        "phonetic": "/ɡriːf/"
+    },
+    {
+        "english": "therapy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "治疗，疗法"
+            }
+        ],
+        "phonetic": "/ˈθɛrəpi/"
+    },
+    {
+        "english": "linguistics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "语言学"
+            }
+        ],
+        "phonetic": "/lɪŋˈɡwɪstɪks/"
+    },
+    {
+        "english": "propose",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "提议，求婚"
+            }
+        ],
+        "phonetic": "/prəˈpəʊz/"
+    },
+    {
+        "english": "despair",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "绝望"
+            }
+        ],
+        "phonetic": "/dɪˈspɛə/"
+    },
+    {
+        "english": "memoir",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "回忆录"
+            }
+        ],
+        "phonetic": "/ˈmɛmwɑː/"
+    },
+    {
+        "english": "acronym",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "首字母缩略词"
+            }
+        ],
+        "phonetic": "/ˈækrənɪm/"
+    },
+    {
+        "english": "fleeting",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "转瞬即逝的"
+            }
+        ],
+        "phonetic": "/ˈfliːtɪŋ/"
+    },
+    {
+        "english": "narrative",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "叙述"
+            }
+        ],
+        "phonetic": "/ˈnærətɪv/"
+    },
+    {
+        "english": "LOL",
+        "pos": [
+            {
+                "abbreviation": "abbr.",
+                "meaning": "大声笑（网络用语）"
+            }
+        ],
+        "phonetic": "/ɛl-əʊ-ˈɛl/"
+    },
+    {
+        "english": "betrayal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "背叛"
+            }
+        ],
+        "phonetic": "/bɪˈtreɪəl/"
+    },
+    {
+        "english": "optimistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "乐观的"
+            }
+        ],
+        "phonetic": "/ˌɒptɪˈmɪstɪk/"
+    },
+    {
+        "english": "longevity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "长寿，寿命，持续时间"
+            }
+        ],
+        "phonetic": "/lɒnˈdʒɛvɪti/"
+    },
+    {
+        "english": "companionship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "友谊"
+            }
+        ],
+        "phonetic": "/kəmˈpænjənʃɪp/"
+    },
+    {
+        "english": "eligible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "合格的，有资格的"
+            }
+        ],
+        "phonetic": "/ˈɛlɪdʒɪbəl/"
+    },
+    {
+        "english": "one after the other",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "一个接一个"
+            }
+        ],
+        "phonetic": "/wʌn ˈɑːftə ði ˈʌðə/"
+    },
+    {
+        "english": "insight",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "洞察力"
+            }
+        ],
+        "phonetic": "/ˈɪnsaɪt/"
+    },
+    {
+        "english": "narrator",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "叙述者"
+            }
+        ],
+        "phonetic": "/nəˈreɪtə/"
+    },
+    {
+        "english": "in the hope of / that",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "希望"
+            }
+        ],
+        "phonetic": "/ɪn ðə həʊp ʌv / ðæt/"
+    },
+    {
+        "english": "monologue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "独白"
+            }
+        ],
+        "phonetic": "/ˈmɒnəlɒɡ/"
+    },
+    {
+        "english": "evolution",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "演变，进化"
+            }
+        ],
+        "phonetic": "/ˌiːvəˈluːʃən/"
+    },
+    {
+        "english": "revisit",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "再访，重新审视/考虑"
+            }
+        ],
+        "phonetic": "/ˌriːˈvɪzɪt/"
+    },
+    {
+        "english": "paradoxically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "自相矛盾地"
+            }
+        ],
+        "phonetic": "/ˌpærəˈdɒksɪkəli/"
+    },
+    {
+        "english": "netspeak",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "网络语言"
+            }
+        ],
+        "phonetic": "/nɛtspiːk/"
+    },
+    {
+        "english": "usage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "使用"
+            }
+        ],
+        "phonetic": "/ˈjuːsɪdʒ/"
+    },
+    {
+        "english": "interior",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "内部"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "内心/精神的"
+            }
+        ],
+        "phonetic": "/ɪnˈtɪərɪə/"
+    },
+    {
+        "english": "slang",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "俚语"
+            }
+        ],
+        "phonetic": "/slæŋ/"
+    },
+    {
+        "english": "mainstream",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "主流的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "主流"
+            }
+        ],
+        "phonetic": "/ˈmeɪnstriːm/"
+    },
+    {
+        "english": "abbreviation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "缩写"
+            }
+        ],
+        "phonetic": "/əˌbriːvɪˈeɪʃən/"
+    },
+    {
+        "english": "universal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "普遍的，通用的"
+            }
+        ],
+        "phonetic": "/ˌjuːnɪˈvɜːsəl/"
+    },
+    {
+        "english": "fuzzy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "模糊的"
+            }
+        ],
+        "phonetic": "/ˈfʌzi/"
+    },
+    {
+        "english": "universality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "普遍性"
+            }
+        ],
+        "phonetic": "/ˌjuːnɪvɜːˈsælɪti/"
+    },
+    {
+        "english": "stretch",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "伸展"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "延伸"
+            }
+        ],
+        "phonetic": "/strɛtʃ/"
+    },
+    {
+        "english": "appearance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "外貌，出现"
+            }
+        ],
+        "phonetic": "/əˈpɪərəns/"
+    },
+    {
+        "english": "crowdfunding",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "众筹"
+            }
+        ],
+        "phonetic": "/ˈkraʊdfʌndɪŋ/"
+    },
+    {
+        "english": "timelessness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "永恒"
+            }
+        ],
+        "phonetic": "/ˈtaɪmləsnəs/"
+    },
+    {
+        "english": "jargon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "行话，术语"
+            }
+        ],
+        "phonetic": "/ˈdʒɑːɡən/"
+    },
+    {
+        "english": "selfie",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "自拍"
+            }
+        ],
+        "phonetic": "/ˈsɛlfi/"
+    },
+    {
+        "english": "timeless",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "永恒的"
+            }
+        ],
+        "phonetic": "/ˈtaɪmləs/"
+    },
+    {
+        "english": "subconscious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "潜意识的"
+            }
+        ],
+        "phonetic": "/ˌsʌbˈkɒnʃəs/"
+    },
+    {
+        "english": "cyberbullying",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "网络霸凌"
+            }
+        ],
+        "phonetic": "/ˈsaɪbərˌbʊlɪɪŋ/"
+    },
+    {
+        "english": "ease",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "缓解"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "轻松"
+            }
+        ],
+        "phonetic": "/iːz/"
+    },
+    {
+        "english": "impose",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "将…强加于，强制执行"
+            }
+        ],
+        "phonetic": "/ɪmˈpəʊz/"
+    },
+    {
+        "english": "empathetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "同情的"
+            }
+        ],
+        "phonetic": "/ˌɛmpəˈθɛtɪk/"
+    },
+    {
+        "english": "pre-existing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "预先存在的"
+            }
+        ],
+        "phonetic": "/ˌpriːɪɡˈzɪstɪŋ/"
+    },
+    {
+        "english": "dislike",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "不喜欢"
+            }
+        ],
+        "phonetic": "/dɪsˈlaɪk/"
+    },
+    {
+        "english": "mild",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "温和的，淡的"
+            }
+        ],
+        "phonetic": "/maɪld/"
+    },
+    {
+        "english": "engagement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "参与，订婚，密切关系"
+            }
+        ],
+        "phonetic": "/ɪnˈɡeɪdʒmənt/"
+    },
+    {
+        "english": "worrisome",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人担忧的"
+            }
+        ],
+        "phonetic": "/ˈwʌrɪsəm/"
+    },
+    {
+        "english": "symptom",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "症状"
+            }
+        ],
+        "phonetic": "/ˈsɪmptəm/"
+    },
+    {
+        "english": "accelerate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "加速"
+            }
+        ],
+        "phonetic": "/əkˈsɛləreɪt/"
+    },
+    {
+        "english": "fascinating",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "迷人的"
+            }
+        ],
+        "phonetic": "/ˈfæsɪneɪtɪŋ/"
+    },
+    {
+        "english": "lexicon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "词汇，词典"
+            }
+        ],
+        "phonetic": "/ˈlɛksɪkən/"
+    },
+    {
+        "english": "remake",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "重制"
+            }
+        ],
+        "phonetic": "/ˈriːmeɪk/"
+    },
+    {
+        "english": "bibliotherapist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "阅读治疗师"
+            }
+        ],
+        "phonetic": "/ˌbɪblɪəʊˈθɛrəpɪst/"
+    },
+    {
+        "english": "continually",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "持续地"
+            }
+        ],
+        "phonetic": "/kənˈtɪnjʊəli/"
+    },
+    {
+        "english": "TTFN",
+        "pos": [
+            {
+                "abbreviation": "abbr.",
+                "meaning": "暂时再见（网络用语）"
+            }
+        ],
+        "phonetic": "/ˈtiːtiːɛfɛn/"
+    },
+    {
+        "english": "one's fair share of",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "足够的，相当多的"
+            }
+        ],
+        "phonetic": "/wʌnz fɛə ʃɛə ʌv/"
+    },
+    {
+        "english": "come and go",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "来来去去，断断续续"
+            }
+        ],
+        "phonetic": "/kʌm ənd ɡəʊ/"
+    },
+    {
+        "english": "grieve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "悲伤"
+            }
+        ],
+        "phonetic": "/ɡriːv/"
+    },
+    {
+        "english": "trace",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "追踪，仔细巡查"
+            }
+        ],
+        "phonetic": "/treɪs/"
+    },
+    {
+        "english": "plot",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "情节"
+            }
+        ],
+        "phonetic": "/plɒt/"
+    },
+    {
+        "english": "doh",
+        "pos": [
+            {
+                "abbreviation": "interj.",
+                "meaning": "哎呀（表示失误）"
+            }
+        ],
+        "phonetic": "/dəʊ/"
+    },
+    {
+        "english": "speed up",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "加速"
+            }
+        ],
+        "phonetic": "/spiːd ʌp/"
+    },
+    {
+        "english": "fictional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "虚构的"
+            }
+        ],
+        "phonetic": "/ˈfɪkʃənl/"
+    },
+    {
+        "english": "directory",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "目录，电话号码薄"
+            }
+        ],
+        "phonetic": "/dɪˈrɛktəri/"
+    },
+    {
+        "english": "through / by word of mouth",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "口口相传"
+            }
+        ],
+        "phonetic": "/θruː / baɪ wɜːd ʌv maʊθ/"
+    },
+    {
+        "english": "retirement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "退休"
+            }
+        ],
+        "phonetic": "/rɪˈtaɪəmənt/"
+    },
+    {
+        "english": "assistance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "帮助"
+            }
+        ],
+        "phonetic": "/əˈsɪstəns/"
+    },
+    {
+        "english": "stick around",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "逗留，停留"
+            }
+        ],
+        "phonetic": "/stɪk əˈraʊnd/"
+    },
+    {
+        "english": "transient",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "短暂的"
+            }
+        ],
+        "phonetic": "/ˈtrænzɪənt/"
+    },
+    {
+        "english": "blur",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "(使)模糊"
+            }
+        ],
+        "phonetic": "/blɜː/"
+    },
+    {
+        "english": "keep up with",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "跟上"
+            }
+        ],
+        "phonetic": "/kiːp ʌp wɪð/"
+    }
+]

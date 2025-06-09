@@ -1,0 +1,398 @@
+[
+    {
+        "english": "ornamental",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "装饰性的"
+            }
+        ],
+        "phonetic": "/ˌɔːrnəˈmentl/"
+    },
+    {
+        "english": "barrel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "桶"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "快速移动"
+            }
+        ],
+        "phonetic": "/ˈbærəl/"
+    },
+    {
+        "english": "dandelion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蒲公英"
+            }
+        ],
+        "phonetic": "/ˈdændɪlaɪən/"
+    },
+    {
+        "english": "rarecrow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "稀有稻草人"
+            }
+        ],
+        "phonetic": "/ˈreərkrəʊ/"
+    },
+    {
+        "english": "ceiling",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "天花板"
+            }
+        ],
+        "phonetic": "/ˈsiːlɪŋ/"
+    },
+    {
+        "english": "fertility",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生育力;肥沃,富饶"
+            }
+        ],
+        "phonetic": "/fərˈtɪləti/"
+    },
+    {
+        "english": "ritual",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "仪式"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "仪式的"
+            }
+        ],
+        "phonetic": "/ˈrɪtʃuəl/"
+    },
+    {
+        "english": "brook",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小溪"
+            }
+        ],
+        "phonetic": "/brʊk/"
+    },
+    {
+        "english": "floral",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "花卉的"
+            }
+        ],
+        "phonetic": "/ˈflɔːrəl/"
+    },
+    {
+        "english": "stilt",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "高跷"
+            }
+        ],
+        "phonetic": "/stɪlt/"
+    },
+    {
+        "english": "jelly",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "果冻"
+            }
+        ],
+        "phonetic": "/ˈdʒeli/"
+    },
+    {
+        "english": "smuggle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "走私"
+            }
+        ],
+        "phonetic": "/ˈsmʌɡl/"
+    },
+    {
+        "english": "octopus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "章鱼"
+            }
+        ],
+        "phonetic": "/ˈɒktəpəs/"
+    },
+    {
+        "english": "mullet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鲻鱼"
+            }
+        ],
+        "phonetic": "/ˈmʌlɪt/"
+    },
+    {
+        "english": "eel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鳗鱼"
+            }
+        ],
+        "phonetic": "/iːl/"
+    },
+    {
+        "english": "hearty",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "丰盛的，热情友好的"
+            }
+        ],
+        "phonetic": "/ˈhɑːrti/"
+    },
+    {
+        "english": "slippery",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "滑的"
+            }
+        ],
+        "phonetic": "/ˈslɪpəri/"
+    },
+    {
+        "english": "a bolt of",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "一束/一道"
+            }
+        ],
+        "phonetic": "/ə bəʊlt əv/"
+    },
+    {
+        "english": "radish",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "萝卜"
+            }
+        ],
+        "phonetic": "/ˈrædɪʃ/"
+    },
+    {
+        "english": "artisan",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "工匠"
+            }
+        ],
+        "phonetic": "/ˈɑːrtɪzn/"
+    },
+    {
+        "english": "cranberry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蔓越莓"
+            }
+        ],
+        "phonetic": "/ˈkrænberi/"
+    },
+    {
+        "english": "tart",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "酸味的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "果馅饼"
+            }
+        ],
+        "phonetic": "/tɑːrt/"
+    },
+    {
+        "english": "birch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "桦树"
+            }
+        ],
+        "phonetic": "/bɜːrtʃ/"
+    },
+    {
+        "english": "loot",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "战利品"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "掠夺"
+            }
+        ],
+        "phonetic": "/luːt/"
+    },
+    {
+        "english": "shady",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "阴暗的"
+            }
+        ],
+        "phonetic": "/ˈʃeɪdi/"
+    },
+    {
+        "english": "wad",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "一叠"
+            }
+        ],
+        "phonetic": "/wɒd/"
+    },
+    {
+        "english": "curry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "咖喱"
+            }
+        ],
+        "phonetic": "/ˈkʌri/"
+    },
+    {
+        "english": "rusty",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "生锈的"
+            }
+        ],
+        "phonetic": "/ˈrʌsti/"
+    },
+    {
+        "english": "shaft",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轴"
+            }
+        ],
+        "phonetic": "/ʃæft/"
+    },
+    {
+        "english": "yer",
+        "pos": [
+            {
+                "abbreviation": "pron.",
+                "meaning": "你的（非正式）"
+            }
+        ],
+        "phonetic": "/jər/"
+    },
+    {
+        "english": "sea legs",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "海上适应力"
+            }
+        ],
+        "phonetic": "/siː leɡz/"
+    },
+    {
+        "english": "creepy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人毛骨悚然的"
+            }
+        ],
+        "phonetic": "/ˈkriːpi/"
+    },
+    {
+        "english": "raccoon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "浣熊"
+            }
+        ],
+        "phonetic": "/rəˈkuːn/"
+    },
+    {
+        "english": "leech off",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "依赖他人生活"
+            }
+        ],
+        "phonetic": "/liːtʃ ɒf/"
+    },
+    {
+        "english": "rummage",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "翻找"
+            }
+        ],
+        "phonetic": "/ˈrʌmɪdʒ/"
+    },
+    {
+        "english": "fritter",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "油炸馅饼"
+            }
+        ],
+        "phonetic": "/ˈfrɪtər/"
+    },
+    {
+        "english": "zucchini",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "西葫芦"
+            }
+        ],
+        "phonetic": "/zuːˈkiːni/"
+    },
+    {
+        "english": "marinara",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "番茄酱"
+            }
+        ],
+        "phonetic": "/ˌmærɪˈnɑːrə/"
+    }
+]

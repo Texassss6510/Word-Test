@@ -1,0 +1,402 @@
+[
+    {
+        "english": "smelt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "冶炼"
+            }
+        ],
+        "phonetic": "/smelt/"
+    },
+    {
+        "english": "folk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "民间，人们"
+            }
+        ],
+        "phonetic": "/foʊk/"
+    },
+    {
+        "english": "coupon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "优惠券"
+            }
+        ],
+        "phonetic": "/ˈkuːpɒn/"
+    },
+    {
+        "english": "pastry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "糕点"
+            }
+        ],
+        "phonetic": "/ˈpeɪstri/"
+    },
+    {
+        "english": "grain",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "谷物"
+            }
+        ],
+        "phonetic": "/ɡreɪn/"
+    },
+    {
+        "english": "vinegar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "醋"
+            }
+        ],
+        "phonetic": "/ˈvɪnɪɡər/"
+    },
+    {
+        "english": "ferment",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "发酵"
+            }
+        ],
+        "phonetic": "/fərˈment/"
+    },
+    {
+        "english": "catalogue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "目录"
+            }
+        ],
+        "phonetic": "/ˈkætəlɒɡ/"
+    },
+    {
+        "english": "sapling",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "树苗"
+            }
+        ],
+        "phonetic": "/ˈsæplɪŋ/"
+    },
+    {
+        "english": "apricot",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "杏树，杏色"
+            }
+        ],
+        "phonetic": "/ˈeɪprɪkɒt/"
+    },
+    {
+        "english": "pomegranate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "石榴"
+            }
+        ],
+        "phonetic": "/ˈpɒmɪɡrænɪt/"
+    },
+    {
+        "english": "dehydrate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "脱水"
+            }
+        ],
+        "phonetic": "/diːˈhaɪdreɪt/"
+    },
+    {
+        "english": "sewer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "下水道"
+            }
+        ],
+        "phonetic": "/ˈsuːər/"
+    },
+    {
+        "english": "amethyst",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "紫水晶"
+            }
+        ],
+        "phonetic": "/ˈæməθɪst/"
+    },
+    {
+        "english": "flat rate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "统一费率"
+            }
+        ],
+        "phonetic": "/flæt reɪt/"
+    },
+    {
+        "english": "sneak",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "偷偷摸摸"
+            }
+        ],
+        "phonetic": "/sniːk/"
+    },
+    {
+        "english": "haunted",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "闹鬼的"
+            }
+        ],
+        "phonetic": "/ˈhɔːntɪd/"
+    },
+    {
+        "english": "sore",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "疼痛的"
+            }
+        ],
+        "phonetic": "/sɔːr/"
+    },
+    {
+        "english": "haul",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "拖运，拉"
+            }
+        ],
+        "phonetic": "/hɔːl/"
+    },
+    {
+        "english": "rod",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "杆，鱼竿"
+            }
+        ],
+        "phonetic": "/rɒd/"
+    },
+    {
+        "english": "pole",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "竿，极"
+            }
+        ],
+        "phonetic": "/poʊl/"
+    },
+    {
+        "english": "penalty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "惩罚"
+            }
+        ],
+        "phonetic": "/ˈpenəlti/"
+    },
+    {
+        "english": "quartz",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "石英"
+            }
+        ],
+        "phonetic": "/kwɔːrts/"
+    },
+    {
+        "english": "willow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "柳树"
+            }
+        ],
+        "phonetic": "/ˈwɪloʊ/"
+    },
+    {
+        "english": "lane",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小巷"
+            }
+        ],
+        "phonetic": "/leɪn/"
+    },
+    {
+        "english": "deluxe",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "豪华的"
+            }
+        ],
+        "phonetic": "/dɪˈlʌks/"
+    },
+    {
+        "english": "clam",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蛤蜊"
+            }
+        ],
+        "phonetic": "/klæm/"
+    },
+    {
+        "english": "oyster",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牡蛎"
+            }
+        ],
+        "phonetic": "/ˈɔɪstər/"
+    },
+    {
+        "english": "mussel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "贻贝"
+            }
+        ],
+        "phonetic": "/ˈmʌsl/"
+    },
+    {
+        "english": "scallop",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "扇贝"
+            }
+        ],
+        "phonetic": "/ˈskæləp/"
+    },
+    {
+        "english": "chewy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有嚼劲的"
+            }
+        ],
+        "phonetic": "/ˈtʃuːi/"
+    },
+    {
+        "english": "toxin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "毒素"
+            }
+        ],
+        "phonetic": "/ˈtɒksɪn/"
+    },
+    {
+        "english": "bivalve",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "双贝壳类"
+            }
+        ],
+        "phonetic": "/ˈbaɪvælv/"
+    },
+    {
+        "english": "cluster",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "团，簇"
+            }
+        ],
+        "phonetic": "/ˈklʌstər/"
+    },
+    {
+        "english": "wax",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蜡"
+            }
+        ],
+        "phonetic": "/wæks/"
+    },
+    {
+        "english": "waxy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "蜡质的"
+            }
+        ],
+        "phonetic": "/ˈwæksi/"
+    },
+    {
+        "english": "clearing",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "空地"
+            }
+        ],
+        "phonetic": "/ˈklɪərɪŋ/"
+    },
+    {
+        "english": "shed",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "棚屋"
+            }
+        ],
+        "phonetic": "/ʃed/"
+    },
+    {
+        "english": "demolish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "拆除"
+            }
+        ],
+        "phonetic": "/dɪˈmɒlɪʃ/"
+    },
+    {
+        "english": "lacus oblivionis",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "遗忘之湖（拉丁语）"
+            }
+        ],
+        "phonetic": "/ˈlækʊs ɒblɪviˈoʊnɪs/"
+    }
+]

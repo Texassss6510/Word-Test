@@ -1,0 +1,1135 @@
+[
+    {
+        "english": "whole wheat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "全麦"
+            }
+        ],
+        "phonetic": "/həʊl wiːt/"
+    },
+    {
+        "english": "ham",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "火腿"
+            }
+        ],
+        "phonetic": "/hæm/"
+    },
+    {
+        "english": "grill",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "烤架"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "烤"
+            }
+        ],
+        "phonetic": "/ɡrɪl/"
+    },
+    {
+        "english": "toast",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "吐司"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "烤面包"
+            }
+        ],
+        "phonetic": "/təʊst/"
+    },
+    {
+        "english": "historian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "历史学家"
+            }
+        ],
+        "phonetic": "/hɪˈstɔːrɪən/"
+    },
+    {
+        "english": "resourcefulness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "足智多谋"
+            }
+        ],
+        "phonetic": "/rɪˈsɔːsfʊlnɪs/"
+    },
+    {
+        "english": "immigration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "移民"
+            }
+        ],
+        "phonetic": "/ˌɪmɪˈɡreɪʃən/"
+    },
+    {
+        "english": "globalization",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "全球化"
+            }
+        ],
+        "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃən/"
+    },
+    {
+        "english": "tuna",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "金枪鱼"
+            }
+        ],
+        "phonetic": "/ˈtjuːnə/"
+    },
+    {
+        "english": "originate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "起源"
+            }
+        ],
+        "phonetic": "/əˈrɪdʒɪneɪt/"
+    },
+    {
+        "english": "conserve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "保护"
+            }
+        ],
+        "phonetic": "/kənˈsɜːv/"
+    },
+    {
+        "english": "excess",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "过量"
+            }
+        ],
+        "phonetic": "/ɪkˈsɛs/"
+    },
+    {
+        "english": "leftover",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "剩余物"
+            }
+        ],
+        "phonetic": "/ˈlɛftˌəʊvər/"
+    },
+    {
+        "english": "mayonnaise",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蛋黄酱"
+            }
+        ],
+        "phonetic": "/ˌmeɪəˈneɪz/"
+    },
+    {
+        "english": "lettuce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生菜"
+            }
+        ],
+        "phonetic": "/ˈlɛtɪs/"
+    },
+    {
+        "english": "convention",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "传统"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "惯例"
+            }
+        ],
+        "phonetic": "/kənˈvɛnʃən/"
+    },
+    {
+        "english": "turnover",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "营业额"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "翻转"
+            }
+        ],
+        "phonetic": "/ˈtɜːnˌəʊvər/"
+    },
+    {
+        "english": "canned",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "罐装的"
+            }
+        ],
+        "phonetic": "/kænd/"
+    },
+    {
+        "english": "downside",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "缺点"
+            }
+        ],
+        "phonetic": "/ˈdaʊnˌsaɪd/"
+    },
+    {
+        "english": "popularity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "流行"
+            }
+        ],
+        "phonetic": "/ˌpɒpjʊˈlærɪti/"
+    },
+    {
+        "english": "unintended",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无意的"
+            }
+        ],
+        "phonetic": "/ˌʌnɪnˈtɛndɪd/"
+    },
+    {
+        "english": "combination",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "结合"
+            }
+        ],
+        "phonetic": "/ˌkɒmbɪˈneɪʃən/"
+    },
+    {
+        "english": "elegance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "优雅"
+            }
+        ],
+        "phonetic": "/ˈɛlɪɡəns/"
+    },
+    {
+        "english": "permanent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "永久的"
+            }
+        ],
+        "phonetic": "/ˈpɜːmənənt/"
+    },
+    {
+        "english": "cuisine",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "菜肴"
+            }
+        ],
+        "phonetic": "/kwɪˈziːn/"
+    },
+    {
+        "english": "conservative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "保守的"
+            }
+        ],
+        "phonetic": "/kənˈsɜːvətɪv/"
+    },
+    {
+        "english": "conservatism",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "保守主义"
+            }
+        ],
+        "phonetic": "/kənˈsɜːvətɪzəm/"
+    },
+    {
+        "english": "loyalty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "忠诚"
+            }
+        ],
+        "phonetic": "/ˈlɔɪəlti/"
+    },
+    {
+        "english": "chow mein",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "炒面"
+            }
+        ],
+        "phonetic": "/ʧaʊ meɪn/"
+    },
+    {
+        "english": "doctorate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "博士学位"
+            }
+        ],
+        "phonetic": "/ˈdɒktərət/"
+    },
+    {
+        "english": "mystery",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "神秘"
+            }
+        ],
+        "phonetic": "/ˈmɪstəri/"
+    },
+    {
+        "english": "specifically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "特别地"
+            }
+        ],
+        "phonetic": "/spəˈsɪfɪkli/"
+    },
+    {
+        "english": "bun",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小圆面包"
+            }
+        ],
+        "phonetic": "/bʌn/"
+    },
+    {
+        "english": "gravy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肉汁"
+            }
+        ],
+        "phonetic": "/ˈɡreɪvi/"
+    },
+    {
+        "english": "classic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "经典的"
+            }
+        ],
+        "phonetic": "/ˈklæsɪk/"
+    },
+    {
+        "english": "filling",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "填充物"
+            }
+        ],
+        "phonetic": "/ˈfɪlɪŋ/"
+    },
+    {
+        "english": "munch",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "大声咀嚼"
+            }
+        ],
+        "phonetic": "/mʌntʃ/"
+    },
+    {
+        "english": "canteen",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "食堂"
+            }
+        ],
+        "phonetic": "/kænˈtiːn/"
+    },
+    {
+        "english": "dime",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "十美分"
+            }
+        ],
+        "phonetic": "/daɪm/"
+    },
+    {
+        "english": "expat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "侨民"
+            }
+        ],
+        "phonetic": "/ˈɛkspæt/"
+    },
+    {
+        "english": "reach out to",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "接触"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "伸出援手"
+            }
+        ],
+        "phonetic": "/riːʧ aʊt tuː/"
+    },
+    {
+        "english": "come up with",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "想出"
+            }
+        ],
+        "phonetic": "/kʌm ʌp wɪð/"
+    },
+    {
+        "english": "to go",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "打包带走"
+            }
+        ],
+        "phonetic": "/tə ɡəʊ/"
+    },
+    {
+        "english": "peel",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "剥皮"
+            }
+        ],
+        "phonetic": "/piːl/"
+    },
+    {
+        "english": "unworldly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不谙世事的"
+            }
+        ],
+        "phonetic": "/ʌnˈwɜːldli/"
+    },
+    {
+        "english": "call for sth.",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "呼吁"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "要求某事"
+            }
+        ],
+        "phonetic": "/kɔːl fɔːr ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "cultured",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有教养的"
+            }
+        ],
+        "phonetic": "/ˈkʌltʃərd/"
+    },
+    {
+        "english": "to this day",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "直到今天"
+            }
+        ],
+        "phonetic": "/tuː ðɪs deɪ/"
+    },
+    {
+        "english": "realization",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "认识到"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "实现"
+            }
+        ],
+        "phonetic": "/ˌrɪəlaɪˈzeɪʃən/"
+    },
+    {
+        "english": "thanks to",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "多亏"
+            }
+        ],
+        "phonetic": "/θæŋks tuː/"
+    },
+    {
+        "english": "grant",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "授予"
+            }
+        ],
+        "phonetic": "/ɡrænt/"
+    },
+    {
+        "english": "confession",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "承认"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "告白"
+            }
+        ],
+        "phonetic": "/kənˈfɛʃən/"
+    },
+    {
+        "english": "motivation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动力"
+            }
+        ],
+        "phonetic": "/ˌməʊtɪˈveɪʃən/"
+    },
+    {
+        "english": "priority",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "优先权"
+            }
+        ],
+        "phonetic": "/praɪˈɒrɪti/"
+    },
+    {
+        "english": "devote",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "奉献"
+            }
+        ],
+        "phonetic": "/dɪˈvəʊt/"
+    },
+    {
+        "english": "devoted",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "忠诚的"
+            }
+        ],
+        "phonetic": "/dɪˈvəʊtɪd/"
+    },
+    {
+        "english": "golden",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "金色的"
+            }
+        ],
+        "phonetic": "/ˈɡəʊldən/"
+    },
+    {
+        "english": "yolk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蛋黄"
+            }
+        ],
+        "phonetic": "/jəʊlk/"
+    },
+    {
+        "english": "insatiable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "贪得无厌的"
+            }
+        ],
+        "phonetic": "/ɪnˈseɪʃəbəl/"
+    },
+    {
+        "english": "crunch",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "嘎吱声"
+            }
+        ],
+        "phonetic": "/krʌntʃ/"
+    },
+    {
+        "english": "down/along the road",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "未来"
+            }
+        ],
+        "phonetic": "/daʊn əˈlɒŋ ðə rəʊd/"
+    },
+    {
+        "english": "craving",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "渴望"
+            }
+        ],
+        "phonetic": "/ˈkreɪvɪŋ/"
+    },
+    {
+        "english": "tropical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "热带的"
+            }
+        ],
+        "phonetic": "/ˈtrɒpɪkəl/"
+    },
+    {
+        "english": "organic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有机的"
+            }
+        ],
+        "phonetic": "/ɔːˈɡænɪk/"
+    },
+    {
+        "english": "challenging",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "具有挑战性的"
+            }
+        ],
+        "phonetic": "/ˈʧælɪndʒɪŋ/"
+    },
+    {
+        "english": "free-range",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "散养的"
+            }
+        ],
+        "phonetic": "/ˌfriːˈreɪndʒ/"
+    },
+    {
+        "english": "calculus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "微积分"
+            }
+        ],
+        "phonetic": "/ˈkælkjʊləs/"
+    },
+    {
+        "english": "participate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "参与"
+            }
+        ],
+        "phonetic": "/pɑːˈtɪsɪpeɪt/"
+    },
+    {
+        "english": "adjust",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "调整"
+            }
+        ],
+        "phonetic": "/əˈdʒʌst/"
+    },
+    {
+        "english": "melt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "融化"
+            }
+        ],
+        "phonetic": "/mɛlt/"
+    },
+    {
+        "english": "dorm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "宿舍"
+            }
+        ],
+        "phonetic": "/dɔːm/"
+    },
+    {
+        "english": "sustenance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "食物"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "维持生计"
+            }
+        ],
+        "phonetic": "/ˈsʌstənəns/"
+    },
+    {
+        "english": "zucchini",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "西葫芦"
+            }
+        ],
+        "phonetic": "/zuːˈkiːni/"
+    },
+    {
+        "english": "profound",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "深刻的"
+            }
+        ],
+        "phonetic": "/prəˈfaʊnd/"
+    },
+    {
+        "english": "cucumber",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "黄瓜"
+            }
+        ],
+        "phonetic": "/ˈkjuːkʌmbə/"
+    },
+    {
+        "english": "far-reaching",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "深远的"
+            }
+        ],
+        "phonetic": "/ˈfɑː ˈriːtʃɪŋ/"
+    },
+    {
+        "english": "disposal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "处理"
+            }
+        ],
+        "phonetic": "/dɪsˈpəʊzəl/"
+    },
+    {
+        "english": "grave",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "严重的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "坟墓"
+            }
+        ],
+        "phonetic": "/ɡreɪv/"
+    },
+    {
+        "english": "peruse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "仔细研究/思考,精读"
+            }
+        ],
+        "phonetic": "/pəˈru:z/"
+    },
+    {
+        "english": "prediction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "预测"
+            }
+        ],
+        "phonetic": "/prɪˈdɪkʃən/"
+    },
+    {
+        "english": "grimly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "严肃地"
+            },
+            {
+                "abbreviation": "adv.",
+                "meaning": "可怕地"
+            }
+        ],
+        "phonetic": "/ˈɡrɪmli/"
+    },
+    {
+        "english": "get (sb.) through",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "帮助某人度过"
+            }
+        ],
+        "phonetic": "/ɡɛt (sb.) θruː/"
+    },
+    {
+        "english": "conscience",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "良心"
+            }
+        ],
+        "phonetic": "/ˈkɒnʃəns/"
+    },
+    {
+        "english": "mealy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "粉状的"
+            }
+        ],
+        "phonetic": "/ˈmiːli/"
+    },
+    {
+        "english": "pinkish",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "略带粉色的"
+            }
+        ],
+        "phonetic": "/ˈpɪŋkɪʃ/"
+    },
+    {
+        "english": "make fun of",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "取笑"
+            }
+        ],
+        "phonetic": "/meɪk fʌn ɒv/"
+    },
+    {
+        "english": "at one’s disposal",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "供某人使用"
+            }
+        ],
+        "phonetic": "/æt wʌnz dɪˈspəʊzəl/"
+    },
+    {
+        "english": "environmentalism",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "环保主义"
+            }
+        ],
+        "phonetic": "/ɪnˌvaɪrənˈmɛntəlɪzəm/"
+    },
+    {
+        "english": "iceberg lettuce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "卷心莴苣"
+            }
+        ],
+        "phonetic": "/ˈaɪsbɜːɡ ˈlɛtɪs/"
+    },
+    {
+        "english": "pick out",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "挑选"
+            }
+        ],
+        "phonetic": "/pɪk aʊt/"
+    },
+    {
+        "english": "elite",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "精英"
+            }
+        ],
+        "phonetic": "/ɪˈliːt/"
+    },
+    {
+        "english": "of one’s choosing/choice",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "由某人选择"
+            }
+        ],
+        "phonetic": "/ɒv wʌnz ˈʧuːzɪŋ/ˈʧɔɪs/"
+    },
+    {
+        "english": "keep sth. to oneself",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "保守某事"
+            }
+        ],
+        "phonetic": "/kiːp ˈsʌmθɪŋ tuː wʌnˈsɛlf/"
+    },
+    {
+        "english": "chafing dish",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "火锅"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "保温餐具"
+            }
+        ],
+        "phonetic": "/ˈʧeɪfɪŋ dɪʃ/"
+    },
+    {
+        "english": "fill (sb.) up",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使某人吃饱"
+            }
+        ],
+        "phonetic": "/fɪl (sb.) ʌp/"
+    },
+    {
+        "english": "wrap",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "包装"
+            }
+        ],
+        "phonetic": "/ræp/"
+    },
+    {
+        "english": "triangle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "三角形"
+            }
+        ],
+        "phonetic": "/ˈtraɪæŋɡəl/"
+    },
+    {
+        "english": "from scratch",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "从头开始"
+            }
+        ],
+        "phonetic": "/frəm skrætʃ/"
+    },
+    {
+        "english": "wrapper",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "包装纸"
+            }
+        ],
+        "phonetic": "/ˈræpə/"
+    },
+    {
+        "english": "be far removed from sth.",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "与某事相距甚远"
+            }
+        ],
+        "phonetic": "/biː fɑː rɪˈmuːvd frɒm ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "rely on",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "依赖"
+            }
+        ],
+        "phonetic": "/rɪˈlaɪ ɒn/"
+    },
+    {
+        "english": "toothpick",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牙签"
+            }
+        ],
+        "phonetic": "/ˈtuːθˌpɪk/"
+    },
+    {
+        "english": "next to",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "紧挨着"
+            }
+        ],
+        "phonetic": "/nɛkst tuː/"
+    },
+    {
+        "english": "for the most part",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "大多数情况下"
+            }
+        ],
+        "phonetic": "/fɔːr ðə məʊst pɑːt/"
+    },
+    {
+        "english": "in season",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "当季的"
+            }
+        ],
+        "phonetic": "/ɪn ˈsiːzən/"
+    },
+    {
+        "english": "earbud",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "耳塞"
+            }
+        ],
+        "phonetic": "/ˈɪərbʌd/"
+    },
+    {
+        "english": "scrap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "碎片"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "废料"
+            }
+        ],
+        "phonetic": "/skræp/"
+    },
+    {
+        "english": "dainty",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "精致的"
+            }
+        ],
+        "phonetic": "/ˈdeɪnti/"
+    }
+]
+

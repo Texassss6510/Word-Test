@@ -1,0 +1,706 @@
+[
+    {
+        "english": "generalization",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "概括"
+            }
+        ],
+        "phonetic": "/ˌdʒɛnərəlaɪˈzeɪʃən/"
+    },
+    {
+        "english": "myth",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "神话，错误观点，荒谬说法"
+            }
+        ],
+        "phonetic": "/mɪθ/"
+    },
+    {
+        "english": "spouse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "配偶"
+            }
+        ],
+        "phonetic": "/spaʊs/"
+    },
+    {
+        "english": "spousal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "配偶的"
+            }
+        ],
+        "phonetic": "/ˈspaʊzəl/"
+    },
+    {
+        "english": "frustrated",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "沮丧的"
+            }
+        ],
+        "phonetic": "/ˈfrʌstreɪtɪd/"
+    },
+    {
+        "english": "validity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "有效性，正确性"
+            }
+        ],
+        "phonetic": "/vəˈlɪdəti/"
+    },
+    {
+        "english": "stem",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "茎"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "来源于"
+            }
+        ],
+        "phonetic": "/stɛm/"
+    },
+    {
+        "english": "forage",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "觅食"
+            }
+        ],
+        "phonetic": "/ˈfɔːrɪdʒ/"
+    },
+    {
+        "english": "millennium",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "千禧年，一千年"
+            }
+        ],
+        "phonetic": "/mɪˈlɛniəm/"
+    },
+    {
+        "english": "instinctive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "本能的，直觉的，天性的"
+            }
+        ],
+        "phonetic": "/ɪnˈstɪŋktɪv/"
+    },
+    {
+        "english": "mode",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "模式，方法"
+            }
+        ],
+        "phonetic": "/moʊd/"
+    },
+    {
+        "english": "nutrition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "营养"
+            }
+        ],
+        "phonetic": "/nʊˈtrɪʃən/"
+    },
+    {
+        "english": "nutritious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有营养的"
+            }
+        ],
+        "phonetic": "/njuˈtrɪʃəs/"
+    },
+    {
+        "english": "edible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可食用的"
+            }
+        ],
+        "phonetic": "/ˈɛdɪbl/"
+    },
+    {
+        "english": "discard",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "丢弃"
+            }
+        ],
+        "phonetic": "/dɪsˈkɑːrd/"
+    },
+    {
+        "english": "laden",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "装满的"
+            }
+        ],
+        "phonetic": "/ˈleɪdən/"
+    },
+    {
+        "english": "heritage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "遗产"
+            }
+        ],
+        "phonetic": "/ˈhɛrɪtɪdʒ/"
+    },
+    {
+        "english": "prehistoric",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "史前的"
+            }
+        ],
+        "phonetic": "/ˌpriːhɪˈstɔːrɪk/"
+    },
+    {
+        "english": "acquisition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "获得物，习得"
+            }
+        ],
+        "phonetic": "/ˌækwɪˈzɪʃən/"
+    },
+    {
+        "english": "humid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "潮湿的"
+            }
+        ],
+        "phonetic": "/ˈhjuːmɪd/"
+    },
+    {
+        "english": "trait",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "特征"
+            }
+        ],
+        "phonetic": "/treɪt/"
+    },
+    {
+        "english": "tendency",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "趋势"
+            }
+        ],
+        "phonetic": "/ˈtɛndənsi/"
+    },
+    {
+        "english": "anthropologist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "人类学家"
+            }
+        ],
+        "phonetic": "/ˌænθrəˈpɒlədʒɪst/"
+    },
+    {
+        "english": "similarity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "相似性"
+            }
+        ],
+        "phonetic": "/ˌsɪmɪˈlærɪti/"
+    },
+    {
+        "english": "ancestor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "祖先"
+            }
+        ],
+        "phonetic": "/ˈænsɛstər/"
+    },
+    {
+        "english": "ancestral",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "祖先的"
+            }
+        ],
+        "phonetic": "/ænˈsɛstrəl/"
+    },
+    {
+        "english": "inclined",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "倾向于(的)"
+            }
+        ],
+        "phonetic": "/ɪnˈklaɪnd/"
+    },
+    {
+        "english": "extended",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "扩展的，延期的"
+            }
+        ],
+        "phonetic": "/ɪkˈstɛndɪd/"
+    },
+    {
+        "english": "empirical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "经验主义的"
+            }
+        ],
+        "phonetic": "/ɪmˈpɪrɪkəl/"
+    },
+    {
+        "english": "justification",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "正当理由"
+            }
+        ],
+        "phonetic": "/ˌdʒʌstɪfɪˈkeɪʃən/"
+    },
+    {
+        "english": "inherit",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "继承，经遗传获得"
+            }
+        ],
+        "phonetic": "/ɪnˈhɛrɪt/"
+    },
+    {
+        "english": "sensible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "明智的，合理的，实用的"
+            }
+        ],
+        "phonetic": "/ˈsɛnsəbl/"
+    },
+    {
+        "english": "apply to",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "适用于"
+            }
+        ],
+        "phonetic": "/əˈplaɪ tuː/"
+    },
+    {
+        "english": "at all costs",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "不惜一切代价"
+            }
+        ],
+        "phonetic": "/æt ɔːl kɒsts/"
+    },
+    {
+        "english": "straight away/off",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "立即，马上"
+            }
+        ],
+        "phonetic": "/streɪt əˈweɪ/"
+    },
+    {
+        "english": "in terms of",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "在…方面，就…而言"
+            }
+        ],
+        "phonetic": "/ɪn tɜːmz ɒv/"
+    },
+    {
+        "english": "with respect to",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "关于"
+            }
+        ],
+        "phonetic": "/wɪð rɪˈspɛkt tuː/"
+    },
+    {
+        "english": "in line with",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "与…一致，与…相似"
+            }
+        ],
+        "phonetic": "/ɪn laɪn wɪð/"
+    },
+    {
+        "english": "stereotype",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "刻板印象"
+            }
+        ],
+        "phonetic": "/ˈstɛrɪəʊtaɪp/"
+    },
+    {
+        "english": "prominence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "著名"
+            }
+        ],
+        "phonetic": "/ˈprɒmɪnəns/"
+    },
+    {
+        "english": "sentiment",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "多愁善感，意见，观点"
+            }
+        ],
+        "phonetic": "/ˈsɛntɪmənt/"
+    },
+    {
+        "english": "feminine",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "女性的"
+            }
+        ],
+        "phonetic": "/ˈfɛmɪnɪn/"
+    },
+    {
+        "english": "literary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "文学的"
+            }
+        ],
+        "phonetic": "/ˈlɪtərəri/"
+    },
+    {
+        "english": "maternal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "母性的"
+            }
+        ],
+        "phonetic": "/məˈtɜːnəl/"
+    },
+    {
+        "english": "excessively",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "过度地"
+            }
+        ],
+        "phonetic": "/ɪkˈsɛsɪvli/"
+    },
+    {
+        "english": "gender",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "性别"
+            }
+        ],
+        "phonetic": "/ˈdʒɛndər/"
+    },
+    {
+        "english": "inequality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "不平等"
+            }
+        ],
+        "phonetic": "/ˌɪnɪˈkwɒləti/"
+    },
+    {
+        "english": "bias",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "偏见"
+            }
+        ],
+        "phonetic": "/ˈbaɪəs/"
+    },
+    {
+        "english": "periodical",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "期刊"
+            }
+        ],
+        "phonetic": "/ˌpɪərɪˈɒdɪkəl/"
+    },
+    {
+        "english": "publication",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "出版物，出版"
+            }
+        ],
+        "phonetic": "/ˌpʌblɪˈkeɪʃən/"
+    },
+    {
+        "english": "analyze",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "分析"
+            }
+        ],
+        "phonetic": "/ˈænəlaɪz/"
+    },
+    {
+        "english": "identify",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "识别，认出"
+            }
+        ],
+        "phonetic": "/aɪˈdɛntɪfaɪ/"
+    },
+    {
+        "english": "confirmation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "确认，证明"
+            }
+        ],
+        "phonetic": "/ˌkɒnfəˈmeɪʃən/"
+    },
+    {
+        "english": "predictable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可预测的"
+            }
+        ],
+        "phonetic": "/prɪˈdɪktəbl/"
+    },
+    {
+        "english": "startling",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人吃惊的，异乎寻常的"
+            }
+        ],
+        "phonetic": "/ˈstɑːtlɪŋ/"
+    },
+    {
+        "english": "distinctive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "独特的"
+            }
+        ],
+        "phonetic": "/dɪˈstɪŋktɪv/"
+    },
+    {
+        "english": "identical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "相同的"
+            }
+        ],
+        "phonetic": "/aɪˈdɛntɪkəl/"
+    },
+    {
+        "english": "concerted",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "齐心协力的，一致的"
+            }
+        ],
+        "phonetic": "/kənˈsɜːtɪd/"
+    },
+    {
+        "english": "discourse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "话语，演讲，谈话"
+            }
+        ],
+        "phonetic": "/ˈdɪskɔːs/"
+    },
+    {
+        "english": "quantitative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "定量的，数量的"
+            }
+        ],
+        "phonetic": "/ˈkwɒntɪtətɪv/"
+    },
+    {
+        "english": "representation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "表现，代表"
+            }
+        ],
+        "phonetic": "/ˌrɛprɪˈzɛntəʃən/"
+    },
+    {
+        "english": "trivial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "琐碎的，微不足道的"
+            }
+        ],
+        "phonetic": "/ˈtrɪvɪəl/"
+    },
+    {
+        "english": "noticeable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "显而易见的"
+            }
+        ],
+        "phonetic": "/ˈnəʊtɪsəbəl/"
+    },
+    {
+        "english": "disguise",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "伪装，掩饰"
+            }
+        ],
+        "phonetic": "/dɪsˈɡaɪz/"
+    },
+    {
+        "english": "unconscious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无意识的"
+            }
+        ],
+        "phonetic": "/ʌnˈkɒnʃəs/"
+    },
+    {
+        "english": "publisher",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "出版者/商/社"
+            }
+        ],
+        "phonetic": "/ˈpʌblɪʃər/"
+    },
+    {
+        "english": "pursue",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "追求"
+            }
+        ],
+        "phonetic": "/pərˈsuː/"
+    },
+    {
+        "english": "discrimination",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "歧视"
+            }
+        ],
+        "phonetic": "/dɪsˌkrɪmɪˈneɪʃən/"
+    },
+    {
+        "english": "rise to prominence/fame/power",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "崛起"
+            }
+        ],
+        "phonetic": "/raɪz tuː ˈprɒmɪnəns/"
+    },
+    {
+        "english": "at stake",
+        "pos": [
+            {
+                "abbreviation": "phrase.",
+                "meaning": "在危险中，待解决的"
+            }
+        ],
+        "phonetic": "/æt steɪk/"
+    }
+]

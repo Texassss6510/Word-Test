@@ -1,0 +1,588 @@
+[
+  {
+    "english": "tile",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "瓷砖"
+      }
+    ],
+    "phonetic": "/taɪl/"
+  },
+  {
+    "english": "mute",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "静音的"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "静音"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "哑巴"
+      }
+    ],
+    "phonetic": "/mjuːt/"
+  },
+  {
+    "english": "sync",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "同步"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "同步"
+      }
+    ],
+    "phonetic": "/sɪŋk/"
+  },
+  {
+    "english": "slot",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "插槽"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "安排时间"
+      }
+    ],
+    "phonetic": "/slɒt/"
+  },
+  {
+    "english": "inventory",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "库存"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "清点库存"
+      }
+    ],
+    "phonetic": "/ˈɪnvənˌtɔːri/"
+  },
+  {
+    "english": "merchant",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "商人"
+      }
+    ],
+    "phonetic": "/ˈmɜːrtʃənt/"
+  },
+  {
+    "english": "rumble",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "隆隆声"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "发出隆隆声"
+      }
+    ],
+    "phonetic": "/ˈrʌm.bəl/"
+  },
+  {
+    "english": "invert",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "使颠倒、反转"
+      }
+    ],
+    "phonetic": "/ɪnˈvɜːrt/"
+  },
+  {
+    "english": "axe",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "斧头"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "砍伐"
+      }
+    ],
+    "phonetic": "/æks/"
+  },
+  {
+    "english": "hoe",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "锄头"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "锄地"
+      }
+    ],
+    "phonetic": "/hoʊ/"
+  },
+  {
+    "english": "till",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "耕作"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "直到"
+      }
+    ],
+    "phonetic": "/tɪl/"
+  },
+  {
+    "english": "chop",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "砍，劈"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "一刀，砍下"
+      }
+    ],
+    "phonetic": "/tʃɑːp/"
+  },
+  {
+    "english": "pickaxe",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "镐子"
+      }
+    ],
+    "phonetic": "/ˈpɪkˌæks/"
+  },
+  {
+    "english": "scythe",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "镰刀"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "用镰刀割"
+      }
+    ],
+    "phonetic": "/saɪð/"
+  },
+  {
+    "english": "hay",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "干草"
+      }
+    ],
+    "phonetic": "/heɪ/"
+  },
+  {
+    "english": "silo",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "筒仓"
+      }
+    ],
+    "phonetic": "/ˈsaɪ.loʊ/"
+  },
+  {
+    "english": "applicable",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "适用的"
+      }
+    ],
+    "phonetic": "/əˈplɪ.kə.bəl/"
+  },
+  {
+    "english": "parsnip",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "欧洲防风草"
+      }
+    ],
+    "phonetic": "/ˈpɑːrsnɪp/"
+  },
+  {
+    "english": "incapacitate",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "使无力，不能"
+      }
+    ],
+    "phonetic": "/ɪnˈkæpəsɪteɪt/"
+  },
+  {
+    "english": "dispatch",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "派遣"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "派遣"
+      }
+    ],
+    "phonetic": "/dɪˈspætʃ/"
+  },
+  {
+    "english": "scry",
+    "pos": [
+      {
+        "abbreviation": "v.",
+        "meaning": "占卜"
+      }
+    ],
+    "phonetic": "/ˈskraɪ/"
+  },
+  {
+    "english": "orb",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "球体"
+      }
+    ],
+    "phonetic": "/ɔːrb/"
+  },
+  {
+    "english": "shard",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "碎片"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "使破碎"
+      }
+    ],
+    "phonetic": "/ʃɑːrd/"
+  },
+  {
+    "english": "blacksmith",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "铁匠"
+      }
+    ],
+    "phonetic": "/ˈblækˌsmɪθ/"
+  },
+  {
+    "english": "fiber",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "纤维"
+      }
+    ],
+    "phonetic": "/ˈfaɪbər/"
+  },
+  {
+    "english": "boulder",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "巨石"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "推滚"
+      }
+    ],
+    "phonetic": "/ˈboʊldər/"
+  },
+  {
+    "english": "combustible",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "可燃的"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "可燃物"
+      }
+    ],
+    "phonetic": "/kəmˈbʌstɪbəl/"
+  },
+  {
+    "english": "stump",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "树桩"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "使困惑"
+      }
+    ],
+    "phonetic": "/stʌmp/"
+  },
+  {
+    "english": "proficiency",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "熟练，精通"
+      }
+    ],
+    "phonetic": "/prəˈfɪʃənsi/"
+  },
+  {
+    "english": "mining",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "采矿"
+      },
+      {
+        "abbreviation": "adj.",
+        "meaning": "采矿的"
+      }
+    ],
+    "phonetic": "/ˈmaɪnɪŋ/"
+  },
+  {
+    "english": "scattered",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "分散的"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "分散"
+      }
+    ],
+    "phonetic": "/ˈskætərd/"
+  },
+  {
+    "english": "surplus",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "剩余的，过剩的"
+      },
+      {
+        "abbreviation": "n.",
+        "meaning": "剩余，过剩"
+      }
+    ],
+    "phonetic": "/ˈsɜːrpləs/"
+  },
+  {
+    "english": "swing by",
+    "pos": [
+      {
+        "abbreviation": "phrasal verb",
+        "meaning": "顺便过来"
+      }
+    ],
+    "phonetic": "/swɪŋ baɪ/"
+  },
+  {
+    "english": "valued",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "珍贵的"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "评价"
+      }
+    ],
+    "phonetic": "/ˈvæljuːd/"
+  },
+  {
+    "english": "landslide",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "山崩，滑坡"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "造成山崩"
+      }
+    ],
+    "phonetic": "/ˈlændslaɪd/"
+  },
+  {
+    "english": "pursuant",
+    "pos": [
+      {
+        "abbreviation": "prep.",
+        "meaning": "根据"
+      },
+      {
+        "abbreviation": "adj.",
+        "meaning": "依照的"
+      }
+    ],
+    "phonetic": "/pərˈsuːənt/"
+  },
+  {
+    "english": "amendment",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "修正案"
+      }
+    ],
+    "phonetic": "/əˈmendmənt/"
+  },
+  {
+    "english": "stewardship",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "管理工作"
+      }
+    ],
+    "phonetic": "/ˈstjuːərˌhoʊd/"
+  },
+  {
+    "english": "patronage",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "赞助"
+      }
+    ],
+    "phonetic": "/ˈpeɪtrənɪdʒ/"
+  },
+  {
+    "english": "tuber",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "块茎"
+      }
+    ],
+    "phonetic": "/ˈtuːbər/"
+  },
+  {
+    "english": "earthy",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "土质的，质朴的"
+      }
+    ],
+    "phonetic": "/ˈɜːrθi/"
+  },
+  {
+    "english": "sturdy",
+    "pos": [
+      {
+        "abbreviation": "adj.",
+        "meaning": "结实的，坚固的"
+      }
+    ],
+    "phonetic": "/ˈstɜːrdi/"
+  },
+  {
+    "english": "coop",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "笼子"
+      }
+    ],
+    "phonetic": "/kuːp/"
+  },
+  {
+    "english": "barn",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "谷仓"
+      }
+    ],
+    "phonetic": "/bɑːrn/"
+  },
+  {
+    "english": "scarecrow",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "稻草人"
+      }
+    ],
+    "phonetic": "/ˈskɛərkroʊ/"
+  },
+  {
+    "english": "daffodil",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "水仙花"
+      }
+    ],
+    "phonetic": "/ˈdæfədɪl/"
+  },
+  {
+    "english": "trellis",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "格子架，棚架"
+      }
+    ],
+    "phonetic": "/ˈtrɛlɪs/"
+  },
+  {
+    "english": "fluid",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "液体"
+      },
+      {
+        "abbreviation": "adj.",
+        "meaning": "流动的"
+      }
+    ],
+    "phonetic": "/ˈfluːɪd/"
+  },
+  {
+    "english": "sap",
+    "pos": [
+      {
+        "abbreviation": "n.",
+        "meaning": "树汁、液"
+      },
+      {
+        "abbreviation": "v.",
+        "meaning": "吸取"
+      }
+    ],
+    "phonetic": "/sæp/"
+  }
+]

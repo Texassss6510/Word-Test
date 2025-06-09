@@ -1,0 +1,1212 @@
+[
+    {
+        "english": "corresponding",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "相应的"
+            }
+        ],
+        "phonetic": "/ˌkɔːrəˈspɑːndɪŋ/"
+    },
+    {
+        "english": "finding",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "发现，研究结果"
+            }
+        ],
+        "phonetic": "/ˈfaɪndɪŋ/"
+    },
+    {
+        "english": "training",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "培训，训练"
+            }
+        ],
+        "phonetic": "/ˈtreɪnɪŋ/"
+    },
+    {
+        "english": "willing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "愿意的"
+            }
+        ],
+        "phonetic": "/ˈwɪlɪŋ/"
+    },
+    {
+        "english": "existing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "现存的，现有的"
+            }
+        ],
+        "phonetic": "/ɪɡˈzɪstɪŋ/"
+    },
+    {
+        "english": "missing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "缺失的，丢失的"
+            }
+        ],
+        "phonetic": "/ˈmɪsɪŋ/"
+    },
+    {
+        "english": "engineering",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "工程"
+            }
+        ],
+        "phonetic": "/ˌendʒɪˈnɪrɪŋ/"
+    },
+    {
+        "english": "warning",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "警告，提醒"
+            }
+        ],
+        "phonetic": "/ˈwɔːrnɪŋ/"
+    },
+    {
+        "english": "earnings",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "收入，收益"
+            }
+        ],
+        "phonetic": "/ˈɜːrnɪŋz/"
+    },
+    {
+        "english": "leading",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "领先的，主要的"
+            }
+        ],
+        "phonetic": "/ˈliːdɪŋ/"
+    },
+    {
+        "english": "experience",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经验，经历"
+            }
+        ],
+        "phonetic": "/ɪkˈspɪriəns/"
+    },
+    {
+        "english": "experienced",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有经验的"
+            }
+        ],
+        "phonetic": "/ɪkˈspɪriənst/"
+    },
+    {
+        "english": "identify",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "识别，鉴定"
+            }
+        ],
+        "phonetic": "/aɪˈdentɪfaɪ/"
+    },
+    {
+        "english": "event",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "事件，活动"
+            }
+        ],
+        "phonetic": "/ɪˈvent/"
+    },
+    {
+        "english": "emerge",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "出现，浮现"
+            }
+        ],
+        "phonetic": "/ɪˈmɜːrdʒ/"
+    },
+    {
+        "english": "establish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "建立，确立"
+            }
+        ],
+        "phonetic": "/ɪˈstæblɪʃ/"
+    },
+    {
+        "english": "estate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "房地产，财产"
+            }
+        ],
+        "phonetic": "/ɪˈsteɪt/"
+    },
+    {
+        "english": "effect",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "效果，影响"
+            }
+        ],
+        "phonetic": "/ɪˈfekt/"
+    },
+    {
+        "english": "effective",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有效的"
+            }
+        ],
+        "phonetic": "/ɪˈfektɪv/"
+    },
+    {
+        "english": "efficient",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "高效的"
+            }
+        ],
+        "phonetic": "/ɪˈfɪʃnt/"
+    },
+    {
+        "english": "efficiency",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "效率"
+            }
+        ],
+        "phonetic": "/ɪˈfɪʃnsi/"
+    },
+    {
+        "english": "exact",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "准确的，确切的"
+            }
+        ],
+        "phonetic": "/ɪɡˈzækt/"
+    },
+    {
+        "english": "expense",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "开支，费用"
+            }
+        ],
+        "phonetic": "/ɪkˈspens/"
+    },
+    {
+        "english": "expand",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "扩展，扩大"
+            }
+        ],
+        "phonetic": "/ɪkˈspænd/"
+    },
+    {
+        "english": "examine",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "检查，审查"
+            }
+        ],
+        "phonetic": "/ɪɡˈzæmɪn/"
+    },
+    {
+        "english": "exist",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "存在"
+            }
+        ],
+        "phonetic": "/ɪɡˈzɪst/"
+    },
+    {
+        "english": "comprehension",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "理解，领悟"
+            }
+        ],
+        "phonetic": "/ˌkɑːmprɪˈhenʃn/"
+    },
+    {
+        "english": "function",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "功能，作用"
+            }
+        ],
+        "phonetic": "/ˈfʌŋkʃn/"
+    },
+    {
+        "english": "option",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "选项，选择"
+            }
+        ],
+        "phonetic": "/ˈɑːpʃn/"
+    },
+    {
+        "english": "protection",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "保护"
+            }
+        ],
+        "phonetic": "/prəˈtekʃn/"
+    },
+    {
+        "english": "solution",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "解决方案"
+            }
+        ],
+        "phonetic": "/səˈluːʃn/"
+    },
+    {
+        "english": "version",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "版本"
+            }
+        ],
+        "phonetic": "/ˈvɜːrʒn/"
+    },
+    {
+        "english": "creation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "创造，创作"
+            }
+        ],
+        "phonetic": "/kriˈeɪʃn/"
+    },
+    {
+        "english": "pollution",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "污染"
+            }
+        ],
+        "phonetic": "/pəˈluːʃn/"
+    },
+    {
+        "english": "emission",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "排放"
+            }
+        ],
+        "phonetic": "/ɪˈmɪʃn/"
+    },
+    {
+        "english": "revolution",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "革命，变革"
+            }
+        ],
+        "phonetic": "/ˌrevəˈluːʃn/"
+    },
+    {
+        "english": "portion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "部分"
+            }
+        ],
+        "phonetic": "/ˈpɔːrʃn/"
+    },
+    {
+        "english": "restriction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "限制"
+            }
+        ],
+        "phonetic": "/rɪˈstrɪkʃn/"
+    },
+    {
+        "english": "instruction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "指导，说明"
+            }
+        ],
+        "phonetic": "/ɪnˈstrʌkʃn/"
+    },
+    {
+        "english": "session",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "会议，学期"
+            }
+        ],
+        "phonetic": "/ˈseʃn/"
+    },
+    {
+        "english": "application",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "应用，申请"
+            }
+        ],
+        "phonetic": "/ˌæplɪˈkeɪʃn/"
+    },
+    {
+        "english": "foundation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "基础，基金会"
+            }
+        ],
+        "phonetic": "/faʊnˈdeɪʃn/"
+    },
+    {
+        "english": "transportation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "运输，交通"
+            }
+        ],
+        "phonetic": "/ˌtrænspɔːrˈteɪʃn/"
+    },
+    {
+        "english": "location",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "位置，地点"
+            }
+        ],
+        "phonetic": "/loʊˈkeɪʃn/"
+    },
+    {
+        "english": "motivation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动力，动机"
+            }
+        ],
+        "phonetic": "/ˌmoʊtɪˈveɪʃn/"
+    },
+    {
+        "english": "reputation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "声誉，名声"
+            }
+        ],
+        "phonetic": "/ˌrepjuˈteɪʃn/"
+    },
+    {
+        "english": "develop",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "发展，开发"
+            }
+        ],
+        "phonetic": "/dɪˈveləp/"
+    },
+    {
+        "english": "decline",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "下降，衰退"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "下降，减少"
+            }
+        ],
+        "phonetic": "/dɪˈklaɪn/"
+    },
+    {
+        "english": "development",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "发展，开发"
+            }
+        ],
+        "phonetic": "/dɪˈveləpmənt/"
+    },
+    {
+        "english": "derive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "起源于，获得"
+            }
+        ],
+        "phonetic": "/dɪˈraɪv/"
+    },
+    {
+        "english": "degree",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "程度，学位"
+            }
+        ],
+        "phonetic": "/dɪˈɡriː/"
+    },
+    {
+        "english": "demand",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "需求，要求"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "要求，需求"
+            }
+        ],
+        "phonetic": "/dɪˈmænd/"
+    },
+    {
+        "english": "detail",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "细节"
+            }
+        ],
+        "phonetic": "/ˈdiːteɪl/"
+    },
+    {
+        "english": "department",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "部门"
+            }
+        ],
+        "phonetic": "/dɪˈpɑːrtmənt/"
+    },
+    {
+        "english": "despite",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "尽管"
+            }
+        ],
+        "phonetic": "/dɪˈspaɪt/"
+    },
+    {
+        "english": "debate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "辩论，讨论"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "辩论，争论"
+            }
+        ],
+        "phonetic": "/dɪˈbeɪt/"
+    },
+    {
+        "english": "depression",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抑郁，萧条"
+            }
+        ],
+        "phonetic": "/dɪˈpreʃn/"
+    },
+    {
+        "english": "desire",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "渴望，欲望"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "渴望，期望"
+            }
+        ],
+        "phonetic": "/dɪˈzaɪər/"
+    },
+    {
+        "english": "decrease",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "减少，降低"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "减少，降低"
+            }
+        ],
+        "phonetic": "/dɪˈkriːs/"
+    },
+    {
+        "english": "description",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "描述"
+            }
+        ],
+        "phonetic": "/dɪˈskrɪpʃn/"
+    },
+    {
+        "english": "describe",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "描述，形容"
+            }
+        ],
+        "phonetic": "/dɪˈskraɪb/"
+    },
+    {
+        "english": "determine",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "决定，确定"
+            }
+        ],
+        "phonetic": "/dɪˈtɜːrmɪn/"
+    },
+    {
+        "english": "delay",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "延迟，耽搁"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "延迟，耽搁"
+            }
+        ],
+        "phonetic": "/dɪˈleɪ/"
+    },
+    {
+        "english": "deliver",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "递送，交付"
+            }
+        ],
+        "phonetic": "/dɪˈlɪvər/"
+    },
+    {
+        "english": "delivery",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "递送，分娩"
+            }
+        ],
+        "phonetic": "/dɪˈlɪvəri/"
+    },
+    {
+        "english": "developer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "开发者，开发商"
+            }
+        ],
+        "phonetic": "/dɪˈveləpər/"
+    },
+    {
+        "english": "economy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经济"
+            }
+        ],
+        "phonetic": "/ɪˈkɑːnəmi/"
+    },
+    {
+        "english": "economic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "经济的"
+            }
+        ],
+        "phonetic": "/ˌiːkəˈnɑːmɪk/"
+    },
+    {
+        "english": "economist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经济学家"
+            }
+        ],
+        "phonetic": "/ɪˈkɑːnəmɪst/"
+    },
+    {
+        "english": "economics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经济学"
+            }
+        ],
+        "phonetic": "/ˌiːkəˈnɑːmɪks/"
+    },
+    {
+        "english": "project",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "项目，计划"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "预测，投射"
+            }
+        ],
+        "phonetic": "/ˈprɑːdʒekt/"
+    },
+    {
+        "english": "object",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "物体，目标"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "反对"
+            }
+        ],
+        "phonetic": "/ˈɑːbdʒekt/"
+    },
+    {
+        "english": "suggest",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "建议，提议"
+            }
+        ],
+        "phonetic": "/səˈdʒest/"
+    },
+    {
+        "english": "consumer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "消费者"
+            }
+        ],
+        "phonetic": "/kənˈsuːmər/"
+    },
+    {
+        "english": "consumption",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "消耗，消费"
+            }
+        ],
+        "phonetic": "/kənˈsʌmpʃn/"
+    },
+    {
+        "english": "consume",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "消耗，消费"
+            }
+        ],
+        "phonetic": "/kənˈsuːm/"
+    },
+    {
+        "english": "quality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "质量"
+            }
+        ],
+        "phonetic": "/ˈkwɑːləti/"
+    },
+    {
+        "english": "security",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "安全"
+            }
+        ],
+        "phonetic": "/sɪˈkjʊrəti/"
+    },
+    {
+        "english": "obesity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肥胖"
+            }
+        ],
+        "phonetic": "/oʊˈbiːsəti/"
+    },
+    {
+        "english": "personality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "个性，性格"
+            }
+        ],
+        "phonetic": "/ˌpɜːrsəˈnæləti/"
+    },
+    {
+        "english": "priority",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "优先，优先权"
+            }
+        ],
+        "phonetic": "/praɪˈɔːrəti/"
+    },
+    {
+        "english": "reality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "现实"
+            }
+        ],
+        "phonetic": "/riˈæləti/"
+    },
+    {
+        "english": "digital",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "数字的"
+            }
+        ],
+        "phonetic": "/ˈdɪdʒɪtl/"
+    },
+    {
+        "english": "global",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "全球的"
+            }
+        ],
+        "phonetic": "/ˈɡloʊbl/"
+    },
+    {
+        "english": "personal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "个人的"
+            }
+        ],
+        "phonetic": "/ˈpɜːrsənl/"
+    },
+    {
+        "english": "traditional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "传统的"
+            }
+        ],
+        "phonetic": "/trəˈdɪʃənl/"
+    },
+    {
+        "english": "environmental",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "环境的"
+            }
+        ],
+        "phonetic": "/ɪnˌvaɪrənˈmentl/"
+    },
+    {
+        "english": "total",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "总的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "总数"
+            }
+        ],
+        "phonetic": "/ˈtoʊtl/"
+    },
+    {
+        "english": "cultural",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "文化的"
+            }
+        ],
+        "phonetic": "/ˈkʌltʃərəl/"
+    },
+    {
+        "english": "emotional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "情感的"
+            }
+        ],
+        "phonetic": "/ɪˈmoʊʃənl/"
+    },
+    {
+        "english": "federal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "联邦的"
+            }
+        ],
+        "phonetic": "/ˈfedərəl/"
+    },
+    {
+        "english": "central",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "中央的，核心的"
+            }
+        ],
+        "phonetic": "/ˈsentrəl/"
+    },
+    {
+        "english": "equal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "平等的，相等的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "等于，匹敌"
+            }
+        ],
+        "phonetic": "/ˈiːkwəl/"
+    },
+    {
+        "english": "formal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "正式的"
+            }
+        ],
+        "phonetic": "/ˈfɔːrml/"
+    },
+    {
+        "english": "rental",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "租赁"
+            }
+        ],
+        "phonetic": "/ˈrentl/"
+    },
+    {
+        "english": "financial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "财务的，金融的"
+            }
+        ],
+        "phonetic": "/faɪˈnænʃl/"
+    },
+    {
+        "english": "potential",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "潜在的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "潜力"
+            }
+        ],
+        "phonetic": "/pəˈtenʃl/"
+    },
+    {
+        "english": "essential",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "必要的，基本的"
+            }
+        ],
+        "phonetic": "/ɪˈsenʃl/"
+    },
+    {
+        "english": "official",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "官方的，正式的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "官员"
+            }
+        ],
+        "phonetic": "/əˈfɪʃl/"
+    },
+    {
+        "english": "commercial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "商业的"
+            }
+        ],
+        "phonetic": "/kəˈmɜːrʃl/"
+    },
+    {
+        "english": "industrial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "工业的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʌstriəl/"
+    },
+    {
+        "english": "access",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "进入，访问"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "访问，获取"
+            }
+        ],
+        "phonetic": "/ˈækses/"
+    },
+    {
+        "english": "accident",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "事故"
+            }
+        ],
+        "phonetic": "/ˈæksɪdənt/"
+    },
+    {
+        "english": "account",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "账户，解释"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "解释，占比例"
+            }
+        ],
+        "phonetic": "/əˈkaʊnt/"
+    },
+    {
+        "english": "attach",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "附加，附上"
+            }
+        ],
+        "phonetic": "/əˈtætʃ/"
+    },
+    {
+        "english": "attack",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "攻击，袭击"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "攻击，进攻"
+            }
+        ],
+        "phonetic": "/əˈtæk/"
+    },
+    {
+        "english": "attract",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "吸引"
+            }
+        ],
+        "phonetic": "/əˈtrækt/"
+    },
+    {
+        "english": "attend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "参加，出席"
+            }
+        ],
+        "phonetic": "/əˈtend/"
+    },
+    {
+        "english": "attractive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有吸引力的"
+            }
+        ],
+        "phonetic": "/əˈtræktɪv/"
+    },
+    {
+        "english": "approach",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "接近"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "方法，途径"
+            }
+        ],
+        "phonetic": "/əˈproʊtʃ/"
+    },
+    {
+        "english": "appeal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "吸引力，上诉"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "呼吁，上诉"
+            }
+        ],
+        "phonetic": "/əˈpiːl/"
+    },
+    {
+        "english": "provide",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "提供"
+            }
+        ],
+        "phonetic": "/prəˈvaɪd/"
+    },
+    {
+        "english": "evidence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "证据"
+            }
+        ],
+        "phonetic": "/ˈevɪdəns/"
+    },
+    {
+        "english": "alcohol",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "酒精"
+            }
+        ],
+        "phonetic": "/ˈælkəhɔːl/"
+    }
+]
+
+

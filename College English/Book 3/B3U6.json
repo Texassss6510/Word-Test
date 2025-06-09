@@ -1,0 +1,852 @@
+[
+    {
+        "english": "disclose",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "揭露，透露，公开"
+            }
+        ],
+        "phonetic": "/dɪsˈkloʊz/"
+    },
+    {
+        "english": "codger",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（非正式，常指有点古怪的）老头儿"
+            }
+        ],
+        "phonetic": "/ˈkɑːdʒər/"
+    },
+    {
+        "english": "commonplace",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "平凡的，普通的，常见的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "寻常的事物，老生常谈"
+            }
+        ],
+        "phonetic": "/ˈkɑːmənpleɪs/"
+    },
+    {
+        "english": "replacement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "代替，更换；代替的人或物"
+            }
+        ],
+        "phonetic": "/rɪˈpleɪsmənt/"
+    },
+    {
+        "english": "abolish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "废除，废止（法律、制度等）"
+            }
+        ],
+        "phonetic": "/əˈbɑːlɪʃ/"
+    },
+    {
+        "english": "suspend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "暂停，中止；悬挂，吊；使停职，使休学"
+            }
+        ],
+        "phonetic": "/səˈspend/"
+    },
+    {
+        "english": "optimist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "乐观主义者，乐天派"
+            }
+        ],
+        "phonetic": "/ˈɑːptɪmɪst/"
+    },
+    {
+        "english": "prolong",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "延长，拉长"
+            }
+        ],
+        "phonetic": "/prəˈlɔːŋ/"
+    },
+    {
+        "english": "immediate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "立即的，即刻的；直接的，紧接的"
+            }
+        ],
+        "phonetic": "/ɪˈmiːdiət/"
+    },
+    {
+        "english": "inaccessible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "难达到的，不可及的；难以理解的"
+            }
+        ],
+        "phonetic": "/ˌɪnəkˈsesəbəl/"
+    },
+    {
+        "english": "discriminate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "歧视，区别对待；辨别，区分"
+            }
+        ],
+        "phonetic": "/dɪˈskrɪmɪneɪt/"
+    },
+    {
+        "english": "whip",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鞭子；（议会中的）党鞭，组织秘书"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "鞭打，鞭策；迅速移动；搅打（奶油、鸡蛋等）"
+            }
+        ],
+        "phonetic": "/wɪp/"
+    },
+    {
+        "english": "youthfully",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "年轻地，富于青春活力地"
+            }
+        ],
+        "phonetic": "/ˈjuːθfəli/"
+    },
+    {
+        "english": "vigorous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "精力充沛的，有活力的；强有力的"
+            }
+        ],
+        "phonetic": "/ˈvɪɡərəs/"
+    },
+    {
+        "english": "hidebound",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "思想狭隘的，守旧的，墨守成规的"
+            }
+        ],
+        "phonetic": "/ˈhaɪdbaʊnd/"
+    },
+    {
+        "english": "recapture",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "夺回，收复；再体验，追忆"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "夺回，收复"
+            }
+        ],
+        "phonetic": "/ˌriːˈkæptʃər/"
+    },
+    {
+        "english": "portfolio career",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "多元化职业，组合式事业（指同时从事多种兼职工作或项目的职业模式）"
+            }
+        ],
+        "phonetic": "/pɔːrtˈfoʊlioʊ kəˈrɪr/"
+    },
+    {
+        "english": "accordingly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "因此，于是；相应地"
+            }
+        ],
+        "phonetic": "/əˈkɔːrdɪŋli/"
+    },
+    {
+        "english": "laborer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（体力）劳动者，工人"
+            }
+        ],
+        "phonetic": "/ˈleɪbərər/"
+    },
+    {
+        "english": "accountant",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "会计师，会计"
+            }
+        ],
+        "phonetic": "/əˈkaʊntənt/"
+    },
+    {
+        "english": "speculation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "推测，猜测；投机，投机买卖"
+            }
+        ],
+        "phonetic": "/ˌspekjuˈleɪʃən/"
+    },
+    {
+        "english": "trap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "陷阱，圈套；困境；（非正式）嘴"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "诱捕，使陷入圈套；使困住"
+            }
+        ],
+        "phonetic": "/træp/"
+    },
+    {
+        "english": "eternal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "永恒的，不朽的"
+            }
+        ],
+        "phonetic": "/ɪˈtɜːrnəl/"
+    },
+    {
+        "english": "wither",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）枯萎，凋谢；衰弱，萎缩"
+            }
+        ],
+        "phonetic": "/ˈwɪðər/"
+    },
+    {
+        "english": "cicada",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蝉"
+            }
+        ],
+        "phonetic": "/sɪˈkeɪdə/"
+    },
+    {
+        "english": "caution",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小心，谨慎；警告"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "警告，告诫"
+            }
+        ],
+        "phonetic": "/ˈkɔːʃən/"
+    },
+    {
+        "english": "terrific",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极好的，非常棒的；（尺寸、数量等）极大的"
+            }
+        ],
+        "phonetic": "/təˈrɪfɪk/"
+    },
+    {
+        "english": "cram",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "把...塞满；（为应付考试）临时抱佛脚，死记硬背"
+            }
+        ],
+        "phonetic": "/kræm/"
+    },
+    {
+        "english": "cope",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（成功地）处理，应付 (常与 with 连用)"
+            }
+        ],
+        "phonetic": "/koʊp/"
+    },
+    {
+        "english": "mortal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "终有一死的，凡人的；致命的，你死我活的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "凡人，普通人"
+            }
+        ],
+        "phonetic": "/ˈmɔːrtl/"
+    },
+    {
+        "english": "immortality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "不朽，永生"
+            }
+        ],
+        "phonetic": "/ˌɪmɔːrˈtæləti/"
+    },
+    {
+        "english": "fantasist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "空想家，幻想家"
+            }
+        ],
+        "phonetic": "/ˈfæntəsɪst/"
+    },
+    {
+        "english": "bucket list",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "遗愿清单，人生目标清单（指在去世前想要完成的事情列表）"
+            }
+        ],
+        "phonetic": "/ˈbʌkɪt lɪst/"
+    },
+    {
+        "english": "cheat death/fate",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "死里逃生，躲过劫难"
+            }
+        ],
+        "phonetic": "/tʃiːt deθ/feɪt/"
+    },
+    {
+        "english": "over the hill",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "年过半百，过了巅峰时期，走下坡路"
+            }
+        ],
+        "phonetic": "/ˈoʊvər ðə hɪl/"
+    },
+    {
+        "english": "on offer",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "可买到，可使用；（商品）特价出售"
+            }
+        ],
+        "phonetic": "/ɑːn ˈɔːfər/"
+    },
+    {
+        "english": "on the way",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "在路上；即将发生"
+            }
+        ],
+        "phonetic": "/ɑːn ðə weɪ/"
+    },
+    {
+        "english": "be in the cards",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "很可能发生，命中注定"
+            }
+        ],
+        "phonetic": "/bi ɪn ðə kɑːrdz/"
+    },
+    {
+        "english": "wear out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "用坏，穿破；使筋疲力尽"
+            }
+        ],
+        "phonetic": "/wer aʊt/"
+    },
+    {
+        "english": "set up shop",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "开店，开始营业"
+            }
+        ],
+        "phonetic": "/set ʌp ʃɑːp/"
+    },
+    {
+        "english": "run in the family",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（特征、疾病等）家族遗传"
+            }
+        ],
+        "phonetic": "/rʌn ɪn ðə ˈfæməli/"
+    },
+    {
+        "english": "the whip hand",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "支配地位，优势"
+            }
+        ],
+        "phonetic": "/ðə wɪp hænd/"
+    },
+    {
+        "english": "round out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "使...变圆；使...完美，使...圆满完成"
+            }
+        ],
+        "phonetic": "/raʊnd aʊt/"
+    },
+    {
+        "english": "draw up",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "起草，草拟（文件）；（车辆）停住"
+            }
+        ],
+        "phonetic": "/drɔː ʌp/"
+    },
+    {
+        "english": "derive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "取得，得到 (derive...from)；起源于 (derive from)"
+            }
+        ],
+        "phonetic": "/dɪˈraɪv/"
+    },
+    {
+        "english": "arouse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "唤起，激起（情感、态度）；唤醒"
+            }
+        ],
+        "phonetic": "/əˈraʊz/"
+    },
+    {
+        "english": "cellular",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "细胞的；蜂窝状的"
+            }
+        ],
+        "phonetic": "/ˈseljələr/"
+    },
+    {
+        "english": "prompt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "促使，推动；提示"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "迅速的，及时的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（给演员的）提词；（计算机）提示符"
+            }
+        ],
+        "phonetic": "/prɑːmpt/"
+    },
+    {
+        "english": "command",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "命令，指挥；掌握，精通；（计算机）指令"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "命令，指挥；值得，应受；俯瞰"
+            }
+        ],
+        "phonetic": "/kəˈmænd/"
+    },
+    {
+        "english": "recipient",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "接受者，领受人"
+            }
+        ],
+        "phonetic": "/rɪˈsɪpiənt/"
+    },
+    {
+        "english": "circulation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（血液）循环；（信息、货币等）流通，传播；（报刊）发行量"
+            }
+        ],
+        "phonetic": "/ˌsɜːrkjuˈleɪʃən/"
+    },
+    {
+        "english": "overeat",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "吃得过饱"
+            }
+        ],
+        "phonetic": "/ˌoʊvərˈiːt/"
+    },
+    {
+        "english": "diffusely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "扩散地，弥漫地；冗长地"
+            }
+        ],
+        "phonetic": "/dɪˈfjuːsli/"
+    },
+    {
+        "english": "sluggish",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "行动迟缓的，懒散的；（经济等）萧条的"
+            }
+        ],
+        "phonetic": "/ˈslʌɡɪʃ/"
+    },
+    {
+        "english": "oblivious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "未察觉的，不在意的；健忘的 (常与 of 或 to 连用)"
+            }
+        ],
+        "phonetic": "/əˈblɪviəs/"
+    },
+    {
+        "english": "boost",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "促进，提高；推动，举起"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "增长，提高；推动，帮助"
+            }
+        ],
+        "phonetic": "/buːst/"
+    },
+    {
+        "english": "digit",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "数字（0到9）；手指，脚趾"
+            }
+        ],
+        "phonetic": "/ˈdɪdʒɪt/"
+    },
+    {
+        "english": "ephemeral",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "短暂的，朝生暮死的"
+            }
+        ],
+        "phonetic": "/ɪˈfemərəl/"
+    },
+    {
+        "english": "inactivate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使不活动，使不起作用"
+            }
+        ],
+        "phonetic": "/ɪnˈæktɪveɪt/"
+    },
+    {
+        "english": "kidney",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肾，肾脏"
+            }
+        ],
+        "phonetic": "/ˈkɪdni/"
+    },
+    {
+        "english": "exception",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "例外，除外"
+            }
+        ],
+        "phonetic": "/ɪkˈsepʃən/"
+    },
+    {
+        "english": "linger",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "逗留，徘徊；（感觉或想法）持续存在"
+            }
+        ],
+        "phonetic": "/ˈlɪŋɡər/"
+    },
+    {
+        "english": "predictive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "预测的，预言性的"
+            }
+        ],
+        "phonetic": "/prɪˈdɪktɪv/"
+    },
+    {
+        "english": "midway",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "在中途"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "中途的"
+            }
+        ],
+        "phonetic": "/ˈmɪdweɪ/"
+    },
+    {
+        "english": "anticipation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "期望，预料；预感"
+            }
+        ],
+        "phonetic": "/ænˌtɪsɪˈpeɪʃən/"
+    },
+    {
+        "english": "trigger",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "触发，引起"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（枪的）扳机；起因，诱因"
+            }
+        ],
+        "phonetic": "/ˈtrɪɡər/"
+    },
+    {
+        "english": "acid",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "酸，酸性物质"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "酸的，酸味的；尖刻的"
+            }
+        ],
+        "phonetic": "/ˈæsɪd/"
+    },
+    {
+        "english": "digestion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "消化；领悟"
+            }
+        ],
+        "phonetic": "/daɪˈdʒestʃən/"
+    },
+    {
+        "english": "gland",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "腺"
+            }
+        ],
+        "phonetic": "/ɡlænd/"
+    },
+    {
+        "english": "tumour",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肿瘤 (英式拼写, 美式为 tumor)"
+            }
+        ],
+        "phonetic": "/ˈtuːmər/"
+    },
+    {
+        "english": "stature",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "身高，身材；（尤指道德或精神上的）高尚境界，声望"
+            }
+        ],
+        "phonetic": "/ˈstætʃər/"
+    },
+    {
+        "english": "surge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（人群，情感，电流等的）汹涌，奔放；急剧上升"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "汹涌，蜂拥而至；急剧上升"
+            }
+        ],
+        "phonetic": "/sɜːrdʒ/"
+    },
+    {
+        "english": "meanwhile",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "与此同时"
+            }
+        ],
+        "phonetic": "/ˈmiːnwaɪl/"
+    },
+    {
+        "english": "suppress",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "镇压，压制；抑制，忍住；查禁"
+            }
+        ],
+        "phonetic": "/səˈpres/"
+    },
+    {
+        "english": "urine",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "尿，小便"
+            }
+        ],
+        "phonetic": "/ˈjʊrɪn/"
+    },
+    {
+        "english": "pee",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（非正式）小便"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（非正式）小便，尿"
+            }
+        ],
+        "phonetic": "/piː/"
+    },
+    {
+        "english": "act on",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "根据…行事，对…起作用"
+            }
+        ],
+        "phonetic": "/ækt ɑːn/"
+    },
+    {
+        "english": "top up",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "加满，充满（尤指已部分装满的容器）；（给手机等）充值"
+            }
+        ],
+        "phonetic": "/tɑːp ʌp/"
+    },
+    {
+        "english": "sign off",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "（在信末）署名，签退；（广播员）结束播音；批准，认可"
+            }
+        ],
+        "phonetic": "/saɪn ɔːf/"
+    }
+]

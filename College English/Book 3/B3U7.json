@@ -1,0 +1,806 @@
+[
+    {
+        "english": "sphere",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "球体，球；范围，领域；天体"
+            }
+        ],
+        "phonetic": "/sfɪr/"
+    },
+    {
+        "english": "foremost",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "最重要的，最好的，领先的"
+            },
+            {
+                "abbreviation": "adv.",
+                "meaning": "首先，第一"
+            }
+        ],
+        "phonetic": "/ˈfɔːrmoʊst/"
+    },
+    {
+        "english": "autobiography",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "自传"
+            }
+        ],
+        "phonetic": "/ˌɔːtəbaɪˈɑːɡrəfi/"
+    },
+    {
+        "english": "prominent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "杰出的，著名的；突出的，显眼的"
+            }
+        ],
+        "phonetic": "/ˈprɑːmɪnənt/"
+    },
+    {
+        "english": "complement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "补充物，补足物；配对物；（语法）补语"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "补充，补足；与...相辅相成"
+            }
+        ],
+        "phonetic": "/ˈkɑːmpləment/"
+    },
+    {
+        "english": "complementary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "互补的，相辅相成的"
+            }
+        ],
+        "phonetic": "/ˌkɑːmpləˈmentri/"
+    },
+    {
+        "english": "forefront",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "最前沿，最重要的位置"
+            }
+        ],
+        "phonetic": "/ˈfɔːrfrʌnt/"
+    },
+    {
+        "english": "criticism",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "批评，批判；评论，评论文章"
+            }
+        ],
+        "phonetic": "/ˈkrɪtɪsɪzəm/"
+    },
+    {
+        "english": "costume",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（特定场合或时代的）服装，戏服"
+            }
+        ],
+        "phonetic": "/ˈkɑːstuːm/"
+    },
+    {
+        "english": "iconic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "标志性的，偶像级的，非常出名的"
+            }
+        ],
+        "phonetic": "/aɪˈkɑːnɪk/"
+    },
+    {
+        "english": "masterpiece",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "杰作，代表作"
+            }
+        ],
+        "phonetic": "/ˈmæstərpiːs/"
+    },
+    {
+        "english": "elevate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "提升，举起；提拔；使情绪高昂；使更有格调"
+            }
+        ],
+        "phonetic": "/ˈeləveɪt/"
+    },
+    {
+        "english": "utility",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "效用，实用；公用事业（如水电煤气）"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "实用的，多用途的"
+            }
+        ],
+        "phonetic": "/juːˈtɪləti/"
+    },
+    {
+        "english": "temporality",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "暂时性，时间性"
+            }
+        ],
+        "phonetic": "/ˌtempəˈræləti/"
+    },
+    {
+        "english": "constrain",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "约束，限制；强迫，迫使"
+            }
+        ],
+        "phonetic": "/kənˈstreɪn/"
+    },
+    {
+        "english": "contour",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轮廓，外形；等高线"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "勾勒出…的轮廓"
+            }
+        ],
+        "phonetic": "/ˈkɑːntʊr/"
+    },
+    {
+        "english": "perception",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "知觉，感知；看法，见解；洞察力"
+            }
+        ],
+        "phonetic": "/pərˈsepʃən/"
+    },
+    {
+        "english": "avant-garde",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "（艺术）先锋的，前卫的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（艺术界的）先锋派，前卫派"
+            }
+        ],
+        "phonetic": "/ˌævɑ̃ːˈɡɑːrd/"
+    },
+    {
+        "english": "clear-cut",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "明确的，清晰的；轮廓分明的"
+            }
+        ],
+        "phonetic": "/ˈklɪər kʌt/"
+    },
+    {
+        "english": "rebel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "反叛者，叛逆者"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "反叛，造反；反抗"
+            }
+        ],
+        "phonetic": "/ˈrebəl/ (n.), /rɪˈbel/ (v.)"
+    },
+    {
+        "english": "retrospective",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "回顾的，追溯的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "回顾展"
+            }
+        ],
+        "phonetic": "/ˌretrəˈspektɪv/"
+    },
+    {
+        "english": "savage",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "野蛮的，凶猛的，残暴的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "野蛮人，未开化的人"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "猛烈攻击，残害"
+            }
+        ],
+        "phonetic": "/ˈsævɪdʒ/"
+    },
+    {
+        "english": "auction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拍卖"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "拍卖"
+            }
+        ],
+        "phonetic": "/ˈɔːkʃən/"
+    },
+    {
+        "english": "vintage",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "（葡萄酒）上等的，佳酿的；（汽车、衣服等）老式的，经典的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（某年代的）佳酿；特定年份"
+            }
+        ],
+        "phonetic": "/ˈvɪntɪdʒ/"
+    },
+    {
+        "english": "couture",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "高级时装（设计、制作）"
+            }
+        ],
+        "phonetic": "/kuːˈtʊr/"
+    },
+    {
+        "english": "velvet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "天鹅绒，丝绒"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "天鹅绒制的；柔软光滑的"
+            }
+        ],
+        "phonetic": "/ˈvelvɪt/"
+    },
+    {
+        "english": "framework",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "框架，结构；（思想、法律等的）体系，准则"
+            }
+        ],
+        "phonetic": "/ˈfreɪmwɜːrk/"
+    },
+    {
+        "english": "inescapable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不可避免的，逃脱不了的"
+            }
+        ],
+        "phonetic": "/ˌɪnəˈskeɪpəbəl/"
+    },
+    {
+        "english": "constraint",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "约束，限制；拘束，态度不自然"
+            }
+        ],
+        "phonetic": "/kənˈstreɪnt/"
+    },
+    {
+        "english": "byproduct",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "副产品；意外的副作用"
+            }
+        ],
+        "phonetic": "/ˈbaɪprɑːdʌkt/"
+    },
+    {
+        "english": "aesthetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "美学的，审美的；美的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "美学；审美观"
+            }
+        ],
+        "phonetic": "/esˈθetɪk/"
+    },
+    {
+        "english": "commodity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "商品，货物（尤指原材料或初级产品）"
+            }
+        ],
+        "phonetic": "/kəˈmɑːdəti/"
+    },
+    {
+        "english": "leverage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "杠杆作用；影响力；（金融）杠杆"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "利用；借贷投机"
+            }
+        ],
+        "phonetic": "/ˈlevərɪdʒ/"
+    },
+    {
+        "english": "collaborate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "合作，协作；（与敌人）勾结，通敌"
+            }
+        ],
+        "phonetic": "/kəˈlæbəreɪt/"
+    },
+    {
+        "english": "collaboration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "合作，协作；合作成果；通敌"
+            }
+        ],
+        "phonetic": "/kəˌlæbəˈreɪʃən/"
+    },
+    {
+        "english": "profusion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大量，丰富；慷慨，挥霍"
+            }
+        ],
+        "phonetic": "/prəˈfjuːʒən/"
+    },
+    {
+        "english": "nonexistent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不存在的"
+            }
+        ],
+        "phonetic": "/ˌnɑːnɪɡˈzɪstənt/"
+    },
+    {
+        "english": "symbiotic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "共生的，互相依赖的"
+            }
+        ],
+        "phonetic": "/ˌsɪmbaɪˈɑːtɪk/"
+    },
+    {
+        "english": "interchange",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "交换，互换"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "交换，互换；（高速公路的）立交枢纽"
+            }
+        ],
+        "phonetic": "/ˌɪntərˈtʃeɪndʒ/"
+    },
+    {
+        "english": "rightful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "合法的，正当的"
+            }
+        ],
+        "phonetic": "/ˈraɪtfəl/"
+    },
+    {
+        "english": "elaborate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "精心制作的，复杂的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "详细阐述，详尽说明"
+            }
+        ],
+        "phonetic": "/ɪˈlæbərət/ (adj.), /ɪˈlæbəreɪt/ (v.)"
+    },
+    {
+        "english": "conceptual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "概念上的，观念的"
+            }
+        ],
+        "phonetic": "/kənˈseptʃuəl/"
+    },
+    {
+        "english": "spiritual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "精神的，心灵的；宗教的"
+            }
+        ],
+        "phonetic": "/ˈspɪrɪtʃuəl/"
+    },
+    {
+        "english": "first and foremost",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "首先，首要的是"
+            }
+        ],
+        "phonetic": "/fɜːrst ænd ˈfɔːrmoʊst/"
+    },
+    {
+        "english": "computational",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "计算的，计算机的"
+            }
+        ],
+        "phonetic": "/ˌkɑːmpjuˈteɪʃənəl/"
+    },
+    {
+        "english": "emergence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "出现，浮现；（哲）涌现，突生"
+            }
+        ],
+        "phonetic": "/ɪˈmɜːrdʒəns/"
+    },
+    {
+        "english": "consciousness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "意识，知觉；观念，觉悟"
+            }
+        ],
+        "phonetic": "/ˈkɑːnʃəsnəs/"
+    },
+    {
+        "english": "subjective",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "主观的"
+            }
+        ],
+        "phonetic": "/səbˈdʒektɪv/"
+    },
+    {
+        "english": "quirk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（古怪的）癖好，怪癖；奇事"
+            }
+        ],
+        "phonetic": "/kwɜːrk/"
+    },
+    {
+        "english": "time-scale",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "时间范围，时间标度"
+            }
+        ],
+        "phonetic": "/ˈtaɪm skeɪl/"
+    },
+    {
+        "english": "empathise",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "表示同情，有同感，产生共鸣"
+            }
+        ],
+        "phonetic": "/ˈempəθaɪz/"
+    },
+    {
+        "english": "conceive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "构想，设想；怀孕；认为"
+            }
+        ],
+        "phonetic": "/kənˈsiːv/"
+    },
+    {
+        "english": "artefact",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "人工制品，手工艺品"
+            }
+        ],
+        "phonetic": "/ˈɑːrtɪfækt/"
+    },
+    {
+        "english": "coherent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "连贯的，条理清晰的；（物理）相干的"
+            }
+        ],
+        "phonetic": "/koʊˈhɪrənt/"
+    },
+    {
+        "english": "implausibly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "难以置信地，不可能地"
+            }
+        ],
+        "phonetic": "/ɪmˈplɔːzəbli/"
+    },
+    {
+        "english": "misinterpretation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "误解，曲解"
+            }
+        ],
+        "phonetic": "/ˌmɪsɪnˌtɜːrprɪˈteɪʃən/"
+    },
+    {
+        "english": "authentically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "真正地，地道地；可信地"
+            }
+        ],
+        "phonetic": "/ɔːˈθentɪkli/"
+    },
+    {
+        "english": "orchestra",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "管弦乐队"
+            }
+        ],
+        "phonetic": "/ˈɔːrkɪstrə/"
+    },
+    {
+        "english": "symphony",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "交响乐，交响曲；和谐，协调"
+            }
+        ],
+        "phonetic": "/ˈsɪmfəni/"
+    },
+    {
+        "english": "considerably",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "相当大地，非常"
+            }
+        ],
+        "phonetic": "/kənˈsɪdərəbli/"
+    },
+    {
+        "english": "acoustics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "声学；（某房间或音乐厅的）音响效果"
+            }
+        ],
+        "phonetic": "/əˈkuːstɪks/"
+    },
+    {
+        "english": "formalise",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使形式化，使正式"
+            }
+        ],
+        "phonetic": "/ˈfɔːrməlaɪz/"
+    },
+    {
+        "english": "contextual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "上下文的，与语境相关的"
+            }
+        ],
+        "phonetic": "/kənˈtekstʃuəl/"
+    },
+    {
+        "english": "execute",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "执行，实行；处决；（计算机）执行（指令）"
+            }
+        ],
+        "phonetic": "/ˈeksɪkjuːt/"
+    },
+    {
+        "english": "formula",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "公式，方程式；配方；方案，准则"
+            }
+        ],
+        "phonetic": "/ˈfɔːrmjələ/"
+    },
+    {
+        "english": "artistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "艺术的，有艺术技巧的"
+            }
+        ],
+        "phonetic": "/ɑːrˈtɪstɪk/"
+    },
+    {
+        "english": "volition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "意志，意愿，自主选择"
+            }
+        ],
+        "phonetic": "/voʊˈlɪʃən/"
+    },
+    {
+        "english": "procedural",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "程序的，手续上的"
+            }
+        ],
+        "phonetic": "/prəˈsiːdʒərəl/"
+    },
+    {
+        "english": "autonomous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "自治的；自主的，有自主权的"
+            }
+        ],
+        "phonetic": "/ɔːˈtɑːnəməs/"
+    },
+    {
+        "english": "interact",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "互动，相互作用，交流"
+            }
+        ],
+        "phonetic": "/ˌɪntərˈækt/"
+    },
+    {
+        "english": "interactive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "互动的，交互式的"
+            }
+        ],
+        "phonetic": "/ˌɪntərˈæktɪv/"
+    },
+    {
+        "english": "eagerness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "渴望，热切"
+            }
+        ],
+        "phonetic": "/ˈiːɡərnəs/"
+    },
+    {
+        "english": "comprehension",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "理解力，领悟；包含，涵盖"
+            }
+        ],
+        "phonetic": "/ˌkɑːmprɪˈhenʃən/"
+    },
+    {
+        "english": "as such",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "就其本身而言；照此，因此"
+            }
+        ],
+        "phonetic": "/æz sʌtʃ/"
+    }
+]

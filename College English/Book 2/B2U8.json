@@ -1,0 +1,872 @@
+[
+    {
+        "english": "robotics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "机器人学"
+            }
+        ],
+        "phonetic": "/rəʊˈbɒtɪks/"
+    },
+    {
+        "english": "yoga",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "瑜伽"
+            }
+        ],
+        "phonetic": "/ˈjəʊɡə/"
+    },
+    {
+        "english": "eliminate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "消除"
+            }
+        ],
+        "phonetic": "/ɪˈlɪmɪneɪt/"
+    },
+    {
+        "english": "specialization",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "专业化"
+            }
+        ],
+        "phonetic": "/ˌspɛʃəlaɪˈzeɪʃən/"
+    },
+    {
+        "english": "routinize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使…常规化"
+            }
+        ],
+        "phonetic": "/ˈruːtɪnaɪz/"
+    },
+    {
+        "english": "automate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "自动化"
+            }
+        ],
+        "phonetic": "/ˈɔːtəmeɪt/"
+    },
+    {
+        "english": "DJ (disc jockey)",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "唱片骑师"
+            }
+        ],
+        "phonetic": "/ˌdiːˈdʒeɪ/"
+    },
+    {
+        "english": "consequently",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "因此"
+            }
+        ],
+        "phonetic": "/ˈkɒnsɪkwəntli/"
+    },
+    {
+        "english": "evaluate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "评估"
+            }
+        ],
+        "phonetic": "/ɪˈvæljʊeɪt/"
+    },
+    {
+        "english": "algorithm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "算法"
+            }
+        ],
+        "phonetic": "/ˈælɡərɪðəm/"
+    },
+    {
+        "english": "manipulate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "操控"
+            }
+        ],
+        "phonetic": "/məˈnɪpjʊleɪt/"
+    },
+    {
+        "english": "mystical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神秘的"
+            }
+        ],
+        "phonetic": "/ˈmɪstɪkəl/"
+    },
+    {
+        "english": "biochemical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "生化的"
+            }
+        ],
+        "phonetic": "/ˌbaɪəʊˈkɛmɪkəl/"
+    },
+    {
+        "english": "biometric",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "生物识别的"
+            }
+        ],
+        "phonetic": "/ˌbaɪəʊˈmɛtrɪk/"
+    },
+    {
+        "english": "calculate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "计算"
+            }
+        ],
+        "phonetic": "/ˈkælkjʊleɪt/"
+    },
+    {
+        "english": "analysis",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "分析"
+            }
+        ],
+        "phonetic": "/əˈnæləsɪs/"
+    },
+    {
+        "english": "output",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "输出"
+            }
+        ],
+        "phonetic": "/ˈaʊtpʊt/"
+    },
+    {
+        "english": "tailor",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "定制"
+            }
+        ],
+        "phonetic": "/ˈteɪlər/"
+    },
+    {
+        "english": "distress",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "痛苦"
+            }
+        ],
+        "phonetic": "/dɪˈstrɛs/"
+    },
+    {
+        "english": "melody",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "旋律"
+            }
+        ],
+        "phonetic": "/ˈmɛlədi/"
+    },
+    {
+        "english": "peculiarity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "特性"
+            }
+        ],
+        "phonetic": "/pɪˌkjuːliˈærɪti/"
+    },
+    {
+        "english": "oxytocin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "催产素"
+            }
+        ],
+        "phonetic": "/ˌɒksɪˈtəʊsɪn/"
+    },
+    {
+        "english": "compose",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "创作"
+            }
+        ],
+        "phonetic": "/kəmˈpəʊz/"
+    },
+    {
+        "english": "personalized",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "个性化的"
+            }
+        ],
+        "phonetic": "/ˈpɜːsənəlaɪzd/"
+    },
+    {
+        "english": "besides",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "此外"
+            }
+        ],
+        "phonetic": "/bɪˈsaɪdz/"
+    },
+    {
+        "english": "surpass",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "超越"
+            }
+        ],
+        "phonetic": "/səˈpɑːs/"
+    },
+    {
+        "english": "outperform",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "胜过"
+            }
+        ],
+        "phonetic": "/ˌaʊtpəˈfɔːm/"
+    },
+    {
+        "english": "disgusting",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人厌恶的"
+            }
+        ],
+        "phonetic": "/dɪsˈɡʌstɪŋ/"
+    },
+    {
+        "english": "make sense",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "有道理"
+            }
+        ],
+        "phonetic": "/meɪk sɛns/"
+    },
+    {
+        "english": "reasonable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "合理的"
+            }
+        ],
+        "phonetic": "/ˈriːzənəbl/"
+    },
+    {
+        "english": "line of work",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "职业"
+            }
+        ],
+        "phonetic": "/laɪn ɒv wɜːk/"
+    },
+    {
+        "english": "dig into",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "深入研究"
+            }
+        ],
+        "phonetic": "/dɪɡ ˈɪntuː/"
+    },
+    {
+        "english": "relieve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "减轻"
+            }
+        ],
+        "phonetic": "/rɪˈliːv/"
+    },
+    {
+        "english": "hit upon/on",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "偶然发现"
+            }
+        ],
+        "phonetic": "/hɪt əˈpɒn/"
+    },
+    {
+        "english": "in the long run",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "从长远来看"
+            }
+        ],
+        "phonetic": "/ɪn ðə lɒŋ rʌn/"
+    },
+    {
+        "english": "relieved",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "感到宽慰的"
+            }
+        ],
+        "phonetic": "/rɪˈliːvd/"
+    },
+    {
+        "english": "flesh and blood",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "血肉之躯"
+            }
+        ],
+        "phonetic": "/flɛʃ ənd blʌd/"
+    },
+    {
+        "english": "give/lose one’s heart to",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "倾心于"
+            }
+        ],
+        "phonetic": "/ɡɪv/lʊz wʌnz hɑːt tə/"
+    },
+    {
+        "english": "innate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "天生的"
+            }
+        ],
+        "phonetic": "/ɪˈneɪt/"
+    },
+    {
+        "english": "as to",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "至于"
+            }
+        ],
+        "phonetic": "/æz tə/"
+    },
+    {
+        "english": "go over",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "检查"
+            }
+        ],
+        "phonetic": "/ɡəʊ ˈəʊvər/"
+    },
+    {
+        "english": "desirable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "理想的"
+            }
+        ],
+        "phonetic": "/dɪˈzaɪərəbl/"
+    },
+    {
+        "english": "green with envy",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "嫉妒的"
+            }
+        ],
+        "phonetic": "/ɡriːn wɪð ˈɛnvi/"
+    },
+    {
+        "english": "get in touch with sth.",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "与某事联系"
+            }
+        ],
+        "phonetic": "/ɡɛt ɪn tʌtʃ wɪð sʌmθɪŋ/"
+    },
+    {
+        "english": "set out to do sth.",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "开始做某事"
+            }
+        ],
+        "phonetic": "/sɛt aʊt tə duː sʌmθɪŋ/"
+    },
+    {
+        "english": "cheer up",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "振作起来"
+            }
+        ],
+        "phonetic": "/ʧɪər ʌp/"
+    },
+    {
+        "english": "be on the case",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "处理此事"
+            }
+        ],
+        "phonetic": "/biː ɒn ðə keɪs/"
+    },
+    {
+        "english": "sb’s heart skips/misses a beat",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "某人心跳漏了一拍"
+            }
+        ],
+        "phonetic": "/sʌmbədiz hɑːt skɪps/ˈmɪsɪz ə biːt/"
+    },
+    {
+        "english": "beyond one’s control",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "无法控制"
+            }
+        ],
+        "phonetic": "/bɪˈjɒnd wʌnz kənˈtrəʊl/"
+    },
+    {
+        "english": "edit out",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "编辑删除"
+            }
+        ],
+        "phonetic": "/ˈɛdɪt aʊt/"
+    },
+    {
+        "english": "play on/upon",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "利用"
+            }
+        ],
+        "phonetic": "/pleɪ ɒn/əˈpɒn/"
+    },
+    {
+        "english": "lend (one’s) support",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "提供支持"
+            }
+        ],
+        "phonetic": "/lɛnd wʌnz səˈpɔːt/"
+    },
+    {
+        "english": "catch on",
+        "pos": [
+            {
+                "abbreviation": "phrasal verb",
+                "meaning": "流行起来"
+            }
+        ],
+        "phonetic": "/kætʃ ɒn/"
+    },
+    {
+        "english": "take sth. personally",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "对某事感到介意"
+            }
+        ],
+        "phonetic": "/teɪk sʌmθɪŋ ˈpɜːsənəli/"
+    },
+    {
+        "english": "stand/have a chance/hope (of doing sth.)",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "有机会/希望做某事"
+            }
+        ],
+        "phonetic": "/stænd/hæv ə ʧɑːns/həʊp ɒv duːɪŋ sʌmθɪŋ/"
+    },
+    {
+        "english": "rational",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "理性的"
+            }
+        ],
+        "phonetic": "/ˈræʃənl/"
+    },
+    {
+        "english": "mate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "配偶"
+            }
+        ],
+        "phonetic": "/meɪt/"
+    },
+    {
+        "english": "biological",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "生物的"
+            }
+        ],
+        "phonetic": "/ˌbaɪəˈlɒdʒɪkəl/"
+    },
+    {
+        "english": "shapely",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "匀称的"
+            }
+        ],
+        "phonetic": "/ˈʃeɪpli/"
+    },
+    {
+        "english": "genetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "基因的"
+            }
+        ],
+        "phonetic": "/dʒɪˈnɛtɪk/"
+    },
+    {
+        "english": "sparkling",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "闪亮的"
+            }
+        ],
+        "phonetic": "/ˈspɑːklɪŋ/"
+    },
+    {
+        "english": "microbe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "微生物"
+            }
+        ],
+        "phonetic": "/ˈmaɪkrəʊb/"
+    },
+    {
+        "english": "attractive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有吸引力的"
+            }
+        ],
+        "phonetic": "/əˈtræktɪv/"
+    },
+    {
+        "english": "ridiculous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "荒谬的"
+            }
+        ],
+        "phonetic": "/rɪˈdɪkjʊləs/"
+    },
+    {
+        "english": "evolutionary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "进化的"
+            }
+        ],
+        "phonetic": "/ˌiːvəˈluːʃənəri/"
+    },
+    {
+        "english": "intuitively",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "直观地"
+            }
+        ],
+        "phonetic": "/ɪnˈtjuːɪtɪvli/"
+    },
+    {
+        "english": "reproduce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "繁殖"
+            }
+        ],
+        "phonetic": "/ˌriːprəˈdjuːs/"
+    },
+    {
+        "english": "willingly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "愿意地"
+            }
+        ],
+        "phonetic": "/ˈwɪlɪŋli/"
+    },
+    {
+        "english": "parental",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "父母的"
+            }
+        ],
+        "phonetic": "/pəˈrɛntl/"
+    },
+    {
+        "english": "broccoli",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "西兰花"
+            }
+        ],
+        "phonetic": "/ˈbrɒkəli/"
+    },
+    {
+        "english": "гесоil",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "植物油"
+            }
+        ],
+        "phonetic": "/ˈɡreɪnɔɪl/"
+    },
+    {
+        "english": "offspring",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "后代"
+            }
+        ],
+        "phonetic": "/ˈɒfsprɪŋ/"
+    },
+    {
+        "english": "disinterest",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "不感兴趣"
+            }
+        ],
+        "phonetic": "/dɪsˈɪntrɪst/"
+    },
+    {
+        "english": "horror",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "恐惧"
+            }
+        ],
+        "phonetic": "/ˈhɒrə/"
+    },
+    {
+        "english": "distaste",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "厌恶"
+            }
+        ],
+        "phonetic": "/dɪsˈteɪst/"
+    },
+    {
+        "english": "organ",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "器官"
+            }
+        ],
+        "phonetic": "/ˈɔːɡən/"
+    },
+    {
+        "english": "variation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "变化"
+            }
+        ],
+        "phonetic": "/ˌveərɪˈeɪʃən/"
+    },
+    {
+        "english": "disheartening",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人沮丧的"
+            }
+        ],
+        "phonetic": "/dɪsˈhɑːtənɪŋ/"
+    },
+    {
+        "english": "destined",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "注定的"
+            }
+        ],
+        "phonetic": "/ˈdɛstɪnd/"
+    },
+    {
+        "english": "taste bud",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "味蕾"
+            }
+        ],
+        "phonetic": "/teɪst bʌd/"
+    },
+    {
+        "english": "receptor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "受体"
+            }
+        ],
+        "phonetic": "/rɪˈsɛptər/"
+    },
+    {
+        "english": "slave",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "奴隶"
+            }
+        ],
+        "phonetic": "/sleɪv/"
+    },
+    {
+        "english": "plentiful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "丰富的"
+            }
+        ],
+        "phonetic": "/ˈplɛntɪfʊl/"
+    },
+    {
+        "english": "magnificent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "壮丽的"
+            }
+        ],
+        "phonetic": "/mæɡˈnɪfɪsənt/"
+    },
+    {
+        "english": "remedy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "治疗方法"
+            }
+        ],
+        "phonetic": "/ˈrɛmədi/"
+    },
+    {
+        "english": "DNA",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "脱氧核糖核酸"
+            }
+        ],
+        "phonetic": "/ˌdiːɛnˈeɪ/"
+    },
+    {
+        "english": "compassion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "同情"
+            }
+        ],
+        "phonetic": "/kəmˈpæʃən/"
+    }
+]

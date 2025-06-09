@@ -1,0 +1,504 @@
+[
+    {
+        "english": "maple",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "枫树"
+            }
+        ],
+        "phonetic": "/ˈmeɪpəl/"
+    },
+    {
+        "english": "toggle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "切换开关"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "切换"
+            }
+        ],
+        "phonetic": "/ˈtɒɡəl/"
+    },
+    {
+        "english": "acorn",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "橡子"
+            }
+        ],
+        "phonetic": "/ˈeɪkɔːrn/"
+    },
+    {
+        "english": "oak",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "橡树"
+            }
+        ],
+        "phonetic": "/əʊk/"
+    },
+    {
+        "english": "shallow",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "浅的"
+            }
+        ],
+        "phonetic": "/ˈʃæləʊ/"
+    },
+    {
+        "english": "cauliflower",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "花椰菜"
+            }
+        ],
+        "phonetic": "/ˈkɒliflaʊər/"
+    },
+    {
+        "english": "assorted",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "各种各样的"
+            }
+        ],
+        "phonetic": "/əˈsɔːtɪd/"
+    },
+    {
+        "english": "tulip",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "郁金香"
+            }
+        ],
+        "phonetic": "/ˈtjuːlɪp/"
+    },
+    {
+        "english": "bulb",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "球茎，灯泡"
+            }
+        ],
+        "phonetic": "/bʌlb/"
+    },
+    {
+        "english": "kale",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "羽衣甘蓝"
+            }
+        ],
+        "phonetic": "/keɪl/"
+    },
+    {
+        "english": "charcoal kiln",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "炭窑"
+            }
+        ],
+        "phonetic": "/ˈtʃɑːkəʊl kɪln/"
+    },
+    {
+        "english": "sesame oil",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "芝麻油"
+            }
+        ],
+        "phonetic": "/ˈsesəmi ɔɪl/"
+    },
+    {
+        "english": "stir",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "搅拌"
+            }
+        ],
+        "phonetic": "/stɜːr/"
+    },
+    {
+        "english": "fry",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "油炸"
+            }
+        ],
+        "phonetic": "/fraɪ/"
+    },
+    {
+        "english": "stir-fry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "炒菜"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "翻炒"
+            }
+        ],
+        "phonetic": "/ˈstɜːr fraɪ/"
+    },
+    {
+        "english": "saute",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "炒"
+            }
+        ],
+        "phonetic": "/ˈsoʊteɪ/"
+    },
+    {
+        "english": "sluggish",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "缓慢的，萧条的"
+            }
+        ],
+        "phonetic": "/ˈslʌɡɪʃ/"
+    },
+    {
+        "english": "staircase",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "楼梯"
+            }
+        ],
+        "phonetic": "/ˈsteəkeɪs/"
+    },
+    {
+        "english": "ranch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牧场"
+            }
+        ],
+        "phonetic": "/rɑːntʃ/"
+    },
+    {
+        "english": "gravel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "碎石"
+            }
+        ],
+        "phonetic": "/ˈɡrævəl/"
+    },
+    {
+        "english": "fertilizer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肥料"
+            }
+        ],
+        "phonetic": "/ˈfɜːtəlaɪzər/"
+    },
+    {
+        "english": "torch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "火炬"
+            }
+        ],
+        "phonetic": "/tɔːtʃ/"
+    },
+    {
+        "english": "almanac",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "年鉴"
+            }
+        ],
+        "phonetic": "/ˈɔːlmənæk/"
+    },
+    {
+        "english": "sprinkler",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "洒水器"
+            }
+        ],
+        "phonetic": "/ˈsprɪŋklər/"
+    },
+    {
+        "english": "adjacent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "邻近的"
+            }
+        ],
+        "phonetic": "/əˈdʒeɪsənt/"
+    },
+    {
+        "english": "cookout",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "野餐"
+            }
+        ],
+        "phonetic": "/ˈkʊkaʊt/"
+    },
+    {
+        "english": "moss",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "苔藓"
+            }
+        ],
+        "phonetic": "/mɒs/"
+    },
+    {
+        "english": "leek",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "韭菜"
+            }
+        ],
+        "phonetic": "/liːk/"
+    },
+    {
+        "english": "greenhorn",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新手"
+            }
+        ],
+        "phonetic": "/ˈɡriːnhɔːrn/"
+    },
+    {
+        "english": "poke",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "戳"
+            }
+        ],
+        "phonetic": "/pəʊk/"
+    },
+    {
+        "english": "chamber",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "房间"
+            }
+        ],
+        "phonetic": "/ˈtʃeɪmbər/"
+    },
+    {
+        "english": "wizard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "巫师"
+            }
+        ],
+        "phonetic": "/ˈwɪzərd/"
+    },
+    {
+        "english": "floret",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小花"
+            }
+        ],
+        "phonetic": "/ˈflɒrət/"
+    },
+    {
+        "english": "saloon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "酒吧，公共场所"
+            }
+        ],
+        "phonetic": "/səˈluːn/"
+    },
+    {
+        "english": "patch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "补丁"
+            }
+        ],
+        "phonetic": "/pætʃ/"
+    },
+    {
+        "english": "salmonberry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鲑莓"
+            }
+        ],
+        "phonetic": "/ˈsæmənbɛri/"
+    },
+    {
+        "english": "arcane",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神秘的"
+            }
+        ],
+        "phonetic": "/ɑːˈkeɪn/"
+    },
+    {
+        "english": "ethereal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "空灵的，优雅的，缥缈的"
+            }
+        ],
+        "phonetic": "/iˈθɪəriəl/"
+    },
+    {
+        "english": "obscure",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "晦涩的"
+            }
+        ],
+        "phonetic": "/əbˈskjʊər/"
+    },
+    {
+        "english": "decipher",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "解密"
+            }
+        ],
+        "phonetic": "/dɪˈsaɪfər/"
+    },
+    {
+        "english": "cauldron",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大锅"
+            }
+        ],
+        "phonetic": "/ˈkɔːldrən/"
+    },
+    {
+        "english": "bubble",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "气泡"
+            }
+        ],
+        "phonetic": "/ˈbʌbl/"
+    },
+    {
+        "english": "fern",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蕨"
+            }
+        ],
+        "phonetic": "/fɜːrn/"
+    },
+    {
+        "english": "grub",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "幼虫,蛆"
+            }
+        ],
+        "phonetic": "/ɡrʌb/"
+    },
+    {
+        "english": "caramel-top toadstool",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "焦糖顶蘑菇"
+            }
+        ],
+        "phonetic": "/ˈkærəmɛl tɒp ˈtəʊdstuːl/"
+    },
+    {
+        "english": "essence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "本质，精华"
+            }
+        ],
+        "phonetic": "/ˈesəns/"
+    },
+    {
+        "english": "permeate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "渗透"
+            }
+        ],
+        "phonetic": "/ˈpɜːmieɪt/"
+    },
+    {
+        "english": "stray",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "迷路的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "流浪"
+            }
+        ],
+        "phonetic": "/streɪ/"
+    },
+    {
+        "english": "horseradish",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "辣根"
+            }
+        ],
+        "phonetic": "/ˈhɔːsˌrædɪʃ/"
+    }
+]

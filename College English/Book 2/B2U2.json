@@ -1,0 +1,1174 @@
+[
+    {
+        "english": "roam",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "漫游"
+            }
+        ],
+        "phonetic": "/roʊm/"
+    },
+    {
+        "english": "reliably",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "可靠地"
+            }
+        ],
+        "phonetic": "/rɪˈlaɪəbli/"
+    },
+    {
+        "english": "passionate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "热情的"
+            }
+        ],
+        "phonetic": "/ˈpæʃənət/"
+    },
+    {
+        "english": "endanger",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "危及"
+            }
+        ],
+        "phonetic": "/ɪnˈdeɪndʒər/"
+    },
+    {
+        "english": "metro",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "地铁"
+            }
+        ],
+        "phonetic": "/ˈmɛtroʊ/"
+    },
+    {
+        "english": "dockside",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "码头边"
+            }
+        ],
+        "phonetic": "/ˈdɒkˌsaɪd/"
+    },
+    {
+        "english": "existence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "存在"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "生活方式"
+            }
+        ],
+        "phonetic": "/ɪɡˈzɪstəns/"
+    },
+    {
+        "english": "telling",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "说明问题的"
+            }
+        ],
+        "phonetic": "/ˈtɛlɪŋ/"
+    },
+    {
+        "english": "tap",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "轻敲"
+            }
+        ],
+        "phonetic": "/tæp/"
+    },
+    {
+        "english": "snugly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "舒适地"
+            }
+        ],
+        "phonetic": "/ˈsnʌɡli/"
+    },
+    {
+        "english": "reunion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "重聚"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "聚会"
+            }
+        ],
+        "phonetic": "/ˌriˈunjən/"
+    },
+    {
+        "english": "chambermaid",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "女佣"
+            }
+        ],
+        "phonetic": "/ˈʧeɪmbərˌmeɪd/"
+    },
+    {
+        "english": "snapshot",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "快照"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "简介"
+            }
+        ],
+        "phonetic": "/ˈsnæpˌʧɒt/"
+    },
+    {
+        "english": "stern",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "严厉的"
+            }
+        ],
+        "phonetic": "/stɜːrn/"
+    },
+    {
+        "english": "stripe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "条纹"
+            }
+        ],
+        "phonetic": "/straɪp/"
+    },
+    {
+        "english": "packet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小包"
+            }
+        ],
+        "phonetic": "/ˈpækɪt/"
+    },
+    {
+        "english": "fretful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "烦躁的"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人烦恼的"
+            }
+        ],
+        "phonetic": "/ˈfrɛtfʊl/"
+    },
+    {
+        "english": "sniff",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "嗅"
+            }
+        ],
+        "phonetic": "/snɪf/"
+    },
+    {
+        "english": "capitalism",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "资本主义"
+            }
+        ],
+        "phonetic": "/ˈkæpɪtəˌlɪzəm/"
+    },
+    {
+        "english": "striped",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有条纹的"
+            }
+        ],
+        "phonetic": "/straɪpt/"
+    },
+    {
+        "english": "virtually",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "实际上"
+            }
+        ],
+        "phonetic": "/ˈvɜːtʃuəli/"
+    },
+    {
+        "english": "endure",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "忍受"
+            }
+        ],
+        "phonetic": "/ɪnˈdʊər/"
+    },
+    {
+        "english": "refugee",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "难民"
+            }
+        ],
+        "phonetic": "/ˌrɛfjuˈdʒiː/"
+    },
+    {
+        "english": "puzzle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拼图"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使…陷入困惑"
+            }
+        ],
+        "phonetic": "/ˈpʌzl/"
+    },
+    {
+        "english": "fossil",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "化石"
+            }
+        ],
+        "phonetic": "/ˈfɒsɪl/"
+    },
+    {
+        "english": "overloaded",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "超载的"
+            }
+        ],
+        "phonetic": "/ˌoʊvərˈloʊdɪd/"
+    },
+    {
+        "english": "charm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "魅力"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "吸引…的兴趣"
+            }
+        ],
+        "phonetic": "/ʧɑːrm/"
+    },
+    {
+        "english": "fossilize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "石化"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "僵化"
+            }
+        ],
+        "phonetic": "/ˈfɒsəlaɪz/"
+    },
+    {
+        "english": "enduring",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "持久的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʊərɪŋ/"
+    },
+    {
+        "english": "lifeboat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "救生艇"
+            }
+        ],
+        "phonetic": "/ˈlaɪfboʊt/"
+    },
+    {
+        "english": "no more … than",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "不比…更"
+            }
+        ],
+        "phonetic": "/nəʊ mɔːr … ðæn/"
+    },
+    {
+        "english": "quotation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "引语"
+            }
+        ],
+        "phonetic": "/kwəʊˈteɪʃən/"
+    },
+    {
+        "english": "volcanic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "火山的"
+            }
+        ],
+        "phonetic": "/vɒlˈkænɪk/"
+    },
+    {
+        "english": "singular",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "单数的"
+            }
+        ],
+        "phonetic": "/ˈsɪŋɡjʊlər/"
+    },
+    {
+        "english": "get around",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "传开"
+            }
+        ],
+        "phonetic": "/ɡɛt əˈraʊnd/"
+    },
+    {
+        "english": "sake",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "目的"
+            }
+        ],
+        "phonetic": "/seɪk/"
+    },
+    {
+        "english": "mudflow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "泥流"
+            }
+        ],
+        "phonetic": "/ˈmʌdˌfloʊ/"
+    },
+    {
+        "english": "obey",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "服从"
+            }
+        ],
+        "phonetic": "/əˈbeɪ/"
+    },
+    {
+        "english": "double-decker",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "双层巴士"
+            }
+        ],
+        "phonetic": "/ˈdʌbl ˈdɛkər/"
+    },
+    {
+        "english": "for instance",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "例如"
+            }
+        ],
+        "phonetic": "/fɔːr ˈɪnstəns/"
+    },
+    {
+        "english": "antidote",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "解毒剂"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "方法"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "手段"
+            }
+        ],
+        "phonetic": "/ˈæntɪdəʊt/"
+    },
+    {
+        "english": "disobey",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "不服从"
+            }
+        ],
+        "phonetic": "/ˌdɪsəˈbeɪ/"
+    },
+    {
+        "english": "windmill",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "风车"
+            }
+        ],
+        "phonetic": "/ˈwɪndmɪl/"
+    },
+    {
+        "english": "get the hang of sth.",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "掌握某事"
+            }
+        ],
+        "phonetic": "/ɡɛt ðə hæŋ ʌv ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "photography",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "摄影"
+            }
+        ],
+        "phonetic": "/fəˈtɒɡrəfi/"
+    },
+    {
+        "english": "sidewalk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "人行道"
+            }
+        ],
+        "phonetic": "/ˈsaɪdˌwɔːk/"
+    },
+    {
+        "english": "pull up",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "停车"
+            }
+        ],
+        "phonetic": "/pʊl ʌp/"
+    },
+    {
+        "english": "Victorian",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "维多利亚时代的"
+            }
+        ],
+        "phonetic": "/vɪkˈtɔːrɪən/"
+    },
+    {
+        "english": "spiky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "尖的"
+            }
+        ],
+        "phonetic": "/ˈspaɪki/"
+    },
+    {
+        "english": "grasp",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "抓住"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "领悟力"
+            }
+        ],
+        "phonetic": "/ɡræsp/"
+    },
+    {
+        "english": "as far as sb. is concerned",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "就某人而言"
+            }
+        ],
+        "phonetic": "/æz fɑːr æz ˈsʌmbədi ɪz kənˈsɜːnd/"
+    },
+    {
+        "english": "chestnut",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "栗子"
+            }
+        ],
+        "phonetic": "/ˈʧɛstnʌt/"
+    },
+    {
+        "english": "queue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "排队"
+            }
+        ],
+        "phonetic": "/kjuː/"
+    },
+    {
+        "english": "shell",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "贝壳"
+            }
+        ],
+        "phonetic": "/ʃɛl/"
+    },
+    {
+        "english": "wash out",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "洗掉"
+            }
+        ],
+        "phonetic": "/wɒʃ aʊt/"
+    },
+    {
+        "english": "critic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "批评家"
+            }
+        ],
+        "phonetic": "/ˈkrɪtɪk/"
+    },
+    {
+        "english": "birch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "桦树"
+            }
+        ],
+        "phonetic": "/bɜːrtʃ/"
+    },
+    {
+        "english": "wherever",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "无论哪里"
+            }
+        ],
+        "phonetic": "/wɛˈrɛvər/"
+    },
+    {
+        "english": "orderly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有秩序的"
+            }
+        ],
+        "phonetic": "/ˈɔːdərli/"
+    },
+    {
+        "english": "in the end",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "最终"
+            }
+        ],
+        "phonetic": "/ɪn ðiː ɛnd/"
+    },
+    {
+        "english": "sketch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "素描"
+            }
+        ],
+        "phonetic": "/skɛtʃ/"
+    },
+    {
+        "english": "sway",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "摇摆"
+            }
+        ],
+        "phonetic": "/sweɪ/"
+    },
+    {
+        "english": "Denmark",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "丹麦"
+            }
+        ],
+        "phonetic": "/ˈdɛnˌmɑːrk/"
+    },
+    {
+        "english": "jot",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "草草记下"
+            }
+        ],
+        "phonetic": "/dʒɒt/"
+    },
+    {
+        "english": "echo",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "回声"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "附和"
+            }
+        ],
+        "phonetic": "/ˈɛkoʊ/"
+    },
+    {
+        "english": "stumble upon/on/across",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "偶然发现"
+            }
+        ],
+        "phonetic": "/ˈstʌmbl əˈpɒn/ /əˈkrɒs/"
+    },
+    {
+        "english": "aboard",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "在船（或火车、飞机）上"
+            }
+        ],
+        "phonetic": "/əˈbɔːrd/"
+    },
+    {
+        "english": "The Netherlands",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "荷兰"
+            }
+        ],
+        "phonetic": "/ðə ˈnɛðərləndz/"
+    },
+    {
+        "english": "upside down",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "颠倒地"
+            }
+        ],
+        "phonetic": "/ˈʌpˌsaɪd daʊn/"
+    },
+    {
+        "english": "New Zealand",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新西兰"
+            }
+        ],
+        "phonetic": "/nuː ˈziːlənd/"
+    },
+    {
+        "english": "thoughtful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "体贴的"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "经过思考的"
+            }
+        ],
+        "phonetic": "/ˈθɔːtfʊl/"
+    },
+    {
+        "english": "tuck away",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "收藏，把…存放至安全处"
+            }
+        ],
+        "phonetic": "/tʌk əˈweɪ/"
+    },
+    {
+        "english": "win out",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "最终获胜"
+            }
+        ],
+        "phonetic": "/wɪn aʊt/"
+    },
+    {
+        "english": "impulse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冲动"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "欲望"
+            }
+        ],
+        "phonetic": "/ˈɪmpʌls/"
+    },
+    {
+        "english": "capability",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "能力"
+            }
+        ],
+        "phonetic": "/ˌkeɪpəˈbɪləti/"
+    },
+    {
+        "english": "bring up",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "提出"
+            }
+        ],
+        "phonetic": "/brɪŋ ʌp/"
+    },
+    {
+        "english": "layer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "层"
+            }
+        ],
+        "phonetic": "/ˈleɪər/"
+    },
+    {
+        "english": "bounce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "弹跳"
+            }
+        ],
+        "phonetic": "/baʊns/"
+    },
+    {
+        "english": "humor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "幽默"
+            }
+        ],
+        "phonetic": "/ˈhjuːmər/"
+    },
+    {
+        "english": "Swiss",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "瑞士的"
+            }
+        ],
+        "phonetic": "/swɪs/"
+    },
+    {
+        "english": "Spanish",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "西班牙的"
+            }
+        ],
+        "phonetic": "/ˈspænɪʃ/"
+    },
+    {
+        "english": "excite",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使激动"
+            }
+        ],
+        "phonetic": "/ɪkˈsaɪt/"
+    },
+    {
+        "english": "childlike",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "孩子般的"
+            }
+        ],
+        "phonetic": "/ˈʧaɪldˌlaɪk/"
+    },
+    {
+        "english": "ignorant",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无知的"
+            }
+        ],
+        "phonetic": "/ˈɪɡnərənt/"
+    },
+    {
+        "english": "tuck",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "塞进"
+            }
+        ],
+        "phonetic": "/tʌk/"
+    },
+    {
+        "english": "casual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "随意的"
+            }
+        ],
+        "phonetic": "/ˈkæʒuəl/"
+    },
+    {
+        "english": "serendipity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "机缘巧合"
+            }
+        ],
+        "phonetic": "/ˌsɛrənˈdɪpɪti/"
+    },
+    {
+        "english": "devour",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "吞食"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "阅读"
+            }
+        ],
+        "phonetic": "/dɪˈvaʊər/"
+    },
+    {
+        "english": "throes",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "痛苦的挣扎"
+            }
+        ],
+        "phonetic": "/θrəʊz/"
+    },
+    {
+        "english": "transition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "过渡"
+            }
+        ],
+        "phonetic": "/trænˈzɪʃən/"
+    },
+    {
+        "english": "cathedral",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大教堂"
+            }
+        ],
+        "phonetic": "/kəˈθiːdrəl/"
+    },
+    {
+        "english": "babushka",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "俄罗斯大妈"
+            }
+        ],
+        "phonetic": "/bəˈbʊʃkə/"
+    },
+    {
+        "english": "toothbrush",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牙刷"
+            }
+        ],
+        "phonetic": "/ˈtuːθbrʌʃ/"
+    },
+    {
+        "english": "maximize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "最大化"
+            }
+        ],
+        "phonetic": "/ˈmæksɪmaɪz/"
+    },
+    {
+        "english": "if not",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "如果不是"
+            }
+        ],
+        "phonetic": "/ɪf nɒt/"
+    },
+    {
+        "english": "closely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "密切地"
+            }
+        ],
+        "phonetic": "/ˈkləʊsli/"
+    },
+    {
+        "english": "in real time",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "实时"
+            }
+        ],
+        "phonetic": "/ɪn rɪəl taɪm/"
+    },
+    {
+        "english": "unfiltered",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "未经滤过的"
+            }
+        ],
+        "phonetic": "/ʌnˈfɪltərd/"
+    },
+    {
+        "english": "touch up",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "润色"
+            }
+        ],
+        "phonetic": "/tʌʧ ʌp/"
+    },
+    {
+        "english": "mustache",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "胡子"
+            }
+        ],
+        "phonetic": "/ˈmʌstæʃ/"
+    },
+    {
+        "english": "get off the ground",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "取得进展"
+            }
+        ],
+        "phonetic": "/ɡɛt ɒf ðə ɡraʊnd/"
+    },
+    {
+        "english": "musing",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "沉思"
+            }
+        ],
+        "phonetic": "/ˈmjuːzɪŋ/"
+    },
+    {
+        "english": "bring back",
+        "pos": [
+            {
+                "abbreviation": "phrasal v.",
+                "meaning": "带回"
+            }
+        ],
+        "phonetic": "/brɪŋ bæk/"
+    },
+    {
+        "english": "cherish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "珍惜"
+            }
+        ],
+        "phonetic": "/ˈʧɛrɪʃ/"
+    },
+    {
+        "english": "follow in sb’s footsteps",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "跟随某人的脚步"
+            }
+        ],
+        "phonetic": "/ˈfɒləʊ ɪn ˈsʌmbədiz ˈfʊtˌstɛps/"
+    },
+    {
+        "english": "Vietnam",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "越南"
+            }
+        ],
+        "phonetic": "/ˌviːɛtˈnæm/"
+    },
+    {
+        "english": "whisperer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "喃喃低语者"
+            }
+        ],
+        "phonetic": "/ˈwɪspərə/"
+    },
+    {
+        "english": "Bulgaria",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "保加利亚"
+            }
+        ],
+        "phonetic": "/bʌlˈɡɛə̯rɪə/"
+    },
+    {
+        "english": "Russia",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "俄罗斯"
+            }
+        ],
+        "phonetic": "/ˈrʌʃə/"
+    },
+    {
+        "english": "scramble",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "争抢"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "攀登"
+            }
+        ],
+        "phonetic": "/ˈskræmbəl/"
+    },
+    {
+        "english": "goat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "山羊"
+            }
+        ],
+        "phonetic": "/ɡəʊt/"
+    }
+]
+
+

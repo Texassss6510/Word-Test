@@ -1,0 +1,952 @@
+[
+    {
+        "english": "entrepreneur",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "企业家"
+            }
+        ],
+        "phonetic": "/ˌɒntrəprəˈnɜːr/"
+    },
+    {
+        "english": "glimmer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "微光"
+            }
+        ],
+        "phonetic": "/ˈɡlɪmər/"
+    },
+    {
+        "english": "millennial",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "千禧一代"
+            }
+        ],
+        "phonetic": "/mɪˈlɛniəl/"
+    },
+    {
+        "english": "progressive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "进步的"
+            }
+        ],
+        "phonetic": "/prəˈɡrɛsɪv/"
+    },
+    {
+        "english": "mistaken",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "错误的"
+            }
+        ],
+        "phonetic": "/mɪˈsteɪkən/"
+    },
+    {
+        "english": "accomplish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "完成"
+            }
+        ],
+        "phonetic": "/əˈkʌmplɪʃ/"
+    },
+    {
+        "english": "reminisce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "回忆"
+            }
+        ],
+        "phonetic": "/ˌrɛmɪˈnɪs/"
+    },
+    {
+        "english": "deem",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "认为"
+            }
+        ],
+        "phonetic": "/diːm/"
+    },
+    {
+        "english": "mistakenly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "错误地"
+            }
+        ],
+        "phonetic": "/mɪˈsteɪkənli/"
+    },
+    {
+        "english": "feat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "功绩"
+            }
+        ],
+        "phonetic": "/fiːt/"
+    },
+    {
+        "english": "regretfully",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "遗憾地"
+            }
+        ],
+        "phonetic": "/rɪˈɡrɛtfəli/"
+    },
+    {
+        "english": "wormhole",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "虫洞"
+            }
+        ],
+        "phonetic": "/ˈwɜːrmhoʊl/"
+    },
+    {
+        "english": "sprawl",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "扩散，延伸，摊开"
+            }
+        ],
+        "phonetic": "/sprɔːl/"
+    },
+    {
+        "english": "transform",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "转变"
+            }
+        ],
+        "phonetic": "/trænsˈfɔːrm/"
+    },
+    {
+        "english": "remark",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "评论"
+            }
+        ],
+        "phonetic": "/rɪˈmɑːrk/"
+    },
+    {
+        "english": "self-centered",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "自我中心的"
+            }
+        ],
+        "phonetic": "/ˈsɛlfˈsɛntərd/"
+    },
+    {
+        "english": "entitled",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有资格的，认为应得的"
+            }
+        ],
+        "phonetic": "/ɪnˈtaɪtəl/"
+    },
+    {
+        "english": "momentum",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动力，势头"
+            }
+        ],
+        "phonetic": "/moʊˈmɛntəm/"
+    },
+    {
+        "english": "phenomenon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "现象, 奇才/事"
+            }
+        ],
+        "phonetic": "/fəˈnɒmɪnən/"
+    },
+    {
+        "english": "wander",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "漫游"
+            }
+        ],
+        "phonetic": "/ˈwɒndər/"
+    },
+    {
+        "english": "consecutive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "连续的"
+            }
+        ],
+        "phonetic": "/kənˈsɛkjʊtɪv/"
+    },
+    {
+        "english": "outpouring",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "涌现，(感情的)倾吐"
+            }
+        ],
+        "phonetic": "/ˈaʊtˌpɔːrɪŋ/"
+    },
+    {
+        "english": "consumption",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "消费，消耗量"
+            }
+        ],
+        "phonetic": "/kənˈsʌmpʃən/"
+    },
+    {
+        "english": "stall",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "摊位"
+            }
+        ],
+        "phonetic": "/stɔːl/"
+    },
+    {
+        "english": "hub",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "中心"
+            }
+        ],
+        "phonetic": "/hʌb/"
+    },
+    {
+        "english": "forecast",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "预测"
+            }
+        ],
+        "phonetic": "/ˈfɔːrkæst/"
+    },
+    {
+        "english": "spontaneous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "自发的"
+            }
+        ],
+        "phonetic": "/spɒnˈteɪnɪəs/"
+    },
+    {
+        "english": "spectrum",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "范围，幅度"
+            }
+        ],
+        "phonetic": "/ˈspɛktrəm/"
+    },
+    {
+        "english": "overnight",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "一夜之间"
+            }
+        ],
+        "phonetic": "/ˌoʊvərˈnaɪt/"
+    },
+    {
+        "english": "amazement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "惊讶"
+            }
+        ],
+        "phonetic": "/əˈmeɪzmənt/"
+    },
+    {
+        "english": "aspiration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "渴望，志向，抱负"
+            }
+        ],
+        "phonetic": "/ˌæspəˈreɪʃən/"
+    },
+    {
+        "english": "cord",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "绳子，电线"
+            }
+        ],
+        "phonetic": "/kɔːrd/"
+    },
+    {
+        "english": "assemble",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "组装"
+            }
+        ],
+        "phonetic": "/əˈsɛmbəl/"
+    },
+    {
+        "english": "impressively",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "令人印象深刻地"
+            }
+        ],
+        "phonetic": "/ɪmˈprɛsɪvli/"
+    },
+    {
+        "english": "hardship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "困难"
+            }
+        ],
+        "phonetic": "/ˈhɑːrdʃɪp/"
+    },
+    {
+        "english": "furthermore",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "此外"
+            }
+        ],
+        "phonetic": "/ˈfɜːðərmɔːr/"
+    },
+    {
+        "english": "amid",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "在…之中"
+            }
+        ],
+        "phonetic": "/əˈmɪd/"
+    },
+    {
+        "english": "burgeon",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "迅速增长"
+            }
+        ],
+        "phonetic": "/ˈbɜːrdʒən/"
+    },
+    {
+        "english": "downturn",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经济衰退"
+            }
+        ],
+        "phonetic": "/ˈdaʊntɜːrn/"
+    },
+    {
+        "english": "e-commerce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "电子商务"
+            }
+        ],
+        "phonetic": "/ˈiːˌkɒmɜːrs/"
+    },
+    {
+        "english": "per annum",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "每年"
+            }
+        ],
+        "phonetic": "/pər ˈænəm/"
+    },
+    {
+        "english": "trendy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "时髦的"
+            }
+        ],
+        "phonetic": "/ˈtrɛndi/"
+    },
+    {
+        "english": "glitter",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "闪光"
+            }
+        ],
+        "phonetic": "/ˈɡlɪtər/"
+    },
+    {
+        "english": "breakthrough",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "突破"
+            }
+        ],
+        "phonetic": "/ˈbreɪkˌθruː/"
+    },
+    {
+        "english": "sole",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "唯一的"
+            }
+        ],
+        "phonetic": "/soʊl/"
+    },
+    {
+        "english": "craze",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "狂热"
+            }
+        ],
+        "phonetic": "/kreɪz/"
+    },
+    {
+        "english": "glittering",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "闪闪发光的"
+            }
+        ],
+        "phonetic": "/ˈɡlɪtərɪŋ/"
+    },
+    {
+        "english": "aerospace",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "航空航天"
+            }
+        ],
+        "phonetic": "/ˈɛəroʊˌspeɪs/"
+    },
+    {
+        "english": "capacity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "能力，容量"
+            }
+        ],
+        "phonetic": "/kəˈpæsɪti/"
+    },
+    {
+        "english": "other than",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "除了"
+            }
+        ],
+        "phonetic": "/ˈʌðər ðæn/"
+    },
+    {
+        "english": "holdout",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抵抗"
+            }
+        ],
+        "phonetic": "/ˈhoʊldaʊt/"
+    },
+    {
+        "english": "profound",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "深刻的，巨大的"
+            }
+        ],
+        "phonetic": "/prəˈfaʊnd/"
+    },
+    {
+        "english": "youngster",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "年轻人"
+            }
+        ],
+        "phonetic": "/ˈjʌŋstər/"
+    },
+    {
+        "english": "in/by contrast (to/with)",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "与…相比"
+            }
+        ],
+        "phonetic": "/ɪn/baɪ ˈkəntræst (tuː/wɪð)/"
+    },
+    {
+        "english": "clone",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "克隆，复制"
+            }
+        ],
+        "phonetic": "/kloʊn/"
+    },
+    {
+        "english": "evolve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "进化"
+            }
+        ],
+        "phonetic": "/ɪˈvɒlv/"
+    },
+    {
+        "english": "innovation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "创新"
+            }
+        ],
+        "phonetic": "/ˌɪnəˈveɪʃən/"
+    },
+    {
+        "english": "envision",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "想象"
+            }
+        ],
+        "phonetic": "/ɪnˈvɪʒən/"
+    },
+    {
+        "english": "sophisticated",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "见多识广/老练/精密/复杂的"
+            }
+        ],
+        "phonetic": "/səˈfɪstɪkeɪtɪd/"
+    },
+    {
+        "english": "as compared to/with",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "与…相比"
+            }
+        ],
+        "phonetic": "/æz kəmˈpɛərd tʊ/wɪð/"
+    },
+    {
+        "english": "coexist",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "共存"
+            }
+        ],
+        "phonetic": "/ˌkoʊɪɡˈzɪst/"
+    },
+    {
+        "english": "consensus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "共识"
+            }
+        ],
+        "phonetic": "/kənˈsɛnsəs/"
+    },
+    {
+        "english": "lifestyle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生活方式"
+            }
+        ],
+        "phonetic": "/ˈlaɪfstaɪl/"
+    },
+    {
+        "english": "speak to",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "与…产生共鸣"
+            }
+        ],
+        "phonetic": "/spiːk tə/"
+    },
+    {
+        "english": "increasingly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "越来越"
+            }
+        ],
+        "phonetic": "/ɪnˈkriːsɪŋli/"
+    },
+    {
+        "english": "head to head",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "正面交锋"
+            }
+        ],
+        "phonetic": "/hɛd tə hɛd/"
+    },
+    {
+        "english": "individualistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "个人主义的，独特的"
+            }
+        ],
+        "phonetic": "/ˌɪndɪˌvɪdʒʊˈælɪstɪk/"
+    },
+    {
+        "english": "Melbourne",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "墨尔本"
+            }
+        ],
+        "phonetic": "/ˈmɛlbərn/"
+    },
+    {
+        "english": "poised",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "蓄势待发的"
+            }
+        ],
+        "phonetic": "/pɔɪzd/"
+    },
+    {
+        "english": "ranking",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "排名"
+            }
+        ],
+        "phonetic": "/ˈræŋkɪŋ/"
+    },
+    {
+        "english": "entrepreneurial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "创业的"
+            }
+        ],
+        "phonetic": "/ˌɒntrəprəˈnɜːrɪəl/"
+    },
+    {
+        "english": "artificial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "人造的"
+            }
+        ],
+        "phonetic": "/ˌɑːrtɪˈfɪʃəl/"
+    },
+    {
+        "english": "workforce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "劳动力"
+            }
+        ],
+        "phonetic": "/ˈwɜːrkfɔːrs/"
+    },
+    {
+        "english": "confident",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "自信的"
+            }
+        ],
+        "phonetic": "/ˈkɒnfɪdənt/"
+    },
+    {
+        "english": "artificial intelligence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "人工智能"
+            }
+        ],
+        "phonetic": "/ˌɑːrtɪˈfɪʃəl ɪnˈtɛlɪdʒəns/"
+    },
+    {
+        "english": "considerable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "相当大的"
+            }
+        ],
+        "phonetic": "/kənˈsɪdərəbl/"
+    },
+    {
+        "english": "drone",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "无人机"
+            }
+        ],
+        "phonetic": "/droʊn/"
+    },
+    {
+        "english": "dogged",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "顽强的"
+            }
+        ],
+        "phonetic": "/ˈdɔːɡɪd/"
+    },
+    {
+        "english": "daunting",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人生畏的"
+            }
+        ],
+        "phonetic": "/ˈdɔːntɪŋ/"
+    },
+    {
+        "english": "miracle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "奇迹"
+            }
+        ],
+        "phonetic": "/ˈmɪrəkəl/"
+    },
+    {
+        "english": "packed with",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "塞满"
+            }
+        ],
+        "phonetic": "/pækt wɪð/"
+    },
+    {
+        "english": "navigate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "导航，解决"
+            }
+        ],
+        "phonetic": "/ˈnævɪɡeɪt/"
+    },
+    {
+        "english": "impetus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "推动力"
+            }
+        ],
+        "phonetic": "/ˈɪmpətəs/"
+    },
+    {
+        "english": "for now",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "目前"
+            }
+        ],
+        "phonetic": "/fɔːr naʊ/"
+    },
+    {
+        "english": "attribute",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "把…归因于，认为…具有…特征"
+            }
+        ],
+        "phonetic": "/əˈtrɪbjuːt/"
+    },
+    {
+        "english": "unrecognizable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无法识别的"
+            }
+        ],
+        "phonetic": "/ʌnrɪˈkɒɡnɪzəbl/"
+    },
+    {
+        "english": "reign supreme",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "称霸"
+            }
+        ],
+        "phonetic": "/reɪn səˈpriːm/"
+    },
+    {
+        "english": "savvy",
+        "pos": [
+            {
+                "abbreviation": "adj./n.",
+                "meaning": "有见识的，见识"
+            }
+        ],
+        "phonetic": "/ˈsævi/"
+    },
+    {
+        "english": "in the long/short/medium term",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "从长远/短期/中期来看"
+            }
+        ],
+        "phonetic": "/ɪn ðə lɔːŋ/ʃɔːt/ˈmiːdɪəm tɜːrm/"
+    },
+    {
+        "english": "it’s no wonder that",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "难怪"
+            }
+        ],
+        "phonetic": "/ɪts noʊ ˈwʌndər ðæt/"
+    },
+    {
+        "english": "sector",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "行业"
+            }
+        ],
+        "phonetic": "/ˈsɛktər/"
+    },
+    {
+        "english": "Silicon Valley",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "硅谷"
+            }
+        ],
+        "phonetic": "/ˈsɪlɪkən ˈvæli/"
+    },
+    {
+        "english": "GDP (gross domestic product)",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "国内生产总值"
+            }
+        ],
+        "phonetic": "/ˌdʒiːdiːˈpiː/"
+    },
+    {
+        "english": "reign",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "统治，支配，盛行"
+            }
+        ],
+        "phonetic": "/reɪn/"
+    },
+    {
+        "english": "supreme",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "至高无上的"
+            }
+        ],
+        "phonetic": "/suːˈpriːm/"
+    }
+]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Word Test Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="confettiCanvas"></canvas>
+
+    <div class="container">
+        <header class="app-header">
+            <h1>Word Test Pro</h1>
+        </header>
+
+        <main id="appMainContent" class="app-main">
+            <div id="wordSelectionView" class="view active-view">
+                <div class="view-content">
+                    <i class="fas fa-book-reader welcome-icon"></i>
+                    <p class="instruction-text">请选择您想要复习的单词书</p>
+                    <div class="selection-group">
+                        <select id="wordListSelector" class="word-list-selector">
+                            <option value="">-- 请选择 --</option>
+                            </select>
+                    </div>
+                    <button id="loadWordsButton" class="button primary-button" disabled>
+                        <i class="fas fa-arrow-right"></i> 开始学习
+                    </button>
+                </div>
+            </div>
+
+            <div id="readyToStartView" class="view">
+                <div class="view-content">
+                    <p id="fileLoadedInfo" class="info-text"></p>
+                    <div class="mode-selection-container">
+                        <button class="button primary-button" id="startSpellingButton">
+                            <i class="fas fa-keyboard"></i> 默写模式
+                        </button>
+                        <button class="button primary-button" id="startDictationButton">
+                            <i class="fas fa-headphones"></i> 听写模式
+                        </button>
+                    </div>
+                    <button id="backToSelectionButton" class="button secondary-button back-button">
+                        <i class="fas fa-arrow-left"></i> 返回重选
+                    </button>
+                </div>
+            </div>
+            
+            <div id="reviewView" class="view">
+                <div class="review-card">
+                    <div id="currentChineseHint" class="hint-text large-hint"></div>
+                    <div id="phonetic" class="phonetic-display"></div>
+
+                    <div class="input-group">
+                        <input type="text" id="userAnswer" placeholder="输入英文单词" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                        <button id="playAudioButton" class="button icon-button" title="播放读音">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                    <p class="shortcut-info">使用 <strong>Shift + 空格</strong> 切换音标显示。</p>
+                </div>
+                <div id="result" class="message-feedback"></div>
+            </div>
+
+            <div id="reviewCompleteView" class="view">
+                <div class="view-content">
+                    <h2 id="completionTitle">🎉 复习完成！</h2>
+                    <p id="completionMessage" class="info-text"></p>
+                    <div id="incorrectWordsContainer" class="incorrect-words-list">
+                        <h3>错误单词回顾</h3>
+                        <table id="incorrectWordsTable">
+                            <thead>
+                                <tr>
+                                    <th>英文单词</th>
+                                    <th>词性及释义</th>
+                                    <th>音标</th>
+                                    <th>你的输入</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <button id="exportButton" class="button secondary-button">
+                            <i class="fas fa-download"></i> 导出错误单词
+                        </button>
+                    </div>
+                    <button id="restartButton" class="button primary-button">
+                        <i class="fas fa-redo"></i> 重新复习本单元
+                    </button>
+                    <button id="goBackButton" class="button secondary-button back-button">
+                        <i class="fas fa-list-ul"></i> 返回单词书列表
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <div class="progress-summary">
+                <span>总单词: <span id="totalWordsCount">0</span></span>
+                <span>已复习: <span id="reviewedCount">0</span></span>
+                <span>错误: <span id="incorrectCount">0</span></span>
+            </div>
+        </footer>
+    </div>
+
+    <audio id="correctSound" src="./sounds/correct.mp3" preload="auto"></audio>
+    <audio id="incorrectSound" src="./sounds/incorrect.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

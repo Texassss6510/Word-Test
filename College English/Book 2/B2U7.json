@@ -1,0 +1,912 @@
+[
+    {
+        "english": "cabin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小屋"
+            }
+        ],
+        "phonetic": "/ˈkæbɪn/"
+    },
+    {
+        "english": "solitude",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "孤独"
+            }
+        ],
+        "phonetic": "/ˈsɒlɪtjuːd/"
+    },
+    {
+        "english": "meteor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "流星"
+            }
+        ],
+        "phonetic": "/ˈmiːtiɔːr/"
+    },
+    {
+        "english": "invaluable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无价的"
+            }
+        ],
+        "phonetic": "/ɪnˈvæljuəbl/"
+    },
+    {
+        "english": "spawn",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "产卵"
+            }
+        ],
+        "phonetic": "/spɔːn/"
+    },
+    {
+        "english": "cod",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鳕鱼"
+            }
+        ],
+        "phonetic": "/kɒd/"
+    },
+    {
+        "english": "smoky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "烟熏的"
+            }
+        ],
+        "phonetic": "/ˈsməʊki/"
+    },
+    {
+        "english": "trail",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小径"
+            }
+        ],
+        "phonetic": "/treɪl/"
+    },
+    {
+        "english": "soulful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "深情的"
+            }
+        ],
+        "phonetic": "/ˈsəʊlfʊl/"
+    },
+    {
+        "english": "backfire",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "适得其反"
+            }
+        ],
+        "phonetic": "/ˈbækfaɪə/"
+    },
+    {
+        "english": "sugary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "含糖的"
+            }
+        ],
+        "phonetic": "/ˈʃʊɡəri/"
+    },
+    {
+        "english": "starry",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "布满星星的"
+            }
+        ],
+        "phonetic": "/ˈstɑːri/"
+    },
+    {
+        "english": "coastal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "海岸的"
+            }
+        ],
+        "phonetic": "/ˈkəʊstəl/"
+    },
+    {
+        "english": "thrive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "繁荣"
+            }
+        ],
+        "phonetic": "/θraɪv/"
+    },
+    {
+        "english": "winter solstice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冬至"
+            }
+        ],
+        "phonetic": "/ˈwɪntər ˈsɒlstɪs/"
+    },
+    {
+        "english": "blanket",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "毯子"
+            }
+        ],
+        "phonetic": "/ˈblæŋkɪt/"
+    },
+    {
+        "english": "irreplaceable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不可替代的"
+            }
+        ],
+        "phonetic": "/ˌɪrɪˈpleɪsəbl/"
+    },
+    {
+        "english": "diminish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "减少"
+            }
+        ],
+        "phonetic": "/dɪˈmɪnɪʃ/"
+    },
+    {
+        "english": "abundance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "丰富"
+            }
+        ],
+        "phonetic": "/əˈbʌndəns/"
+    },
+    {
+        "english": "rhythm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "节奏"
+            }
+        ],
+        "phonetic": "/ˈrɪðəm/"
+    },
+    {
+        "english": "monument",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "纪念碑"
+            }
+        ],
+        "phonetic": "/ˈmɒnjʊmənt/"
+    },
+    {
+        "english": "blessing",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "祝福"
+            }
+        ],
+        "phonetic": "/ˈblɛsɪŋ/"
+    },
+    {
+        "english": "diner",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "餐馆"
+            }
+        ],
+        "phonetic": "/ˈdaɪnə/"
+    },
+    {
+        "english": "night fall",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "夜幕降临"
+            }
+        ],
+        "phonetic": "/naɪt fɔːl/"
+    },
+    {
+        "english": "in the making",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "在形成中"
+            }
+        ],
+        "phonetic": "/ɪn ðə ˈmeɪkɪŋ/"
+    },
+    {
+        "english": "fattiness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肥腻"
+            }
+        ],
+        "phonetic": "/ˈfætɪnəs/"
+    },
+    {
+        "english": "night shift",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "夜班"
+            }
+        ],
+        "phonetic": "/naɪt ʃɪft/"
+    },
+    {
+        "english": "simply put",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "简单来说"
+            }
+        ],
+        "phonetic": "/ˈsɪmpli pʊt/"
+    },
+    {
+        "english": "joyride",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "驾车兜风"
+            }
+        ],
+        "phonetic": "/ˈdʒɔɪraɪd/"
+    },
+    {
+        "english": "tap into",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "利用"
+            }
+        ],
+        "phonetic": "/tæp ˈɪntuː/"
+    },
+    {
+        "english": "to the point",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "切中要点"
+            }
+        ],
+        "phonetic": "/tuː ðə pɔɪnt/"
+    },
+    {
+        "english": "in large part",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "在很大程度上"
+            }
+        ],
+        "phonetic": "/ɪn lɑːdʒ pɑːt/"
+    },
+    {
+        "english": "lend oneself to sth.",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "适用于某事"
+            }
+        ],
+        "phonetic": "/lɛnd wʌnˈsɛlf tuː ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "cut corners",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "走捷径"
+            }
+        ],
+        "phonetic": "/kʌt ˈkɔːnəz/"
+    },
+    {
+        "english": "phase out",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "逐步淘汰"
+            }
+        ],
+        "phonetic": "/feɪz aʊt/"
+    },
+    {
+        "english": "in my book",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "依我看"
+            }
+        ],
+        "phonetic": "/ɪn maɪ bʊk/"
+    },
+    {
+        "english": "probable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "很可能的"
+            }
+        ],
+        "phonetic": "/ˈprɒbəbl/"
+    },
+    {
+        "english": "in short supply",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "供应不足"
+            }
+        ],
+        "phonetic": "/ɪn ʃɔːt səˈplaɪ/"
+    },
+    {
+        "english": "moist",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "潮湿的"
+            }
+        ],
+        "phonetic": "/mɔɪst/"
+    },
+    {
+        "english": "reduction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "减少"
+            }
+        ],
+        "phonetic": "/rɪˈdʌkʃən/"
+    },
+    {
+        "english": "overcook",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "煮过头"
+            }
+        ],
+        "phonetic": "/əʊvəˈkʊk/"
+    },
+    {
+        "english": "hormone",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "激素"
+            }
+        ],
+        "phonetic": "/ˈhɔːməʊn/"
+    },
+    {
+        "english": "the Milky Way",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "银河"
+            }
+        ],
+        "phonetic": "/ðə ˈmɪlki weɪ/"
+    },
+    {
+        "english": "roast",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "烘烤"
+            }
+        ],
+        "phonetic": "/rəʊst/"
+    },
+    {
+        "english": "melatonin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "褪黑激素"
+            }
+        ],
+        "phonetic": "/ˌmɛləˈtəʊnɪn/"
+    },
+    {
+        "english": "the World Health Organization (WHO)",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "世界卫生组织"
+            }
+        ],
+        "phonetic": "/ðə wɜːrld hɛlθ ɔːɡənaɪˈzeɪʃən/"
+    },
+    {
+        "english": "disorder",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "失调"
+            }
+        ],
+        "phonetic": "/dɪsˈɔːdə/"
+    },
+    {
+        "english": "diabetes",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "糖尿病"
+            }
+        ],
+        "phonetic": "/ˌdaɪəˈbiːtiːz/"
+    },
+    {
+        "english": "NASA (National Aeronautics and Space Administration)",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "美国国家航空航天局"
+            }
+        ],
+        "phonetic": "/ˈnæsə/"
+    },
+    {
+        "english": "Salmon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鲑鱼"
+            }
+        ],
+        "phonetic": "/ˈsæmən/"
+    },
+    {
+        "english": "Norwegian",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "挪威的"
+            }
+        ],
+        "phonetic": "/nɔːˈwiːdʒən/"
+    },
+    {
+        "english": "obesity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肥胖症"
+            }
+        ],
+        "phonetic": "/əʊˈbiːsɪti/"
+    },
+    {
+        "english": "pal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "朋友"
+            }
+        ],
+        "phonetic": "/pæl/"
+    },
+    {
+        "english": "skitter",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "疾走"
+            }
+        ],
+        "phonetic": "/ˈskɪtə/"
+    },
+    {
+        "english": "migrate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "迁徙"
+            }
+        ],
+        "phonetic": "/maɪˈɡreɪt/"
+    },
+    {
+        "english": "Sea turtle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "海龟"
+            }
+        ],
+        "phonetic": "/siː ˈtɜːtl/"
+    },
+    {
+        "english": "highway",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "公路"
+            }
+        ],
+        "phonetic": "/ˈhaɪweɪ/"
+    },
+    {
+        "english": "surplus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "过剩"
+            }
+        ],
+        "phonetic": "/ˈsɜːpləs/"
+    },
+    {
+        "english": "GPS (Global Positioning System)",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "全球定位系统"
+            }
+        ],
+        "phonetic": "/ˈdʒiːpiːˈɛs/"
+    },
+    {
+        "english": "incorporate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "合并"
+            }
+        ],
+        "phonetic": "/ɪnˈkɔːpəreɪt/"
+    },
+    {
+        "english": "pest",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "害虫"
+            }
+        ],
+        "phonetic": "/pɛst/"
+    },
+    {
+        "english": "windup",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "结束"
+            }
+        ],
+        "phonetic": "/ˈwɪndaʊp/"
+    },
+    {
+        "english": "flesh",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肉"
+            }
+        ],
+        "phonetic": "/flɛʃ/"
+    },
+    {
+        "english": "bulldozer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "推土机"
+            }
+        ],
+        "phonetic": "/ˈbʊldəʊzə/"
+    },
+    {
+        "english": "spray",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "喷洒"
+            }
+        ],
+        "phonetic": "/spreɪ/"
+    },
+    {
+        "english": "sushi",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "寿司"
+            }
+        ],
+        "phonetic": "/ˈsuːʃi/"
+    },
+    {
+        "english": "avocado",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牛油果"
+            }
+        ],
+        "phonetic": "/ˌævəˈkɑːdəʊ/"
+    },
+    {
+        "english": "wreck",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "残骸"
+            }
+        ],
+        "phonetic": "/rɛk/"
+    },
+    {
+        "english": "habitat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "栖息地"
+            }
+        ],
+        "phonetic": "/ˈhæbɪtæt/"
+    },
+    {
+        "english": "flop",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "失败"
+            }
+        ],
+        "phonetic": "/flɒp/"
+    },
+    {
+        "english": "marketing",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "营销"
+            }
+        ],
+        "phonetic": "/ˈmɑːrkɪtɪŋ/"
+    },
+    {
+        "english": "magnetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "磁性的"
+            }
+        ],
+        "phonetic": "/mæɡˈnɛtɪk/"
+    },
+    {
+        "english": "antibiotic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抗生素"
+            }
+        ],
+        "phonetic": "/ˌæntɪbaɪˈɒtɪk/"
+    },
+    {
+        "english": "disrupt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "扰乱"
+            }
+        ],
+        "phonetic": "/dɪsˈrʌpt/"
+    },
+    {
+        "english": "alas",
+        "pos": [
+            {
+                "abbreviation": "interj.",
+                "meaning": "唉"
+            }
+        ],
+        "phonetic": "/əˈlæs/"
+    },
+    {
+        "english": "toxin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "毒素"
+            }
+        ],
+        "phonetic": "/ˈtɒksɪn/"
+    },
+    {
+        "english": "ecosystem",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生态系统"
+            }
+        ],
+        "phonetic": "/ˈiːkəʊsɪstəm/"
+    },
+    {
+        "english": "classification",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "分类"
+            }
+        ],
+        "phonetic": "/ˌklæsɪfɪˈkeɪʃən/"
+    },
+    {
+        "english": "overtake",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "超过"
+            }
+        ],
+        "phonetic": "/əʊvəˈteɪk/"
+    },
+    {
+        "english": "collapse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "倒塌"
+            }
+        ],
+        "phonetic": "/kəˈlæps/"
+    },
+    {
+        "english": "rainbow trout",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "虹鳟鱼"
+            }
+        ],
+        "phonetic": "/ˈreɪnboʊ ˈtraʊt/"
+    },
+    {
+        "english": "fragile",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "脆弱的"
+            }
+        ],
+        "phonetic": "/ˈfrædʒaɪl/"
+    },
+    {
+        "english": "illuminate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "照亮"
+            }
+        ],
+        "phonetic": "/ɪˈluːmɪneɪt/"
+    },
+    {
+        "english": "exquisitely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "精致地"
+            }
+        ],
+        "phonetic": "/ɪkˈskwɪzɪtli/"
+    },
+    {
+        "english": "belly",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肚子"
+            }
+        ],
+        "phonetic": "/ˈbɛli/"
+    },
+    {
+        "english": "intimate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "亲密的"
+            }
+        ],
+        "phonetic": "/ˈɪntɪmət/"
+    },
+    {
+        "english": "rocky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "岩石的"
+            }
+        ],
+        "phonetic": "/ˈrɒki/"
+    },
+    {
+        "english": "domesticated",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "驯养的"
+            }
+        ],
+        "phonetic": "/dəˈmɛstɪkeɪtɪd/"
+    },
+    {
+        "english": "flame",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "火焰"
+            }
+        ],
+        "phonetic": "/fleɪm/"
+    },
+    {
+        "english": "staple",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "主食"
+            }
+        ],
+        "phonetic": "/ˈsteɪpl/"
+    },
+    {
+        "english": "breed",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "繁殖"
+            }
+        ],
+        "phonetic": "/briːd/"
+    }
+]
