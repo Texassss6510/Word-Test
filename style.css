@@ -81,7 +81,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* 新增: 单词书选择器样式 */
+/* 单词书选择器样式 */
 .selection-group {
     margin-bottom: 25px;
 }
@@ -111,7 +111,6 @@ body {
 /* 按钮样式 */
 .button { margin: 5px; padding: 12px 25px; font-size: 1.1em; font-weight: 500; border: none; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
 .button i { margin-right: 8px; }
-.back-button { margin-top: 15px; }
 .primary-button { background-color: #007aff; color: white; box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2); }
 .primary-button:hover:not(:disabled) { background-color: #005ecb; transform: translateY(-2px) scale(1.02); box-shadow: 0 4px 15px rgba(0, 122, 255, 0.35); }
 .primary-button:disabled { background-color: #b0c4de; color: #6a737d; cursor: not-allowed; box-shadow: none; transform: none; }
@@ -171,3 +170,9 @@ body {
 .app-footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.1); }
 .progress-summary { display: flex; justify-content: space-around; font-size: 1em; color: #636366; }
 .progress-summary span { padding: 5px 10px; background-color: rgba(240, 242, 245, 0.7); border-radius: 6px; }
+
+/* 这段是导致不对齐的“罪魁祸首” */
+#unitSelector {
+  margin-left: 0px;
+  width: calc(100% - 30px);
+}

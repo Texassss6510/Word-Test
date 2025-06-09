@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 在这里定义您的在线单词书结构 ---
     const wordBook = [
         {
-            category: "大学英语",
+            category: "College English",
             lists: [
                 { name: "Book 1 - Unit 1", path: "College English/Book 1/B1U1.json" },
                 { name: "Book 2 - Unit 1", path: "College English/Book 2/B2U1.json" },
@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            category: "大学英语四级",
+            category: "CET 4",
             lists: [
                 { name: "核心词汇 - list1", path: "CET 4/list1.json" }
             ]
         },
         {
-            category: "星露谷物语",
+            category: "Stardew Valley",
             lists: [
                 { name: "词汇包 1", path: "Stardew Valley/星露谷单词1.json" },
                 { name: "词汇包 2", path: "Stardew Valley/星露谷单词2.json" },
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            category: "小马宝莉",
+            category: "My Little Pony",
             lists: [
                 { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" }
             ]
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedGroup.lists.forEach(list => {
             const option = document.createElement('option');
             option.value = list.path;
-            option.textContent = list.name;
+            option.textContent = list.name; 
             unitSelector.appendChild(option);
         });
     }
@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedIndex = categorySelector.value;
         if (selectedIndex) { // 如果选择的不是 "-- 请选择 --"
             populateUnitSelector(selectedIndex);
-            unitSelector.style.display = 'block';
+            unitSelector.style.display = 'inline-block';
             loadWordsButton.disabled = false; // 启用“开始学习”按钮
         } else {
             unitSelector.style.display = 'none'; // 隐藏单元菜单
