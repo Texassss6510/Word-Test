@@ -111,6 +111,7 @@ body {
 /* 按钮样式 */
 .button { margin: 5px; padding: 12px 25px; font-size: 1.1em; font-weight: 500; border: none; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
 .button i { margin-right: 8px; }
+.back-button { margin-top: 15px; }
 .primary-button { background-color: #007aff; color: white; box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2); }
 .primary-button:hover:not(:disabled) { background-color: #005ecb; transform: translateY(-2px) scale(1.02); box-shadow: 0 4px 15px rgba(0, 122, 255, 0.35); }
 .primary-button:disabled { background-color: #b0c4de; color: #6a737d; cursor: not-allowed; box-shadow: none; transform: none; }
