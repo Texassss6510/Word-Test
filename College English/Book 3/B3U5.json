@@ -1,0 +1,1008 @@
+[
+    {
+        "english": "epic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "史诗"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "史诗般的，宏大的；（非正式）极好的"
+            }
+        ],
+        "phonetic": "/ˈepɪk/"
+    },
+    {
+        "english": "jagged",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "锯齿状的，参差不齐的"
+            }
+        ],
+        "phonetic": "/ˈdʒæɡɪd/"
+    },
+    {
+        "english": "haze",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "薄雾，霾；（思想）模糊"
+            }
+        ],
+        "phonetic": "/heɪz/"
+    },
+    {
+        "english": "tinge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "淡淡的色调；些许气息"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "给…染色；使带有一丝（某种感觉或品质）"
+            }
+        ],
+        "phonetic": "/tɪndʒ/"
+    },
+    {
+        "english": "shade",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "阴凉处；（色彩的）色度，浓淡；细微差别；灯罩"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "为…遮光；（给画）画上阴影"
+            }
+        ],
+        "phonetic": "/ʃeɪd/"
+    },
+    {
+        "english": "abiding",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "持久的，不变的"
+            }
+        ],
+        "phonetic": "/əˈbaɪdɪŋ/"
+    },
+    {
+        "english": "scholar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "学者；奖学金获得者"
+            }
+        ],
+        "phonetic": "/ˈskɑːlər/"
+    },
+    {
+        "english": "conqueror",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "征服者，胜利者"
+            }
+        ],
+        "phonetic": "/ˈkɑːŋkərər/"
+    },
+    {
+        "english": "swerve",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "突然转向，急转弯"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "突然转向"
+            }
+        ],
+        "phonetic": "/swɜːrv/"
+    },
+    {
+        "english": "shimmy",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（汽车等）摇晃，摆动；（跳）西迷舞"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "摇晃，摆动；西迷舞"
+            }
+        ],
+        "phonetic": "/ˈʃɪmi/"
+    },
+    {
+        "english": "trundle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使沉重地、缓慢地）滚动，移动"
+            }
+        ],
+        "phonetic": "/ˈtrʌndl/"
+    },
+    {
+        "english": "caravan",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（尤指穿越沙漠的）商队，旅行队；（英式）拖挂式房车"
+            }
+        ],
+        "phonetic": "/ˈkærəvæn/"
+    },
+    {
+        "english": "spice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "香料，调味品；趣味，情趣"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "加香料于；给…增添趣味"
+            }
+        ],
+        "phonetic": "/spaɪs/"
+    },
+    {
+        "english": "fell",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "砍伐（树木）；击倒。（fall 的过去式）"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（英格兰北部的）山丘，高地"
+            }
+        ],
+        "phonetic": "/fel/"
+    },
+    {
+        "english": "peril",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "巨大的危险"
+            }
+        ],
+        "phonetic": "/ˈperəl/"
+    },
+    {
+        "english": "climatic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "气候的"
+            }
+        ],
+        "phonetic": "/klaɪˈmætɪk/"
+    },
+    {
+        "english": "traverse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "横越，穿过"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "横越，穿越；（登山）横越"
+            }
+        ],
+        "phonetic": "/trəˈvɜːrs/"
+    },
+    {
+        "english": "hostile",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "敌对的，有敌意的；（环境）恶劣的"
+            }
+        ],
+        "phonetic": "/ˈhɑːstəl/"
+    },
+    {
+        "english": "territory",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "领土，版图；领域，范围"
+            }
+        ],
+        "phonetic": "/ˈterətɔːri/"
+    },
+    {
+        "english": "persist",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "坚持不懈；持续存在"
+            }
+        ],
+        "phonetic": "/pərˈsɪst/"
+    },
+    {
+        "english": "thirst",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "口渴；渴望"
+            }
+        ],
+        "phonetic": "/θɜːrst/"
+    },
+    {
+        "english": "ideology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "意识形态，思想体系"
+            }
+        ],
+        "phonetic": "/ˌaɪdiˈɑːlədʒi/"
+    },
+    {
+        "english": "allure",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "诱惑，魅力"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "引诱，诱惑"
+            }
+        ],
+        "phonetic": "/əˈlʊr/"
+    },
+    {
+        "english": "intrinsic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "固有的，内在的，本质的"
+            }
+        ],
+        "phonetic": "/ɪnˈtrɪnsɪk/"
+    },
+    {
+        "english": "romance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "恋爱关系，浪漫；传奇故事，浪漫色彩"
+            }
+        ],
+        "phonetic": "/roʊˈmæns/"
+    },
+    {
+        "english": "interpret",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "解释，说明；口译；理解"
+            }
+        ],
+        "phonetic": "/ɪnˈtɜːrprɪt/"
+    },
+    {
+        "english": "durable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "耐用的，持久的"
+            }
+        ],
+        "phonetic": "/ˈdʊrəbəl/"
+    },
+    {
+        "english": "testament",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "证明，证据；遗嘱"
+            }
+        ],
+        "phonetic": "/ˈtestəmənt/"
+    },
+    {
+        "english": "dazzle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使目眩，使眼花缭乱；使倾倒，使赞叹"
+            }
+        ],
+        "phonetic": "/ˈdæzəl/"
+    },
+    {
+        "english": "retrace",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "原路返回；回顾，追溯"
+            }
+        ],
+        "phonetic": "/riːˈtreɪs/"
+    },
+    {
+        "english": "Buddhist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "佛教徒"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "佛教的"
+            }
+        ],
+        "phonetic": "/ˈbuːdɪst/"
+    },
+    {
+        "english": "grotto",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "洞穴，（尤指）人工洞室"
+            }
+        ],
+        "phonetic": "/ˈɡrɑːtoʊ/"
+    },
+    {
+        "english": "drift",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "漂流，漂移；（不知不觉地）陷入；（雪、沙等）堆积"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "漂流；趋势，动向；要点，大意"
+            }
+        ],
+        "phonetic": "/drɪft/"
+    },
+    {
+        "english": "scenic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "风景优美的"
+            }
+        ],
+        "phonetic": "/ˈsiːnɪk/"
+    },
+    {
+        "english": "formation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "形成，构成；队形，结构；（地质）构造"
+            }
+        ],
+        "phonetic": "/fɔːrˈmeɪʃən/"
+    },
+    {
+        "english": "oasis",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（沙漠中的）绿洲；（困境中）令人欣慰的地方"
+            }
+        ],
+        "phonetic": "/oʊˈeɪsɪs/"
+    },
+    {
+        "english": "dune",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（风吹成的）沙丘"
+            }
+        ],
+        "phonetic": "/duːn/"
+    },
+    {
+        "english": "ridge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "山脊，山脉；屋脊"
+            }
+        ],
+        "phonetic": "/rɪdʒ/"
+    },
+    {
+        "english": "superhighway",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "高速公路"
+            }
+        ],
+        "phonetic": "/ˈsuːpərhaɪweɪ/"
+    },
+    {
+        "english": "stretch",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "伸展，舒展；拉长，撑大；延伸"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "一片，一段（路程或时间）；伸展，舒展"
+            }
+        ],
+        "phonetic": "/stretʃ/"
+    },
+    {
+        "english": "catapult",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "弹弓；（航母上的）弹射器"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "用弹射器发射；一跃而成，迅速窜升"
+            }
+        ],
+        "phonetic": "/ˈkætəpʌlt/"
+    },
+    {
+        "english": "awe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "敬畏"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使敬畏"
+            }
+        ],
+        "phonetic": "/ɔː/"
+    },
+    {
+        "english": "sorrow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "悲伤，悲痛"
+            }
+        ],
+        "phonetic": "/ˈsɑːroʊ/"
+    },
+    {
+        "english": "hazardous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "危险的，冒险的"
+            }
+        ],
+        "phonetic": "/ˈhæzərdəs/"
+    },
+    {
+        "english": "bleak",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "（地方）荒凉的；（天气）阴冷的；（前景）黯淡的"
+            }
+        ],
+        "phonetic": "/bliːk/"
+    },
+    {
+        "english": "formidable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人敬畏的，可怕的；难以对付的"
+            }
+        ],
+        "phonetic": "/fərˈmɪdəbəl/"
+    },
+    {
+        "english": "harsh",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "严酷的，恶劣的；（声音）刺耳的；严厉的"
+            }
+        ],
+        "phonetic": "/hɑːrʃ/"
+    },
+    {
+        "english": "starvation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "饥饿，饿死"
+            }
+        ],
+        "phonetic": "/stɑːrˈveɪʃən/"
+    },
+    {
+        "english": "civilization",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "文明，文明社会"
+            }
+        ],
+        "phonetic": "/ˌsɪvələˈzeɪʃən/"
+    },
+    {
+        "english": "precede",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "在…之前，先于"
+            }
+        ],
+        "phonetic": "/prɪˈsiːd/"
+    },
+    {
+        "english": "endurance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "耐力，持久力"
+            }
+        ],
+        "phonetic": "/ɪnˈdʊrəns/"
+    },
+    {
+        "english": "trick sb. into doing sth.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "诱骗某人做某事"
+            }
+        ],
+        "phonetic": "/trɪk ˈsʌmbədi ˈɪntuː ˈduːɪŋ ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "set sail",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "起航，开船"
+            }
+        ],
+        "phonetic": "/set seɪl/"
+    },
+    {
+        "english": "during the course of sth.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "在某事的过程中"
+            }
+        ],
+        "phonetic": "/ˈdʊrɪŋ ðə kɔːrs əv ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "contend with",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "必须处理，不得不对付（困难、问题）"
+            }
+        ],
+        "phonetic": "/kənˈtend wɪθ/"
+    },
+    {
+        "english": "aviator",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "飞行员"
+            }
+        ],
+        "phonetic": "/ˈeɪvieɪtər/"
+    },
+    {
+        "english": "aircraft",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "飞机，航空器（单复数同形）"
+            }
+        ],
+        "phonetic": "/ˈerkræft/"
+    },
+    {
+        "english": "fashionable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "流行的，时髦的"
+            }
+        ],
+        "phonetic": "/ˈfæʃənəbəl/"
+    },
+    {
+        "english": "meaningless",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无意义的，不重要的"
+            }
+        ],
+        "phonetic": "/ˈmiːnɪŋləs/"
+    },
+    {
+        "english": "functional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "功能的，实用的；在起作用的"
+            }
+        ],
+        "phonetic": "/ˈfʌŋkʃənəl/"
+    },
+    {
+        "english": "accessory",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "附件，配件；（服装）配饰；同谋，帮凶"
+            }
+        ],
+        "phonetic": "/əkˈsesəri/"
+    },
+    {
+        "english": "apparel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（尤指商店出售的）服装"
+            }
+        ],
+        "phonetic": "/əˈpærəl/"
+    },
+    {
+        "english": "unremarked",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "未被注意的，未被评论的"
+            }
+        ],
+        "phonetic": "/ˌʌnrɪˈmɑːrkt/"
+    },
+    {
+        "english": "populate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "居住于，生活于；构成…的人口"
+            }
+        ],
+        "phonetic": "/ˈpɑːpjuleɪt/"
+    },
+    {
+        "english": "inclusion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "包含，包括；内含物"
+            }
+        ],
+        "phonetic": "/ɪnˈkluːʒən/"
+    },
+    {
+        "english": "distinctly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "清楚地，明显地"
+            }
+        ],
+        "phonetic": "/dɪˈstɪŋktli/"
+    },
+    {
+        "english": "catalogue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "目录，一览表"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "为…编目"
+            }
+        ],
+        "phonetic": "/ˈkætəlɔːɡ/"
+    },
+    {
+        "english": "curate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "策划（展览、内容等）"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（英国国教的）助理牧师"
+            }
+        ],
+        "phonetic": "/ˈkjʊreɪt/"
+    },
+    {
+        "english": "devoid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "缺乏的，没有的 (devoid of)"
+            }
+        ],
+        "phonetic": "/dɪˈvɔɪd/"
+    },
+    {
+        "english": "affective",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "情感的，表达感情的"
+            }
+        ],
+        "phonetic": "/əˈfektɪv/"
+    },
+    {
+        "english": "inscribe",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（在…上）题写，雕刻"
+            }
+        ],
+        "phonetic": "/ɪnˈskraɪb/"
+    },
+    {
+        "english": "tangible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有形的，可触摸的；明确的，真实的"
+            }
+        ],
+        "phonetic": "/ˈtændʒəbəl/"
+    },
+    {
+        "english": "coalesce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "合并，联合"
+            }
+        ],
+        "phonetic": "/ˌkoʊəˈles/"
+    },
+    {
+        "english": "fiber",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "纤维，纤维制品 (美式拼写, 英式为 fibre)"
+            }
+        ],
+        "phonetic": "/ˈfaɪbər/"
+    },
+    {
+        "english": "stitch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（缝纫的）一针；（缝合伤口的）一针；（编织的）一针"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "缝，缝合"
+            }
+        ],
+        "phonetic": "/stɪtʃ/"
+    },
+    {
+        "english": "connectedness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "关联性，连通性"
+            }
+        ],
+        "phonetic": "/kəˈnektɪdnəs/"
+    },
+    {
+        "english": "priceless",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无价的，极珍贵的"
+            }
+        ],
+        "phonetic": "/ˈpraɪsləs/"
+    },
+    {
+        "english": "conservation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（对自然、文物等的）保护，保存"
+            }
+        ],
+        "phonetic": "/ˌkɑːnsərˈveɪʃən/"
+    },
+    {
+        "english": "accession",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "就职，登基；（博物馆等）新藏品"
+            }
+        ],
+        "phonetic": "/ækˈseʃən/"
+    },
+    {
+        "english": "incumbent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "在职者，现任者"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "负有责任的，义不容辞的"
+            }
+        ],
+        "phonetic": "/ɪnˈkʌmbənt/"
+    },
+    {
+        "english": "guardian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "监护人；保护者，守卫者"
+            }
+        ],
+        "phonetic": "/ˈɡɑːrdiən/"
+    },
+    {
+        "english": "album",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "相册；集邮册；（音乐）专辑"
+            }
+        ],
+        "phonetic": "/ˈælbəm/"
+    },
+    {
+        "english": "organically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "有机地；有组织地，系统地"
+            }
+        ],
+        "phonetic": "/ɔːrˈɡænɪkli/"
+    },
+    {
+        "english": "scattered",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "分散的，散落的"
+            }
+        ],
+        "phonetic": "/ˈskætərd/"
+    },
+    {
+        "english": "cabinet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "橱柜，储藏柜；（政府）内阁"
+            }
+        ],
+        "phonetic": "/ˈkæbɪnət/"
+    },
+    {
+        "english": "festivity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "庆祝活动，庆典；欢乐气氛"
+            }
+        ],
+        "phonetic": "/feˈstɪvəti/"
+    },
+    {
+        "english": "uniqueness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "独特性，独一无二"
+            }
+        ],
+        "phonetic": "/juːˈniːknəs/"
+    },
+    {
+        "english": "thread",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "线；（故事的）线索，思路；（互联网）帖子"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "穿（针、线）；穿过，通过"
+            }
+        ],
+        "phonetic": "/θred/"
+    },
+    {
+        "english": "iteration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "重复，反复；（计算机程序的）迭代"
+            }
+        ],
+        "phonetic": "/ˌɪtəˈreɪʃən/"
+    },
+    {
+        "english": "purposefully",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "有目的地，果断地"
+            }
+        ],
+        "phonetic": "/ˈpɜːrpəsfəli/"
+    },
+    {
+        "english": "in existence",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "现存的，存在的"
+            }
+        ],
+        "phonetic": "/ɪn ɪɡˈzɪstəns/"
+    },
+    {
+        "english": "it is incumbent on sb. to do sth.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "某人有责任做某事"
+            }
+        ],
+        "phonetic": "/ɪt ɪz ɪnˈkʌmbənt ɑːn ˈsʌmbədi tu du ˈsʌmθɪŋ/"
+    },
+    {
+        "english": "pass away",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "去世，逝世 (比 die 委婉)"
+            }
+        ],
+        "phonetic": "/pæs əˈweɪ/"
+    }
+]
