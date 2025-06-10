@@ -1,0 +1,758 @@
+[
+    {
+        "english": "insightful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "富有洞察力的，有深刻见解的"
+            }
+        ],
+        "phonetic": "/ˈɪnsaɪtfəl/"
+    },
+    {
+        "english": "equilibrium",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "平衡，均衡；（心境的）平静"
+            }
+        ],
+        "phonetic": "/ˌiːkwəˈlɪbriəm/"
+    },
+    {
+        "english": "purely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "纯粹地，完全地"
+            }
+        ],
+        "phonetic": "/ˈpjʊrli/"
+    },
+    {
+        "english": "dilemma",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "困境，进退两难的局面"
+            }
+        ],
+        "phonetic": "/dɪˈlemə/"
+    },
+    {
+        "english": "memorable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "值得纪念的，难忘的"
+            }
+        ],
+        "phonetic": "/ˈmemərəbəl/"
+    },
+    {
+        "english": "classical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "古典的，经典的；（与古希腊罗马文化）相关的"
+            }
+        ],
+        "phonetic": "/ˈklæsɪkəl/"
+    },
+    {
+        "english": "collective",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "集体的，共同的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "集体，合作社"
+            }
+        ],
+        "phonetic": "/kəˈlektɪv/"
+    },
+    {
+        "english": "welfare",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "福利，安宁，幸福；社会福利事业"
+            }
+        ],
+        "phonetic": "/ˈwelfer/"
+    },
+    {
+        "english": "allegory",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "寓言，讽喻"
+            }
+        ],
+        "phonetic": "/ˈæləɡɔːri/"
+    },
+    {
+        "english": "invisible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "看不见的，无形的"
+            }
+        ],
+        "phonetic": "/ɪnˈvɪzəbəl/"
+    },
+    {
+        "english": "disastrous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "灾难性的，损失惨重的"
+            }
+        ],
+        "phonetic": "/dɪˈzæstrəs/"
+    },
+    {
+        "english": "burglar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "入室窃贼"
+            }
+        ],
+        "phonetic": "/ˈbɜːrɡlər/"
+    },
+    {
+        "english": "accuse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "指控，控告"
+            }
+        ],
+        "phonetic": "/əˈkjuːz/"
+    },
+    {
+        "english": "robbery",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抢劫，抢劫案"
+            }
+        ],
+        "phonetic": "/ˈrɑːbəri/"
+    },
+    {
+        "english": "confess",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "承认，坦白；忏悔"
+            }
+        ],
+        "phonetic": "/kənˈfes/"
+    },
+    {
+        "english": "optimal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "最佳的，最理想的"
+            }
+        ],
+        "phonetic": "/ˈɑːptɪməl/"
+    },
+    {
+        "english": "better off",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "境况更好，更富裕"
+            }
+        ],
+        "phonetic": "/ˈbetər ɔːf/"
+    },
+    {
+        "english": "equivalent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "相等的，等同的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "等价物，对应物"
+            }
+        ],
+        "phonetic": "/ɪˈkwɪvələnt/"
+    },
+    {
+        "english": "comparative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "比较的，相对的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（形容词或副词的）比较级"
+            }
+        ],
+        "phonetic": "/kəmˈpærətɪv/"
+    },
+    {
+        "english": "emit",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "发出，散发（光、热、声音、气味等）"
+            }
+        ],
+        "phonetic": "/ɪˈmɪt/"
+    },
+    {
+        "english": "inaction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "无为，不作为"
+            }
+        ],
+        "phonetic": "/ɪnˈækʃən/"
+    },
+    {
+        "english": "CV",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "简历 (Curriculum Vitae的缩写)"
+            }
+        ],
+        "phonetic": "/ˌsiːˈviː/"
+    },
+    {
+        "english": "entail",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "牵涉，需要，使必要"
+            }
+        ],
+        "phonetic": "/ɪnˈteɪl/"
+    },
+    {
+        "english": "inefficiency",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "效率低下，无效率"
+            }
+        ],
+        "phonetic": "/ˌɪnɪˈfɪʃənsi/"
+    },
+    {
+        "english": "intervene",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "干预，介入；发生于其间"
+            }
+        ],
+        "phonetic": "/ˌɪntərˈviːn/"
+    },
+    {
+        "english": "intervention",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "干预，介入"
+            }
+        ],
+        "phonetic": "/ˌɪntərˈvenʃən/"
+    },
+    {
+        "english": "binding",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有约束力的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（书籍的）封皮"
+            }
+        ],
+        "phonetic": "/ˈbaɪndɪŋ/"
+    },
+    {
+        "english": "incentive",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "激励，刺激，动机"
+            }
+        ],
+        "phonetic": "/ɪnˈsentɪv/"
+    },
+    {
+        "english": "take sth. as a given",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "想当然地认为某事是理所当然的"
+            }
+        ],
+        "phonetic": "/teɪk ˈsʌmθɪŋ æz ə ˈɡɪvən/"
+    },
+    {
+        "english": "come in",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "进来；到达；起作用，参与进来"
+            }
+        ],
+        "phonetic": "/kʌm ɪn/"
+    },
+    {
+        "english": "entrepreneurship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "企业家精神，创业"
+            }
+        ],
+        "phonetic": "/ˌɑːntrəprəˈnɜːrʃɪp/"
+    },
+    {
+        "english": "venture",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "风险项目，（商业）投机"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "敢于去（危险或未知的地方）；冒险（说或做）"
+            }
+        ],
+        "phonetic": "/ˈventʃər/"
+    },
+    {
+        "english": "outlook",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "观点，看法；前景，展望；景色"
+            }
+        ],
+        "phonetic": "/ˈaʊtlʊk/"
+    },
+    {
+        "english": "curiosity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "好奇心；珍品，古玩"
+            }
+        ],
+        "phonetic": "/ˌkjʊriˈɑːsəti/"
+    },
+    {
+        "english": "cultivate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "培养，培育；耕作；建立，加强（关系）"
+            }
+        ],
+        "phonetic": "/ˈkʌltɪveɪt/"
+    },
+    {
+        "english": "holistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "整体的，全面的"
+            }
+        ],
+        "phonetic": "/hoʊˈlɪstɪk/"
+    },
+    {
+        "english": "effectiveness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "有效性，效果"
+            }
+        ],
+        "phonetic": "/ɪˈfektɪvnəs/"
+    },
+    {
+        "english": "solely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "仅仅，唯一地"
+            }
+        ],
+        "phonetic": "/ˈsoʊlli/"
+    },
+    {
+        "english": "profitability",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "盈利能力，收益性"
+            }
+        ],
+        "phonetic": "/ˌprɑːfɪtəˈbɪləti/"
+    },
+    {
+        "english": "capitalistic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "资本主义的"
+            }
+        ],
+        "phonetic": "/ˌkæpɪtəˈlɪstɪk/"
+    },
+    {
+        "english": "pioneering",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "开创性的，先驱的"
+            }
+        ],
+        "phonetic": "/ˌpaɪəˈnɪrɪŋ/"
+    },
+    {
+        "english": "optimize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使最优化，充分利用"
+            }
+        ],
+        "phonetic": "/ˈɑːptɪmaɪz/"
+    },
+    {
+        "english": "enterprise",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "企（事）业单位；事业心，进取心"
+            }
+        ],
+        "phonetic": "/ˈentərpraɪz/"
+    },
+    {
+        "english": "gratifying",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人满足的，令人高兴的"
+            }
+        ],
+        "phonetic": "/ˈɡrætɪfaɪɪŋ/"
+    },
+    {
+        "english": "sustainability",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "可持续性"
+            }
+        ],
+        "phonetic": "/səˌsteɪnəˈbɪləti/"
+    },
+    {
+        "english": "propel",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "推进，推动"
+            }
+        ],
+        "phonetic": "/prəˈpel/"
+    },
+    {
+        "english": "revolutionary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "革命的，革命性的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "革命者"
+            }
+        ],
+        "phonetic": "/ˌrevəˈluːʃəneri/"
+    },
+    {
+        "english": "significance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "重要性，意义"
+            }
+        ],
+        "phonetic": "/sɪɡˈnɪfɪkəns/"
+    },
+    {
+        "english": "marketplace",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "市场，集市；商界"
+            }
+        ],
+        "phonetic": "/ˈmɑːrkɪtpleɪs/"
+    },
+    {
+        "english": "imprint",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "印上，铭刻；使铭记"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "印记，痕迹；深刻影响"
+            }
+        ],
+        "phonetic": "/ɪmˈprɪnt/ (v.), /ˈɪmprɪnt/ (n.)"
+    },
+    {
+        "english": "compassionate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有同情心的，表示怜悯的"
+            }
+        ],
+        "phonetic": "/kəmˈpæʃənət/"
+    },
+    {
+        "english": "legacy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "遗产；遗留问题"
+            }
+        ],
+        "phonetic": "/ˈleɡəsi/"
+    },
+    {
+        "english": "prudence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "审慎，谨慎；精明"
+            }
+        ],
+        "phonetic": "/ˈpruːdəns/"
+    },
+    {
+        "english": "ultimately",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "最终，最后；根本上"
+            }
+        ],
+        "phonetic": "/ˈʌltɪmətli/"
+    },
+    {
+        "english": "imply",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "暗示，意味着"
+            }
+        ],
+        "phonetic": "/ɪmˈplaɪ/"
+    },
+    {
+        "english": "socioeconomic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "社会经济的"
+            }
+        ],
+        "phonetic": "/ˌsoʊsioʊˌekəˈnɑːmɪk/"
+    },
+    {
+        "english": "comprehend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "理解，领悟；包含"
+            }
+        ],
+        "phonetic": "/ˌkɑːmprɪˈhend/"
+    },
+    {
+        "english": "immense",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "巨大的，广大的"
+            }
+        ],
+        "phonetic": "/ɪˈmens/"
+    },
+    {
+        "english": "possess",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "拥有，持有；支配，影响"
+            }
+        ],
+        "phonetic": "/pəˈzes/"
+    },
+    {
+        "english": "implore",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "恳求，哀求"
+            }
+        ],
+        "phonetic": "/ɪmˈplɔːr/"
+    },
+    {
+        "english": "revolutionize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使彻底变革，发动革命"
+            }
+        ],
+        "phonetic": "/ˌrevəˈluːʃənaɪz/"
+    },
+    {
+        "english": "latter",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "后者的，（时间上）后面的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "后者"
+            }
+        ],
+        "phonetic": "/ˈlætər/"
+    },
+    {
+        "english": "flourishing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "繁荣的，欣欣向荣的"
+            }
+        ],
+        "phonetic": "/ˈflɜːrɪʃɪŋ/"
+    },
+    {
+        "english": "rigid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "僵硬的，固执的；严格的，死板的"
+            }
+        ],
+        "phonetic": "/ˈrɪdʒɪd/"
+    },
+    {
+        "english": "painstaking",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "辛苦的，勤勉的，精心的"
+            }
+        ],
+        "phonetic": "/ˈpeɪnzteɪkɪŋ/"
+    },
+    {
+        "english": "mediocrity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "平庸，平凡"
+            }
+        ],
+        "phonetic": "/ˌmiːdiˈɑːkrəti/"
+    },
+    {
+        "english": "alien",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "外国的，陌生的；性质不同的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "外国人；外星人"
+            }
+        ],
+        "phonetic": "/ˈeɪliən/"
+    },
+    {
+        "english": "uncover",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "揭露，发现；移去…的覆盖物"
+            }
+        ],
+        "phonetic": "/ʌnˈkʌvər/"
+    },
+    {
+        "english": "momentous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "重大的，重要的"
+            }
+        ],
+        "phonetic": "/moʊˈmentəs/"
+    },
+    {
+        "english": "spring from",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "起源于，源自"
+            }
+        ],
+        "phonetic": "/sprɪŋ frʌm/"
+    },
+    {
+        "english": "speak of",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "谈及，谈到；表明，证明"
+            }
+        ],
+        "phonetic": "/spiːk əv/"
+    },
+    {
+        "english": "break new ground",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "开辟新天地，有新的突破"
+            }
+        ],
+        "phonetic": "/breɪk nuː ɡraʊnd/"
+    }
+]
