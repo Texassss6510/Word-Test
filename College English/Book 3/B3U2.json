@@ -1,0 +1,1052 @@
+[
+    {
+        "english": "casual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "非正式的，便装的；偶然的，不经意的；临时的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "临时工"
+            }
+        ],
+        "phonetic": "/ˈkæʒuəl/"
+    },
+    {
+        "english": "headphones",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "耳机，头戴式耳机 (常用复数)"
+            }
+        ],
+        "phonetic": "/ˈhedfoʊnz/"
+    },
+    {
+        "english": "corporate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "公司的，法人的；团体的，共同的"
+            }
+        ],
+        "phonetic": "/ˈkɔːrpərət/"
+    },
+    {
+        "english": "mortgage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抵押贷款，按揭"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "抵押"
+            }
+        ],
+        "phonetic": "/ˈmɔːrɡɪdʒ/"
+    },
+    {
+        "english": "time off",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "休息时间，假期"
+            }
+        ],
+        "phonetic": "/taɪm ɔːf/"
+    },
+    {
+        "english": "headquarters",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "总部，司令部 (单复数同形)"
+            }
+        ],
+        "phonetic": "/ˈhedkwɔːrtərz/"
+    },
+    {
+        "english": "perk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（工资外的）额外待遇，津贴；好处"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）活跃起来，（使）振作"
+            }
+        ],
+        "phonetic": "/pɜːrk/"
+    },
+    {
+        "english": "administrative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "管理的，行政的"
+            }
+        ],
+        "phonetic": "/ədˈmɪnɪstreɪtɪv/"
+    },
+    {
+        "english": "distributor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "经销商，分销商"
+            }
+        ],
+        "phonetic": "/dɪˈstrɪbjətər/"
+    },
+    {
+        "english": "liberal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "思想开明的，自由主义的；慷慨的；不拘泥的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "自由主义者，开明人士"
+            }
+        ],
+        "phonetic": "/ˈlɪbərəl/"
+    },
+    {
+        "english": "barrier",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "障碍，壁垒；屏障"
+            }
+        ],
+        "phonetic": "/ˈbæriər/"
+    },
+    {
+        "english": "blurred",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "模糊不清的"
+            }
+        ],
+        "phonetic": "/blɜːrd/"
+    },
+    {
+        "english": "cubicle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（办公室的）小隔间；（淋浴、更衣等的）小室"
+            }
+        ],
+        "phonetic": "/ˈkjuːbɪkəl/"
+    },
+    {
+        "english": "reinvent",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "彻底改造，重塑；重新创造"
+            }
+        ],
+        "phonetic": "/ˌriːɪnˈvent/"
+    },
+    {
+        "english": "rat race",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（为财富、权力等的）激烈竞争，你死我活的竞争"
+            }
+        ],
+        "phonetic": "/ˈræt reɪs/"
+    },
+    {
+        "english": "hierarchy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "等级制度，层级体系"
+            }
+        ],
+        "phonetic": "/ˈhaɪərɑːrki/"
+    },
+    {
+        "english": "flatten",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）变平，把…弄平"
+            }
+        ],
+        "phonetic": "/ˈflætən/"
+    },
+    {
+        "english": "wizard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "男巫，术士；（某方面的）奇才，高手"
+            }
+        ],
+        "phonetic": "/ˈwɪzərd/"
+    },
+    {
+        "english": "ninja",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（日本）忍者；（某方面技艺高超的）能人"
+            }
+        ],
+        "phonetic": "/ˈnɪndʒə/"
+    },
+    {
+        "english": "integration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "整合，结合；（种族）融合"
+            }
+        ],
+        "phonetic": "/ˌɪntɪˈɡreɪʃən/"
+    },
+    {
+        "english": "acupuncture",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "针灸"
+            }
+        ],
+        "phonetic": "/ˈækjuˌpʌŋktʃər/"
+    },
+    {
+        "english": "nap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小睡，打盹"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "小睡，打盹"
+            }
+        ],
+        "phonetic": "/næp/"
+    },
+    {
+        "english": "pod",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "豆荚；（海豹、鲸等的）一小群；（飞机、航天器上的）吊舱，分离舱"
+            }
+        ],
+        "phonetic": "/pɑːd/"
+    },
+    {
+        "english": "nap pod",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "午睡舱，睡眠舱"
+            }
+        ],
+        "phonetic": "/næp pɑːd/"
+    },
+    {
+        "english": "popularize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使普及，推广；使受欢迎"
+            }
+        ],
+        "phonetic": "/ˈpɑːpjələraɪz/"
+    },
+    {
+        "english": "investigation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "调查，研究"
+            }
+        ],
+        "phonetic": "/ɪnˌvestɪˈɡeɪʃən/"
+    },
+    {
+        "english": "vocal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "声音的，发声的；直言不讳的，大声表达的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（常作vocals）声乐部分，演唱"
+            }
+        ],
+        "phonetic": "/ˈvoʊkəl/"
+    },
+    {
+        "english": "opponent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "对手，反对者"
+            }
+        ],
+        "phonetic": "/əˈpoʊnənt/"
+    },
+    {
+        "english": "newsroom",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新闻编辑室"
+            }
+        ],
+        "phonetic": "/ˈnuːzruːm/"
+    },
+    {
+        "english": "start-up",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "初创公司，新兴公司"
+            }
+        ],
+        "phonetic": "/ˈstɑːrt ʌp/"
+    },
+    {
+        "english": "parody",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（对著名作品、风格的）滑稽模仿作品"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "滑稽地模仿"
+            }
+        ],
+        "phonetic": "/ˈpærədi/"
+    },
+    {
+        "english": "portrait",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肖像，画像；描绘，描述"
+            }
+        ],
+        "phonetic": "/ˈpɔːrtrət/"
+    },
+    {
+        "english": "misdirection",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "误导；（魔术中的）障眼法"
+            }
+        ],
+        "phonetic": "/ˌmɪsdəˈrekʃən/"
+    },
+    {
+        "english": "rotten",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "腐烂的，腐朽的；（非正式）极坏的，糟糕的"
+            }
+        ],
+        "phonetic": "/ˈrɑːtən/"
+    },
+    {
+        "english": "recast",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "重塑，改造；更换（戏剧、电影的）演员"
+            }
+        ],
+        "phonetic": "/ˌriːˈkæst/"
+    },
+    {
+        "english": "workaholism",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "工作狂，醉心于工作"
+            }
+        ],
+        "phonetic": "/ˌwɜːrkəˈhɔːlɪzəm/"
+    },
+    {
+        "english": "unwind",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "放松，轻松；解开，展开（卷绕之物）"
+            }
+        ],
+        "phonetic": "/ʌnˈwaɪnd/"
+    },
+    {
+        "english": "absurdity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "荒谬，荒唐；荒唐事"
+            }
+        ],
+        "phonetic": "/əbˈsɜːrdəti/"
+    },
+    {
+        "english": "norm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "规范，准则；常规，标准"
+            }
+        ],
+        "phonetic": "/nɔːrm/"
+    },
+    {
+        "english": "suitcase",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "手提箱，行李箱"
+            }
+        ],
+        "phonetic": "/ˈsuːtkeɪs/"
+    },
+    {
+        "english": "resign",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "辞职；放弃；使顺从"
+            }
+        ],
+        "phonetic": "/rɪˈzaɪn/"
+    },
+    {
+        "english": "abusive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "辱骂的，虐待的；滥用的"
+            }
+        ],
+        "phonetic": "/əˈbjuːsɪv/"
+    },
+    {
+        "english": "allegation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（未经证实的）指控，陈述"
+            }
+        ],
+        "phonetic": "/ˌæləˈɡeɪʃən/"
+    },
+    {
+        "english": "trade-off",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（在矛盾的目标中）权衡，协调，取舍"
+            }
+        ],
+        "phonetic": "/ˈtreɪd ɔːf/"
+    },
+    {
+        "english": "depressing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人沮丧的，令人抑郁的"
+            }
+        ],
+        "phonetic": "/dɪˈpresɪŋ/"
+    },
+    {
+        "english": "pop up",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "突然出现，冒出来"
+            }
+        ],
+        "phonetic": "/pɑːp ʌp/"
+    },
+    {
+        "english": "tune out",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "不再理会，对…置之不理"
+            }
+        ],
+        "phonetic": "/tuːn aʊt/"
+    },
+    {
+        "english": "hang out",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（非正式）闲逛，与…一起玩"
+            }
+        ],
+        "phonetic": "/hæŋ aʊt/"
+    },
+    {
+        "english": "let alone",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "更不用说，更别提"
+            }
+        ],
+        "phonetic": "/let əˈloʊn/"
+    },
+    {
+        "english": "come along",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "一起来，跟着来；出现；进展，进步"
+            }
+        ],
+        "phonetic": "/kʌm əˈlɔːŋ/"
+    },
+    {
+        "english": "on tap",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（啤酒等）可随时从桶里倒出饮用；可随时取用"
+            }
+        ],
+        "phonetic": "/ɑːn tæp/"
+    },
+    {
+        "english": "at the expense of",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "以…为代价，牺牲了…"
+            }
+        ],
+        "phonetic": "/æt ði ɪkˈspens əv/"
+    },
+    {
+        "english": "wallpaper",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "壁纸；（计算机的）墙纸，桌面背景"
+            }
+        ],
+        "phonetic": "/ˈwɔːlpeɪpər/"
+    },
+    {
+        "english": "amplify",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "放大（声音等）；增强；详述"
+            }
+        ],
+        "phonetic": "/ˈæmplɪfaɪ/"
+    },
+    {
+        "english": "dive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "跳水；潜水；（飞机）俯冲；全身心投入"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "跳水；潜水；俯冲；（非正式）不正派的酒吧或俱乐部"
+            }
+        ],
+        "phonetic": "/daɪv/"
+    },
+    {
+        "english": "albeit",
+        "pos": [
+            {
+                "abbreviation": "conj.",
+                "meaning": "尽管，虽然"
+            }
+        ],
+        "phonetic": "/ˌɔːlˈbiːɪt/"
+    },
+    {
+        "english": "reputable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "声誉好的，值得信赖的"
+            }
+        ],
+        "phonetic": "/ˈrepjətəbəl/"
+    },
+    {
+        "english": "plastic surgery",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "整形外科，整容手术"
+            }
+        ],
+        "phonetic": "/ˌplæstɪk ˈsɜːrdʒəri/"
+    },
+    {
+        "english": "specialty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "专业，专长；特产"
+            }
+        ],
+        "phonetic": "/ˈspeʃəlti/"
+    },
+    {
+        "english": "surgeon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "外科医生"
+            }
+        ],
+        "phonetic": "/ˈsɜːrdʒən/"
+    },
+    {
+        "english": "intern",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "实习生"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "做实习生；拘留，扣押"
+            }
+        ],
+        "phonetic": "/ˈɪntɜːrn/"
+    },
+    {
+        "english": "operating room",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "手术室"
+            }
+        ],
+        "phonetic": "/ˈɑːpəreɪtɪŋ ruːm/"
+    },
+    {
+        "english": "cosmetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "化妆的，美容的；表面的，肤浅的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "（常作cosmetics）化妆品"
+            }
+        ],
+        "phonetic": "/kɑːzˈmetɪk/"
+    },
+    {
+        "english": "merit",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "优点，价值；功绩"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "值得，应得"
+            }
+        ],
+        "phonetic": "/ˈmerɪt/"
+    },
+    {
+        "english": "neurobiology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "神经生物学"
+            }
+        ],
+        "phonetic": "/ˌnʊroʊbaɪˈɑːlədʒi/"
+    },
+    {
+        "english": "physiology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "生理学；生理机能"
+            }
+        ],
+        "phonetic": "/ˌfɪziˈɑːlədʒi/"
+    },
+    {
+        "english": "dreaded",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人恐惧的，可怕的"
+            }
+        ],
+        "phonetic": "/ˈdredɪd/"
+    },
+    {
+        "english": "internship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "实习期，实习职位"
+            }
+        ],
+        "phonetic": "/ˈɪntɜːrnʃɪp/"
+    },
+    {
+        "english": "surgical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "外科的，手术的；精确的"
+            }
+        ],
+        "phonetic": "/ˈsɜːrdʒɪkəl/"
+    },
+    {
+        "english": "scrub",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "用力擦洗；取消，放弃"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "擦洗；（医护人员穿的）手术服；矮树丛"
+            }
+        ],
+        "phonetic": "/skrʌb/"
+    },
+    {
+        "english": "mask",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "面具，口罩；伪装"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "戴面具；掩饰，掩盖"
+            }
+        ],
+        "phonetic": "/mæsk/"
+    },
+    {
+        "english": "cafeteria",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "自助餐厅"
+            }
+        ],
+        "phonetic": "/ˌkæfəˈtɪriə/"
+    },
+    {
+        "english": "enthusiasm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "热情，热心；热衷的事物"
+            }
+        ],
+        "phonetic": "/ɪnˈθuːziæzəm/"
+    },
+    {
+        "english": "application",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "申请，申请书；应用，应用程序；敷用"
+            }
+        ],
+        "phonetic": "/ˌæplɪˈkeɪʃən/"
+    },
+    {
+        "english": "outfit",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（为特定场合或活动而穿的）全套服装；全套装备"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "装备，配备"
+            }
+        ],
+        "phonetic": "/ˈaʊtfɪt/"
+    },
+    {
+        "english": "wardrobe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "衣柜；（个人、剧团等的）全部服装"
+            }
+        ],
+        "phonetic": "/ˈwɔːrdroʊb/"
+    },
+    {
+        "english": "gear",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "齿轮，传动装置；（汽车的）排挡；（从事某活动所需的）设备，用具，衣服"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使适应，使适合"
+            }
+        ],
+        "phonetic": "/ɡɪr/"
+    },
+    {
+        "english": "drastically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "急剧地，彻底地，激烈地"
+            }
+        ],
+        "phonetic": "/ˈdræstɪkli/"
+    },
+    {
+        "english": "swirl",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）打旋，旋转"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "漩涡，旋转；螺旋形"
+            }
+        ],
+        "phonetic": "/swɜːrl/"
+    },
+    {
+        "english": "spill",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）溢出，洒出"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "溢出，洒出"
+            }
+        ],
+        "phonetic": "/spɪl/"
+    },
+    {
+        "english": "legitimate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "合法的，正当的；合理的"
+            }
+        ],
+        "phonetic": "/ləˈdʒɪtəmət/"
+    },
+    {
+        "english": "manual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "手的，用手的；体力的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "手册，指南"
+            }
+        ],
+        "phonetic": "/ˈmænjuəl/"
+    },
+    {
+        "english": "supermodel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "超级名模"
+            }
+        ],
+        "phonetic": "/ˈsuːpərmɑːdəl/"
+    },
+    {
+        "english": "flip",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）快速翻转；轻弹，轻抛"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "快速翻转；轻弹"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "（非正式）轻率的，无礼的"
+            }
+        ],
+        "phonetic": "/flɪp/"
+    },
+    {
+        "english": "crystal clear",
+        "pos": [
+            {
+                "abbreviation": "adj. phr.",
+                "meaning": "一清二楚的，完全透明的；非常清晰的"
+            }
+        ],
+        "phonetic": "/ˌkrɪstəl ˈklɪr/"
+    },
+    {
+        "english": "dive into",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "投入，热切地开始做"
+            }
+        ],
+        "phonetic": "/daɪv ˈɪntuː/"
+    },
+    {
+        "english": "put up with",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "忍受，容忍"
+            }
+        ],
+        "phonetic": "/pʊt ʌp wɪθ/"
+    },
+    {
+        "english": "go off",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（闹钟等）发出声响；（炸弹）爆炸；离开；（食物）变质；不再喜欢"
+            }
+        ],
+        "phonetic": "/ɡoʊ ɔːf/"
+    },
+    {
+        "english": "come around",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（苏醒）恢复知觉；（定期事件）再次发生；改变主意，转变看法"
+            }
+        ],
+        "phonetic": "/kʌm əˈraʊnd/"
+    },
+    {
+        "english": "give up on sth.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "对某事不再抱希望，放弃"
+            }
+        ],
+        "phonetic": "/ɡɪv ʌp ɑːn/"
+    },
+    {
+        "english": "shift gear",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（汽车）换挡；改变方法（或速度）"
+            }
+        ],
+        "phonetic": "/ʃɪft ɡɪr/"
+    },
+    {
+        "english": "test the water",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "试探情况，投石问路"
+            }
+        ],
+        "phonetic": "/test ðə ˈwɔːtər/"
+    },
+    {
+        "english": "shut/close the door on sth.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "拒绝（可能性），使…不可能"
+            }
+        ],
+        "phonetic": "/ʃʌt/kloʊz ðə dɔːr ɑːn/"
+    },
+    {
+        "english": "break the news to sb.",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "向某人透露消息（尤指坏消息）"
+            }
+        ],
+        "phonetic": "/breɪk ðə nuːz tu/"
+    },
+    {
+        "english": "spill the beans",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "泄露秘密"
+            }
+        ],
+        "phonetic": "/spɪl ðə biːnz/"
+    },
+    {
+        "english": "flip through",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "快速翻阅，浏览"
+            }
+        ],
+        "phonetic": "/flɪp θruː/"
+    },
+    {
+        "english": "under one's nose",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "就在某人眼前（却未被注意到）"
+            }
+        ],
+        "phonetic": "/ˈʌndər wʌnz noʊz/"
+    }
+]
