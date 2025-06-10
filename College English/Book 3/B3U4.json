@@ -1,0 +1,942 @@
+[
+    {
+        "english": "freediving",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "自由潜水"
+            }
+        ],
+        "phonetic": "/ˈfriːdaɪvɪŋ/"
+    },
+    {
+        "english": "championship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冠军赛，锦标赛；冠军地位"
+            }
+        ],
+        "phonetic": "/ˈtʃæmpiənʃɪp/"
+    },
+    {
+        "english": "superficial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "表面的，肤浅的；表面上的"
+            }
+        ],
+        "phonetic": "/ˌsuːpərˈfɪʃəl/"
+    },
+    {
+        "english": "nonetheless",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "尽管如此，然而"
+            }
+        ],
+        "phonetic": "/ˌnʌnðəˈles/"
+    },
+    {
+        "english": "spectator",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（体育赛事等的）观众"
+            }
+        ],
+        "phonetic": "/ˈspekteɪtər/"
+    },
+    {
+        "english": "diver",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "潜水员，跳水运动员"
+            }
+        ],
+        "phonetic": "/ˈdaɪvər/"
+    },
+    {
+        "english": "dangle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）悬挂，（使）摇晃地悬着"
+            }
+        ],
+        "phonetic": "/ˈdæŋɡəl/"
+    },
+    {
+        "english": "terrify",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使恐惧，使惊吓"
+            }
+        ],
+        "phonetic": "/ˈterəfaɪ/"
+    },
+    {
+        "english": "bare",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "赤裸的；无遮盖的；最基本的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "露出，暴露"
+            }
+        ],
+        "phonetic": "/ber/"
+    },
+    {
+        "english": "stroke",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "中风；击，敲；（游泳或划船的）一次划水；抚摸"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "抚摸，轻抚"
+            }
+        ],
+        "phonetic": "/stroʊk/"
+    },
+    {
+        "english": "loosen",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）松开，（使）放松"
+            }
+        ],
+        "phonetic": "/ˈluːsən/"
+    },
+    {
+        "english": "skydiver",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "跳伞运动员"
+            }
+        ],
+        "phonetic": "/ˈskaɪdaɪvər/"
+    },
+    {
+        "english": "pose",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "造成（问题、威胁）；提出（问题）；摆姿势"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "姿势，姿态；假装"
+            }
+        ],
+        "phonetic": "/poʊz/"
+    },
+    {
+        "english": "vanish",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "消失，突然不见"
+            }
+        ],
+        "phonetic": "/ˈvænɪʃ/"
+    },
+    {
+        "english": "sonar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "声纳，声波定位仪"
+            }
+        ],
+        "phonetic": "/ˈsoʊnɑːr/"
+    },
+    {
+        "english": "descent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "下降；下坡；血统，出身"
+            }
+        ],
+        "phonetic": "/dɪˈsent/"
+    },
+    {
+        "english": "tick",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（钟表的）滴答声；勾号（✓）；蜱虫"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "发出滴答声；打勾标记"
+            }
+        ],
+        "phonetic": "/tɪk/"
+    },
+    {
+        "english": "agonizing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人极其痛苦的，折磨人的"
+            }
+        ],
+        "phonetic": "/ˈæɡənaɪzɪŋ/"
+    },
+    {
+        "english": "headlight",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（汽车等的）前灯"
+            }
+        ],
+        "phonetic": "/ˈhedlaɪt/"
+    },
+    {
+        "english": "fog",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "雾"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）被雾笼罩，（使）变得模糊"
+            }
+        ],
+        "phonetic": "/fɔːɡ/"
+    },
+    {
+        "english": "exhale",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "呼气"
+            }
+        ],
+        "phonetic": "/eksˈheɪl/"
+    },
+    {
+        "english": "scuba",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "水肺，水中呼吸器 (Self-Contained Underwater Breathing Apparatus)"
+            }
+        ],
+        "phonetic": "/ˈskuːbə/"
+    },
+    {
+        "english": "fin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鳍；（游泳用的）脚蹼；（飞机、火箭的）翼"
+            }
+        ],
+        "phonetic": "/fɪn/"
+    },
+    {
+        "english": "assist",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "帮助，协助"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "帮助；（体育）助攻"
+            }
+        ],
+        "phonetic": "/əˈsɪst/"
+    },
+    {
+        "english": "resurface",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "重新露面，再次出现；重铺（路面）"
+            }
+        ],
+        "phonetic": "/ˌriːˈsɜːrfɪs/"
+    },
+    {
+        "english": "cardiac",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "心脏的，心脏病的"
+            }
+        ],
+        "phonetic": "/ˈkɑːrdiæk/"
+    },
+    {
+        "english": "cardiac arrest",
+        "pos": [
+            {
+                "abbreviation": "n. phr.",
+                "meaning": "心搏骤停"
+            }
+        ],
+        "phonetic": "/ˌkɑːrdiæk əˈrest/"
+    },
+    {
+        "english": "underwater",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "水下的"
+            },
+            {
+                "abbreviation": "adv.",
+                "meaning": "在水下"
+            }
+        ],
+        "phonetic": "/ˈʌndərwɔːtər/"
+    },
+    {
+        "english": "keenly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "敏锐地；强烈地，热切地"
+            }
+        ],
+        "phonetic": "/ˈkiːnli/"
+    },
+    {
+        "english": "envelop",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "包围，笼罩"
+            }
+        ],
+        "phonetic": "/ɪnˈveləp/"
+    },
+    {
+        "english": "wilderness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "荒野，旷野"
+            }
+        ],
+        "phonetic": "/ˈwɪldərnəs/"
+    },
+    {
+        "english": "frontier",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "边疆，边境；（知识等的）前沿，新领域"
+            }
+        ],
+        "phonetic": "/frʌnˈtɪr/"
+    },
+    {
+        "english": "penalty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "处罚，惩罚；（体育）犯规的处罚，点球"
+            }
+        ],
+        "phonetic": "/ˈpenəlti/"
+    },
+    {
+        "english": "marine",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "海洋的，海生的；海事的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "海军陆战队士兵"
+            }
+        ],
+        "phonetic": "/məˈriːn/"
+    },
+    {
+        "english": "fraction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小部分，一点儿；分数"
+            }
+        ],
+        "phonetic": "/ˈfrækʃən/"
+    },
+    {
+        "english": "exploration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "探索，勘探"
+            }
+        ],
+        "phonetic": "/ˌekspləˈreɪʃən/"
+    },
+    {
+        "english": "mysterious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神秘的，难以理解的"
+            }
+        ],
+        "phonetic": "/mɪˈstɪriəs/"
+    },
+    {
+        "english": "handful",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "一把（的量）；少数，少量；难管教的人（或动物）"
+            }
+        ],
+        "phonetic": "/ˈhændfʊl/"
+    },
+    {
+        "english": "sailor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "水手，海员"
+            }
+        ],
+        "phonetic": "/ˈseɪlər/"
+    },
+    {
+        "english": "menace",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "威胁，危险的人（或物）"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "威胁，危及"
+            }
+        ],
+        "phonetic": "/ˈmenəs/"
+    },
+    {
+        "english": "on occasion",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "有时，偶尔"
+            }
+        ],
+        "phonetic": "/ɑːn əˈkeɪʒən/"
+    },
+    {
+        "english": "on sb's terms",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "按照某人提出的条件"
+            }
+        ],
+        "phonetic": "/ɑːn ˈsʌmbədiz tɜːrmz/"
+    },
+    {
+        "english": "galaxy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "星系；（the Galaxy）银河系；群英荟萃"
+            }
+        ],
+        "phonetic": "/ˈɡæləksi/"
+    },
+    {
+        "english": "terrestrial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "地球的；陆地的，陆生的"
+            }
+        ],
+        "phonetic": "/təˈrestriəl/"
+    },
+    {
+        "english": "necessitate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使成为必要，需要"
+            }
+        ],
+        "phonetic": "/nəˈsesɪteɪt/"
+    },
+    {
+        "english": "observational",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "观察的，观测的"
+            }
+        ],
+        "phonetic": "/ˌɑːbzərˈveɪʃənəl/"
+    },
+    {
+        "english": "ingredient",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（食品的）成分，原料；要素，因素"
+            }
+        ],
+        "phonetic": "/ɪnˈɡriːdiənt/"
+    },
+    {
+        "english": "orbit",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轨道"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "环绕轨道运行"
+            }
+        ],
+        "phonetic": "/ˈɔːrbɪt/"
+    },
+    {
+        "english": "flare",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（火焰）闪耀，突然烧旺；（矛盾、暴力等）爆发；张开"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "闪光，闪光信号；（裙子等的）喇叭形"
+            }
+        ],
+        "phonetic": "/fler/"
+    },
+    {
+        "english": "strip",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "剥去，脱去（衣服）；拆卸；剥夺"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "条，带"
+            }
+        ],
+        "phonetic": "/strɪp/"
+    },
+    {
+        "english": "axis",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轴，轴线"
+            }
+        ],
+        "phonetic": "/ˈæksɪs/"
+    },
+    {
+        "english": "stabilize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）稳定，（使）稳固"
+            }
+        ],
+        "phonetic": "/ˈsteɪbəlaɪz/"
+    },
+    {
+        "english": "axial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "轴的，轴向的"
+            }
+        ],
+        "phonetic": "/ˈæksiəl/"
+    },
+    {
+        "english": "tilt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）倾斜"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "倾斜"
+            }
+        ],
+        "phonetic": "/tɪlt/"
+    },
+    {
+        "english": "shield",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "盾，防护物"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "保护，庇护"
+            }
+        ],
+        "phonetic": "/ʃiːld/"
+    },
+    {
+        "english": "catastrophic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "灾难性的，毁灭性的"
+            }
+        ],
+        "phonetic": "/ˌkætəˈstrɑːfɪk/"
+    },
+    {
+        "english": "proverbial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "谚语的，俗话说的；众所周知的"
+            }
+        ],
+        "phonetic": "/prəˈvɜːrbiəl/"
+    },
+    {
+        "english": "exo-planet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "系外行星"
+            }
+        ],
+        "phonetic": "/ˈeksoʊ plænɪt/"
+    },
+    {
+        "english": "astrobiology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "天体生物学"
+            }
+        ],
+        "phonetic": "/ˌæstroʊbaɪˈɑːlədʒi/"
+    },
+    {
+        "english": "preconception",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "先入之见，成见"
+            }
+        ],
+        "phonetic": "/ˌpriːkənˈsepʃən/"
+    },
+    {
+        "english": "hydrothermal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "热液的"
+            }
+        ],
+        "phonetic": "/ˌhaɪdroʊˈθɜːrməl/"
+    },
+    {
+        "english": "vent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "通风口，出口"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "发泄（情绪）；给…开通风口"
+            }
+        ],
+        "phonetic": "/vent/"
+    },
+    {
+        "english": "absence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "缺席，缺乏"
+            }
+        ],
+        "phonetic": "/ˈæbsəns/"
+    },
+    {
+        "english": "plausible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "貌似可信的，花言巧语的"
+            }
+        ],
+        "phonetic": "/ˈplɔːzəbəl/"
+    },
+    {
+        "english": "conductive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "导电的，导热的"
+            }
+        ],
+        "phonetic": "/kənˈdʌktɪv/"
+    },
+    {
+        "english": "requirement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "要求，必要条件"
+            }
+        ],
+        "phonetic": "/rɪˈkwaɪərmənt/"
+    },
+    {
+        "english": "membrane",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "膜，薄膜"
+            }
+        ],
+        "phonetic": "/ˈmembreɪn/"
+    },
+    {
+        "english": "aqueous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "水的，含水的，水成的"
+            }
+        ],
+        "phonetic": "/ˈeɪkwiəs/"
+    },
+    {
+        "english": "decay",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）腐烂，（使）衰败"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "腐烂，衰败"
+            }
+        ],
+        "phonetic": "/dɪˈkeɪ/"
+    },
+    {
+        "english": "geothermal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "地热的"
+            }
+        ],
+        "phonetic": "/ˌdʒiːoʊˈθɜːrməl/"
+    },
+    {
+        "english": "rogue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "流氓，无赖；离群的野兽"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "异常的，行为失常的 (如 rogue planet 流浪行星)"
+            }
+        ],
+        "phonetic": "/roʊɡ/"
+    },
+    {
+        "english": "habitable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "适于居住的"
+            }
+        ],
+        "phonetic": "/ˈhæbɪtəbəl/"
+    },
+    {
+        "english": "inquire",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "询问，打听"
+            }
+        ],
+        "phonetic": "/ɪnˈkwaɪər/"
+    },
+    {
+        "english": "inquiry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "询问，打听；调查"
+            }
+        ],
+        "phonetic": "/ˈɪnkwəri/"
+    },
+    {
+        "english": "planetary",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "行星的"
+            }
+        ],
+        "phonetic": "/ˈplænəteri/"
+    },
+    {
+        "english": "probe",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "探查，探测；盘问"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "探测器；探针；盘问"
+            }
+        ],
+        "phonetic": "/proʊb/"
+    },
+    {
+        "english": "seasonal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "季节性的"
+            }
+        ],
+        "phonetic": "/ˈsiːzənəl/"
+    },
+    {
+        "english": "periodic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "周期的，定期的"
+            }
+        ],
+        "phonetic": "/ˌpɪriˈɑːdɪk/"
+    },
+    {
+        "english": "inhabitant",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "居民，栖息的动物"
+            }
+        ],
+        "phonetic": "/ɪnˈhæbɪtənt/"
+    },
+    {
+        "english": "detection",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "探测，侦查；发现"
+            }
+        ],
+        "phonetic": "/dɪˈtekʃən/"
+    },
+    {
+        "english": "property",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "财产，所有物；性质，特性"
+            }
+        ],
+        "phonetic": "/ˈprɑːpərti/"
+    },
+    {
+        "english": "restrict",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "限制，约束"
+            }
+        ],
+        "phonetic": "/rɪˈstrɪkt/"
+    },
+    {
+        "english": "solar",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "太阳的，利用太阳能的"
+            }
+        ],
+        "phonetic": "/ˈsoʊlər/"
+    },
+    {
+        "english": "doom",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "厄运，劫数；判决"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "注定，使…在劫难逃"
+            }
+        ],
+        "phonetic": "/duːm/"
+    },
+    {
+        "english": "extraterrestrial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "地球外的，外星的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "外星人"
+            }
+        ],
+        "phonetic": "/ˌekstrətəˈrestriəl/"
+    },
+    {
+        "english": "Jupiter",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "木星；（罗马神话中的）朱庇特"
+            }
+        ],
+        "phonetic": "/ˈdʒuːpɪtər/"
+    }
+]
