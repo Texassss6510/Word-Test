@@ -1,0 +1,952 @@
+[
+    {
+        "english": "commencement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "开始，开端；（大学的）毕业典礼"
+            }
+        ],
+        "phonetic": "/kəˈmensmənt/"
+    },
+    {
+        "english": "faculty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（大学的）全体教职员；（高等院校的）院，系；才能，能力"
+            }
+        ],
+        "phonetic": "/ˈfækəlti/"
+    },
+    {
+        "english": "confront",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "面对，面临；与…对峙，对抗"
+            }
+        ],
+        "phonetic": "/kənˈfrʌnt/"
+    },
+    {
+        "english": "quitter",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轻易放弃的人，半途而废的人"
+            }
+        ],
+        "phonetic": "/ˈkwɪtər/"
+    },
+    {
+        "english": "mediocre",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "平庸的，普通的"
+            }
+        ],
+        "phonetic": "/ˌmiːdiˈoʊkər/"
+    },
+    {
+        "english": "slipshod",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "马虎的，草率的"
+            }
+        ],
+        "phonetic": "/ˈslɪpʃɑːd/"
+    },
+    {
+        "english": "forgiving",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "宽容的，宽大的；（设计、材料等）容错的，不易出错的"
+            }
+        ],
+        "phonetic": "/fərˈɡɪvɪŋ/"
+    },
+    {
+        "english": "deadline",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "最后期限，截止日期"
+            }
+        ],
+        "phonetic": "/ˈdedlaɪn/"
+    },
+    {
+        "english": "garrulous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "喋喋不休的，饶舌的"
+            }
+        ],
+        "phonetic": "/ˈɡærələs/"
+    },
+    {
+        "english": "toss",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（随意地）扔，抛；（使）摇摆，颠簸；掷（硬币）决定；拌（沙拉等）"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "投掷，抛；掷硬币决定"
+            }
+        ],
+        "phonetic": "/tɔːs/"
+    },
+    {
+        "english": "dull",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "乏味的，无聊的；（颜色、光线等）晦暗的；（声音）沉闷的；（刀具）钝的；（人）迟钝的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）变钝；（使）变呆滞"
+            }
+        ],
+        "phonetic": "/dʌl/"
+    },
+    {
+        "english": "unimaginative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "缺乏想象力的，无创意的"
+            }
+        ],
+        "phonetic": "/ˌʌnɪˈmædʒɪnətɪv/"
+    },
+    {
+        "english": "fantasy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "幻想，想象；奇幻作品"
+            }
+        ],
+        "phonetic": "/ˈfæntəsi/"
+    },
+    {
+        "english": "pretense",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "伪装，假装；借口；自负"
+            }
+        ],
+        "phonetic": "/ˈpriːtens/"
+    },
+    {
+        "english": "conventional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "传统的，常规的；符合习俗的"
+            }
+        ],
+        "phonetic": "/kənˈvenʃənəl/"
+    },
+    {
+        "english": "spoil",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "破坏，毁掉；宠坏，溺爱；（食物）变质"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "战利品，赃物"
+            }
+        ],
+        "phonetic": "/spɔɪl/"
+    },
+    {
+        "english": "deprive",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "剥夺，使丧失"
+            }
+        ],
+        "phonetic": "/dɪˈpraɪv/"
+    },
+    {
+        "english": "adequate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "足够的，充足的；尚可的，差强人意的"
+            }
+        ],
+        "phonetic": "/ˈædɪkwət/"
+    },
+    {
+        "english": "attentive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "注意的，专心的；关心的，体贴的"
+            }
+        ],
+        "phonetic": "/əˈtentɪv/"
+    },
+    {
+        "english": "co-worker",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "同事，合作者"
+            }
+        ],
+        "phonetic": "/ˈkoʊ wɜːrkər/"
+    },
+    {
+        "english": "insult",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "侮辱，辱骂"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "侮辱，辱骂"
+            }
+        ],
+        "phonetic": "/ˈɪnsʌlt/ (n.), /ɪnˈsʌlt/ (v.)"
+    },
+    {
+        "english": "parlous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "危险的，不稳定的，糟糕的"
+            }
+        ],
+        "phonetic": "/ˈpɑːrləs/"
+    },
+    {
+        "english": "tolerate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "容忍，忍受"
+            }
+        ],
+        "phonetic": "/ˈtɑːləreɪt/"
+    },
+    {
+        "english": "adolescent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "青少年"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "青春期的，青少年的"
+            }
+        ],
+        "phonetic": "/ˌædəˈlesnt/"
+    },
+    {
+        "english": "unlearn",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "忘掉（已学的东西），清除（旧观念）"
+            }
+        ],
+        "phonetic": "/ˌʌnˈlɜːrn/"
+    },
+    {
+        "english": "preparatory",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "预备的，准备的"
+            }
+        ],
+        "phonetic": "/prɪˈpærətɔːri/"
+    },
+    {
+        "english": "formulate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "构想，规划；系统地阐述"
+            }
+        ],
+        "phonetic": "/ˈfɔːrmjuleɪt/"
+    },
+    {
+        "english": "tolerant",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "宽容的，容忍的"
+            }
+        ],
+        "phonetic": "/ˈtɑːlərənt/"
+    },
+    {
+        "english": "broaden",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）变宽；扩大（范围）"
+            }
+        ],
+        "phonetic": "/ˈbrɔːdən/"
+    },
+    {
+        "english": "supposedly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "据称，据说；可能"
+            }
+        ],
+        "phonetic": "/səˈpoʊzɪdli/"
+    },
+    {
+        "english": "erase",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "擦掉，抹去；消除"
+            }
+        ],
+        "phonetic": "/ɪˈreɪs/"
+    },
+    {
+        "english": "semester",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "学期"
+            }
+        ],
+        "phonetic": "/səˈmestər/"
+    },
+    {
+        "english": "midterm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "期中考试；中期"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "期中的"
+            }
+        ],
+        "phonetic": "/ˈmɪdtɜːrm/"
+    },
+    {
+        "english": "final",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "最终的，最后的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "期末考试；决赛"
+            }
+        ],
+        "phonetic": "/ˈfaɪnəl/"
+    },
+    {
+        "english": "due",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "到期的；预定的；应得的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "应付款；应得之物"
+            }
+        ],
+        "phonetic": "/duː/"
+    },
+    {
+        "english": "drop out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "退学；退出（活动、社会等）"
+            }
+        ],
+        "phonetic": "/drɑːp aʊt/"
+    },
+    {
+        "english": "look back",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "回顾，回忆"
+            }
+        ],
+        "phonetic": "/lʊk bæk/"
+    },
+    {
+        "english": "the easy way out",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "省事的办法，轻易的解脱办法"
+            }
+        ],
+        "phonetic": "/ði ˈiːzi weɪ aʊt/"
+    },
+    {
+        "english": "act out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "将（想法、情绪等）付诸行动，表现出来；表演"
+            }
+        ],
+        "phonetic": "/ækt aʊt/"
+    },
+    {
+        "english": "be rid of",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "摆脱"
+            }
+        ],
+        "phonetic": "/bi rɪd əv/"
+    },
+    {
+        "english": "pop into one's mind",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "突然想到，突然出现在脑海里"
+            }
+        ],
+        "phonetic": "/pɑːp ˈɪntuː wʌnz maɪnd/"
+    },
+    {
+        "english": "get away with",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "（做坏事）不受惩罚，侥幸逃脱"
+            }
+        ],
+        "phonetic": "/ɡet əˈweɪ wɪθ/"
+    },
+    {
+        "english": "get down to",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "开始认真做，着手处理"
+            }
+        ],
+        "phonetic": "/ɡet daʊn tu/"
+    },
+    {
+        "english": "by no means",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "绝不，一点也不"
+            }
+        ],
+        "phonetic": "/baɪ noʊ miːnz/"
+    },
+    {
+        "english": "wicker",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "柳条，藤条"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "柳条编的，藤制的"
+            }
+        ],
+        "phonetic": "/ˈwɪkər/"
+    },
+    {
+        "english": "grumpy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "脾气坏的，性情乖戾的"
+            }
+        ],
+        "phonetic": "/ˈɡrʌmpi/"
+    },
+    {
+        "english": "visualize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "想象，设想，使形象化"
+            }
+        ],
+        "phonetic": "/ˈvɪʒuəlaɪz/"
+    },
+    {
+        "english": "assignment",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（分配的）任务，作业；分配，指派"
+            }
+        ],
+        "phonetic": "/əˈsaɪnmənt/"
+    },
+    {
+        "english": "jeer",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "嘲笑，讥讽"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "嘲笑，讥讽的话"
+            }
+        ],
+        "phonetic": "/dʒɪr/"
+    },
+    {
+        "english": "stun",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使震惊，使目瞪口呆；把…打昏"
+            }
+        ],
+        "phonetic": "/stʌn/"
+    },
+    {
+        "english": "proceed",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "继续进行；着手，开始"
+            }
+        ],
+        "phonetic": "/prəˈsiːd/"
+    },
+    {
+        "english": "arch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拱，拱门，拱形物"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）成拱形"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "调皮的，狡黠的；主要的"
+            }
+        ],
+        "phonetic": "/ɑːrtʃ/"
+    },
+    {
+        "english": "eyebrow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "眉毛"
+            }
+        ],
+        "phonetic": "/ˈaɪbraʊ/"
+    },
+    {
+        "english": "shrug",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "耸肩（表示怀疑、冷漠或无奈）"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "耸肩"
+            }
+        ],
+        "phonetic": "/ʃrʌɡ/"
+    },
+    {
+        "english": "slum",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "贫民窟，棚户区"
+            }
+        ],
+        "phonetic": "/slʌm/"
+    },
+    {
+        "english": "marketable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有销路的，畅销的"
+            }
+        ],
+        "phonetic": "/ˈmɑːrkɪtəbəl/"
+    },
+    {
+        "english": "smug",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "沾沾自喜的，自鸣得意的"
+            }
+        ],
+        "phonetic": "/smʌɡ/"
+    },
+    {
+        "english": "leer",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（不怀好意地）斜眼看，抛媚眼"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "不怀好意的斜视，媚眼"
+            }
+        ],
+        "phonetic": "/lɪr/"
+    },
+    {
+        "english": "dimension",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "尺寸，维度；方面，部分；规模，程度"
+            }
+        ],
+        "phonetic": "/dɪˈmenʃən/"
+    },
+    {
+        "english": "contemplate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "沉思，思索；凝视；考虑，预期"
+            }
+        ],
+        "phonetic": "/ˈkɑːntəmpleɪt/"
+    },
+    {
+        "english": "warehouse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "仓库，货栈"
+            }
+        ],
+        "phonetic": "/ˈwerhaʊs/"
+    },
+    {
+        "english": "grain",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "谷物，粮食；颗粒，细粒；（木材、织物等的）纹理"
+            }
+        ],
+        "phonetic": "/ɡreɪn/"
+    },
+    {
+        "english": "industrial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "工业的，产业的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʌstriəl/"
+    },
+    {
+        "english": "revenue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（政府的）税收，岁入；（公司的）收益，营业额"
+            }
+        ],
+        "phonetic": "/ˈrevənuː/"
+    },
+    {
+        "english": "exterminator",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "害虫驱除者，灭虫公司"
+            }
+        ],
+        "phonetic": "/ɪkˈstɜːrmɪneɪtər/"
+    },
+    {
+        "english": "feasible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可行的，行得通的"
+            }
+        ],
+        "phonetic": "/ˈfiːzəbəl/"
+    },
+    {
+        "english": "glare",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "怒目而视；发出刺眼的光"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "怒视；刺眼的光"
+            }
+        ],
+        "phonetic": "/ɡler/"
+    },
+    {
+        "english": "pointedly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "尖锐地，直截了当地；显著地"
+            }
+        ],
+        "phonetic": "/ˈpɔɪntɪdli/"
+    },
+    {
+        "english": "groan",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "呻吟；抱怨"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "呻吟声；抱怨声"
+            }
+        ],
+        "phonetic": "/ɡroʊn/"
+    },
+    {
+        "english": "audible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "听得见的"
+            }
+        ],
+        "phonetic": "/ˈɔːdəbəl/"
+    },
+    {
+        "english": "interrupt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "打断，中断"
+            }
+        ],
+        "phonetic": "/ˌɪntəˈrʌpt/"
+    },
+    {
+        "english": "slam dunk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "（篮球）扣篮；轻而易举就能成功的事"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "扣篮；轻松完成"
+            }
+        ],
+        "phonetic": "/ˈslæm dʌŋk/"
+    },
+    {
+        "english": "verbatim",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "逐字地，一字不差地"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "逐字的，一字不差的"
+            }
+        ],
+        "phonetic": "/vɜːrˈbeɪtɪm/"
+    },
+    {
+        "english": "rustle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "（使）发出沙沙声；偷窃（牲畜）"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "沙沙声"
+            }
+        ],
+        "phonetic": "/ˈrʌsəl/"
+    },
+    {
+        "english": "frantic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "（因恐惧、焦虑等）发疯似的，狂乱的；紧张忙乱的"
+            }
+        ],
+        "phonetic": "/ˈfræntɪk/"
+    },
+    {
+        "english": "frantically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "疯狂地，狂乱地"
+            }
+        ],
+        "phonetic": "/ˈfræntɪkli/"
+    },
+    {
+        "english": "index",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "索引；指数；指针"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "为…编索引；将…与指数挂钩"
+            }
+        ],
+        "phonetic": "/ˈɪndeks/"
+    },
+    {
+        "english": "oddly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "奇怪地，古怪地"
+            }
+        ],
+        "phonetic": "/ˈɑːdli/"
+    },
+    {
+        "english": "vice versa",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "反之亦然"
+            }
+        ],
+        "phonetic": "/ˌvaɪs ˈvɜːrsə/"
+    },
+    {
+        "english": "cut one's losses",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "及时止损"
+            }
+        ],
+        "phonetic": "/kʌt wʌnz ˈlɔːsɪz/"
+    },
+    {
+        "english": "pack up",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "打包，收拾行李；（机器）停止运转，失灵"
+            }
+        ],
+        "phonetic": "/pæk ʌp/"
+    },
+    {
+        "english": "smile broadly",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "开怀大笑，笑得很灿烂"
+            }
+        ],
+        "phonetic": "/smaɪl ˈbrɔːdli/"
+    },
+    {
+        "english": "cut into",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "切入，插入；打断；削减，减少"
+            }
+        ],
+        "phonetic": "/kʌt ˈɪntuː/"
+    },
+    {
+        "english": "better still",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "更好的是"
+            }
+        ],
+        "phonetic": "/ˈbetər stɪl/"
+    },
+    {
+        "english": "hand out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "分发，散发"
+            }
+        ],
+        "phonetic": "/hænd aʊt/"
+    },
+    {
+        "english": "reason out",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "推断出，逻辑地解决"
+            }
+        ],
+        "phonetic": "/ˈriːzən aʊt/"
+    },
+    {
+        "english": "think through",
+        "pos": [
+            {
+                "abbreviation": "phr. v.",
+                "meaning": "仔细考虑，想透"
+            }
+        ],
+        "phonetic": "/θɪŋk θruː/"
+    }
+]

@@ -175,7 +175,7 @@
         "english": "portfolio career",
         "pos": [
             {
-                "abbreviation": "n. phr.",
+                "abbreviation": "phr.",
                 "meaning": "多元化职业，组合式事业（指同时从事多种兼职工作或项目的职业模式）"
             }
         ],
@@ -347,7 +347,7 @@
         "english": "bucket list",
         "pos": [
             {
-                "abbreviation": "n. phr.",
+                "abbreviation": "phr.",
                 "meaning": "遗愿清单，人生目标清单（指在去世前想要完成的事情列表）"
             }
         ],
@@ -407,7 +407,7 @@
         "english": "wear out",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "用坏，穿破；使筋疲力尽"
             }
         ],
@@ -437,7 +437,7 @@
         "english": "the whip hand",
         "pos": [
             {
-                "abbreviation": "n. phr.",
+                "abbreviation": "phr.",
                 "meaning": "支配地位，优势"
             }
         ],
@@ -447,7 +447,7 @@
         "english": "round out",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "使...变圆；使...完美，使...圆满完成"
             }
         ],
@@ -457,7 +457,7 @@
         "english": "draw up",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "起草，草拟（文件）；（车辆）停住"
             }
         ],
@@ -468,7 +468,7 @@
         "pos": [
             {
                 "abbreviation": "v.",
-                "meaning": "取得，得到 (derive...from)；起源于 (derive from)"
+                "meaning": "取得，得到；起源于"
             }
         ],
         "phonetic": "/dɪˈraɪv/"
@@ -746,7 +746,7 @@
         "pos": [
             {
                 "abbreviation": "n.",
-                "meaning": "肿瘤 (英式拼写, 美式为 tumor)"
+                "meaning": "肿瘤"
             }
         ],
         "phonetic": "/ˈtuːmər/"
@@ -823,7 +823,7 @@
         "english": "act on",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "根据…行事，对…起作用"
             }
         ],
@@ -833,7 +833,7 @@
         "english": "top up",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "加满，充满（尤指已部分装满的容器）；（给手机等）充值"
             }
         ],
@@ -843,7 +843,7 @@
         "english": "sign off",
         "pos": [
             {
-                "abbreviation": "phr. v.",
+                "abbreviation": "phr.",
                 "meaning": "（在信末）署名，签退；（广播员）结束播音；批准，认可"
             }
         ],
