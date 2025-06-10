@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: "Book 2 - Unit 6", path: "College English/Book 2/B2U6.json" },
                 { name: "Book 2 - Unit 7", path: "College English/Book 2/B2U7.json" },
                 { name: "Book 2 - Unit 8", path: "College English/Book 2/B2U8.json" },
+                { name: "Book 3 - Unit 1", path: "College English/Book 3/B3U1.json" }
                 { name: "Book 3 - Unit 6", path: "College English/Book 3/B3U6.json" },
                 { name: "Book 3 - Unit 7", path: "College English/Book 3/B3U7.json" },
                 { name: "Book 3 - Unit 8", path: "College English/Book 3/B3U8.json" }
