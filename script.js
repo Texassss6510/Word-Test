@@ -43,6 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
             lists: [
                 { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" }
             ]
+        },
+        {
+            category: "lyc",
+            lists: [
+                { name: "25年新一卷B篇", path: "lyc/2025年新一卷/B.json" }
+            ]
         }
     ];
 

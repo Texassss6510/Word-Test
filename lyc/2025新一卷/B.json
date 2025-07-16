@@ -1,0 +1,468 @@
+[
+    {
+        "english": "cowboy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "牛仔"
+            }
+        ],
+        "phonetic": "/ˈkaʊbɔɪ/"
+    },
+    {
+        "english": "demand",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "要求, 需求"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "要求, 需要"
+            }
+        ],
+        "phonetic": "/dɪˈmænd/"
+    },
+    {
+        "english": "heartbreak",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "心碎, 极度的悲伤"
+            }
+        ],
+        "phonetic": "/ˈhɑːrtbreɪk/"
+    },
+    {
+        "english": "subject",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "主题, 科目, 主语, 国民"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "受支配的, 易遭受...的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使服从, 使遭受"
+            }
+        ],
+        "phonetic": "/ˈsʌbdʒɪkt/"
+    },
+    {
+        "english": "disease",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "疾病, 病"
+            }
+        ],
+        "phonetic": "/dɪˈziːz/"
+    },
+    {
+        "english": "essay",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "散文, 短文, 文章"
+            }
+        ],
+        "phonetic": "/ˈeseɪ/"
+    },
+    {
+        "english": "contain",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "包含, 容纳, 控制"
+            }
+        ],
+        "phonetic": "/kənˈteɪn/"
+    },
+    {
+        "english": "interpret",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "解释, 说明, 口译"
+            }
+        ],
+        "phonetic": "/ɪnˈtɜːrprət/"
+    },
+    {
+        "english": "statement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "陈述, 声明, 报表"
+            }
+        ],
+        "phonetic": "/ˈsteɪtmənt/"
+    },
+    {
+        "english": "necessity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "必要性, 必需品"
+            }
+        ],
+        "phonetic": "/nəˈsesəti/"
+    },
+    {
+        "english": "strike",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "打, 撞击, 罢工, 给...留下印象"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "罢工, 殴打, 袭击"
+            }
+        ],
+        "phonetic": "/straɪk/"
+    },
+    {
+        "english": "persuasive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有说服力的, 劝诱的"
+            }
+        ],
+        "phonetic": "/pərˈsweɪsɪv/"
+    },
+    {
+        "english": "persuade",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "说服, 劝服"
+            }
+        ],
+        "phonetic": "/pərˈsweɪd/"
+    },
+    {
+        "english": "relate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使有联系, 叙述, 涉及"
+            }
+        ],
+        "phonetic": "/rɪˈleɪt/"
+    },
+    {
+        "english": "topic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "话题, 主题, 题目"
+            }
+        ],
+        "phonetic": "/ˈtɑːpɪk/"
+    },
+    {
+        "english": "assign",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "分配, 指派, 赋值"
+            }
+        ],
+        "phonetic": "/əˈsaɪn/"
+    },
+    {
+        "english": "assignment",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "任务, 作业, 分配"
+            }
+        ],
+        "phonetic": "/əˈsaɪnmənt/"
+    },
+    {
+        "english": "narrative",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "叙述, 故事"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "叙事的"
+            }
+        ],
+        "phonetic": "/ˈnærətɪv/"
+    },
+    {
+        "english": "workshop",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "车间, 工场, 研讨会"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "参加研讨会, 集体创作"
+            }
+        ],
+        "phonetic": "/ˈwɜːrkʃɑːp/"
+    },
+    {
+        "english": "meet",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "遇见, 满足, 开会"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "会面, 体育比赛"
+            }
+        ],
+        "phonetic": "/miːt/"
+    },
+    {
+        "english": "specification",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "规格, 说明书, 详述"
+            }
+        ],
+        "phonetic": "/ˌspesɪfɪˈkeɪʃn/"
+    },
+    {
+        "english": "diverse",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不同的, 多种多样的"
+            }
+        ],
+        "phonetic": "/daɪˈvɜːrs/"
+    },
+    {
+        "english": "diversity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "多样性, 差异"
+            }
+        ],
+        "phonetic": "/daɪˈvɜːrsəti/"
+    },
+    {
+        "english": "specific",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "特定的, 明确的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "特效药, 细节"
+            }
+        ],
+        "phonetic": "/spəˈsɪfɪk/"
+    },
+    {
+        "english": "broaden",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "变宽, 扩大"
+            }
+        ],
+        "phonetic": "/ˈbrɔːdn/"
+    },
+    {
+        "english": "broad",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "宽的, 广泛的, 概括的"
+            }
+        ],
+        "phonetic": "/brɔːd/"
+    },
+    {
+        "english": "demonstrate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "证明, 演示, 示威"
+            }
+        ],
+        "phonetic": "/ˈdemənstreɪt/"
+    },
+    {
+        "english": "demonstration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "证明, 示范, 示威游行"
+            }
+        ],
+        "phonetic": "/ˌdemənˈstreɪʃn/"
+    },
+    {
+        "english": "significance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "意义, 重要性"
+            }
+        ],
+        "phonetic": "/sɪɡˈnɪfɪkəns/"
+    },
+    {
+        "english": "put oneself in another's skin",
+        "pos": [
+            {
+                "abbreviation": "phrase",
+                "meaning": "设身处地为他人着想"
+            }
+        ],
+        "phonetic": "/pʊt wʌnˈsɛlf ɪn əˈnʌðərz skɪn/"
+    },
+    {
+        "english": "skin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "皮肤, 外皮"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "剥皮"
+            }
+        ],
+        "phonetic": "/skɪn/"
+    },
+    {
+        "english": "fictional",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "虚构的, 小说的"
+            }
+        ],
+        "phonetic": "/ˈfɪkʃənl/"
+    },
+    {
+        "english": "fiction",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小说, 虚构"
+            }
+        ],
+        "phonetic": "/ˈfɪkʃn/"
+    },
+    {
+        "english": "misunderstand",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "误解, 误会"
+            }
+        ],
+        "phonetic": "/ˌmɪsʌndərˈstænd/"
+    },
+    {
+        "english": "limit",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "限制, 限度, 界限"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "限制, 限定"
+            }
+        ],
+        "phonetic": "/ˈlɪmɪt/"
+    },
+    {
+        "english": "vocabulary",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "词汇, 词汇量"
+            }
+        ],
+        "phonetic": "/voʊˈkæbjəleri/"
+    },
+    {
+        "english": "disturbing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人不安的, 烦扰的"
+            }
+        ],
+        "phonetic": "/dɪˈstɜːrbɪŋ/"
+    },
+    {
+        "english": "disturb",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "打扰, 妨碍, 使不安"
+            }
+        ],
+        "phonetic": "/dɪˈstɜːrb/"
+    },
+    {
+        "english": "author",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "作者, 创始人"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "创作, 撰写"
+            }
+        ],
+        "phonetic": "/ˈɔːθər/"
+    },
+    {
+        "english": "still",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "仍然, 还, 尽管如此"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "静止的, 平静的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "寂静, 剧照"
+            },
+            {
+                "abbreviation": "conj.",
+                "meaning": "然而, 不过"
+            }
+        ],
+        "phonetic": "/stɪl/"
+    },
+    {
+        "english": "proverb",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "谚语, 格言"
+            }
+        ],
+        "phonetic": "/ˈprɑːvɜːrb/"
+    }
+]
