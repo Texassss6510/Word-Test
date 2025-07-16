@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             category: "lyc",
             lists: [
-                { name: "25年新一卷B篇", path: "lyc/2025年新一卷/B.json" }
+                { name: "25年新一卷B篇", path: "lyc/2025new/B.json" }
             ]
         }
     ];
