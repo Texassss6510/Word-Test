@@ -89,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let appState = 'wordSelection';
     let reviewMode = 'spelling';
     let currentListPath = null; 
+    let currentUnitName = "";
 
     // --- Utility Functions ---
     function shuffleArray(arr) {
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             wordList = fileData;
-            fileLoadedInfo.textContent = `加载成功！共 ${wordList.length} 个单词。`;
+            fileLoadedInfo.innerHTML = `已成功加载：<strong style="color:#007aff">${currentUnitName}</strong><br>共 ${wordList.length} 个单词。`;
             resetProgress();
             updateAppView('readyToStart');
 
@@ -278,7 +279,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-    function exportIncorrectWordsList() { /* ... */ }
+    function exportIncorrectWordsList() {
+        if (incorrectWords.length === 0) return;
+        let content = "英文单词,音标,释义,我的输入\n"; // CSV表头
+        
+        incorrectWords.forEach(w => {
+            // 将词性释义拼接成一个字符串
+            const meanings = w.pos.map(p => `${p.abbreviation}${p.meaning}`).join('; ');
+            // 添加双引号防止释义里含有英文逗号破坏 CSV 格式
+            content += `${w.english},${w.phonetic},"${meanings}",${w.userInput}\n`;
+        });
+        
+        // 加上 \ufeff 防止 Excel 打开时中文乱码
+        const blob = new Blob(["\ufeff" + content], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = `错误单词_${currentUnitName || '导出'}.csv`; // 文件名带上单元名
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }  
 
     // --- Event Handlers ---
     categorySelector.addEventListener('change', () => {
@@ -297,6 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const path = unitSelector.value;
         if (!path) return;
         currentListPath = path; // 保存当前学习列表的路径
+        currentUnitName = unitSelector.options[unitSelector.selectedIndex].text;
         updateAppView('readyToStart');
         fileLoadedInfo.textContent = '准备加载...';
         loadWordsFromServer(currentListPath);
@@ -314,6 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
     playAudioButton.addEventListener('click', () => {
         if (appState === 'review' && currentWordIndex < wordList.length) {
             speak(wordList[currentWordIndex].english);
+            userAnswerInput.focus();
         }
     });
 

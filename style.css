@@ -83,6 +83,10 @@ body {
 
 /* 单词书选择器样式 */
 .selection-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 核心：让内部的 select 居中对齐 */
+    gap: 15px; /* 让两个下拉框之间保持间距 */
     margin-bottom: 25px;
 }
 .word-list-selector {
@@ -171,8 +175,8 @@ body {
 .progress-summary { display: flex; justify-content: space-around; font-size: 1em; color: #636366; }
 .progress-summary span { padding: 5px 10px; background-color: rgba(240, 242, 245, 0.7); border-radius: 6px; }
 
-/* 这段是导致不对齐的“罪魁祸首” */
 #unitSelector {
-  margin-left: 0px;
-  width: calc(100% - 30px);
+    margin-left: 0px;
+    width: 100%;
+    max-width: 400px; /* 让它和上面类名为 word-list-selector 的选择框保持一样宽 */
 }
