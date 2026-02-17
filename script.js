@@ -32,22 +32,16 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             category: "Stardew Valley",
             lists: [
-                { name: "词汇包 1", path: "Stardew Valley/星露谷单词1.json" },
-                { name: "词汇包 2", path: "Stardew Valley/星露谷单词2.json" },
-                { name: "词汇包 3", path: "Stardew Valley/星露谷单词3.json" },
-                { name: "词汇包 4", path: "Stardew Valley/星露谷单词4.json" }
+                { name: "Group 1", path: "Stardew Valley/星露谷单词1.json" },
+                { name: "Group 2", path: "Stardew Valley/星露谷单词2.json" },
+                { name: "Group 3", path: "Stardew Valley/星露谷单词3.json" },
+                { name: "Group 4", path: "Stardew Valley/星露谷单词4.json" }
             ]
         },
         {
             category: "My Little Pony",
             lists: [
                 { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" }
-            ]
-        },
-        {
-            category: "lyc",
-            lists: [
-                { name: "25年新一卷B篇", path: "lyc/2025new/B.json" }
             ]
         }
     ];

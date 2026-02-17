@@ -273,10 +273,6 @@
       {
         "abbreviation": "n.",
         "meaning": "碎片"
-      },
-      {
-        "abbreviation": "v.",
-        "meaning": "使破碎"
       }
     ],
     "phonetic": "/ʃɑːrd/"
@@ -307,10 +303,6 @@
       {
         "abbreviation": "n.",
         "meaning": "巨石"
-      },
-      {
-        "abbreviation": "v.",
-        "meaning": "推滚"
       }
     ],
     "phonetic": "/ˈboʊldər/"
@@ -358,11 +350,7 @@
     "pos": [
       {
         "abbreviation": "n.",
-        "meaning": "采矿"
-      },
-      {
-        "abbreviation": "adj.",
-        "meaning": "采矿的"
+        "meaning": "采矿业"
       }
     ],
     "phonetic": "/ˈmaɪnɪŋ/"
@@ -373,10 +361,6 @@
       {
         "abbreviation": "adj.",
         "meaning": "分散的"
-      },
-      {
-        "abbreviation": "v.",
-        "meaning": "分散"
       }
     ],
     "phonetic": "/ˈskætərd/"
@@ -411,10 +395,6 @@
       {
         "abbreviation": "adj.",
         "meaning": "珍贵的"
-      },
-      {
-        "abbreviation": "v.",
-        "meaning": "评价"
       }
     ],
     "phonetic": "/ˈvæljuːd/"
@@ -425,10 +405,6 @@
       {
         "abbreviation": "n.",
         "meaning": "山崩，滑坡"
-      },
-      {
-        "abbreviation": "v.",
-        "meaning": "造成山崩"
       }
     ],
     "phonetic": "/ˈlændslaɪd/"
