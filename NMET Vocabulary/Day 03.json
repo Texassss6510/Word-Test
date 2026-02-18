@@ -1,0 +1,354 @@
+[
+    {
+        "english": "scold",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "责骂，斥责"
+            }
+        ],
+        "phonetic": "/skəʊld/"
+    },
+    {
+        "english": "curse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "诅咒，咒骂，祸害"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "诅咒，咒骂"
+            }
+        ],
+        "phonetic": "/kɜːs/"
+    },
+    {
+        "english": "spouse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "配偶"
+            }
+        ],
+        "phonetic": "/spaʊz/"
+    },
+    {
+        "english": "palm",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "手掌，手心；棕榈树"
+            }
+        ],
+        "phonetic": "/pɑːm/"
+    },
+    {
+        "english": "strait",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "海峡；困境，窘境"
+            }
+        ],
+        "phonetic": "/streɪt/"
+    },
+    {
+        "english": "canyon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "峡谷"
+            }
+        ],
+        "phonetic": "/ˈkænjən/"
+    },
+    {
+        "english": "gorge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "峡谷"
+            }
+        ],
+        "phonetic": "/ɡɔːdʒ/"
+    },
+    {
+        "english": "peninsula",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "半岛"
+            }
+        ],
+        "phonetic": "/pəˈnɪnsjələ/"
+    },
+    {
+        "english": "sandy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "多沙的，含沙的"
+            }
+        ],
+        "phonetic": "/ˈsændi/"
+    },
+    {
+        "english": "misunderstand",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "误解，误会"
+            }
+        ],
+        "phonetic": "/ˌmɪsʌndəˈstænd/"
+    },
+    {
+        "english": "bend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "弯曲，屈服"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "弯道，弯曲"
+            }
+        ],
+        "phonetic": "/bend/"
+    },
+    {
+        "english": "bent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "弯曲的，决心的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "天赋，爱好"
+            }
+        ],
+        "phonetic": "/bent/"
+    },
+    {
+        "english": "crouch",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "蹲伏，蜷缩"
+            }
+        ],
+        "phonetic": "/kraʊtʃ/"
+    },
+    {
+        "english": "mend",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "修理，修补，改善"
+            }
+        ],
+        "phonetic": "/mend/"
+    },
+    {
+        "english": "make ends meet",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "使收支相抵，勉强维持生计"
+            }
+        ],
+        "phonetic": "/meɪk endz miːt/"
+    },
+    {
+        "english": "simulate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "模拟，模仿，假装"
+            }
+        ],
+        "phonetic": "/ˈsɪmjuleɪt/"
+    },
+    {
+        "english": "genre",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "类型，体裁，流派"
+            }
+        ],
+        "phonetic": "/ˈʒɑ̃ːrə/"
+    },
+    {
+        "english": "windproof",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "防风的"
+            }
+        ],
+        "phonetic": "/ˈwɪndpruːf/"
+    },
+    {
+        "english": "tornado",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "龙卷风"
+            }
+        ],
+        "phonetic": "/tɔːˈneɪdəʊ/"
+    },
+    {
+        "english": "hurricane",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "飓风"
+            }
+        ],
+        "phonetic": "/ˈhʌrɪkən/"
+    },
+    {
+        "english": "jewelry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "珠宝，首饰"
+            }
+        ],
+        "phonetic": "/ˈdʒuːəlri/"
+    },
+    {
+        "english": "bound",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "必然的；受约束的；有义务的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "跳跃；限制，约束"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "边界；跳跃"
+            }
+        ],
+        "phonetic": "/baʊnd/"
+    },
+    {
+        "english": "grounded",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "理智的，理性的"
+            }
+        ],
+        "phonetic": "/ˈɡraʊndɪd/"
+    },
+    {
+        "english": "ground",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "地面，土地"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "禁足；以……为根据"
+            }
+        ],
+        "phonetic": "/ɡraʊnd/"
+    },
+    {
+        "english": "metro",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "地铁"
+            }
+        ],
+        "phonetic": "/ˈmetrəʊ/"
+    },
+    {
+        "english": "bruise",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "瘀伤，淤青"
+            }
+        ],
+        "phonetic": "/bruːz/"
+    },
+    {
+        "english": "sprain",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "扭伤"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "扭伤"
+            }
+        ],
+        "phonetic": "/spreɪn/"
+    },
+    {
+        "english": "periodical",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "期刊，杂志"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "周期的，定期的"
+            }
+        ],
+        "phonetic": "/ˌpɪəriˈɒdɪkl/"
+    },
+    {
+        "english": "food for thought",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "引人深思的事物，精神食粮"
+            }
+        ],
+        "phonetic": "/fuːd fɔː θɔːt/"
+    },
+    {
+        "english": "correspondence",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "通信，信件；符合，一致"
+            }
+        ],
+        "phonetic": "/ˌkɒrəˈspɒndəns/"
+    },
+    {
+        "english": "correspondent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "记者，通讯员"
+            }
+        ],
+        "phonetic": "/ˌkɒrəˈspɒndənt/"
+    },
+    {
+        "english": "second to none",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "首屈一指的，不亚于任何人的"
+            }
+        ],
+        "phonetic": "/ˈsekənd tə nʌn/"
+    }
+]

@@ -1,0 +1,526 @@
+[
+    {
+        "english": "authentic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "真实的，真正的"
+            }
+        ],
+        "phonetic": "/ɔːˈθentɪk/"
+    },
+    {
+        "english": "elastic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有弹性的；灵活的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "松紧带，橡皮圈"
+            }
+        ],
+        "phonetic": "/ɪˈlæstɪk/"
+    },
+    {
+        "english": "affair",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "事情，事务"
+            }
+        ],
+        "phonetic": "/əˈfeə(r)/"
+    },
+    {
+        "english": "affirm",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "断言，肯定，证实"
+            }
+        ],
+        "phonetic": "/əˈfɜːm/"
+    },
+    {
+        "english": "affirmation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肯定，断言，批准"
+            }
+        ],
+        "phonetic": "/ˌæfəˈmeɪʃn/"
+    },
+    {
+        "english": "domesticate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "驯养，驯化"
+            }
+        ],
+        "phonetic": "/dəˈmestɪkeɪt/"
+    },
+    {
+        "english": "domestication",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "驯养，驯化"
+            }
+        ],
+        "phonetic": "/dəˌmestɪˈkeɪʃn/"
+    },
+    {
+        "english": "feasible",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可行的，行得通的"
+            }
+        ],
+        "phonetic": "/ˈfiːzəbl/"
+    },
+    {
+        "english": "lifelike",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "栩栩如生的，逼真的"
+            }
+        ],
+        "phonetic": "/ˈlaɪflaɪk/"
+    },
+    {
+        "english": "passive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "被动的，消极的"
+            }
+        ],
+        "phonetic": "/ˈpæsɪv/"
+    },
+    {
+        "english": "heading",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "标题，题目"
+            }
+        ],
+        "phonetic": "/ˈhedɪŋ/"
+    },
+    {
+        "english": "overhead",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "在头顶上"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "在头顶上的"
+            }
+        ],
+        "phonetic": "/ˌəʊvəˈhed/"
+    },
+    {
+        "english": "overhear",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "无意中听到，偷听"
+            }
+        ],
+        "phonetic": "/ˌəʊvəˈhɪə(r)/"
+    },
+    {
+        "english": "skim",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "略读，浏览"
+            }
+        ],
+        "phonetic": "/skɪm/"
+    },
+    {
+        "english": "scan",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "扫描，浏览"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "扫描，扫视"
+            }
+        ],
+        "phonetic": "/skæn/"
+    },
+    {
+        "english": "thread",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "线，线索"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "穿过，穿线"
+            }
+        ],
+        "phonetic": "/θred/"
+    },
+    {
+        "english": "string",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "细绳，线；一串"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "用线穿，串起"
+            }
+        ],
+        "phonetic": "/strɪŋ/"
+    },
+    {
+        "english": "dressing",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "调味品"
+            }
+        ],
+        "phonetic": "/ˈdresɪŋ/"
+    },
+    {
+        "english": "furious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "狂怒的，暴怒的"
+            }
+        ],
+        "phonetic": "/ˈfjʊəriəs/"
+    },
+    {
+        "english": "avenue",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大街；林荫道；途径"
+            }
+        ],
+        "phonetic": "/ˈævənjuː/"
+    },
+    {
+        "english": "supplement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "补充物，增刊"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "补充，增补"
+            }
+        ],
+        "phonetic": "/ˈsʌplɪmənt/"
+    },
+    {
+        "english": "bedding",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "寝具，铺盖"
+            }
+        ],
+        "phonetic": "/ˈbedɪŋ/"
+    },
+    {
+        "english": "proceed",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "继续进行，行进"
+            }
+        ],
+        "phonetic": "/prəˈsiːd/"
+    },
+    {
+        "english": "deed",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "行为，事迹；契约，证书"
+            }
+        ],
+        "phonetic": "/diːd/"
+    },
+    {
+        "english": "evil",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "邪恶的，有害的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "邪恶，罪恶"
+            }
+        ],
+        "phonetic": "/ˈiːvl/"
+    },
+    {
+        "english": "accelerate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "加速，促进"
+            }
+        ],
+        "phonetic": "/əkˈseləreɪt/"
+    },
+    {
+        "english": "crimson",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "深红色的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "深红色"
+            }
+        ],
+        "phonetic": "/ˈkrɪmzən/"
+    },
+    {
+        "english": "sacred",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神圣的，受尊重的"
+            }
+        ],
+        "phonetic": "/ˈseɪkrɪd/"
+    },
+    {
+        "english": "holy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "神圣的，圣洁的"
+            }
+        ],
+        "phonetic": "/ˈhəʊli/"
+    },
+    {
+        "english": "intricate",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "错综复杂的，复杂精细的"
+            }
+        ],
+        "phonetic": "/ˈɪntrɪkət/"
+    },
+    {
+        "english": "obsessive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "痴迷的；强迫性的"
+            }
+        ],
+        "phonetic": "/əbˈsesɪv/"
+    },
+    {
+        "english": "detox",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使戒毒；脱瘾"
+            }
+        ],
+        "phonetic": "/ˈdiːtɒks/"
+    },
+    {
+        "english": "timid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "胆小的，羞怯的"
+            }
+        ],
+        "phonetic": "/ˈtɪmɪd/"
+    },
+    {
+        "english": "bid",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "出价，投标，吩咐"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "出价，投标"
+            }
+        ],
+        "phonetic": "/bɪd/"
+    },
+    {
+        "english": "coward",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "懦夫，胆小鬼"
+            }
+        ],
+        "phonetic": "/ˈkaʊəd/"
+    },
+    {
+        "english": "sarcastic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "讽刺的，挖苦的"
+            }
+        ],
+        "phonetic": "/sɑːˈkæstɪk/"
+    },
+    {
+        "english": "rigid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "严格的，僵硬的，死板的"
+            }
+        ],
+        "phonetic": "/ˈrɪdʒɪd/"
+    },
+    {
+        "english": "rigidity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "僵硬，死板，严格"
+            }
+        ],
+        "phonetic": "/rɪˈdʒɪdəti/"
+    },
+    {
+        "english": "lid",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "盖子，眼睑"
+            }
+        ],
+        "phonetic": "/lɪd/"
+    },
+    {
+        "english": "cap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "帽子；盖子"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "覆盖"
+            }
+        ],
+        "phonetic": "/kæp/"
+    },
+    {
+        "english": "invalid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "无效的；站不住脚的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "病弱者，残疾者"
+            }
+        ],
+        "phonetic": "/ɪnˈvælɪd/"
+    },
+    {
+        "english": "unavoidable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不可避免的"
+            }
+        ],
+        "phonetic": "/ˌʌnəˈvɔɪdəbl/"
+    },
+    {
+        "english": "shun",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "避开，回避"
+            }
+        ],
+        "phonetic": "/ʃʌn/"
+    },
+    {
+        "english": "silly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "愚蠢的，傻的"
+            }
+        ],
+        "phonetic": "/ˈsɪli/"
+    },
+    {
+        "english": "eliminate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "消除，排除，淘汰"
+            }
+        ],
+        "phonetic": "/ɪˈlɪmɪneɪt/"
+    },
+    {
+        "english": "graphic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "形象的，生动的；图表的；绘画的"
+            }
+        ],
+        "phonetic": "/ˈɡræfɪk/"
+    },
+    {
+        "english": "magnetic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "磁的"
+            }
+        ],
+        "phonetic": "/mæɡˈnetɪk/"
+    },
+    {
+        "english": "mild",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "温和的，轻微的；淡味的"
+            }
+        ],
+        "phonetic": "/maɪld/"
+    }
+]                                           

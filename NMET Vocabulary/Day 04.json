@@ -1,0 +1,484 @@
+[
+    {
+        "english": "timber",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "木材，原木，木料"
+            }
+        ],
+        "phonetic": "/ˈtɪmbə(r)/"
+    },
+    {
+        "english": "deck",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "甲板，舱面;一副牌"
+            }
+        ],
+        "phonetic": "/dek/"
+    },
+    {
+        "english": "mustache",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "八字须，小胡子"
+            }
+        ],
+        "phonetic": "/ˈmʌstæʃ/"
+    },
+    {
+        "english": "bead",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "珠子；水珠，滴"
+            }
+        ],
+        "phonetic": "/biːd/"
+    },
+    {
+        "english": "diligent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "勤勉的，用功的"
+            }
+        ],
+        "phonetic": "/ˈdɪlɪdʒənt/"
+    },
+    {
+        "english": "industrious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "勤劳的，勤奋的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʌstriəs/"
+    },
+    {
+        "english": "boarder",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "寄宿生"
+            }
+        ],
+        "phonetic": "/ˈbɔːdə(r)/"
+    },
+    {
+        "english": "cabinet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "橱柜；内阁"
+            }
+        ],
+        "phonetic": "/ˈkæbɪnət/"
+    },
+    {
+        "english": "mustard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "芥末"
+            }
+        ],
+        "phonetic": "/ˈmʌstəd/"
+    },
+    {
+        "english": "attendant",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "服务员，侍者，随从"
+            }
+        ],
+        "phonetic": "/əˈtendənt/"
+    },
+    {
+        "english": "steward",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "乘务员，管家，干事"
+            }
+        ],
+        "phonetic": "/ˈstjuːəd/"
+    },
+    {
+        "english": "afterward",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "以后，后来"
+            }
+        ],
+        "phonetic": "/ˈɑːftəwəd/"
+    },
+    {
+        "english": "yield",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "屈服，放弃；出产"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "产量，收益"
+            }
+        ],
+        "phonetic": "/jiːld/"
+    },
+    {
+        "english": "dove",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "鸽子"
+            }
+        ],
+        "phonetic": "/dʌv/"
+    },
+    {
+        "english": "sword",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "剑，刀"
+            }
+        ],
+        "phonetic": "/sɔːd/"
+    },
+    {
+        "english": "blade",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "刀刃，刀片，叶片"
+            }
+        ],
+        "phonetic": "/bleɪd/"
+    },
+    {
+        "english": "ridiculous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "荒谬的，可笑的"
+            }
+        ],
+        "phonetic": "/rɪˈdɪkjələs/"
+    },
+    {
+        "english": "arrogant",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "傲慢的，自大的"
+            }
+        ],
+        "phonetic": "/ˈærəɡənt/"
+    },
+    {
+        "english": "descriptive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "描写的，叙述的"
+            }
+        ],
+        "phonetic": "/dɪˈskrɪptɪv/"
+    },
+    {
+        "english": "depict",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "描绘，描画，描述"
+            }
+        ],
+        "phonetic": "/dɪˈpɪkt/"
+    },
+    {
+        "english": "sphere",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "球体；范围，领域"
+            }
+        ],
+        "phonetic": "/sfɪə(r)/"
+    },
+    {
+        "english": "spherical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "球形的，球面的"
+            }
+        ],
+        "phonetic": "/ˈsferɪkl/"
+    },
+    {
+        "english": "cube",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "立方体，立方"
+            }
+        ],
+        "phonetic": "/kjuːb/"
+    },
+    {
+        "english": "cubic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "立方的，立方体的"
+            }
+        ],
+        "phonetic": "/ˈkjuːbɪk/"
+    },
+    {
+        "english": "square",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "正方形，广场，平方"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "正方形的，平方的"
+            }
+        ],
+        "phonetic": "/skweə(r)/"
+    },
+    {
+        "english": "tube",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "管，管子；（英）地铁"
+            }
+        ],
+        "phonetic": "/tjuːb/"
+    },
+    {
+        "english": "mansion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大厦，公馆，宅第"
+            }
+        ],
+        "phonetic": "/ˈmænʃn/"
+    },
+    {
+        "english": "villa",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "别墅，庄园"
+            }
+        ],
+        "phonetic": "/ˈvɪlə/"
+    },
+    {
+        "english": "airspace",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "领空，空域"
+            }
+        ],
+        "phonetic": "/ˈeəspeɪs/"
+    },
+    {
+        "english": "niece",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "侄女，外甥女"
+            }
+        ],
+        "phonetic": "/niːs/"
+    },
+    {
+        "english": "territorial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "领土的，区域的"
+            }
+        ],
+        "phonetic": "/ˌterəˈtɔːriəl/"
+    },
+    {
+        "english": "pierce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "刺穿，穿透，洞察"
+            }
+        ],
+        "phonetic": "/pɪəs/"
+    },
+    {
+        "english": "cop",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "警察"
+            }
+        ],
+        "phonetic": "/kɒp/"
+    },
+    {
+        "english": "dice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "骰子"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "切成小块"
+            }
+        ],
+        "phonetic": "/daɪs/"
+    },
+    {
+        "english": "mince",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "绞碎，剁碎"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "肉馅"
+            }
+        ],
+        "phonetic": "/mɪns/"
+    },
+    {
+        "english": "amiable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "和蔼可亲的，温和的"
+            }
+        ],
+        "phonetic": "/ˈeɪmiəbl/"
+    },
+    {
+        "english": "vocal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "声音的，发音的；直言不讳的"
+            }
+        ],
+        "phonetic": "/ˈvəʊkl/"
+    },
+    {
+        "english": "prized",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "很有价值的，珍贵的"
+            }
+        ],
+        "phonetic": "/praɪzd/"
+    },
+    {
+        "english": "rate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "比率；速率；价格，费用"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "评估，评价，定级"
+            }
+        ],
+        "phonetic": "/reɪt/"
+    },
+    {
+        "english": "unjust",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不公正的，非正义的"
+            }
+        ],
+        "phonetic": "/ˌʌnˈdʒʌst/"
+    },
+    {
+        "english": "injustice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "不公正，不公平，非正义行为"
+            }
+        ],
+        "phonetic": "/ɪnˈdʒʌstɪs/"
+    },
+    {
+        "english": "vice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "恶习，缺点；邪恶"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "副的，代替的"
+            }
+        ],
+        "phonetic": "/vaɪs/"
+    },
+    {
+        "english": "associate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使联合，联系，交往"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "伙伴，同事，合伙人"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "副的，联合的"
+            }
+        ],
+        "phonetic": "/əˈsəʊʃieɪt/"
+    },
+    {
+        "english": "deputy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "代理人，代表，副手"
+            }
+        ],
+        "phonetic": "/ˈdepjuti/"
+    },
+    {
+        "english": "fairness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "公平，公正，合理性"
+            }
+        ],
+        "phonetic": "/ˈfeənəs/"
+    }
+]

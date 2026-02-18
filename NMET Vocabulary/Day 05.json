@@ -1,0 +1,374 @@
+[
+    {
+        "english": "imbalance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "不平衡，不均衡"
+            }
+        ],
+        "phonetic": "/ɪmˈbæləns/"
+    },
+    {
+        "english": "glimpse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "一瞥，一看"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "瞥见"
+            }
+        ],
+        "phonetic": "/ɡlɪmps/"
+    },
+    {
+        "english": "acquaintance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "熟人，相识，了解"
+            }
+        ],
+        "phonetic": "/əˈkweɪntəns/"
+    },
+    {
+        "english": "acquaint",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使了解，使熟悉"
+            }
+        ],
+        "phonetic": "/əˈkweɪnt/"
+    },
+    {
+        "english": "substantial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "大量的；重要的"
+            }
+        ],
+        "phonetic": "/səbˈstænʃl/"
+    },
+    {
+        "english": "allowance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "津贴，补贴；允许"
+            }
+        ],
+        "phonetic": "/əˈlaʊəns/"
+    },
+    {
+        "english": "subsidy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "补贴，补助金"
+            }
+        ],
+        "phonetic": "/ˈsʌbsədi/"
+    },
+    {
+        "english": "puberty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "青春期"
+            }
+        ],
+        "phonetic": "/ˈpjuːbəti/"
+    },
+    {
+        "english": "evident",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "明显的，明白的"
+            }
+        ],
+        "phonetic": "/ˈevɪdənt/"
+    },
+    {
+        "english": "consequently",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "因此，结果"
+            }
+        ],
+        "phonetic": "/ˌkɒnsɪkwəntli/"
+    },
+    {
+        "english": "conscience",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "良心，良知"
+            }
+        ],
+        "phonetic": "/ˈkɒnʃəns/"
+    },
+    {
+        "english": "conscientious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "认真的，勤恳的，尽责的"
+            }
+        ],
+        "phonetic": "/ˌkɒnʃiˈenʃəs/"
+    },
+    {
+        "english": "resort",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "度假胜地"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "诉诸，求助"
+            }
+        ],
+        "phonetic": "/rɪˈzɔːt/"
+    },
+    {
+        "english": "session",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "会议；学期；一段时间，一场"
+            }
+        ],
+        "phonetic": "/ˈseʃn/"
+    },
+    {
+        "english": "hence",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "因此；从此之后"
+            }
+        ],
+        "phonetic": "/hens/"
+    },
+    {
+        "english": "provincial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "省的"
+            }
+        ],
+        "phonetic": "/prəˈvɪnʃl/"
+    },
+    {
+        "english": "spelling",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拼写，拼法"
+            }
+        ],
+        "phonetic": "/ˈspelɪŋ/"
+    },
+    {
+        "english": "enforce",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "实施，执行，强迫"
+            }
+        ],
+        "phonetic": "/ɪnˈfɔːs/"
+    },
+    {
+        "english": "enforcement",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "强制，执行，实施"
+            }
+        ],
+        "phonetic": "/ɪnˈfɔːsmənt/"
+    },
+    {
+        "english": "divorce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "离婚，脱离"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "与...离婚，使分离"
+            }
+        ],
+        "phonetic": "/dɪˈvɔːs/"
+    },
+    {
+        "english": "sauce",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "酱汁，调味汁"
+            }
+        ],
+        "phonetic": "/sɔːs/"
+    },
+    {
+        "english": "vinegar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "醋"
+            }
+        ],
+        "phonetic": "/ˈvɪnɪɡə(r)/"
+    },
+    {
+        "english": "introductory",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "介绍性的；引导的，入门的"
+            }
+        ],
+        "phonetic": "/ˌɪntrəˈdʌktəri/"
+    },
+    {
+        "english": "millennium",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "千年，千禧年"
+            }
+        ],
+        "phonetic": "/mɪˈleniəm/"
+    },
+    {
+        "english": "millennial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "千禧年的，千年的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "千禧一代"
+            }
+        ],
+        "phonetic": "/mɪˈleniəl/"
+    },
+    {
+        "english": "spade",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "铲，锹；黑桃"
+            }
+        ],
+        "phonetic": "/speɪd/"
+    },
+    {
+        "english": "shovel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "铲，铁锹"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "铲，铲除"
+            }
+        ],
+        "phonetic": "/ˈsʌvl/"
+    },
+    {
+        "english": "Centigrade",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "摄氏度的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "摄氏温度"
+            }
+        ],
+        "phonetic": "/ˈsentɪɡreɪd/"
+    },
+    {
+        "english": "decisive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "决定性的，果断的"
+            }
+        ],
+        "phonetic": "/dɪˈsaɪsɪv/"
+    },
+    {
+        "english": "glide",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "滑行，滑动，滑翔"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "滑行，滑动"
+            }
+        ],
+        "phonetic": "/ɡlaɪd/"
+    },
+    {
+        "english": "bride",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新娘"
+            }
+        ],
+        "phonetic": "/braɪd/"
+    },
+    {
+        "english": "bridegroom",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "新郎"
+            }
+        ],
+        "phonetic": "/ˈbraɪdɡruːm/"
+    },
+    {
+        "english": "aside",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "在旁边，向一边，撇开"
+            }
+        ],
+        "phonetic": "/əˈsaɪd/"
+    },
+    {
+        "english": "inward",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "向内的，内心的"
+            },
+            {
+                "abbreviation": "adv.",
+                "meaning": "向内，在地内"
+            }
+        ],
+        "phonetic": "/ˈɪnwəd/"
+    }
+]

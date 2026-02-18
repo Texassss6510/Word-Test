@@ -1,0 +1,468 @@
+[
+    {
+        "english": "guideline",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "指导方针，准则"
+            }
+        ],
+        "phonetic": "/ˈɡaɪdlaɪn/"
+    },
+    {
+        "english": "division",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "分开，分配；部门；除法"
+            }
+        ],
+        "phonetic": "/dɪˈvɪʒn/"
+    },
+    {
+        "english": "width",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "宽度，广度"
+            }
+        ],
+        "phonetic": "/wɪdθ/"
+    },
+    {
+        "english": "widely",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "广泛地，普遍地"
+            }
+        ],
+        "phonetic": "/ˈwaɪdli/"
+    },
+    {
+        "english": "monoxide",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "一氧化物"
+            }
+        ],
+        "phonetic": "/məˈnɒksaɪd/"
+    },
+    {
+        "english": "blow up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "爆炸；充气；大发雷霆"
+            }
+        ],
+        "phonetic": "/bləʊ ʌp/"
+    },
+    {
+        "english": "exclude",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "排除，不包括"
+            }
+        ],
+        "phonetic": "/ɪkˈskluːd/"
+    },
+    {
+        "english": "exclusive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "专用的，独有的；排斥的，排外的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "独家新闻"
+            }
+        ],
+        "phonetic": "/ɪkˈskluːsɪv/"
+    },
+    {
+        "english": "disrespect",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "无礼，不敬"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "不尊重"
+            }
+        ],
+        "phonetic": "/ˌdɪsrɪˈspekt/"
+    },
+    {
+        "english": "beep",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "哔哔声"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "发出哔哔声"
+            }
+        ],
+        "phonetic": "/biːp/"
+    },
+    {
+        "english": "fare",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "车费；饭菜，伙食"
+            }
+        ],
+        "phonetic": "/feə(r)/"
+    },
+    {
+        "english": "tuition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "学费；教学，讲授"
+            }
+        ],
+        "phonetic": "/tjuˈɪʃn/"
+    },
+    {
+        "english": "caffeine",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "咖啡因"
+            }
+        ],
+        "phonetic": "/ˈkæfiːn/"
+    },
+    {
+        "english": "fee",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "费用，服务费，酬金"
+            }
+        ],
+        "phonetic": "/fiː/"
+    },
+    {
+        "english": "tutorial",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "教程，辅导课"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "辅导的"
+            }
+        ],
+        "phonetic": "/tjuːˈtɔːriəl/"
+    },
+    {
+        "english": "trunk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "树干；躯干；象鼻；大箱子，(汽车)后备箱"
+            }
+        ],
+        "phonetic": "/trʌŋk/"
+    },
+    {
+        "english": "foreseeable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可预见的，可预知的"
+            }
+        ],
+        "phonetic": "/fɔːˈsiːəbl/"
+    },
+    {
+        "english": "graffito",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "涂鸦（复数常用graffiti）"
+            }
+        ],
+        "phonetic": "/ɡræˈfiːtəʊ/"
+    },
+    {
+        "english": "dustbin",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "垃圾箱"
+            }
+        ],
+        "phonetic": "/ˈdʌstbɪn/"
+    },
+    {
+        "english": "carriage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "四轮马车，(火车)客车厢"
+            }
+        ],
+        "phonetic": "/ˈkærɪdʒ/"
+    },
+    {
+        "english": "coach",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "教练；长途客车"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "训练，辅导"
+            }
+        ],
+        "phonetic": "/kəʊtʃ/"
+    },
+    {
+        "english": "tractor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拖拉机"
+            }
+        ],
+        "phonetic": "/ˈtræktə(r)/"
+    },
+    {
+        "english": "packet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "包装盒，包装袋"
+            }
+        ],
+        "phonetic": "/ˈpækɪt/"
+    },
+    {
+        "english": "package",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "包裹"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "包装"
+            }
+        ],
+        "phonetic": "/ˈpækɪdʒ/"
+    },
+    {
+        "english": "parcel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "包裹，邮包"
+            }
+        ],
+        "phonetic": "/ˈpɑːsl/"
+    },
+    {
+        "english": "cottage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "村舍，小别墅"
+            }
+        ],
+        "phonetic": "/ˈkɒtɪdʒ/"
+    },
+    {
+        "english": "stereotype",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "刻板印象"
+            }
+        ],
+        "phonetic": "/ˈsteriətaɪp/"
+    },
+    {
+        "english": "webpage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "网页"
+            }
+        ],
+        "phonetic": "/ˈwebpeɪdʒ/"
+    },
+    {
+        "english": "courageous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "勇敢的，无畏的"
+            }
+        ],
+        "phonetic": "/kəˈreɪdʒəs/"
+    },
+    {
+        "english": "nerve",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "神经；勇气，胆量"
+            }
+        ],
+        "phonetic": "/nɜːv/"
+    },
+    {
+        "english": "corridor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "走廊，通路"
+            }
+        ],
+        "phonetic": "/ˈkɒrɪdɔː(r)/"
+    },
+    {
+        "english": "massage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "按摩"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "按摩"
+            }
+        ],
+        "phonetic": "/ˈmæsɑːʒ/"
+    },
+    {
+        "english": "defect",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "缺陷，缺点"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "叛变，背叛"
+            }
+        ],
+        "phonetic": "/ˈdiːfekt/"
+    },
+    {
+        "english": "drawback",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "缺点，欠缺"
+            }
+        ],
+        "phonetic": "/ˈdrɔːbæk/"
+    },
+    {
+        "english": "bungalow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "平房，单层小屋"
+            }
+        ],
+        "phonetic": "/ˈbʌŋɡələʊ/"
+    },
+    {
+        "english": "voyage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "航海，航行"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "航行，远行"
+            }
+        ],
+        "phonetic": "/ˈvɔɪɪdʒ/"
+    },
+    {
+        "english": "knowledgeable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "博学的，知识渊博的"
+            }
+        ],
+        "phonetic": "/ˈnɒlɪdʒəbl/"
+    },
+    {
+        "english": "fridge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冰箱"
+            }
+        ],
+        "phonetic": "/frɪdʒ/"
+    },
+    {
+        "english": "refrigerator",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "冰箱，冷藏库"
+            }
+        ],
+        "phonetic": "/rɪˈfrɪdʒəreɪtə(r)/"
+    },
+    {
+        "english": "oatmeal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "燕麦片，燕麦粥"
+            }
+        ],
+        "phonetic": "/ˈəʊtmiːl/"
+    },
+    {
+        "english": "cereal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "谷类，谷物"
+            }
+        ],
+        "phonetic": "/ˈsɪəriəl/"
+    },
+    {
+        "english": "privilege",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "特权，荣幸"
+            }
+        ],
+        "phonetic": "/ˈprɪvəlɪdʒ/"
+    },
+    {
+        "english": "discourage",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使气馁，阻碍"
+            }
+        ],
+        "phonetic": "/dɪˈskʌrɪdʒ/"
+    }
+]
