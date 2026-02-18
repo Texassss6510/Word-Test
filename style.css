@@ -141,7 +141,7 @@ body {
 
 .meaning-line { display: flex; text-align: left; align-items: baseline; font-size: 0.8em; line-height: 1.6; }
 .meaning-line + .meaning-line { margin-top: 8px; }
-.pos-abbr { flex: 0 0 55px; text-align: right; margin-right: 1em; color: #005ecb; font-weight: 600; }
+.pos-abbr { flex: 0 0 auto; white-space: nowrap; min-width: 55px; text-align: right; margin-right: 1em; color: #005ecb; font-weight: 600; }
 .pos-meaning { font-weight: 500; }
 
 .input-group { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }

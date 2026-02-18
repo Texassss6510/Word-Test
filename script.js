@@ -43,6 +43,53 @@ document.addEventListener('DOMContentLoaded', () => {
             lists: [
                 { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" }
             ]
+        },
+        {
+            category: "NMET Vocabulary",
+            lists: [
+                { name: "Day 01", path: "NMET Vocabulary/Day 01.json" },
+                { name: "Day 02", path: "NMET Vocabulary/Day 02.json" },
+                { name: "Day 03", path: "NMET Vocabulary/Day 03.json" },
+                { name: "Day 04", path: "NMET Vocabulary/Day 04.json" },
+                { name: "Day 05", path: "NMET Vocabulary/Day 05.json" },
+                { name: "Day 06", path: "NMET Vocabulary/Day 06.json" },
+                { name: "Day 07", path: "NMET Vocabulary/Day 07.json" },
+                { name: "Day 08", path: "NMET Vocabulary/Day 08.json" },
+                { name: "Day 09", path: "NMET Vocabulary/Day 09.json" },
+                { name: "Day 10", path: "NMET Vocabulary/Day 10.json" },
+                { name: "Day 11", path: "NMET Vocabulary/Day 11.json" },
+                { name: "Day 12", path: "NMET Vocabulary/Day 12.json" },
+                { name: "Day 13", path: "NMET Vocabulary/Day 13.json" },
+                { name: "Day 14", path: "NMET Vocabulary/Day 14.json" },
+                { name: "Day 15", path: "NMET Vocabulary/Day 15.json" },
+                { name: "Day 16", path: "NMET Vocabulary/Day 16.json" },
+                { name: "Day 17", path: "NMET Vocabulary/Day 17.json" },
+                { name: "Day 18", path: "NMET Vocabulary/Day 18.json" },
+                { name: "Day 19", path: "NMET Vocabulary/Day 19.json" },
+                { name: "Day 20", path: "NMET Vocabulary/Day 20.json" },
+                { name: "Day 21", path: "NMET Vocabulary/Day 21.json" },
+                { name: "Day 22", path: "NMET Vocabulary/Day 22.json" },
+                { name: "Day 23", path: "NMET Vocabulary/Day 23.json" },
+                { name: "Day 24", path: "NMET Vocabulary/Day 24.json" },
+                { name: "Day 25", path: "NMET Vocabulary/Day 25.json" },
+                { name: "Day 26", path: "NMET Vocabulary/Day 26.json" },
+                { name: "Day 27", path: "NMET Vocabulary/Day 27.json" },
+                { name: "Day 28", path: "NMET Vocabulary/Day 28.json" },
+                { name: "Day 29", path: "NMET Vocabulary/Day 29.json" },
+                { name: "Day 30", path: "NMET Vocabulary/Day 30.json" },
+                { name: "Day 31", path: "NMET Vocabulary/Day 31.json" },
+                { name: "Day 32", path: "NMET Vocabulary/Day 32.json" },
+                { name: "Day 33", path: "NMET Vocabulary/Day 33.json" },
+                { name: "Day 34", path: "NMET Vocabulary/Day 34.json" },
+                { name: "Day 35", path: "NMET Vocabulary/Day 35.json" },
+                { name: "Day 36", path: "NMET Vocabulary/Day 36.json" },
+                { name: "Day 37", path: "NMET Vocabulary/Day 37.json" },
+                { name: "Day 38", path: "NMET Vocabulary/Day 38.json" },
+                { name: "Day 39", path: "NMET Vocabulary/Day 39.json" },
+                { name: "Day 40", path: "NMET Vocabulary/Day 40.json" },
+                { name: "Day 41", path: "NMET Vocabulary/Day 41.json" },
+                { name: "Day 42", path: "NMET Vocabulary/Day 42.json" }
+            ]
         }
     ];
 
