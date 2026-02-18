@@ -1,0 +1,630 @@
+[
+    {
+        "english": "racoon",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "浣熊"
+            }
+        ],
+        "phonetic": "/rəˈkuːn/"
+    },
+    {
+        "english": "agenda",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "议程，日常工作事项"
+            }
+        ],
+        "phonetic": "/əˈdʒendə/"
+    },
+    {
+        "english": "pea",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "豌豆"
+            }
+        ],
+        "phonetic": "/piː/"
+    },
+    {
+        "english": "algae",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "藻类，海藻"
+            }
+        ],
+        "phonetic": "/ˈældʒiː/"
+    },
+    {
+        "english": "couch",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "长沙发，睡椅"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "表达，措辞"
+            }
+        ],
+        "phonetic": "/kaʊtʃ/"
+    },
+    {
+        "english": "bench",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "长凳"
+            }
+        ],
+        "phonetic": "/bentʃ/"
+    },
+    {
+        "english": "Austria",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "奥地利"
+            }
+        ],
+        "phonetic": "/ˈɒstriə/"
+    },
+    {
+        "english": "Austrian",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "奥地利的，奥地利人的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "奥地利人"
+            }
+        ],
+        "phonetic": "/ˈɒstriən/"
+    },
+    {
+        "english": "canteen",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "食堂，餐厅"
+            }
+        ],
+        "phonetic": "/kænˈtiːn/"
+    },
+    {
+        "english": "parachute",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "降落伞"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "跳伞，空投"
+            }
+        ],
+        "phonetic": "/ˈpærəʃuːt/"
+    },
+    {
+        "english": "diplomat",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "外交家，外交官"
+            }
+        ],
+        "phonetic": "/ˈdɪpləmæt/"
+    },
+    {
+        "english": "diplomatic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "外交的，老练的，有策略的"
+            }
+        ],
+        "phonetic": "/ˌdɪpləˈmætɪk/"
+    },
+    {
+        "english": "algebra",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "代数，代数学"
+            }
+        ],
+        "phonetic": "/ˈældʒɪbrə/"
+    },
+    {
+        "english": "arithmetic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "算术，算法"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "算术的"
+            }
+        ],
+        "phonetic": "/əˈrɪθmətɪk/"
+    },
+    {
+        "english": "geometry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "几何，几何学"
+            }
+        ],
+        "phonetic": "/dʒiˈɒmətri/"
+    },
+    {
+        "english": "datum",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "数据，资料"
+            }
+        ],
+        "phonetic": "/ˈdeɪtəm/"
+    },
+    {
+        "english": "database",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "数据库"
+            }
+        ],
+        "phonetic": "/ˈdeɪtəbeɪs/"
+    },
+    {
+        "english": "frontpage",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "首页"
+            }
+        ],
+        "phonetic": "/ˌfrʌntˈpeɪdʒ/"
+    },
+    {
+        "english": "limb",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "四肢，树枝"
+            }
+        ],
+        "phonetic": "/lɪm/"
+    },
+    {
+        "english": "tomb",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "坟墓"
+            }
+        ],
+        "phonetic": "/tuːm/"
+    },
+    {
+        "english": "tombstone",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "墓碑"
+            }
+        ],
+        "phonetic": "/ˈtuːmstəʊn/"
+    },
+    {
+        "english": "numb",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "麻木的，失去知觉的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使麻木"
+            }
+        ],
+        "phonetic": "/nʌm/"
+    },
+    {
+        "english": "numbness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "麻木，麻痹"
+            }
+        ],
+        "phonetic": "/ˈnʌmnəs/"
+    },
+    {
+        "english": "rob",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "抢劫，掠夺"
+            }
+        ],
+        "phonetic": "/rɒb/"
+    },
+    {
+        "english": "robbery",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抢劫，盗窃"
+            }
+        ],
+        "phonetic": "/ˈrɒbəri/"
+    },
+    {
+        "english": "rubber",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "橡胶，橡皮"
+            }
+        ],
+        "phonetic": "/ˈrʌbər/"
+    },
+    {
+        "english": "sob",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "啜泣，呜咽"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "啜泣（声）"
+            }
+        ],
+        "phonetic": "/sɒb/"
+    },
+    {
+        "english": "weep",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "哭泣，流泪"
+            }
+        ],
+        "phonetic": "/wiːp/"
+    },
+    {
+        "english": "herbal",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "草本的，草药的"
+            }
+        ],
+        "phonetic": "/ˈhɜːbəl/"
+    },
+    {
+        "english": "herd",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "兽群，畜群"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "放牧，使成群"
+            }
+        ],
+        "phonetic": "/hɜːd/"
+    },
+    {
+        "english": "superficial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "表面的，肤浅的"
+            }
+        ],
+        "phonetic": "/ˌsuːpəˈfɪʃl/"
+    },
+    {
+        "english": "absorption",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "吸收，全神贯注"
+            }
+        ],
+        "phonetic": "/əbˈzɔːpʃn/"
+    },
+    {
+        "english": "suburb",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "郊区，城郊"
+            }
+        ],
+        "phonetic": "/ˈsʌbɜːb/"
+    },
+    {
+        "english": "disturbance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "打扰，干扰，骚动"
+            }
+        ],
+        "phonetic": "/dɪˈstɜːbəns/"
+    },
+    {
+        "english": "pub",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "酒馆，客栈"
+            }
+        ],
+        "phonetic": "/pʌb/"
+    },
+    {
+        "english": "inn",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "客栈，小旅馆"
+            }
+        ],
+        "phonetic": "/ɪn/"
+    },
+    {
+        "english": "allergy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "过敏症，反感"
+            }
+        ],
+        "phonetic": "/ˈælədʒi/"
+    },
+    {
+        "english": "republic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "共和国，共和政体"
+            }
+        ],
+        "phonetic": "/rɪˈpʌblɪk/"
+    },
+    {
+        "english": "garlic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大蒜"
+            }
+        ],
+        "phonetic": "/ˈɡɑːlɪk/"
+    },
+    {
+        "english": "ginger",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "姜，生姜"
+            }
+        ],
+        "phonetic": "/ˈdʒɪndʒər/"
+    },
+    {
+        "english": "green onion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "葱，青葱"
+            }
+        ],
+        "phonetic": "/ˌɡriːn ˈʌnjən/"
+    },
+    {
+        "english": "scallion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大葱，青葱"
+            }
+        ],
+        "phonetic": "/ˈskæliən/"
+    },
+    {
+        "english": "dynamics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动力学，动态，力学"
+            }
+        ],
+        "phonetic": "/daɪˈnæmɪks/"
+    },
+    {
+        "english": "static",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "静态的，静止的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "静电，静电干扰"
+            }
+        ],
+        "phonetic": "/ˈstætɪk/"
+    },
+    {
+        "english": "academy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "学院，学术院，专科院校"
+            }
+        ],
+        "phonetic": "/əˈkædəmi/"
+    },
+    {
+        "english": "academia",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "学术界，学术环境"
+            }
+        ],
+        "phonetic": "/ˌækəˈdiːmiə/"
+    },
+    {
+        "english": "comic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "滑稽的，喜剧的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "连环画，喜剧演员"
+            }
+        ],
+        "phonetic": "/ˈkɒmɪk/"
+    },
+    {
+        "english": "clinical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "临床的，冷静的"
+            }
+        ],
+        "phonetic": "/ˈklɪnɪkəl/"
+    },
+    {
+        "english": "electron",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "电子"
+            }
+        ],
+        "phonetic": "/ɪˈlektrɒn/"
+    },
+    {
+        "english": "fabric",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "织物，布；结构，构造"
+            }
+        ],
+        "phonetic": "/ˈfæbrɪk/"
+    },
+    {
+        "english": "textile",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "纺织品，织物"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "纺织的"
+            }
+        ],
+        "phonetic": "/ˈtekstaɪl/"
+    },
+    {
+        "english": "automate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使自动化"
+            }
+        ],
+        "phonetic": "/ˈɔːtəmeɪt/"
+    },
+    {
+        "english": "autonomous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "自治的，自主的"
+            }
+        ],
+        "phonetic": "/ɔːˈtɒnəməs/"
+    },
+    {
+        "english": "autonomy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "自治，自治权"
+            }
+        ],
+        "phonetic": "/ɔːˈtɒnəmi/"
+    },
+    {
+        "english": "specification",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "规格；说明书；详述"
+            }
+        ],
+        "phonetic": "/ˌspesɪfɪˈkeɪʃn/"
+    },
+    {
+        "english": "Antarctic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "南极的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "南极地区"
+            }
+        ],
+        "phonetic": "/ænˈtɑːktɪk/"
+    },
+    {
+        "english": "Arctic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "北极的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "北极"
+            }
+        ],
+        "phonetic": "/ˈɑːktɪk/"
+    },
+    {
+        "english": "romance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "浪漫史，爱情故事"
+            }
+        ],
+        "phonetic": "/rəʊˈmæns/"
+    }
+]
