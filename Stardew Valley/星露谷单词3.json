@@ -244,7 +244,7 @@
         "pos": [
             {
                 "abbreviation": "n.",
-                "meaning": "小巷"
+                "meaning": "小巷，小路；车道"
             }
         ],
         "phonetic": "/leɪn/"
@@ -388,15 +388,5 @@
             }
         ],
         "phonetic": "/dɪˈmɒlɪʃ/"
-    },
-    {
-        "english": "lacus oblivionis",
-        "pos": [
-            {
-                "abbreviation": "n.",
-                "meaning": "遗忘之湖（拉丁语）"
-            }
-        ],
-        "phonetic": "/ˈlækʊs ɒblɪviˈoʊnɪs/"
     }
 ]

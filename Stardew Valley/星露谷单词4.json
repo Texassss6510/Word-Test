@@ -34,16 +34,6 @@
         "phonetic": "/ˈdændɪlaɪən/"
     },
     {
-        "english": "rarecrow",
-        "pos": [
-            {
-                "abbreviation": "n.",
-                "meaning": "稀有稻草人"
-            }
-        ],
-        "phonetic": "/ˈreərkrəʊ/"
-    },
-    {
         "english": "ceiling",
         "pos": [
             {
@@ -266,7 +256,7 @@
         "phonetic": "/ˈʃeɪdi/"
     },
     {
-        "english": "wad",
+        "english": "a wad of",
         "pos": [
             {
                 "abbreviation": "n.",

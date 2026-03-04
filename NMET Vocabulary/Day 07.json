@@ -1,0 +1,364 @@
+[
+    {
+        "english": "swap",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "交换，交易"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "交换，交换物"
+            }
+        ],
+        "phonetic": "/swɒp/"
+    },
+    {
+        "english": "bizarre",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "古怪的，离奇的"
+            }
+        ],
+        "phonetic": "/bɪˈzɑː(r)/"
+    },
+    {
+        "english": "lounge",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "休息室，休息厅"
+            }
+        ],
+        "phonetic": "/laʊndʒ/"
+    },
+    {
+        "english": "lobby",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大厅；休息室；游说团体"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "游说"
+            }
+        ],
+        "phonetic": "/ˈlɒbi/"
+    },
+    {
+        "english": "accuse",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "指控，控告，谴责"
+            }
+        ],
+        "phonetic": "/əˈkjuːz/"
+    },
+    {
+        "english": "gigantic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "巨大的，庞大的"
+            }
+        ],
+        "phonetic": "/dʒaɪˈɡæntɪk/"
+    },
+    {
+        "english": "tremendous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极大的，巨大的，精彩的"
+            }
+        ],
+        "phonetic": "/trəˈmendəs/"
+    },
+    {
+        "english": "immense",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "巨大的，广大的"
+            }
+        ],
+        "phonetic": "/ɪˈmens/"
+    },
+    {
+        "english": "emergent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "新兴的；处于紧急状态的"
+            }
+        ],
+        "phonetic": "/iˈmɜːdʒənt/"
+    },
+    {
+        "english": "catastrophe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大灾难，大祸"
+            }
+        ],
+        "phonetic": "/kəˈtæstrəfi/"
+    },
+    {
+        "english": "catastrophic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "灾难性的，惨重的"
+            }
+        ],
+        "phonetic": "/ˌkætəˈstrɒfɪk/"
+    },
+    {
+        "english": "pan",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "平底锅，盘子"
+            }
+        ],
+        "phonetic": "/pæn/"
+    },
+    {
+        "english": "sway",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "摇晃，动摇；影响"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "摇摆；统治，影响力"
+            }
+        ],
+        "phonetic": "/sweɪ/"
+    },
+    {
+        "english": "pancake",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "煎饼，薄烤饼"
+            }
+        ],
+        "phonetic": "/ˈpænkeɪk/"
+    },
+    {
+        "english": "halt",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "停止，中止"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "停止，休息"
+            }
+        ],
+        "phonetic": "/hɔːlt/"
+    },
+    {
+        "english": "undertake",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "承担，从事，承诺"
+            }
+        ],
+        "phonetic": "/ˌʌndəˈteɪk/"
+    },
+    {
+        "english": "undergo",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "经历，经受，忍受"
+            }
+        ],
+        "phonetic": "/ˌʌndəˈɡəʊ/"
+    },
+    {
+        "english": "hike",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "远足，徒步旅行"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "徒步旅行；提高，猛增"
+            }
+        ],
+        "phonetic": "/haɪk/"
+    },
+    {
+        "english": "hatred",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "憎恨，仇恨"
+            }
+        ],
+        "phonetic": "/ˈheɪtrɪd/"
+    },
+    {
+        "english": "torture",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拷打，折磨"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "折磨，拷问"
+            }
+        ],
+        "phonetic": "/ˈtɔːtʃə(r)/"
+    },
+    {
+        "english": "choke",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "窒息，哽咽，阻塞"
+            }
+        ],
+        "phonetic": "/tʃəʊk/"
+    },
+    {
+        "english": "tobacco",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "烟草，烟叶"
+            }
+        ],
+        "phonetic": "/təˈbækəʊ/"
+    },
+    {
+        "english": "anecdote",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "奇闻，逸事"
+            }
+        ],
+        "phonetic": "/ˈænɪkdəʊt/"
+    },
+    {
+        "english": "capacity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "容量，能力，生产力"
+            }
+        ],
+        "phonetic": "/kəˈpæsəti/"
+    },
+    {
+        "english": "unbearable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "难以忍受的，不能容忍的"
+            }
+        ],
+        "phonetic": "/ʌnˈbeərəbl/"
+    },
+    {
+        "english": "tablet",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "药片；牌匾；平板电脑"
+            }
+        ],
+        "phonetic": "/ˈtæblət/"
+    },
+    {
+        "english": "vegetarian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "素食者"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "素食的"
+            }
+        ],
+        "phonetic": "/ˌvedʒəˈteəriən/"
+    },
+    {
+        "english": "timetable",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "时间表，时刻表"
+            }
+        ],
+        "phonetic": "/ˈtaɪmteɪbl/"
+    },
+    {
+        "english": "cozy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "舒适的，温暖惬意的"
+            }
+        ],
+        "phonetic": "/ˈkəʊzi/"
+    },
+    {
+        "english": "portable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "手提的，便携式的"
+            }
+        ],
+        "phonetic": "/ˈpɔːtəbl/"
+    },
+    {
+        "english": "quake",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "震动，颤抖"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "地震，震动"
+            }
+        ],
+        "phonetic": "/kweɪk/"
+    },
+    {
+        "english": "whaling",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "捕鲸，捕鲸业"
+            }
+        ],
+        "phonetic": "/ˈweɪlɪŋ/"
+    },
+    {
+        "english": "pale",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "苍白的，淡的，暗淡的"
+            }
+        ],
+        "phonetic": "/peɪl/"
+    }
+]
