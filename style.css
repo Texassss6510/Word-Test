@@ -614,51 +614,20 @@ body {
     box-shadow: 0 0 0 3.5px rgba(255, 59, 48, 0.16) !important;
 }
 
-/* 复习卡底部的操作区，两行：
-   第一行 = 音标开关 + 快捷键提示（并排）
-   第二行 = 看答案
-   以前音标只有 Shift+空格 一个入口，触屏设备上根本按不出来。 */
+/* 复习卡底部的操作区：音标开关 + 看答案，并排一行。
+   以前音标只有 Shift+空格 一个入口，触屏设备上根本按不出来。
+   两个按钮 flex:1 等分整行宽度，所以会随视口自动伸缩，不需要写媒体查询。 */
 .review-tools {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 10px;
     margin-top: 16px;
 }
 
-.review-tools-line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.review-tools .shortcut-info {
+.review-tools .button {
+    flex: 1 1 0;
+    min-width: 0;
+    white-space: nowrap;
     margin: 0;
-}
-
-.shortcut-info {
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    /* 小字压在半透明面上，加一点点字距更耐看 */
-    letter-spacing: 0.01em;
-    margin: 12px 0 0;
-}
-
-kbd {
-    display: inline-block;
-    padding: 1px 6px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size: 0.75rem;
-    line-height: 1.5;
-    color: var(--text-secondary);
-    background-color: var(--mat-chip-bg);
-    backdrop-filter: var(--mat-chip-blur);
-    -webkit-backdrop-filter: var(--mat-chip-blur);
-    border: 1px solid rgba(255, 255, 255, 0.72);
-    border-radius: var(--r-sm);
-    box-shadow: inset 0 1px 0 var(--edge-high);
 }
 
 /* ==========================================================================
@@ -839,7 +808,16 @@ kbd {
 
 #incorrectWordsTable .meaning-line { font-size: 1em; line-height: 1.5; }
 #incorrectWordsTable .meaning-line + .meaning-line { margin-top: 5px; }
-#incorrectWordsTable .pos-abbr { color: var(--text-secondary); font-weight: 500; }
+/* 表头 "Meaning" 是左对齐的，所以格子里也必须从左边起排。
+   基类的 .pos-abbr 带一道 55px 的右对齐词性栏（在复习卡里那样排很好看），
+   但在表格里它会把整行内容整体推右，和表头错开一大截——截图里就是这个现象。 */
+#incorrectWordsTable .pos-abbr {
+    min-width: 0;
+    text-align: left;
+    margin-right: 0.5em;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
 
 .incorrect-words-list .button {
     display: flex;
@@ -951,9 +929,8 @@ kbd {
 
     .progress-summary > span { padding: 5px 10px; }
 
-    /* 只对最小的元件（胶囊、键帽）关掉模糊——按钮是这一版的主角，保留。 */
-    .progress-summary > span,
-    kbd {
+    /* 只对最小的元件（计数胶囊）关掉模糊——按钮是这一版的主角，保留。 */
+    .progress-summary > span {
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
     }
@@ -975,7 +952,6 @@ kbd {
     .secondary-button { background-color: rgba(248, 249, 251, 0.96); }
     .primary-button { background-color: #0069e0; }
     .progress-summary > span { background-color: rgba(255, 255, 255, 0.93); }
-    kbd { background-color: rgba(255, 255, 255, 0.95); }
 
     .error-message {
         background-color: #ffebee;
@@ -999,8 +975,7 @@ kbd {
     #userAnswer  { background-color: #ffffff; backdrop-filter: none; -webkit-backdrop-filter: none; }
     .button      { background-color: #f1f5f9; backdrop-filter: none; -webkit-backdrop-filter: none; }
     .primary-button { background-color: #0069e0; }
-    .progress-summary > span,
-    kbd {
+    .progress-summary > span {
         background-color: #ffffff;
         backdrop-filter: none;
         -webkit-backdrop-filter: none;

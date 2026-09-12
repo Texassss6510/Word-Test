@@ -92,7 +92,7 @@
             <div id="wordSelectionView" class="view active-view">
                 <div class="view-content">
                     <svg class="icon welcome-icon" aria-hidden="true"><use href="#i-book-open"/></svg>
-                    <p class="instruction-text">Choose a word book to review</p>
+                    <p class="instruction-text">Choose a word list to review</p>
                     <div class="selection-group">
                         <select id="categorySelector" class="word-list-selector" aria-label="Choose a word book">
                             <option value="" disabled selected hidden>Select a book</option>
@@ -143,16 +143,13 @@
 
                     <!-- 音标和「看答案」都要有可点的入口：
                          原来音标只有 Shift+空格 一个键盘快捷键，触屏设备上等于打不开。
-                         第一行：音标开关 + 快捷键提示；第二行：看答案。 -->
+                         两个按钮等分整行宽度，随视口自动伸缩。 -->
                     <div class="review-tools">
-                        <div class="review-tools-line">
-                            <button id="togglePhoneticButton" class="button ghost-button" aria-pressed="false">
-                                <svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg> Phonetic
-                            </button>
-                            <span class="shortcut-info">or press <kbd>Shift</kbd> + <kbd>Space</kbd></span>
-                        </div>
+                        <button id="togglePhoneticButton" class="button ghost-button" aria-pressed="false">
+                            <svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg> Phonetic
+                        </button>
                         <button id="showAnswerButton" class="button ghost-button">
-                            <svg class="icon" aria-hidden="true"><use href="#i-lightbulb"/></svg> Show Answer
+                            <svg class="icon" aria-hidden="true"><use href="#i-lightbulb"/></svg> Answer
                         </button>
                     </div>
                 </div>

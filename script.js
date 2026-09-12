@@ -147,24 +147,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
     const EASE_OUT = 'cubic-bezier(0.23, 1, 0.32, 1)';
 
-    let wordStageAnimation = null;
-
     /**
      * 元素入场：极短的淡入 + 微位移。
      * 单词每几十秒才换一次，所以刻意做得几乎察觉不到——目的是消除“瞬移感”，
      * 而不是让人注意到动画本身。
-     * 开新动画前先取消旧的：连续快速换词时不会两条动画叠在一起。
+     * 同一个元素上先取消上一次：连续快速换词时不会两条动画叠在一起。
      */
+    const activeEntrances = new WeakMap();
+
     function animateIn(element, { distance = 10, duration = 260 } = {}) {
         if (!element || reducedMotionQuery.matches || typeof element.animate !== 'function') return;
-        if (wordStageAnimation) wordStageAnimation.cancel();
-        wordStageAnimation = element.animate(
+        const previous = activeEntrances.get(element);
+        if (previous) previous.cancel();
+        activeEntrances.set(element, element.animate(
             [
                 { opacity: 0, transform: `translateY(${distance}px)` },
                 { opacity: 1, transform: 'translateY(0)' }
             ],
             { duration, easing: EASE_OUT }
-        );
+        ));
     }
 
     /**
@@ -197,45 +198,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 发音 ---------------------------------------------------------------
-    // 为什么不能只靠浏览器 TTS：它的音质完全取决于系统装了什么语音。
-    // 这台机器上英文只有 Microsoft Zira Desktop（Vista 时代的拼接式语音），
-    // 所以很多词读不准——而且没得选。
-    // 策略：优先用词典的真实人工录音，查不到或断网时才退回 TTS。
-    const DICT_API = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
-    const PRON_CACHE_KEY = 'wordtest.pronunciation.v1';
-    const pronunciationCache = new Map();   // word -> mp3 url | null（null = 确认没有录音）
-    const pendingLookups = new Map();       // word -> Promise，同一词不重复请求
+    // 用有道词典的发音接口。它是「直接拼 URL」的形式：
+    //   https://dict.youdao.com/dictvoice?audio=<单词>&type=2   （1 = 英音，2 = 美音）
+    // 相比之前用的 dictionaryapi.dev 有三个好处：
+    //   1. 不必先 fetch 查一次拿地址，URL 直接就能算出来；
+    //   2. 因此也不需要 CORS——<audio> 播放跨域音频不要求 CORS 头，
+    //      只有 fetch 读数据才需要，而现在一次 fetch 都不发；
+    //   3. 任何单词都有音（有录音用录音，没有就合成），不会像之前那样大片查不到。
+    // 浏览器自带 TTS 只作断网兜底——这台机器上英文只有 Microsoft Zira Desktop
+    // （Vista 时代的拼接式语音），单独用它读不准。
+    //
+    // 【关于「为什么不用有道官方 API」——已调研，结论是这里用不了】
+    // ai.youdao.com 确实提供官方 TTS（openapi.youdao.com/ttsapi）和词典 API，
+    // 但两者的签名都是 sha256(应用ID + input + salt + curtime + 应用密钥)，
+    // 「应用密钥」必须参与计算。纯前端没有后端，密钥就只能写进这个文件，
+    // 而本站在公开的 GitHub Pages 上——等于把密钥交给所有人，
+    // 后果是被刷爆配额、被以你的身份调用、产生你的账单。
+    // 另外官方渠道要付费（仅赠 50 元体验金），词典 API 还需电话申请开通，
+    // 且条款明文禁止缓存返回数据。
+    // 所以继续用网页版词典自己在用的这个免密接口；
+    // 万一哪天它变更，下面的 TTS 兜底会接管，不会白屏也不会静音。
+    const YOUDAO_VOICE = 'https://dict.youdao.com/dictvoice?audio=';
     const fallbackAudio = new Audio();
     let speechToken = 0;
-
-    function loadPronunciationCache() {
-        try {
-            const raw = localStorage.getItem(PRON_CACHE_KEY);
-            if (!raw) return;
-            const saved = JSON.parse(raw);
-            if (saved && typeof saved === 'object') {
-                Object.keys(saved).forEach(word => pronunciationCache.set(word, saved[word] || null));
-            }
-        } catch (err) {
-            console.warn('发音缓存读取失败，忽略:', err);
-        }
-    }
-
-    function savePronunciationCache() {
-        try {
-            const out = {};
-            pronunciationCache.forEach((url, word) => { out[word] = url; });
-            localStorage.setItem(PRON_CACHE_KEY, JSON.stringify(out));
-        } catch (err) {
-            // 配额满或隐私模式：缓存只是加速，不是必需品，静默忽略
-        }
-    }
-
-    // 录音加载失败（404 / 断网）时记成「没有」，下次直接走 TTS
-    fallbackAudio.addEventListener('error', () => {
-        const word = fallbackAudio.dataset.word;
-        if (word) pronunciationCache.set(word, null);
-    });
 
     // ── TTS 兜底 ─────────────────────────────────────────────────────────
     // 即使只能用 TTS，也显式挑一个尽可能好的英文语音，而不是听任浏览器默认。
@@ -298,56 +283,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 0);
     }
 
-    // ── 词典录音 ─────────────────────────────────────────────────────────
-    function resolvePronunciation(word) {
-        if (pronunciationCache.has(word)) return Promise.resolve(pronunciationCache.get(word));
-        if (pendingLookups.has(word)) return pendingLookups.get(word);
-
-        const task = fetch(DICT_API + encodeURIComponent(word))
-            .then(res => (res.ok ? res.json() : Promise.reject(new Error(String(res.status)))))
-            .then(data => {
-                const entry = Array.isArray(data) ? data[0] : null;
-                const list = (entry && Array.isArray(entry.phonetics)) ? entry.phonetics : [];
-                const withAudio = list.filter(p => p && typeof p.audio === 'string' && p.audio);
-                const chosen = withAudio.find(p => /-us\./i.test(p.audio)) || withAudio[0] || null;
-                const url = chosen ? chosen.audio : null;
-                pronunciationCache.set(word, url);
-                return url;
-            })
-            .catch(() => {
-                pronunciationCache.set(word, null);   // 记成「没有」，不反复重试
-                return null;
-            })
-            .finally(() => {
-                pendingLookups.delete(word);
-                savePronunciationCache();
-            });
-
-        pendingLookups.set(word, task);
-        return task;
-    }
-
-    // 只向前看几个词，跟着用户作答的节奏走，不会一次性打爆免费接口
-    function prefetchPronunciations(fromIndex, count = 4) {
-        for (let i = fromIndex; i < Math.min(fromIndex + count, wordList.length); i++) {
-            resolvePronunciation(wordList[i].english);
-        }
-    }
-
-    /** 朗读一个单词：有录音就用录音，没有就先用 TTS 顶上并顺手查出来。 */
+    /** 朗读一个单词：有道的音优先，加载失败（断网 / 被拦）才退回浏览器 TTS。 */
     function speak(text) {
         stopSpeaking();
-        const cached = pronunciationCache.get(text);
-
-        if (cached) {
-            fallbackAudio.dataset.word = text;
-            fallbackAudio.src = cached;
-            fallbackAudio.play().catch(() => speakWithTTS(text));
-            return;
-        }
-
-        speakWithTTS(text);
-        if (cached === undefined) resolvePronunciation(text);   // 下次就有真录音了
+        fallbackAudio.src = YOUDAO_VOICE + encodeURIComponent(text) + '&type=2';
+        fallbackAudio.play().catch(() => speakWithTTS(text));
     }
 
     // --- 音效（Web Audio 合成，不再依赖缺失的 ./sounds/*.mp3） ---
@@ -653,11 +593,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const word = wordList[currentWordIndex];
 
             if (reviewMode === 'dictation') {
-                // 听写模式原本是整张空白卡片——这里给一个不泄题的视觉锚点
-                currentChineseHint.innerHTML =
-                    '<span class="dictation-hint"><svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg>Dictation Mode</span>';
-                // 抢在用户作答期间把接下来几个词的录音查好
-                prefetchPronunciations(currentWordIndex, 4);
+                // 听写模式原本是整张空白卡片——这里给一个不泄题的视觉锚点。
+                // 这个标签在整个听写过程中是静止的，所以只在还没写过时写一次，
+                // 不必每换一个词就重建一次 DOM。
+                if (!currentChineseHint.querySelector('.dictation-hint')) {
+                    currentChineseHint.innerHTML =
+                        '<span class="dictation-hint"><svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg>Dictation Mode</span>';
+                }
                 speak(word.english);
             } else {
                 currentChineseHint.innerHTML = word.pos
@@ -665,12 +607,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     .join('');
             }
 
-            phoneticDisplay.textContent = word.phonetic;
+            // 【只收起，不写文字】——新的音标等用户下次展开时再写（见 togglePhoneticVisibility）。
+            // 这里如果先写再收，淡出的那 240ms 里显示的是【下一个词】的音标：
+            // 既和当前单词错位，又提前把下一个词剧透了。截图外的这个 bug 就是这么来的。
             phoneticDisplay.classList.remove('is-visible');
             togglePhoneticButton.setAttribute('aria-pressed', 'false');
 
             updateProgressDisplay();
-            animateIn(wordStage);
+            // 听写模式换词时画面上其实没有任何变化：上方标签是静态的、音标默认收起，
+            // 所以不需要入场动画。之前无条件动整个舞台，才会把那个静态标签也带着闪。
+            if (reviewMode !== 'dictation') animateIn(wordStage);
             userAnswerInput.focus();
         } else {
             updateAppView('reviewComplete');
@@ -781,9 +727,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function togglePhoneticVisibility() {
         if (appState !== 'review') return;
-        const visible = phoneticDisplay.classList.toggle('is-visible');
+        const willShow = !phoneticDisplay.classList.contains('is-visible');
+
+        // 【在展开的这一刻才写入音标】，而不是换词时就写好。
+        // 换词时写的话，上一个词的音标在做淡出动画的过程中，
+        // 里面已经换成了下一个词的内容——既错位，又提前剧透。
+        if (willShow && currentWordIndex < wordList.length) {
+            phoneticDisplay.textContent = wordList[currentWordIndex].phonetic;
+        }
+
+        phoneticDisplay.classList.toggle('is-visible', willShow);
         // 按钮和 Shift+空格 共用同一个状态，这里把 aria-pressed 同步上
-        togglePhoneticButton.setAttribute('aria-pressed', String(visible));
+        togglePhoneticButton.setAttribute('aria-pressed', String(willShow));
     }
 
     function displayIncorrectWords() {
@@ -929,7 +884,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Initial Execution ---
     // 这里【不】分配撒花画布：一张全屏 DPR2 画布在 iPad 上要十几 MB，而且是全程常驻的。
     // launchConfetti() 内部会按需分配，画完再归还（见 stepConfetti）。
-    loadPronunciationCache();
     populateCategorySelector();
     updateAppView('wordSelection');
     updateProgressDisplay();
