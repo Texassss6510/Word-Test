@@ -17,7 +17,11 @@
     --mat-field-bg:      rgba(255, 255, 255, 0.44);   /* 输入框 / 下拉框 */
     --mat-chip-bg:       rgba(255, 255, 255, 0.28);   /* 胶囊 / 键帽 */
 
-    --mat-structural-blur: blur(40px) saturate(180%);
+    /* 容器背后只有一层平滑渐变。对平滑函数做任何半径的卷积结果都一样，
+       所以 40px 和 18px 在视觉上【完全相同】——但半径越大，
+       iOS 合成器的栅格化压力越大，越容易降采样导致内部文字发虚。
+       这里用小半径，等于白拿性能。 */
+    --mat-structural-blur: blur(18px) saturate(180%);
     --mat-glass-blur:      blur(16px) saturate(200%);
     --mat-field-blur:      blur(20px) saturate(200%);
     --mat-chip-blur:       blur(14px) saturate(200%);
@@ -95,8 +99,11 @@ body {
     min-height: 100vh;
     padding: 32px 20px;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* 不用 -webkit-font-smoothing: antialiased。
+       它会把字形从次像素抗锯齿切成灰度抗锯齿，在 Retina 屏上让笔画变细、
+       边缘发浅——在浅色半透明底上主观感受就是“发虚”。
+       留空即使用各平台的默认渲染，字重更实、边缘更清楚。 */
+    -moz-osx-font-smoothing: auto;
     text-rendering: optimizeLegibility;
 }
 
@@ -178,8 +185,12 @@ body {
             rgba(255, 255, 255, 0.04) 100%),
         var(--grain);
     background-repeat: no-repeat, repeat;
-    backdrop-filter: var(--mat-structural-blur);
-    -webkit-backdrop-filter: var(--mat-structural-blur);
+    /* 【Safari 文字发虚的根源 —— 刻意不加 backdrop-filter】
+       WebKit 会把带 backdrop-filter 的元素提升为独立合成层，并以固定分辨率
+       栅格化一次；页面放大时它缩放这张已画好的纹理图，而不是重新绘制，
+       于是层内文字被插值糊掉。Chromium 在缩放时会重新栅格化，所以 Edge/Chrome 正常。
+       代价几乎为零：容器背后只有一层平滑渐变，对平滑函数做卷积结果不变，
+       blur 本来就没起任何作用，被去掉的只有那点 saturate。 */
     border: 1px solid rgba(255, 255, 255, 0.55);
     border-radius: var(--r-xl);
     box-shadow: var(--shadow-lg), var(--shadow-rim);
@@ -196,9 +207,14 @@ body {
 }
 
 .app-header h1 {
-    font-size: 1.75rem;
-    font-weight: 650;
-    letter-spacing: -0.022em;   /* 大字号收紧字距 */
+    /* 用 clamp() 让它随屏幕自然放大，而不是写死一个值：
+       手机约 30px → iPad 竖屏约 35px → 桌面封顶 40px。
+       Apple 的排版规则：字号越大，字距要收得越紧、行高要压得越小，
+       字重也要相应加重，否则大字看起来反而比小字“虚”。 */
+    font-size: clamp(1.9rem, 1.5rem + 1.4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.03em;
     color: var(--text);
     margin: 0;
 }
@@ -220,7 +236,7 @@ body {
 .view {
     display: none;
     opacity: 0;
-    transform: translateY(6px) scale(0.995);
+    transform: translateY(6px);
     transition:
         opacity var(--d-base) var(--ease-out),
         transform var(--d-base) var(--ease-out),
@@ -243,7 +259,7 @@ body {
 
     @starting-style {
         opacity: 0;
-        transform: translateY(6px) scale(0.995);
+        transform: translateY(6px);
     }
 }
 
@@ -822,7 +838,7 @@ kbd {
         border-radius: var(--r-lg);
     }
 
-    .app-header h1 { font-size: 1.45rem; }
+    /* 标题字号交给 clamp() 处理，这里不再覆写，否则会把它压回去 */
 
     .mode-selection-container {
         flex-direction: column;
