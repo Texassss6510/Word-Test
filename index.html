@@ -65,6 +65,20 @@
             <path d="M8 12h13"/>
             <path d="M8 19h13"/>
         </symbol>
+        <symbol id="i-eye" viewBox="0 0 24 24">
+            <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/>
+            <circle cx="12" cy="12" r="3"/>
+        </symbol>
+        <symbol id="i-lightbulb" viewBox="0 0 24 24">
+            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+            <path d="M9 18h6"/>
+            <path d="M10 22h4"/>
+        </symbol>
+        <symbol id="i-target" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="12" r="6"/>
+            <circle cx="12" cy="12" r="2"/>
+        </symbol>
     </svg>
 
     <canvas id="confettiCanvas" aria-hidden="true"></canvas>
@@ -126,7 +140,21 @@
                             <svg class="icon" aria-hidden="true"><use href="#i-volume-2"/></svg>
                         </button>
                     </div>
-                    <p class="shortcut-info">Press <kbd>Shift</kbd> + <kbd>Space</kbd> to reveal the phonetic</p>
+
+                    <!-- 音标和「看答案」都要有可点的入口：
+                         原来音标只有 Shift+空格 一个键盘快捷键，触屏设备上等于打不开。
+                         第一行：音标开关 + 快捷键提示；第二行：看答案。 -->
+                    <div class="review-tools">
+                        <div class="review-tools-line">
+                            <button id="togglePhoneticButton" class="button ghost-button" aria-pressed="false">
+                                <svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg> Phonetic
+                            </button>
+                            <span class="shortcut-info">or press <kbd>Shift</kbd> + <kbd>Space</kbd></span>
+                        </div>
+                        <button id="showAnswerButton" class="button ghost-button">
+                            <svg class="icon" aria-hidden="true"><use href="#i-lightbulb"/></svg> Show Answer
+                        </button>
+                    </div>
                 </div>
                 <div id="result" class="message-feedback" role="status" aria-live="polite"></div>
             </div>
@@ -135,7 +163,7 @@
                 <div class="view-content">
                     <h2 id="completionTitle" class="completion-title">🎉 Review Complete!</h2>
                     <p id="completionMessage" class="info-text"></p>
-                    <div id="incorrectWordsContainer" class="incorrect-words-list">
+                    <div id="incorrectWordsContainer" class="incorrect-words-list is-hidden">
                         <h3>Words to Review</h3>
                         <div class="table-scroll">
                             <table id="incorrectWordsTable">
@@ -154,7 +182,10 @@
                             <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> Export Mistakes
                         </button>
                     </div>
-                    <button id="restartButton" class="button primary-button">
+                    <button id="reviewMistakesButton" class="button primary-button">
+                        <svg class="icon" aria-hidden="true"><use href="#i-target"/></svg> Review Mistakes
+                    </button>
+                    <button id="restartButton" class="button secondary-button">
                         <svg class="icon" aria-hidden="true"><use href="#i-rotate-ccw"/></svg> Restart This Unit
                     </button>
                     <button id="goBackButton" class="button secondary-button back-button">

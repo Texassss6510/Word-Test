@@ -106,6 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportButton = document.getElementById('exportButton');
     const restartButton = document.getElementById('restartButton');
     const exitReviewButton = document.getElementById('exitReviewButton');
+    const togglePhoneticButton = document.getElementById('togglePhoneticButton');
+    const showAnswerButton = document.getElementById('showAnswerButton');
+    const reviewMistakesButton = document.getElementById('reviewMistakesButton');
     const currentChineseHint = document.getElementById('currentChineseHint');
     const phoneticDisplay = document.getElementById('phonetic');
     const resultFeedback = document.getElementById('result');
@@ -152,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * 而不是让人注意到动画本身。
      * 开新动画前先取消旧的：连续快速换词时不会两条动画叠在一起。
      */
-    function animateIn(element, { distance = 6, duration = 160 } = {}) {
+    function animateIn(element, { distance = 10, duration = 260 } = {}) {
         if (!element || reducedMotionQuery.matches || typeof element.animate !== 'function') return;
         if (wordStageAnimation) wordStageAnimation.cancel();
         wordStageAnimation = element.animate(
@@ -473,6 +476,9 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             confettiCtx.clearRect(0, 0, width, height);
             confettiFrameId = null;
+            // 撒完就把画布尺寸归零，把整块显存还回去
+            confettiCanvas.width = 0;
+            confettiCanvas.height = 0;
         }
     }
 
@@ -493,8 +499,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 答对之后的推进节奏 ---
     // 不用「锁住界面等 1 秒」的做法：这段时间里用户一动手就立刻推进，
     // 并且保留他已经敲进去的字符（Apple：the thought and the gesture happen in parallel）。
-    const ADVANCE_DELAY = 900;
+    // 答对之后停留多久再进下一个词。
+    // 0.85 秒：够看清「正确」这个反馈，又不打断连续作答的节奏。
+    // 而且一动手（打字或按 Enter）就立刻跳过，着急时完全不用等。
+    const ADVANCE_DELAY = 850;
     let advanceTimerId = null;
+    // 已经作答、正在等待切换的那份答案。
+    // 它【留在输入框里】不立刻清掉，好让用户还能看见自己写的是什么，
+    // 直到考察的单词一起切换过去。
+    let committedAnswer = '';
+    // 是否已经点过「看答案」。为 true 时输入框变成纯展示：
+    // 答案填在里面等用户看够，按 Enter 才走，绝不自动切换。
+    let answerRevealed = false;
 
     function isAdvancing() {
         return advanceTimerId !== null;
@@ -508,10 +524,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }, delay);
     }
 
-    function advanceNow() {
+    /**
+     * 立刻推进到下一个词。
+     * preserveInput 只在「用户已经开始敲下一个词」时为 true——
+     * 那时输入框里已经是新答案的开头，不能清掉。
+     * 按 Enter 跳过时走默认的 false：那份旧答案必须清掉，
+     * 否则会被带进下一个单词里。
+     */
+    function advanceNow({ preserveInput = false } = {}) {
         if (advanceTimerId === null) return;
         clearAdvance();
-        showNextWord({ preserveInput: true });
+        showNextWord({ preserveInput });
     }
 
     function clearAdvance() {
@@ -618,6 +641,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // preserveInput：用户已经抢在计时器前面开始敲下一个单词了，
         // 那就别把他刚敲的字符抹掉。
         if (!preserveInput) userAnswerInput.value = '';
+        // 切换完成，已提交的答案不再需要单独记录
+        committedAnswer = '';
+        // 新词开始，退出「已揭晓」状态，「看答案」重新可用
+        answerRevealed = false;
+        showAnswerButton.disabled = false;
         userAnswerInput.classList.remove('input-error-shake');
         hideFeedback();
 
@@ -639,6 +667,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             phoneticDisplay.textContent = word.phonetic;
             phoneticDisplay.classList.remove('is-visible');
+            togglePhoneticButton.setAttribute('aria-pressed', 'false');
 
             updateProgressDisplay();
             animateIn(wordStage);
@@ -652,7 +681,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleKeyPress(event) {
         if (event.key === "Enter" && appState === 'review') {
             event.preventDefault();
-            // 正在等下一个单词时，Enter 直接推进，不用干等
+            // 看过答案：Enter 只是「继续」，不再判定对错，也不播正确音效
+            if (answerRevealed) {
+                answerRevealed = false;
+                currentWordIndex++;
+                updateProgressDisplay();
+                showNextWord();
+                return;
+            }
+            // 正在等下一个单词时，Enter 直接推进，不用干等。
+            // 这里刻意【不】保留输入框内容——那里面是已经作答过的旧答案。
             if (isAdvancing()) { advanceNow(); return; }
             if (userAnswerInput.value.trim() !== '') checkAnswer();
         } else if (event.shiftKey && (event.code === "Space" || event.key === " ")) {
@@ -675,8 +713,10 @@ document.addEventListener('DOMContentLoaded', () => {
             resultFeedback.className = 'message-feedback correct-message is-visible';
             currentWordIndex++;
             updateProgressDisplay();
-            // 立刻清空输入框：于是等待期间用户敲下的字，就是下一个单词的开头
-            userAnswerInput.value = '';
+            // 【不】清空输入框——让答案留在屏幕上，和考察的单词一起切换。
+            // 代价是等待期间用户如果直接开打，字符会接在这份答案后面，
+            // 所以下面的 input 监听里会把旧答案那段摘掉（见事件绑定处）。
+            committedAnswer = userAnswerInput.value;
             scheduleAdvance();
         } else {
             playIncorrectSound();
@@ -693,9 +733,57 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    /**
+     * 「看答案 / 跳过」。
+     * 不会拼的词总得有条退路——听写模式下尤其如此，硬猜没有任何学习价值。
+     * 因为它确实要记进错题，所以沿用答错那条路径，只是改由用户主动触发。
+     */
+    function revealAnswer() {
+        if (appState !== 'review' || isAdvancing() || answerRevealed) return;
+        if (currentWordIndex >= wordList.length) return;
+
+        const word = wordList[currentWordIndex];
+        const typed = userAnswerInput.value.trim();
+
+        if (!incorrectWords.some(item => item.english === word.english)) {
+            incorrectWords.push({ ...word, userInput: typed });
+            updateProgressDisplay();
+        }
+
+        // 答案直接填进输入框，让用户看个够。
+        // 这里【不】排计时器——换不换词交给用户按 Enter 决定。
+        // 之前用自动推进，答案刚出现就被换走，等于没看见。
+        userAnswerInput.value = word.english;
+        userAnswerInput.classList.remove('input-error-shake');
+        answerRevealed = true;
+        showAnswerButton.disabled = true;
+
+        resultFeedback.textContent = '💡 Press Enter for the next word';
+        resultFeedback.className = 'message-feedback info-message is-visible';
+
+        userAnswerInput.focus();
+    }
+
+    /**
+     * 「只复习错题」：把错题还原成普通词条，重新开一轮。
+     * 一个单元错了十几个词，没必要整本重来。
+     */
+    function reviewMistakesOnly() {
+        if (incorrectWords.length === 0) return;
+        wordList = incorrectWords.map(w => ({
+            english: w.english,
+            pos: w.pos,
+            phonetic: w.phonetic
+        }));
+        incorrectWords = [];
+        startCurrentReview();   // 内部会重新洗牌并 resetProgress
+    }
+
     function togglePhoneticVisibility() {
         if (appState !== 'review') return;
-        phoneticDisplay.classList.toggle('is-visible');
+        const visible = phoneticDisplay.classList.toggle('is-visible');
+        // 按钮和 Shift+空格 共用同一个状态，这里把 aria-pressed 同步上
+        togglePhoneticButton.setAttribute('aria-pressed', String(visible));
     }
 
     function displayIncorrectWords() {
@@ -704,28 +792,33 @@ document.addEventListener('DOMContentLoaded', () => {
         if (incorrectWords.length === 0) {
             completionTitle.textContent = '🎉 Perfect! All correct!';
             completionMessage.textContent = 'Flawless run — keep it up!';
-            incorrectWordsContainer.style.display = 'none';
+            // 用 class 而不是内联 display：这样才能走 CSS 过渡，出现时是淡入而非“啪”地弹出
+            incorrectWordsContainer.classList.add('is-hidden');
+            reviewMistakesButton.style.display = 'none';
             // 全对才撒花——让满分这一次显得特别
             launchConfetti(180);
-        } else {
-            completionTitle.textContent = '👍 Review Complete!';
-            completionMessage.textContent = 'Nice work — here are the words to revisit';
-            incorrectWordsContainer.style.display = 'block';
-            exportButton.style.display = 'inline-flex';
-
-            incorrectWords.forEach(word => {
-                const row = incorrectWordsTableBody.insertRow();
-                row.insertCell().textContent = word.english;
-
-                const posCell = row.insertCell();
-                posCell.innerHTML = word.pos
-                    .map(entry => `<div class="meaning-line"><span class="pos-abbr">${entry.abbreviation}</span><span class="pos-meaning">${entry.meaning}</span></div>`)
-                    .join("");
-
-                row.insertCell().textContent = word.phonetic;
-                row.insertCell().textContent = word.userInput;
-            });
+            return;
         }
+
+        completionTitle.textContent = '👍 Review Complete!';
+        completionMessage.textContent = 'Nice work — here are the words to revisit';
+        incorrectWordsContainer.classList.remove('is-hidden');
+        reviewMistakesButton.style.display = 'inline-flex';
+
+        incorrectWords.forEach((word, index) => {
+            const row = incorrectWordsTableBody.insertRow();
+            // 逐行入场的错开延迟，配套 CSS 里的 rowIn
+            row.style.setProperty('--i', String(index));
+            row.insertCell().textContent = word.english;
+
+            const posCell = row.insertCell();
+            posCell.innerHTML = word.pos
+                .map(entry => `<div class="meaning-line"><span class="pos-abbr">${entry.abbreviation}</span><span class="pos-meaning">${entry.meaning}</span></div>`)
+                .join("");
+
+            row.insertCell().textContent = word.phonetic;
+            row.insertCell().textContent = word.userInput;
+        });
     }
 
     function exportIncorrectWordsList() {
@@ -776,10 +869,26 @@ document.addEventListener('DOMContentLoaded', () => {
     startSpellingButton.addEventListener('click', () => startReview('spelling'));
     startDictationButton.addEventListener('click', () => startReview('dictation'));
 
-    // 一动手就推进：等待下一个单词的这段时间不该让用户干等
+    // 等下一个单词的这段时间里，用户一动手就立刻推进，不用干等。
+    // 但输入框里还留着上一题的答案，所以要把那一段摘掉，
+    // 只保留他刚敲的字符——那才是下一个答案的开头。
+    // 把摘除放在 input 事件里而不是 keydown：粘贴和输入法也一并覆盖，
+    // 而且 input 在绘制之前同步触发，画面不会闪出中间状态。
     userAnswerInput.addEventListener('input', () => {
         userAnswerInput.classList.remove('input-error-shake');
-        if (isAdvancing()) advanceNow();
+        // 答案已揭晓时输入框只是展示用：把它锁回答案，打字看不出变化。
+        // 不用 readonly 是因为 iOS 对 readonly 输入框可能不弹键盘，
+        // 而 Enter 恰恰要靠那个键盘。
+        if (answerRevealed) {
+            userAnswerInput.value = wordList[currentWordIndex].english;
+            return;
+        }
+        if (!isAdvancing()) return;
+        if (committedAnswer && userAnswerInput.value.startsWith(committedAnswer)) {
+            userAnswerInput.value = userAnswerInput.value.slice(committedAnswer.length);
+        }
+        committedAnswer = '';
+        advanceNow({ preserveInput: true });
     });
 
     userAnswerInput.addEventListener('keydown', handleKeyPress);
@@ -802,12 +911,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // 音标：给触屏设备一条能走的路（Shift+空格 在 iPad 上按不出来）
+    togglePhoneticButton.addEventListener('click', () => {
+        togglePhoneticVisibility();
+        userAnswerInput.focus();
+    });
+
+    // 看答案后不抢焦点：用户这一刻是在读答案，不是接着打字
+    showAnswerButton.addEventListener('click', revealAnswer);
+
+    reviewMistakesButton.addEventListener('click', reviewMistakesOnly);
+
     window.addEventListener('resize', () => {
         if (confettiParticles.length > 0) resizeConfettiCanvas();
     });
 
     // --- Initial Execution ---
-    resizeConfettiCanvas();
+    // 这里【不】分配撒花画布：一张全屏 DPR2 画布在 iPad 上要十几 MB，而且是全程常驻的。
+    // launchConfetti() 内部会按需分配，画完再归还（见 stepConfetti）。
     loadPronunciationCache();
     populateCategorySelector();
     updateAppView('wordSelection');

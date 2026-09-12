@@ -332,10 +332,23 @@ body {
     background-size: 1em;
     transition: border-color var(--d-fast) var(--ease),
                 box-shadow var(--d-fast) var(--ease),
-                background-color var(--d-fast) var(--ease);
+                background-color var(--d-fast) var(--ease),
+                opacity 280ms var(--ease-out),
+                transform 280ms var(--ease-out),
+                display 280ms allow-discrete;
 }
 
-.word-list-selector.is-hidden { display: none; }
+/* 单元下拉框是选完书本才出现的：让它淡入上浮，而不是“啪”地弹出来。
+   出场沿原路退回，进出对称。 */
+.word-list-selector.is-hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(-8px);
+}
+
+@starting-style {
+    #unitSelector { opacity: 0; transform: translateY(-8px); }
+}
 
 .word-list-selector:focus-visible,
 .word-list-selector:focus {
@@ -463,6 +476,12 @@ body {
 /* 幽灵按钮不需要镜面切边，安静一点，别和主流程抢注意力 */
 .ghost-button::after { display: none; }
 
+/* 揭晓答案后「看答案」就没事可做了，明确置灰而不是留一个点了没反应的按钮 */
+.ghost-button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
 @media (hover: hover) and (pointer: fine) {
     .ghost-button:hover:not(:disabled) {
         background-color: rgba(255, 255, 255, 0.42);
@@ -518,18 +537,18 @@ body {
     min-height: 1.5em;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-3px);
-    transition: opacity var(--d-fast) var(--ease-out),
-                transform var(--d-fast) var(--ease-out),
-                visibility 0s linear var(--d-fast);
+    transform: translateY(-5px);
+    transition: opacity 240ms var(--ease-out),
+                transform 240ms var(--ease-out),
+                visibility 0s linear 240ms;
 }
 
 .phonetic-display.is-visible {
     opacity: 1;
     visibility: visible;
     transform: none;
-    transition: opacity var(--d-fast) var(--ease-out),
-                transform var(--d-fast) var(--ease-out),
+    transition: opacity 240ms var(--ease-out),
+                transform 240ms var(--ease-out),
                 visibility 0s;
 }
 
@@ -595,6 +614,30 @@ body {
     box-shadow: 0 0 0 3.5px rgba(255, 59, 48, 0.16) !important;
 }
 
+/* 复习卡底部的操作区，两行：
+   第一行 = 音标开关 + 快捷键提示（并排）
+   第二行 = 看答案
+   以前音标只有 Shift+空格 一个入口，触屏设备上根本按不出来。 */
+.review-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.review-tools-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.review-tools .shortcut-info {
+    margin: 0;
+}
+
 .shortcut-info {
     font-size: 0.82rem;
     color: var(--text-muted);
@@ -619,6 +662,17 @@ kbd {
 }
 
 /* ==========================================================================
+   单词舞台
+   给换词留出稳定的高度。不同单词的释义行数不一样，不固定高度的话
+   输入框会随之上蹿下跳——眼睛和手每次都要重新找位置，这才是
+   “换词时不舒服”里最容易被忽略、却很要命的一条。
+   ========================================================================== */
+.word-stage {
+    /* 约合 1–2 行释义，吸收掉大部分行数变化。想更稳就调大，想更紧凑就调小。 */
+    min-height: 7rem;
+}
+
+/* ==========================================================================
    作答反馈 — 染色玻璃
    常驻占位（min-height）→ 出现时不推动下方内容；
    用 class + transition 而非 keyframes，连续作答时不会从零重启。
@@ -634,28 +688,30 @@ kbd {
     font-weight: 600;
     border: 1px solid transparent;
     border-radius: var(--r-md);
-    /* materialize：模糊半径和缩放一起走，面才像「材质抵达」而不只是淡入 */
-    backdrop-filter: blur(4px) saturate(180%);
-    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    /* 这里刻意【不】加 backdrop-filter，两个原因：
+       1) 它背后是容器那层近乎均匀的浅色面，blur 本来就看不出来；
+       2) 更要紧的是——动画化 backdrop-filter 意味着每帧都要重算背景，
+          既拖慢动画本身，又会让 Safari 把这行文字连同图层一起缩放糊掉。
+       玻璃感改由半透明染色 + 切边高光 + 阴影承担，观感不变。 */
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-4px) scale(0.97);
+    transform: translateY(-10px) scale(0.96);
     pointer-events: none;
-    transition: opacity var(--d-fast) var(--ease-out),
-                transform var(--d-fast) var(--ease-out),
-                backdrop-filter var(--d-fast) var(--ease-out),
-                visibility 0s linear var(--d-fast);
+    /* 出场：干脆利落。系统在回应你，不该拖泥带水。 */
+    transition: opacity 160ms var(--ease-out),
+                transform 160ms var(--ease-out),
+                visibility 0s linear 160ms;
 }
 
 .message-feedback.is-visible {
     opacity: 1;
     visibility: visible;
     transform: none;
-    backdrop-filter: var(--mat-field-blur);
-    -webkit-backdrop-filter: var(--mat-field-blur);
-    transition: opacity var(--d-fast) var(--ease-out),
-                transform var(--d-fast) var(--ease-out),
-                backdrop-filter var(--d-fast) var(--ease-out),
+    /* 入场：刻意比出场慢一点，带一点落定感。
+       Apple 的原则是「需要斟酌的地方慢，系统响应的地方快」——
+       消息抵达是值得多看两眼的时刻，多花几十毫秒很划算。 */
+    transition: opacity 260ms var(--ease-out),
+                transform 260ms var(--ease-out),
                 visibility 0s;
 }
 
@@ -671,6 +727,15 @@ kbd {
     background-color: rgba(52, 199, 89, 0.20);
     color: var(--green-ink);
     border-color: rgba(255, 255, 255, 0.55);
+    box-shadow: var(--shadow-rim);
+}
+
+/* 中性提示态：给「看答案」这类既不算对也不算错的反馈用。
+   红/绿是判定结果，不该拿来装一句操作指引。 */
+.info-message {
+    background-color: rgba(255, 255, 255, 0.52);
+    color: var(--text);
+    border-color: rgba(255, 255, 255, 0.62);
     box-shadow: var(--shadow-rim);
 }
 
@@ -695,6 +760,33 @@ kbd {
     border: 1px solid rgba(255, 255, 255, 0.62);
     border-radius: var(--r-lg);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    /* 出现时淡入上浮，而不是“啪”地弹出来 */
+    transition: opacity 300ms var(--ease-out),
+                transform 300ms var(--ease-out),
+                display 300ms allow-discrete;
+}
+
+.incorrect-words-list.is-hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+@starting-style {
+    .incorrect-words-list { opacity: 0; transform: translateY(10px); }
+}
+
+/* 错题逐行入场：每条错开 40ms，最多错开 8 行——
+   否则二十行的错题表要等将近一秒才显示完。
+   容器的淡入先走 100ms，行再开始，两层不打架。 */
+@keyframes rowIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+}
+
+#incorrectWordsTable tbody tr {
+    animation: rowIn 300ms var(--ease-out) backwards;
+    animation-delay: calc(100ms + min(var(--i, 0), 8) * 40ms);
 }
 
 .incorrect-words-list h3 {
@@ -940,6 +1032,11 @@ kbd {
 
     .message-feedback { transform: none; }
     .message-feedback.is-visible { transform: none; }
+
+    /* 保留淡入，去掉位移与逐行错开 */
+    .word-list-selector,
+    .incorrect-words-list { transform: none; }
+    #incorrectWordsTable tbody tr { animation: none; }
 
     .progress-bar-fill { transition: transform 200ms ease; }
 }
