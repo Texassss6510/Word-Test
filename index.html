@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#a6c6ff">
     <title>Word Test</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <canvas id="confettiCanvas"></canvas>
+    <!-- ── 图标精灵 ────────────────────────────────────────────────────
+         全部内联：没有额外请求，也不会在字体下载完成前显示成方框。
+         路径取自 Lucide（ISC 许可），24×24 网格、统一 2px 描边。
+         实际描边粗细与颜色由 CSS 的 .icon 控制，所以这里只放几何。 -->
+    <svg class="icon-sprite" aria-hidden="true">
+        <symbol id="i-book-open" viewBox="0 0 24 24">
+            <path d="M12 5v16"/>
+            <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/>
+        </symbol>
+        <symbol id="i-arrow-right" viewBox="0 0 24 24">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+        </symbol>
+        <symbol id="i-arrow-left" viewBox="0 0 24 24">
+            <path d="m12 19-7-7 7-7"/>
+            <path d="M19 12H5"/>
+        </symbol>
+        <symbol id="i-chevron-left" viewBox="0 0 24 24">
+            <path d="m15 18-6-6 6-6"/>
+        </symbol>
+        <symbol id="i-keyboard" viewBox="0 0 24 24">
+            <path d="M10 8h.01"/>
+            <path d="M12 12h.01"/>
+            <path d="M14 8h.01"/>
+            <path d="M16 12h.01"/>
+            <path d="M18 8h.01"/>
+            <path d="M6 8h.01"/>
+            <path d="M7 16h10"/>
+            <path d="M8 12h.01"/>
+            <rect width="20" height="16" x="2" y="4" rx="2"/>
+        </symbol>
+        <symbol id="i-headphones" viewBox="0 0 24 24">
+            <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/>
+        </symbol>
+        <symbol id="i-volume-2" viewBox="0 0 24 24">
+            <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/>
+            <path d="M16 9a5 5 0 0 1 0 6"/>
+            <path d="M19.364 18.364a9 9 0 0 0 0-12.728"/>
+        </symbol>
+        <symbol id="i-download" viewBox="0 0 24 24">
+            <path d="M12 15V3"/>
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <path d="m7 10 5 5 5-5"/>
+        </symbol>
+        <symbol id="i-rotate-ccw" viewBox="0 0 24 24">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+            <path d="M3 3v5h5"/>
+        </symbol>
+        <symbol id="i-list" viewBox="0 0 24 24">
+            <path d="M3 5h.01"/>
+            <path d="M3 12h.01"/>
+            <path d="M3 19h.01"/>
+            <path d="M8 5h13"/>
+            <path d="M8 12h13"/>
+            <path d="M8 19h13"/>
+        </symbol>
+    </svg>
+
+    <canvas id="confettiCanvas" aria-hidden="true"></canvas>
 
     <div class="container">
         <header class="app-header">
@@ -18,16 +77,16 @@
         <main id="appMainContent" class="app-main">
             <div id="wordSelectionView" class="view active-view">
                 <div class="view-content">
-                    <i class="fas fa-book-reader welcome-icon"></i>
-                    <p class="instruction-text">请选择您想要复习的单词书</p>
+                    <svg class="icon welcome-icon" aria-hidden="true"><use href="#i-book-open"/></svg>
+                    <p class="instruction-text">Choose a word book to review</p>
                     <div class="selection-group">
-                        <select id="categorySelector" class="word-list-selector">
-                            <option value="" disabled selected hidden> 请选择书本 </option>
-                            </select>
-                        <select id="unitSelector" class="word-list-selector" style="display: none; margin-top: 15px;"></select>
+                        <select id="categorySelector" class="word-list-selector" aria-label="Choose a word book">
+                            <option value="" disabled selected hidden>Select a book</option>
+                        </select>
+                        <select id="unitSelector" class="word-list-selector is-hidden" aria-label="Choose a unit"></select>
                     </div>
                     <button id="loadWordsButton" class="button primary-button" disabled>
-                        <i class="fas fa-arrow-right"></i> 开始学习
+                        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg> Start Learning
                     </button>
                 </div>
             </div>
@@ -37,76 +96,85 @@
                     <p id="fileLoadedInfo" class="info-text"></p>
                     <div class="mode-selection-container">
                         <button class="button primary-button" id="startSpellingButton">
-                            <i class="fas fa-keyboard"></i> 默写模式
+                            <svg class="icon" aria-hidden="true"><use href="#i-keyboard"/></svg> Spelling
                         </button>
                         <button class="button primary-button" id="startDictationButton">
-                            <i class="fas fa-headphones"></i> 听写模式
+                            <svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg> Dictation
                         </button>
                     </div>
                     <button id="backToSelectionButton" class="button secondary-button back-button">
-                        <i class="fas fa-arrow-left"></i> 返回重选
+                        <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg> Choose Another
                     </button>
                 </div>
             </div>
-            
+
             <div id="reviewView" class="view">
+                <div class="review-nav">
+                    <button id="exitReviewButton" class="button ghost-button">
+                        <svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg> Menu
+                    </button>
+                </div>
                 <div class="review-card">
-                    <div id="currentChineseHint" class="hint-text large-hint"></div>
-                    <div id="phonetic" class="phonetic-display"></div>
+                    <div id="wordStage" class="word-stage">
+                        <div id="currentChineseHint" class="hint-text large-hint"></div>
+                        <div id="phonetic" class="phonetic-display"></div>
+                    </div>
 
                     <div class="input-group">
-                        <input type="text" id="userAnswer" placeholder="输入英文单词" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-                        <button id="playAudioButton" class="button icon-button" title="播放读音">
-                            <i class="fas fa-volume-up"></i>
+                        <input type="text" id="userAnswer" placeholder="Type the English word" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Type the English word">
+                        <button id="playAudioButton" class="button icon-button" title="Play pronunciation" aria-label="Play pronunciation">
+                            <svg class="icon" aria-hidden="true"><use href="#i-volume-2"/></svg>
                         </button>
                     </div>
-                    <p class="shortcut-info">使用 <strong>Shift + 空格</strong> 切换音标显示。</p>
+                    <p class="shortcut-info">Press <kbd>Shift</kbd> + <kbd>Space</kbd> to reveal the phonetic</p>
                 </div>
-                <div id="result" class="message-feedback"></div>
+                <div id="result" class="message-feedback" role="status" aria-live="polite"></div>
             </div>
 
             <div id="reviewCompleteView" class="view">
                 <div class="view-content">
-                    <h2 id="completionTitle">🎉 复习完成！</h2>
+                    <h2 id="completionTitle" class="completion-title">🎉 Review Complete!</h2>
                     <p id="completionMessage" class="info-text"></p>
                     <div id="incorrectWordsContainer" class="incorrect-words-list">
-                        <h3>错误单词回顾</h3>
-                        <table id="incorrectWordsTable">
-                            <thead>
-                                <tr>
-                                    <th>英文单词</th>
-                                    <th>词性及释义</th>
-                                    <th>音标</th>
-                                    <th>你的输入</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
+                        <h3>Words to Review</h3>
+                        <div class="table-scroll">
+                            <table id="incorrectWordsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Word</th>
+                                        <th>Meaning</th>
+                                        <th>Phonetic</th>
+                                        <th>Your Answer</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
                         <button id="exportButton" class="button secondary-button">
-                            <i class="fas fa-download"></i> 导出错误单词
+                            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> Export Mistakes
                         </button>
                     </div>
                     <button id="restartButton" class="button primary-button">
-                        <i class="fas fa-redo"></i> 重新复习本单元
+                        <svg class="icon" aria-hidden="true"><use href="#i-rotate-ccw"/></svg> Restart This Unit
                     </button>
                     <button id="goBackButton" class="button secondary-button back-button">
-                        <i class="fas fa-list-ul"></i> 返回单词书列表
+                        <svg class="icon" aria-hidden="true"><use href="#i-list"/></svg> Back to Book List
                     </button>
                 </div>
             </div>
         </main>
 
         <footer class="app-footer">
+            <div class="progress-bar" id="progressBar" role="progressbar" aria-label="Review progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div class="progress-bar-fill" id="progressBarFill"></div>
+            </div>
             <div class="progress-summary">
-                <span>总单词: <span id="totalWordsCount">0</span></span>
-                <span>已复习: <span id="reviewedCount">0</span></span>
-                <span>错误: <span id="incorrectCount">0</span></span>
+                <span>Total <span id="totalWordsCount">0</span></span>
+                <span>Reviewed <span id="reviewedCount">0</span></span>
+                <span>Mistakes <span id="incorrectCount">0</span></span>
             </div>
         </footer>
     </div>
-
-    <audio id="correctSound" src="./sounds/correct.mp3" preload="auto"></audio>
-    <audio id="incorrectSound" src="./sounds/incorrect.mp3" preload="auto"></audio>
 
     <script src="script.js"></script>
 </body>

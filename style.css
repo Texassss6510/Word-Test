@@ -1,102 +1,311 @@
-/* 全局样式与Apple风格基础 */
+/* ==========================================================================
+   Word Test — 设计令牌
+   所有颜色、材质、圆角、缓动、时长集中在此，改主题只动这一段。
+   ========================================================================== */
+:root {
+    /* 背景：两个颜色铺开的渐变（蓝 → 青）。静态、无光斑。
+       比上一版明显加深——既拉开两端的对比，也压掉整体过亮的感觉。 */
+    --bg-from: #a6c6ff;
+    --bg-to:   #8fe3cf;
+
+    /* ── 材质层级 ────────────────────────────────────────────────────
+       Apple 的规则：结构性区域用【较重】的材质，交互元件用【较轻】的材质。
+       反过来的话，两层浅色玻璃叠在一起，可读性会直接塌掉。 */
+    --mat-structural-bg: rgba(255, 255, 255, 0.66);   /* 容器：承载一切 */
+    --mat-content-bg:    rgba(255, 255, 255, 0.34);   /* 复习卡：不叠加模糊 */
+    --mat-glass-bg:      rgba(255, 255, 255, 0.32);   /* 按钮：本页的玻璃层 */
+    --mat-field-bg:      rgba(255, 255, 255, 0.44);   /* 输入框 / 下拉框 */
+    --mat-chip-bg:       rgba(255, 255, 255, 0.28);   /* 胶囊 / 键帽 */
+
+    --mat-structural-blur: blur(40px) saturate(180%);
+    --mat-glass-blur:      blur(16px) saturate(200%);
+    --mat-field-blur:      blur(20px) saturate(200%);
+    --mat-chip-blur:       blur(14px) saturate(200%);
+
+    /* 高光边：上缘受光、下缘投影，模拟光打在材质切边上 */
+    --edge-high:  rgba(255, 255, 255, 0.88);
+    --edge-low:   rgba(23, 32, 58, 0.05);
+    --hairline:   rgba(23, 32, 58, 0.09);
+
+    /* 玻璃颗粒：真实磨砂玻璃不是绝对光滑的，这层噪点让它“有材质” */
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='0.16'/%3E%3C/svg%3E");
+
+    /* ── 文字色阶 ────────────────────────────────────────────────────
+       Apple 在材质上的做法（vibrancy）：不要用扁平的灰，而要用更高的
+       对比度 + 稍重的字重 + 一点点字距，可读性才撑得住。
+       另外要区分「着色」和「带色文字」——填充用亮的 tint，
+       文字用同色系更深的一档，否则在浅色玻璃上对比度不够。 */
+    --text:           #131c33;   /* 标题 / 单词正文 */
+    --text-secondary: #36405a;   /* 说明文字 */
+    --text-muted:     #5c6678;   /* 辅助信息：在玻璃上也要够黑 */
+
+    /* 强调色与语义色（Apple 系统色） */
+    --accent:       #007aff;   /* 填充、焦点环、大图标 */
+    --accent-hover: #0069e0;
+    --accent-ink:   #0058c4;   /* 强调色【文字】：比 accent 深一档才够对比度 */
+    --accent-soft:  rgba(0, 122, 255, 0.18);
+    --red:          #ff3b30;
+    --red-ink:      #b3241a;
+    --green:        #34c759;
+    --green-ink:    #146b32;
+
+    /* 圆角 */
+    --r-sm:   8px;
+    --r-md:   11px;
+    --r-lg:   16px;
+    --r-xl:   24px;
+    --r-full: 999px;
+
+    /* 缓动——内置的 ease/ease-in 太软，这里用更“有意图”的曲线 */
+    --ease-out:    cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+    --ease:        cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* 时长 */
+    --d-press: 120ms;
+    --d-fast:  180ms;
+    --d-base:  240ms;
+
+    /* 阴影 */
+    --shadow-rim:  inset 0 1px 0 var(--edge-high), inset 0 -1px 0 var(--edge-low);
+    --shadow-sm:   0 1px 2px rgba(23, 32, 58, 0.05);
+    --shadow-md:   0 4px 16px rgba(23, 32, 58, 0.08);
+    --shadow-lg:   0 28px 60px -20px rgba(23, 32, 58, 0.26),
+                   0 4px 14px rgba(23, 32, 58, 0.06);
+}
+
+/* ==========================================================================
+   基础与背景
+   ========================================================================== */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
                  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-    color: #1d1d1f; 
+    /* 就这两个颜色铺开，没有光斑、没有动画 */
+    background: linear-gradient(165deg, var(--bg-from) 0%, var(--bg-to) 100%);
+    background-attachment: fixed;
+    color: var(--text);
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
     min-height: 100vh;
-    padding: 30px;
-    box-sizing: border-box;
+    padding: 32px 20px;
     margin: 0;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+/* ==========================================================================
+   图标
+   内联的 Lucide SVG。颜色、描边粗细、线帽统一在这里定义，
+   于是 HTML 里每个图标只需写几何——一致性是结构性保证的，不靠人记。
+   ========================================================================== */
+.icon-sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.icon {
+    width: 1.15em;
+    height: 1.15em;
+    flex: none;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /* 非 flex 容器里也要和文字基线对得齐 */
+    vertical-align: -0.16em;
 }
 
 #confettiCanvas {
     position: fixed;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100vw;
     height: 100vh;
     pointer-events: none;
     z-index: 9999;
 }
 
+/* ==========================================================================
+   流光边框（specular rim）
+   用 mask 把渐变裁成 1px 环，只让边框受光、不洗淡内容。
+   这是玻璃“切边”的关键——玻璃感有很大一部分来自这条边，而不是模糊。
+   ========================================================================== */
+.container::after,
+.button::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    padding: 1px;
+    border-radius: inherit;
+    pointer-events: none;
+    background: linear-gradient(
+        152deg,
+        rgba(255, 255, 255, 1)    0%,
+        rgba(255, 255, 255, 0.70) 14%,
+        rgba(255, 255, 255, 0.08) 42%,
+        rgba(255, 255, 255, 0.06) 60%,
+        rgba(255, 255, 255, 0.52) 86%,
+        rgba(255, 255, 255, 0.95) 100%
+    );
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+/* ==========================================================================
+   容器 — 结构性材质（本页唯一的大面积半透明层）
+   ========================================================================== */
 .container {
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid rgba(209, 213, 219, 0.3);
-    border-radius: 18px; 
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-    padding: 35px 40px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--mat-structural-bg);
+    /* 上层是斜向的镜面高光带，下层是磨砂颗粒 */
+    background-image:
+        linear-gradient(118deg,
+            rgba(255, 255, 255, 0.30) 0%,
+            rgba(255, 255, 255, 0.07) 26%,
+            rgba(255, 255, 255, 0)    48%,
+            rgba(255, 255, 255, 0.04) 100%),
+        var(--grain);
+    background-repeat: no-repeat, repeat;
+    backdrop-filter: var(--mat-structural-blur);
+    -webkit-backdrop-filter: var(--mat-structural-blur);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: var(--r-xl);
+    box-shadow: var(--shadow-lg), var(--shadow-rim);
+    padding: 34px 38px;
     width: 100%;
-    max-width: 680px; 
+    max-width: 680px;
     text-align: center;
-    transition: all 0.3s ease-in-out;
 }
 
 .app-header {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 26px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--hairline);
 }
 
 .app-header h1 {
-    font-size: 2.2em;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin-bottom: 0;
+    font-size: 1.75rem;
+    font-weight: 650;
+    letter-spacing: -0.022em;   /* 大字号收紧字距 */
+    color: var(--text);
+    margin: 0;
 }
 
-.app-main { min-height: 250px; position: relative; }
-.view { display: none; opacity: 0; animation: viewFadeIn 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; width: 100%; }
-.view.active-view { display: block; opacity: 1; }
-.view-content { padding: 20px 0; }
-
-@keyframes viewFadeIn {
-    from { opacity: 0; transform: translateY(20px) scale(0.98); }
-    to { opacity: 1; transform: translateY(0) scale(1); }
+.app-main {
+    min-height: 250px;
+    position: relative;
+    /* 出场中的视图会脱离文档流，靠它裁掉溢出 */
+    overflow: hidden;
 }
 
-.welcome-icon { font-size: 3.5em; color: #007aff; margin-bottom: 20px; }
-.instruction-text, .info-text { font-size: 1.2em; color: #3c3c3f; line-height: 1.6; margin-bottom: 25px; }
-.info-text { font-weight: 500; }
+/* ==========================================================================
+   视图切换
+   入场从下方淡入，出场沿【同一条路径】退回——Apple 的 spatial consistency：
+   从哪儿来，就回哪儿去。进场有动作、出场却是瞬间消失，会让人觉得东西凭空不见。
+   用 `allow-discrete` 让 display:none 也参与过渡，出场因此也有过程。
+   不支持该特性的浏览器退化成即时切换（即原行为），不会坏。
+   ========================================================================== */
+.view {
+    display: none;
+    opacity: 0;
+    transform: translateY(6px) scale(0.995);
+    transition:
+        opacity var(--d-base) var(--ease-out),
+        transform var(--d-base) var(--ease-out),
+        display var(--d-base) allow-discrete;
+}
+
+/* 出场中的视图脱离文档流，与入场的视图交叉淡入淡出，而不是上下堆叠 */
+.view:not(.active-view) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.view.active-view {
+    display: block;
+    position: relative;
+    opacity: 1;
+    transform: none;
+
+    @starting-style {
+        opacity: 0;
+        transform: translateY(6px) scale(0.995);
+    }
+}
+
+.view-content { padding: 16px 0; }
+
+.welcome-icon {
+    width: 3.1rem;
+    height: 3.1rem;
+    color: var(--accent);
+    display: block;
+    margin: 0 auto 18px;
+    /* 图标放大之后线宽要相应减细，视觉重量才和正文一致 */
+    stroke-width: 1.5;
+    filter: drop-shadow(0 6px 14px rgba(0, 122, 255, 0.30));
+}
+
+.instruction-text {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 24px;
+}
+
+.info-text {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0 0 22px;
+}
 
 .mode-selection-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 14px;
+    margin-bottom: 18px;
 }
 
-/* 单词书选择器样式 */
+/* ==========================================================================
+   输入框 / 下拉框 — 轻量玻璃
+   ========================================================================== */
 .selection-group {
     display: flex;
     flex-direction: column;
-    align-items: center; /* 核心：让内部的 select 居中对齐 */
-    gap: 15px; /* 让两个下拉框之间保持间距 */
-    margin-bottom: 25px;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 26px;
 }
+
 .word-list-selector {
     width: 100%;
     max-width: 400px;
-    padding: 14px;
-    font-size: 1.1em;
-    border: 1px solid #c6c6c8;
-    border-radius: 10px;
-    background-color: rgba(255,255,255,0.7);
+    padding: 13px 16px;
+    font: inherit;
+    font-size: 1.05rem;
+    color: var(--text);
+    background-color: var(--mat-field-bg);
+    backdrop-filter: var(--mat-field-blur);
+    -webkit-backdrop-filter: var(--mat-field-blur);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: var(--r-md);
+    box-shadow: var(--shadow-rim), var(--shadow-sm);
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -105,78 +314,616 @@ body {
     background-repeat: no-repeat;
     background-position: right 1rem center;
     background-size: 1em;
+    transition: border-color var(--d-fast) var(--ease),
+                box-shadow var(--d-fast) var(--ease),
+                background-color var(--d-fast) var(--ease);
 }
+
+.word-list-selector.is-hidden { display: none; }
+
+.word-list-selector:focus-visible,
 .word-list-selector:focus {
-    border-color: #007aff;
-    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-rim), 0 0 0 3.5px var(--accent-soft);
     outline: none;
 }
 
-/* 按钮样式 */
-.button { margin: 5px; padding: 12px 25px; font-size: 1.1em; font-weight: 500; border: none; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
-.button i { margin-right: 8px; }
-.primary-button { background-color: #007aff; color: white; box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2); }
-.primary-button:hover:not(:disabled) { background-color: #005ecb; transform: translateY(-2px) scale(1.02); box-shadow: 0 4px 15px rgba(0, 122, 255, 0.35); }
-.primary-button:disabled { background-color: #b0c4de; color: #6a737d; cursor: not-allowed; box-shadow: none; transform: none; }
-.secondary-button { background-color: #e5e5e7; color: #1d1d1f; }
-.secondary-button:hover { background-color: #d1d1d6; }
-.back-button { margin-top: 15px; }
+#unitSelector { max-width: 400px; }
+
+/* ==========================================================================
+   按钮 — 本页的玻璃主角
+   轻量、半透明、带切边高光。材质比容器【更轻】，
+   这样交互元件才会在结构层上浮起来（Apple 的层级规则）。
+   ========================================================================== */
+.button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
+    padding: 12px 24px;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: 1.2;
+    background-color: var(--mat-glass-bg);
+    backdrop-filter: var(--mat-glass-blur);
+    -webkit-backdrop-filter: var(--mat-glass-blur);
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    border-radius: var(--r-md);
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        inset 0 1px 0 var(--edge-high),
+        inset 0 -1px 0 var(--edge-low),
+        0 1px 3px rgba(23, 32, 58, 0.06),
+        0 10px 24px -12px rgba(23, 32, 58, 0.30);
+    transition: transform var(--d-press) var(--ease-out),
+                background-color var(--d-fast) var(--ease),
+                box-shadow var(--d-fast) var(--ease),
+                color var(--d-fast) var(--ease),
+                border-color var(--d-fast) var(--ease);
+}
+
+/* 按下即回馈——界面“听到了”用户（在 pointer-down 上，不等到 release） */
+.button:active:not(:disabled) { transform: scale(0.97); }
+
+.button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* 主按钮：蓝色染色玻璃。
+   alpha 定在 0.80——再透下去白字对比度就会跌破 4.5:1。
+   想更透的话，把文字改成深蓝（见下方注释）即可两全。 */
+.primary-button {
+    background-color: rgba(0, 95, 215, 0.80);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.42);
+    text-shadow: 0 1px 1px rgba(0, 35, 80, 0.28);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.50),
+        inset 0 -1px 0 rgba(0, 40, 90, 0.14),
+        0 1px 3px rgba(0, 95, 215, 0.24),
+        0 12px 28px -12px rgba(0, 95, 215, 0.75);
+}
+
+.primary-button:disabled {
+    background-color: rgba(255, 255, 255, 0.26);
+    color: #8b94a3;
+    border-color: rgba(255, 255, 255, 0.6);
+    text-shadow: none;
+    cursor: not-allowed;
+    box-shadow: var(--shadow-rim);
+}
+
+/* 次级按钮继承基础玻璃即可，只把材质略微加重以便区分层级 */
+.secondary-button { background-color: rgba(255, 255, 255, 0.44); }
+
+/* hover 只在真正有指针的设备上生效，避免触屏点一下按钮就“卡”在悬停态 */
+@media (hover: hover) and (pointer: fine) {
+    .button:hover:not(:disabled) { background-color: rgba(255, 255, 255, 0.54); }
+    .primary-button:hover:not(:disabled) {
+        background-color: rgba(0, 95, 215, 0.90);
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.55),
+            inset 0 -1px 0 rgba(0, 40, 90, 0.14),
+            0 2px 5px rgba(0, 95, 215, 0.26),
+            0 16px 34px -12px rgba(0, 95, 215, 0.85);
+    }
+}
+
+.back-button { margin-top: 14px; }
 
 .icon-button {
-    padding: 0 15px;
-    background-color: #e5e5e7;
-    color: #3c3c3f;
+    padding: 0 16px;
     margin-left: 10px;
-    border-radius: 8px;
-    font-size: 1.2em;
+    align-self: stretch;
+    font-size: 1.15rem;
+    color: var(--text-secondary);
 }
-.icon-button:hover { background-color: #d1d1d6; }
-.icon-button i { margin-right: 0; }
 
-/* 复习卡片样式 */
-.review-card { background-color: rgba(249, 249, 249, 0.8); padding: 25px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
-.hint-text { margin-bottom: 10px; color: #1d1d1f; }
-.large-hint { font-size: 1.8em; font-weight: 600; margin-bottom: 15px; line-height: 1.5; }
-.phonetic-display { font-size: 1.2em; color: #007aff; margin: 10px 0 20px; display: none; }
+/* ── 复习页的退出口 ──────────────────────────────────────────────────
+   交互流程里必须随时有一条“怎么出去”的路。
+   放在卡片上方、输入区之外，既好找又不会被误触。 */
+.review-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+}
 
-.meaning-line { display: flex; text-align: left; align-items: baseline; font-size: 0.8em; line-height: 1.6; }
+.ghost-button {
+    padding: 7px 14px;
+    font-size: 0.88rem;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: var(--text-muted);
+    border-color: rgba(255, 255, 255, 0.50);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+/* 幽灵按钮不需要镜面切边，安静一点，别和主流程抢注意力 */
+.ghost-button::after { display: none; }
+
+@media (hover: hover) and (pointer: fine) {
+    .ghost-button:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.42);
+        color: var(--text);
+    }
+}
+
+/* ==========================================================================
+   复习卡片 — 内容层
+   刻意【不】加 backdrop-filter：这里是全页文字最密集的地方，
+   再叠一层浅色玻璃会直接损害可读性（Apple：不要把浅色半透明叠在一起）。
+   用一层极淡的染色 + 发丝边来分组即可。
+   ========================================================================== */
+.review-card {
+    background-color: var(--mat-content-bg);
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    padding: 28px 24px;
+    border-radius: var(--r-lg);
+    margin-bottom: 18px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55),
+                0 1px 3px rgba(23, 32, 58, 0.04);
+}
+
+.hint-text {
+    margin: 0 0 10px;
+    color: var(--text);
+}
+
+.large-hint {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    line-height: 1.45;
+}
+
+/* 听写模式下卡片原本是空的——给一个不泄题的视觉锚点 */
+.dictation-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+}
+
+/* 音标：用 visibility 而非 display，切换时不给布局做“跳变” */
+.phonetic-display {
+    font-size: 1.05rem;
+    color: var(--accent-ink);
+    letter-spacing: 0.01em;
+    margin: 0 0 18px;
+    min-height: 1.5em;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-3px);
+    transition: opacity var(--d-fast) var(--ease-out),
+                transform var(--d-fast) var(--ease-out),
+                visibility 0s linear var(--d-fast);
+}
+
+.phonetic-display.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: opacity var(--d-fast) var(--ease-out),
+                transform var(--d-fast) var(--ease-out),
+                visibility 0s;
+}
+
+.meaning-line {
+    display: flex;
+    text-align: left;
+    align-items: baseline;
+    font-size: 0.8em;
+    line-height: 1.6;
+}
+
 .meaning-line + .meaning-line { margin-top: 8px; }
-.pos-abbr { flex: 0 0 auto; white-space: nowrap; min-width: 55px; text-align: right; margin-right: 1em; color: #005ecb; font-weight: 600; }
+
+.pos-abbr {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    min-width: 55px;
+    text-align: right;
+    margin-right: 1em;
+    color: var(--accent-ink);
+    font-weight: 600;
+}
+
 .pos-meaning { font-weight: 500; }
 
-.input-group { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
-#userAnswer { flex-grow: 1; padding: 14px; font-size: 1.2em; border: 1px solid #c6c6c8; border-radius: 8px; transition: border-color 0.2s ease, box-shadow 0.2s ease; background-color: rgba(255,255,255,0.7); }
-#userAnswer:focus { border-color: #007aff; box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2); outline: none; }
-.input-error-shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; border-color: #ff4c4c !important; }
-@keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-3px, 0, 0); } 40%, 60% { transform: translate3d(3px, 0, 0); } }
-.shortcut-info { font-size: 0.85em; color: #8a8a8e; margin-top: 5px; margin-bottom: 20px; }
+.input-group {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
-/* 结果反馈消息 */
-.message-feedback { padding: 12px 18px; font-size: 1.1em; font-weight: 500; border-radius: 8px; margin-top: 20px; display: none; text-align: center; animation: popIn 0.3s ease; }
-@keyframes popIn { 0% { opacity: 0; transform: scale(0.9); } 100% { opacity: 1; transform: scale(1); } }
-.error-message { background-color: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
-.correct-message { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+#userAnswer {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 14px 16px;
+    font: inherit;
+    font-size: 1.15rem;
+    color: var(--text);
+    background-color: var(--mat-field-bg);
+    backdrop-filter: var(--mat-field-blur);
+    -webkit-backdrop-filter: var(--mat-field-blur);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: var(--r-md);
+    box-shadow: var(--shadow-rim);
+    transition: border-color var(--d-fast) var(--ease),
+                box-shadow var(--d-fast) var(--ease),
+                background-color var(--d-fast) var(--ease);
+}
 
-/* 错误单词列表 */
-.incorrect-words-list { margin-top: 25px; text-align: left; max-height: 400px; overflow-y: auto; background: rgba(255,255,255,0.5); border: 1px solid rgba(0,0,0,0.08); border-radius: 8px; padding: 15px; }
-.incorrect-words-list h3 { font-size: 1.4em; color: #1d1d1f; margin-bottom: 15px; text-align: center; }
-#incorrectWordsTable { width: 100%; border-collapse: collapse; font-size: 0.95em; }
-#incorrectWordsTable th, #incorrectWordsTable td { padding: 12px 10px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
-#incorrectWordsTable th { background-color: rgba(249, 249, 249, 0); font-weight: 600; color: #3c3c3f; }
+#userAnswer::placeholder { color: var(--text-muted); }
+
+#userAnswer:focus {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-rim), 0 0 0 3.5px var(--accent-soft);
+    outline: none;
+}
+
+/* 只负责错误配色与光圈；横向抖动交给 JS 的 WAAPI
+   （可取消、可重播，连续答错不会「撞墙」） */
+.input-error-shake {
+    border-color: var(--red) !important;
+    box-shadow: 0 0 0 3.5px rgba(255, 59, 48, 0.16) !important;
+}
+
+.shortcut-info {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    /* 小字压在半透明面上，加一点点字距更耐看 */
+    letter-spacing: 0.01em;
+    margin: 12px 0 0;
+}
+
+kbd {
+    display: inline-block;
+    padding: 1px 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    background-color: var(--mat-chip-bg);
+    backdrop-filter: var(--mat-chip-blur);
+    -webkit-backdrop-filter: var(--mat-chip-blur);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: var(--r-sm);
+    box-shadow: inset 0 1px 0 var(--edge-high);
+}
+
+/* ==========================================================================
+   作答反馈 — 染色玻璃
+   常驻占位（min-height）→ 出现时不推动下方内容；
+   用 class + transition 而非 keyframes，连续作答时不会从零重启。
+   ========================================================================== */
+.message-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    margin-top: 4px;
+    padding: 12px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: var(--r-md);
+    /* materialize：模糊半径和缩放一起走，面才像「材质抵达」而不只是淡入 */
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px) scale(0.97);
+    pointer-events: none;
+    transition: opacity var(--d-fast) var(--ease-out),
+                transform var(--d-fast) var(--ease-out),
+                backdrop-filter var(--d-fast) var(--ease-out),
+                visibility 0s linear var(--d-fast);
+}
+
+.message-feedback.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    backdrop-filter: var(--mat-field-blur);
+    -webkit-backdrop-filter: var(--mat-field-blur);
+    transition: opacity var(--d-fast) var(--ease-out),
+                transform var(--d-fast) var(--ease-out),
+                backdrop-filter var(--d-fast) var(--ease-out),
+                visibility 0s;
+}
+
+/* 语义色以“染色玻璃”呈现：低透明度染色 + 高饱和文字 */
+.error-message {
+    background-color: rgba(255, 59, 48, 0.18);
+    color: var(--red-ink);
+    border-color: rgba(255, 255, 255, 0.55);
+    box-shadow: var(--shadow-rim);
+}
+
+.correct-message {
+    background-color: rgba(52, 199, 89, 0.20);
+    color: var(--green-ink);
+    border-color: rgba(255, 255, 255, 0.55);
+    box-shadow: var(--shadow-rim);
+}
+
+/* ==========================================================================
+   完成页与错误单词表
+   ========================================================================== */
+.completion-title {
+    font-size: 1.6rem;
+    font-weight: 650;
+    letter-spacing: -0.018em;
+    margin: 0 0 12px;
+}
+
+.incorrect-words-list {
+    margin-top: 24px;
+    padding: 16px;
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background-color: var(--mat-content-bg);
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    border-radius: var(--r-lg);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.incorrect-words-list h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 14px;
+    text-align: center;
+}
+
+.incorrect-words-list::-webkit-scrollbar { width: 8px; }
+
+.incorrect-words-list::-webkit-scrollbar-thumb {
+    background: rgba(23, 32, 58, 0.2);
+    border-radius: var(--r-full);
+}
+
+.table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#incorrectWordsTable {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+
+#incorrectWordsTable th,
+#incorrectWordsTable td {
+    padding: 11px 10px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--hairline);
+}
+
+#incorrectWordsTable th {
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
 #incorrectWordsTable tr:last-child td { border-bottom: none; }
-#incorrectWordsTable td:nth-child(1) { font-weight: 500; } 
+
+#incorrectWordsTable td:nth-child(1) {
+    font-weight: 600;
+    color: var(--accent-ink);
+}
+
 #incorrectWordsTable .meaning-line { font-size: 1em; line-height: 1.5; }
 #incorrectWordsTable .meaning-line + .meaning-line { margin-top: 5px; }
-#incorrectWordsTable .pos-abbr { color: #3c3c3f; font-weight: 500; }
-.incorrect-words-list .button { margin-top: 20px; display: block; margin-left: auto; margin-right: auto; width: fit-content; }
+#incorrectWordsTable .pos-abbr { color: var(--text-secondary); font-weight: 500; }
 
-/* 页脚进度 */
-.app-footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(0,0,0,0.1); }
-.progress-summary { display: flex; justify-content: space-around; font-size: 1em; color: #636366; }
-.progress-summary span { padding: 5px 10px; background-color: rgba(240, 242, 245, 0.7); border-radius: 6px; }
+.incorrect-words-list .button {
+    display: flex;
+    width: fit-content;
+    margin: 18px auto 0;
+}
 
-#unitSelector {
-    margin-left: 0px;
+/* ==========================================================================
+   页脚进度
+   ========================================================================== */
+.app-footer {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px solid var(--hairline);
+}
+
+.progress-bar {
+    height: 6px;
+    border-radius: var(--r-full);
+    background: rgba(23, 32, 58, 0.10);
+    box-shadow: inset 0 1px 1px rgba(23, 32, 58, 0.08);
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+/* scaleX 而非 width：不触发布局，走合成层 */
+.progress-bar-fill {
+    height: 100%;
     width: 100%;
-    max-width: 400px; /* 让它和上面类名为 word-list-selector 的选择框保持一样宽 */
+    border-radius: inherit;
+    transform: scaleX(0);
+    transform-origin: left center;
+    background: linear-gradient(90deg, #5ac8fa, var(--accent));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+    transition: transform 320ms var(--ease-out),
+                background 240ms var(--ease);
+}
+
+.progress-bar.is-complete .progress-bar-fill {
+    background: linear-gradient(90deg, #34d399, #10b981);
+}
+
+.progress-summary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    letter-spacing: 0.01em;
+}
+
+/* 计数胶囊 — 最轻的一档玻璃 */
+.progress-summary > span {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 6px 13px;
+    background-color: var(--mat-chip-bg);
+    backdrop-filter: var(--mat-chip-blur);
+    -webkit-backdrop-filter: var(--mat-chip-blur);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: var(--r-full);
+    box-shadow: inset 0 1px 0 var(--edge-high);
+    white-space: nowrap;
+}
+
+.progress-summary > span > span {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    font-weight: 650;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   响应式
+   ========================================================================== */
+@media (max-width: 640px) {
+    body { padding: 16px 12px; }
+
+    .container {
+        padding: 24px 20px;
+        border-radius: var(--r-lg);
+    }
+
+    .app-header h1 { font-size: 1.45rem; }
+
+    .mode-selection-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* 主内容区的直接按钮撑满，避免小屏上左右不齐 */
+    .view-content > .button { width: 100%; }
+
+    .large-hint { font-size: 1.4rem; }
+
+    .review-card { padding: 22px 18px; }
+
+    .progress-summary {
+        font-size: 0.78rem;
+        gap: 6px;
+    }
+
+    .progress-summary > span { padding: 5px 10px; }
+
+    /* 只对最小的元件（胶囊、键帽）关掉模糊——按钮是这一版的主角，保留。 */
+    .progress-summary > span,
+    kbd {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+
+    .progress-summary > span { background-color: rgba(255, 255, 255, 0.74); }
+}
+
+/* ==========================================================================
+   降级：不支持 backdrop-filter 的浏览器
+   材质本身很透，没有模糊兜底会失去可读性，所以这里显著提高不透明度。
+   ========================================================================== */
+@supports not ((backdrop-filter: blur(4px)) or (-webkit-backdrop-filter: blur(4px))) {
+    .container   { background-color: rgba(255, 255, 255, 0.94); }
+    .review-card { background-color: rgba(255, 255, 255, 0.88); }
+    .incorrect-words-list { background-color: rgba(255, 255, 255, 0.88); }
+    .word-list-selector,
+    #userAnswer  { background-color: rgba(255, 255, 255, 0.95); }
+    .button      { background-color: rgba(250, 251, 253, 0.96); }
+    .secondary-button { background-color: rgba(248, 249, 251, 0.96); }
+    .primary-button { background-color: #0069e0; }
+    .progress-summary > span { background-color: rgba(255, 255, 255, 0.93); }
+    kbd { background-color: rgba(255, 255, 255, 0.95); }
+
+    .error-message {
+        background-color: #ffebee;
+        border-color: #ffcdd2;
+    }
+    .correct-message {
+        background-color: #e8f5e9;
+        border-color: #c8e6c9;
+    }
+}
+
+/* ==========================================================================
+   降低透明度偏好 → 把玻璃做成实心
+   （Apple 把 reduced-transparency 和 reduced-motion 当作两个独立信号）
+   ========================================================================== */
+@media (prefers-reduced-transparency: reduce) {
+    .container   { background-color: #ffffff; backdrop-filter: none; -webkit-backdrop-filter: none; }
+    .review-card { background-color: #f8fafc; }
+    .incorrect-words-list { background-color: #f8fafc; }
+    .word-list-selector,
+    #userAnswer  { background-color: #ffffff; backdrop-filter: none; -webkit-backdrop-filter: none; }
+    .button      { background-color: #f1f5f9; backdrop-filter: none; -webkit-backdrop-filter: none; }
+    .primary-button { background-color: #0069e0; }
+    .progress-summary > span,
+    kbd {
+        background-color: #ffffff;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}
+
+/* ==========================================================================
+   降低动态效果
+   不是“全部关掉”：保留有助理解的透明度过渡，只去掉位移与缩放。
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+    /* Apple：减弱动效 = 换成短的交叉淡入，而不是零反馈。
+       位移和缩放去掉，透明度留着。 */
+    .view {
+        transform: none;
+        transition:
+            opacity 160ms ease,
+            display 160ms allow-discrete;
+    }
+
+    .view.active-view {
+        @starting-style {
+            opacity: 0;
+            transform: none;
+        }
+    }
+
+    .button:active:not(:disabled) { transform: none; }
+
+    .message-feedback { transform: none; }
+    .message-feedback.is-visible { transform: none; }
+
+    .progress-bar-fill { transition: transform 200ms ease; }
 }

@@ -315,7 +315,7 @@
         "english": "arrange for",
         "pos": [
             {
-                "abbreviation": "v.",
+                "abbreviation": "phr.",
                 "meaning": "安排"
             }
         ],
@@ -325,7 +325,7 @@
         "english": "rest on",
         "pos": [
             {
-                "abbreviation": "v.",
+                "abbreviation": "phr.",
                 "meaning": "依靠；依赖"
             }
         ],
@@ -419,7 +419,7 @@
         "english": "one and only",
         "pos": [
             {
-                "abbreviation": "adj.",
+                "abbreviation": "phr.",
                 "meaning": "唯一的；独一无二的"
             }
         ],
@@ -459,7 +459,7 @@
         "english": "come along",
         "pos": [
             {
-                "abbreviation": "v.",
+                "abbreviation": "phr.",
                 "meaning": "取得进展；出现"
             }
         ],
