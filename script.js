@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             category: "My Little Pony",
             lists: [
-                { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" }
+                { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" },
+                { name: "S1E02", path: "My Little Pony/Season 1 Word/Ep02.json" }
             ]
         },
         {
@@ -106,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportButton = document.getElementById('exportButton');
     const restartButton = document.getElementById('restartButton');
     const exitReviewButton = document.getElementById('exitReviewButton');
+    const currentUnitLabel = document.getElementById('currentUnitLabel');
     const togglePhoneticButton = document.getElementById('togglePhoneticButton');
     const showAnswerButton = document.getElementById('showAnswerButton');
     const reviewMistakesButton = document.getElementById('reviewMistakesButton');
@@ -133,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const confettiCanvas = document.getElementById('confettiCanvas');
     const completionTitle = document.getElementById('completionTitle');
     const completionMessage = document.getElementById('completionMessage');
+    const completionUnitLabel = document.getElementById('completionUnitLabel');
 
     // --- Application State ---
     let wordList = [];
@@ -142,6 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let reviewMode = 'spelling';
     let currentListPath = null;
     let currentUnitName = "";
+    let currentCategoryName = "";
 
     // --- 动效工具 ---
     const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -563,11 +567,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    /** 顶栏和完成页共用的单元标识，形如「College English · Book 3 - Unit 8」。 */
+    function currentUnitLabelText() {
+        return currentCategoryName ? `${currentCategoryName} · ${currentUnitName}` : currentUnitName;
+    }
+
     function startCurrentReview() {
         if (!currentListPath) return;
         clearAdvance();
         shuffleArray(wordList); // Re-shuffle before starting
         resetProgress();
+        // 顶部条右侧标出正在练的单元——练到一半很容易忘了自己在哪本书里
+        currentUnitLabel.textContent = currentUnitLabelText();
         updateAppView('review');
         showNextWord();
     }
@@ -744,6 +755,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayIncorrectWords() {
         incorrectWordsTableBody.innerHTML = '';
 
+        // 完成页也标一遍：做完一单元后经常想确认刚才练的是哪个
+        completionUnitLabel.textContent = currentUnitLabelText();
+
         if (incorrectWords.length === 0) {
             completionTitle.textContent = '🎉 Perfect! All correct!';
             completionMessage.textContent = 'Flawless run — keep it up!';
@@ -816,6 +830,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!path) return;
         currentListPath = path; // 保存当前学习列表的路径
         currentUnitName = unitSelector.options[unitSelector.selectedIndex].text;
+        // 一起记下是哪本书：单元名单独看常常有歧义（"Group 1"、"Unit 1" 到处都是）
+        currentCategoryName = categorySelector.options[categorySelector.selectedIndex].text;
         updateAppView('readyToStart');
         fileLoadedInfo.textContent = 'Preparing';
         loadWordsFromServer(currentListPath);

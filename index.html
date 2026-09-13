@@ -127,6 +127,8 @@
                     <button id="exitReviewButton" class="button ghost-button">
                         <svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg> Menu
                     </button>
+                    <!-- 当前正在练的单元：不标出来的话，练到一半根本想不起自己在哪本书里 -->
+                    <span id="currentUnitLabel" class="unit-label"></span>
                 </div>
                 <div class="review-card">
                     <div id="wordStage" class="word-stage">
@@ -159,6 +161,8 @@
             <div id="reviewCompleteView" class="view">
                 <div class="view-content">
                     <h2 id="completionTitle" class="completion-title">🎉 Review Complete!</h2>
+                    <!-- 刚练完的是哪个单元：不然得退回主菜单才想得起来 -->
+                    <p id="completionUnitLabel" class="completion-unit"></p>
                     <p id="completionMessage" class="info-text"></p>
                     <div id="incorrectWordsContainer" class="incorrect-words-list is-hidden">
                         <h3>Words to Review</h3>

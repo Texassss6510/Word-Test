@@ -1,0 +1,516 @@
+[
+    {
+        "english": "foal",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "驹（尤指一岁以下的马、驴、骡）"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "产驹，（马等）生仔"
+            }
+        ],
+        "phonetic": "/fəʊl/"
+    },
+    {
+        "english": "spy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "间谍；密探"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "从事间谍活动；秘密监视"
+            }
+        ],
+        "phonetic": "/spaɪ/"
+    },
+    {
+        "english": "simmer",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "炖，煨"
+            }
+        ],
+        "phonetic": "/ˈsɪmə(r)/"
+    },
+    {
+        "english": "creepy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人毛骨悚然的；爬行的"
+            }
+        ],
+        "phonetic": "/ˈkriːpi/"
+    },
+    {
+        "english": "dreadful",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可怕的；糟透的，令人不快的"
+            }
+        ],
+        "phonetic": "/ˈdredfl/"
+    },
+    {
+        "english": "bunny",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小兔子"
+            }
+        ],
+        "phonetic": "/ˈbʌni/"
+    },
+    {
+        "english": "in the nick of time",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "及时；在紧要关头"
+            }
+        ],
+        "phonetic": "/ɪn ðə nɪk əv taɪm/"
+    },
+    {
+        "english": "ruffian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "恶棍；流氓；无赖"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "残暴的；凶恶的；无法无天的"
+            }
+        ],
+        "phonetic": "/ˈrʌfiən/"
+    },
+    {
+        "english": "thorn",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "刺；棘刺，荆棘；棘手的事"
+            }
+        ],
+        "phonetic": "/θɔːn/"
+    },
+    {
+        "english": "icky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人厌恶的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "令人讨厌的人"
+            }
+        ],
+        "phonetic": "/ˈɪki/"
+    },
+    {
+        "english": "muck",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "垃圾；肥料；淤泥"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "弄脏；施肥；清除…的污物；闲逛"
+            }
+        ],
+        "phonetic": "/mʌk/"
+    },
+    {
+        "english": "ghostly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "幽灵的；可怕的；影子似的"
+            }
+        ],
+        "phonetic": "/ˈɡəʊstli/"
+    },
+    {
+        "english": "guffaw",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "哄笑；狂笑"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "哄笑；大笑着说"
+            }
+        ],
+        "phonetic": "/ɡəˈfɔː/"
+    },
+    {
+        "english": "crack up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "（使）突然哈哈大笑；（因精神压力大而）垮掉，崩溃"
+            }
+        ],
+        "phonetic": "/kræk ʌp/"
+    },
+    {
+        "english": "whoop",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "欢呼，大叫，呐喊"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "叫喊，发出欢呼声"
+            }
+        ],
+        "phonetic": "/wuːp/"
+    },
+    {
+        "english": "weepy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "眼泪汪汪的；要哭的；催人泪下的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "使人哭的小说；伤感的电影"
+            }
+        ],
+        "phonetic": "/ˈwiːpi/"
+    },
+    {
+        "english": "chortle",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "咯咯地笑；哈哈大笑"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "咯咯的笑；得意的高笑"
+            }
+        ],
+        "phonetic": "/ˈtʃɔːtl/"
+    },
+    {
+        "english": "spooky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "幽灵般的；令人毛骨悚然的；有点怪的"
+            }
+        ],
+        "phonetic": "/ˈspuːki/"
+    },
+    {
+        "english": "take a hike",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "走开，滚开（非正式，用于叫人离开）"
+            }
+        ],
+        "phonetic": "/teɪk ə haɪk/"
+    },
+    {
+        "english": "tacky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "俗气的；发黏的；缺乏教养或风度的"
+            }
+        ],
+        "phonetic": "/ˈtæki/"
+    },
+    {
+        "english": "whisk",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "拂，掸；搅拌；迅速带走；飞快移动"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "搅拌器；扫帚；毛掸子"
+            }
+        ],
+        "phonetic": "/wɪsk/"
+    },
+    {
+        "english": "horrid",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "可怕的；恐怖的；极讨厌的"
+            }
+        ],
+        "phonetic": "/ˈhɒrɪd/"
+    },
+    {
+        "english": "fuss",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "大惊小怪，小题大作"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "大惊小怪，瞎操心"
+            }
+        ],
+        "phonetic": "/fʌs/"
+    },
+    {
+        "english": "insensitive",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不顾他人感受的，冷漠的；感觉迟钝的"
+            }
+        ],
+        "phonetic": "/ɪnˈsensətɪv/"
+    },
+    {
+        "english": "luminous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "发光的，发亮的；鲜亮的；照亮的"
+            }
+        ],
+        "phonetic": "/ˈluːmɪnəs/"
+    },
+    {
+        "english": "expertly",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "熟练地，巧妙地"
+            }
+        ],
+        "phonetic": "/ˈekspɜːtli/"
+    },
+    {
+        "english": "coiffed",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "头发精心梳理的"
+            }
+        ],
+        "phonetic": "/kwɑːft/"
+    },
+    {
+        "english": "fabulous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极好的，绝妙的；非凡的"
+            }
+        ],
+        "phonetic": "/ˈfæbjələs/"
+    },
+    {
+        "english": "manicure",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "修指甲，美甲，指甲护理"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "修剪，美甲，护理指甲"
+            }
+        ],
+        "phonetic": "/ˈmænɪkjʊə(r)/"
+    },
+    {
+        "english": "hideous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极丑的；可怕的；令人惊骇的"
+            }
+        ],
+        "phonetic": "/ˈhɪdiəs/"
+    },
+    {
+        "english": "smashing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极好的，非常迷人的；粉碎性的"
+            }
+        ],
+        "phonetic": "/ˈsmæʃɪŋ/"
+    },
+    {
+        "english": "smash",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "打碎，粉碎；猛撞，猛冲，猛击"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "破碎；猛击"
+            }
+        ],
+        "phonetic": "/smæʃ/"
+    },
+    {
+        "english": "aerial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "空中的，航空的；空气的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "天线"
+            }
+        ],
+        "phonetic": "/ˈeəriəl/"
+    },
+    {
+        "english": "hay",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "干草"
+            }
+        ],
+        "phonetic": "/heɪ/"
+    },
+    {
+        "english": "reassure",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使安心；使消除疑虑；安慰；再次保证"
+            }
+        ],
+        "phonetic": "/ˌriːəˈʃʊə(r)/"
+    },
+    {
+        "english": "tame",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "驯服的，不怕人的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "驯服，驯化；制服，控制"
+            }
+        ],
+        "phonetic": "/teɪm/"
+    },
+    {
+        "english": "ignite",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "点燃；使燃烧；引发，激起"
+            }
+        ],
+        "phonetic": "/ɪɡˈnaɪt/"
+    },
+    {
+        "english": "reside",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "住，居住；属于，归于；存在于"
+            }
+        ],
+        "phonetic": "/rɪˈzaɪd/"
+    },
+    {
+        "english": "hooey",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "胡言乱语，胡说八道（俚语）"
+            }
+        ],
+        "phonetic": "/ˈhuːi/"
+    },
+    {
+        "english": "reckon",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "认为，以为；测算，估计"
+            }
+        ],
+        "phonetic": "/ˈrekən/"
+    },
+    {
+        "english": "unleash",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "释放出，发泄（力量、感情等）；解开皮带放开（动物）"
+            }
+        ],
+        "phonetic": "/ʌnˈliːʃ/"
+    },
+    {
+        "english": "glum",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "闷闷不乐的；忧郁的"
+            }
+        ],
+        "phonetic": "/ɡlʌm/"
+    },
+    {
+        "english": "decree",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "法令；命令；（法院的）判决，裁定"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "颁布；命令；裁定，判决"
+            }
+        ],
+        "phonetic": "/dɪˈkriː/"
+    },
+    {
+        "english": "hereby",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "以此方式，据此；特此"
+            }
+        ],
+        "phonetic": "/ˌhɪəˈbaɪ/"
+    },
+    {
+    "english": "simmer down",
+    "pos": [
+        {
+            "abbreviation": "phr.",
+            "meaning": "平静下来,冷静下来,息怒"
+        }
+    ],
+    "phonetic": "/ˈsɪmə(r) daʊn/"
+}
+]

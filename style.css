@@ -455,13 +455,29 @@ body {
     color: var(--text-secondary);
 }
 
-/* ── 复习页的退出口 ──────────────────────────────────────────────────
-   交互流程里必须随时有一条“怎么出去”的路。
-   放在卡片上方、输入区之外，既好找又不会被误触。 */
+/* ── 复习页的顶部条 ──────────────────────────────────────────────────
+   左边是退出口（交互流程里必须随时有一条“怎么出去”的路），
+   右边标出当前正在练的单元——练到一半很容易忘了自己在哪本书里。 */
 .review-nav {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
     margin-bottom: 12px;
+}
+
+/* 单元名可能不短（"College English · Book 3 - Unit 8"），
+   所以固定单行 + 省略号，宁可截断也不把 Menu 按钮挤变形。 */
+.unit-label {
+    min-width: 0;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    letter-spacing: 0.01em;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .ghost-button {
@@ -716,6 +732,15 @@ body {
     font-weight: 650;
     letter-spacing: -0.018em;
     margin: 0 0 12px;
+}
+
+/* 完成页也标出刚练完的单元——否则得退回主菜单才想得起来 */
+.completion-unit {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    letter-spacing: 0.01em;
+    margin: 0 0 16px;
 }
 
 .incorrect-words-list {

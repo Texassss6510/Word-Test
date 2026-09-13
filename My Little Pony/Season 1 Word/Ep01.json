@@ -166,7 +166,7 @@
             },
             {
                 "abbreviation": "v.",
-                "meaning": "利用，驾驭"
+                "meaning": "控制并利用"
             }
         ],
         "phonetic": "/ˈhɑːrnəs/"
@@ -618,5 +618,15 @@
             }
         ],
         "phonetic": "/ˈpʌfi/"
+    },
+    {
+        "english": "frilly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "镶褶边的；多饰边的；花哨的"
+            }
+        ],
+        "phonetic": "/ˈfrɪli/"
     }
 ]
