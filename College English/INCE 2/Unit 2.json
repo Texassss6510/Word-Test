@@ -1,0 +1,456 @@
+[
+    {
+        "english": "ingenious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "巧妙的；有创造力的；机智的"
+            }
+        ],
+        "phonetic": "/ɪnˈdʒiːniəs/"
+    },
+    {
+        "english": "peculiar",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "奇怪的，不寻常的；特别的，独特的"
+            }
+        ],
+        "phonetic": "/pɪˈkjuːliə(r)/"
+    },
+    {
+        "english": "altar",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "祭坛，圣坛"
+            }
+        ],
+        "phonetic": "/ˈɔːltə(r)/"
+    },
+    {
+        "english": "spaghetti",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "意大利面；细面条"
+            }
+        ],
+        "phonetic": "/spəˈɡeti/"
+    },
+    {
+        "english": "twig",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "细枝；嫩枝"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "理解；明白"
+            }
+        ],
+        "phonetic": "/twɪɡ/"
+    },
+    {
+        "english": "starfish",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "海星"
+            }
+        ],
+        "phonetic": "/ˈstɑːfɪʃ/"
+    },
+    {
+        "english": "clip",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "修剪，剪下"
+            }
+        ],
+        "phonetic": "/klɪp/"
+    },
+    {
+        "english": "obsolete",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "过时的，废弃的，淘汰的"
+            }
+        ],
+        "phonetic": "/ˈɒbsəliːt/"
+    },
+    {
+        "english": "villain",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "反派，恶棍，坏人"
+            }
+        ],
+        "phonetic": "/ˈvɪlən/"
+    },
+    {
+        "english": "aristocratic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "贵族的"
+            }
+        ],
+        "phonetic": "/ˌærɪstəˈkrætɪk/"
+    },
+    {
+        "english": "snobbery",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "势利，虚荣"
+            }
+        ],
+        "phonetic": "/ˈsnɒbəri/"
+    },
+    {
+        "english": "knightly",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "骑士的，侠义的；勇武的"
+            }
+        ],
+        "phonetic": "/ˈnaɪtli/"
+    },
+    {
+        "english": "chivalry",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "骑士精神"
+            }
+        ],
+        "phonetic": "/ˈʃɪvəlri/"
+    },
+    {
+        "english": "geek",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "极客；对某事物痴迷的人"
+            }
+        ],
+        "phonetic": "/ɡiːk/"
+    },
+    {
+        "english": "carnival",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "狂欢节，嘉年华"
+            }
+        ],
+        "phonetic": "/ˈkɑːnɪvl/"
+    },
+    {
+        "english": "literally",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "确实地，真正地；字面上地"
+            }
+        ],
+        "phonetic": "/ˈlɪtərəli/"
+    },
+    {
+        "english": "catchy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "朗朗上口的，易记的"
+            }
+        ],
+        "phonetic": "/ˈkætʃi/"
+    },
+    {
+        "english": "spring forth",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "迸发，涌现"
+            }
+        ],
+        "phonetic": "/sprɪŋ fɔːθ/"
+    },
+    {
+        "english": "Arabic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "阿拉伯语"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "阿拉伯语的；阿拉伯的"
+            }
+        ],
+        "phonetic": "/ˈærəbɪk/"
+    },
+    {
+        "english": "Arab",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "阿拉伯人"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "阿拉伯的"
+            }
+        ],
+        "phonetic": "/ˈærəb/"
+    },
+    {
+        "english": "peasant",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "农民，佃农"
+            }
+        ],
+        "phonetic": "/ˈpeznt/"
+    },
+    {
+        "english": "code",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "道德准则，行为规范；法典，法规"
+            }
+        ],
+        "phonetic": "/kəʊd/"
+    },
+    {
+        "english": "catch on",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "流行起来；理解，明白"
+            }
+        ],
+        "phonetic": "/kætʃ ɒn/"
+    },
+    {
+        "english": "relay",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "传递，转发"
+            }
+        ],
+        "phonetic": "/rɪˈleɪ/"
+    },
+    {
+        "english": "semiotics",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "符号学"
+            }
+        ],
+        "phonetic": "/ˌsemɪˈɒtɪks/"
+    },
+    {
+        "english": "anthropology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "人类学"
+            }
+        ],
+        "phonetic": "/ˌænθrəˈpɒlədʒi/"
+    },
+    {
+        "english": "pedagogy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "教育学"
+            }
+        ],
+        "phonetic": "/ˈpedəɡɒdʒi/"
+    },
+    {
+        "english": "eclipse",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "日食；月食"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使黯然失色；遮住…的光"
+            }
+        ],
+        "phonetic": "/ɪˈklɪps/"
+    },
+    {
+        "english": "emphatic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "强调的，着重的；坚决的，断然的"
+            }
+        ],
+        "phonetic": "/ɪmˈfætɪk/"
+    },
+    {
+        "english": "bracket",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "括号；支架"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "用括号括起；把…归入一类"
+            }
+        ],
+        "phonetic": "/ˈbrækɪt/"
+    },
+    {
+        "english": "indefinite",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不明确的；不确定的；无限期的"
+            }
+        ],
+        "phonetic": "/ɪnˈdefɪnət/"
+    },
+    {
+        "english": "coin",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "创造（新词语）"
+            }
+        ],
+        "phonetic": "/kɔɪn/"
+    },
+    {
+        "english": "rhetorical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "修辞的"
+            }
+        ],
+        "phonetic": "/rɪˈtɒrɪkl/"
+    },
+    {
+        "english": "rhetorical device",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "修辞手法，修辞格"
+            }
+        ],
+        "phonetic": "/rɪˈtɒrɪkl dɪˈvaɪs/"
+    },
+    {
+        "english": "rejuvenate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使恢复活力，使年轻，使焕然一新"
+            }
+        ],
+        "phonetic": "/rɪˈdʒuːvəneɪt/"
+    },
+    {
+        "english": "soak up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "吸收，吸入；尽情享受"
+            }
+        ],
+        "phonetic": "/səʊk ʌp/"
+    },
+    {
+        "english": "loiter",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "闲逛，徘徊，游荡"
+            }
+        ],
+        "phonetic": "/ˈlɔɪtə(r)/"
+    },
+    {
+        "english": "idleness",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "闲散，懒惰"
+            }
+        ],
+        "phonetic": "/ˈaɪdlnəs/"
+    },
+    {
+        "english": "idle",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "闲置的；懒惰的；无事可做的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "闲混；空转"
+            }
+        ],
+        "phonetic": "/ˈaɪdl/"
+    },
+    {
+        "english": "hit the nail on the head",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "一针见血，说到点子上"
+            }
+        ],
+        "phonetic": "/hɪt ðə neɪl ɒn ðə hed/"
+    },
+    {
+        "english": "synonym",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "同义词"
+            }
+        ],
+        "phonetic": "/ˈsɪnənɪm/"
+    },
+    {
+        "english": "good egg",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "好人；可靠的人"
+            }
+        ],
+        "phonetic": "/ɡʊd eɡ/"
+    },
+    {
+        "english": "gist",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "要点，主旨，大意"
+            }
+        ],
+        "phonetic": "/dʒɪst/"
+    }
+] 

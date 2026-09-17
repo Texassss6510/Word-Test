@@ -20,7 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: "Book 3 - Unit 5", path: "College English/Book 3/B3U5.json" },
                 { name: "Book 3 - Unit 6", path: "College English/Book 3/B3U6.json" },
                 { name: "Book 3 - Unit 7", path: "College English/Book 3/B3U7.json" },
-                { name: "Book 3 - Unit 8", path: "College English/Book 3/B3U8.json" }
+                { name: "Book 3 - Unit 8", path: "College English/Book 3/B3U8.json" },
+                { name: "INCE 2 - Unit 1", path: "College English/INCE 2/Unit 1.json" },
+                { name: "INCE 2 - Unit 2", path: "College English/INCE 2/Unit 2.json" },
+                { name: "INCE 2 - Unit 3", path: "College English/INCE 2/Unit 3.json" },
+                { name: "INCE 2 - Unit 4", path: "College English/INCE 2/Unit 4.json" },
+                { name: "INCE 2 - Unit 5", path: "College English/INCE 2/Unit 5.json" },
+                { name: "INCE 2 - Unit 6", path: "College English/INCE 2/Unit 6.json" },
+                { name: "INCE 2 - Unit 7", path: "College English/INCE 2/Unit 7.json" },
+                { name: "INCE 2 - Unit 8", path: "College English/INCE 2/Unit 8.json" }
             ]
         },
         {
@@ -42,7 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "My Little Pony",
             lists: [
                 { name: "S1E01", path: "My Little Pony/Season 1 Word/Ep01.json" },
-                { name: "S1E02", path: "My Little Pony/Season 1 Word/Ep02.json" }
+                { name: "S1E02", path: "My Little Pony/Season 1 Word/Ep02.json" },
+                { name: "S1E03", path: "My Little Pony/Season 1 Word/Ep03.json" }
             ]
         },
         {
@@ -548,10 +557,21 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) throw new Error(`Network error: ${response.statusText}`);
             const fileData = await response.json();
 
-            // 简单的文件格式验证
-            const word = fileData[0];
-            if (!word || typeof word.english !== 'string' || !Array.isArray(word.pos) || typeof word.phonetic !== 'string') {
-                 throw new Error("Invalid word list format");
+            // 文件存在但还没有录入单词——新建的占位文件就是 []，
+            // 和 404 一样属于「还没准备好」，不该报成格式错误。
+            if (!Array.isArray(fileData) || fileData.length === 0) {
+                const notReady = new Error('not ready');
+                notReady.code = 'NOT_READY';
+                throw notReady;
+            }
+
+            // 逐条校验，而不是只看第一条：否则第 30 条写坏了，
+            // 要复习到那一刻才炸，现场极难定位。
+            const hasInvalidEntry = fileData.some(w =>
+                !w || typeof w.english !== 'string' || !Array.isArray(w.pos) || typeof w.phonetic !== 'string'
+            );
+            if (hasInvalidEntry) {
+                throw new Error("Invalid word list format");
             }
 
             wordList = fileData;

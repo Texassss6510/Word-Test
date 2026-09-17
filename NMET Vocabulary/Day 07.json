@@ -190,7 +190,7 @@
         "pos": [
             {
                 "abbreviation": "n.",
-                "meaning": "远足，徒步旅行"
+                "meaning": "远足，徒步旅行；提高，猛增"
             },
             {
                 "abbreviation": "v.",
@@ -360,5 +360,25 @@
             }
         ],
         "phonetic": "/peɪl/"
+    },
+    {
+    "english": "changeable",
+    "pos": [
+        {
+            "abbreviation": "adj.",
+            "meaning": "易变的；变化无常的；可改变的"
+        }
+    ],
+    "phonetic": "/ˈtʃeɪndʒəbl/"
+    },
+    {
+    "english": "make off with",
+    "pos": [
+        {
+            "abbreviation": "phr.",
+            "meaning": "偷走；携…潜逃；拐走"
+        }
+    ],
+    "phonetic": "/meɪk ɒf wɪð/"
     }
 ]

@@ -1,0 +1,602 @@
+[
+    {
+        "english": "girdle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "腰带"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "围绕，束缚"
+            }
+        ],
+        "phonetic": "/ˈɡɜːdl/"
+    },
+    {
+        "english": "gallop",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "飞奔，疾驰"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "飞奔，疾驰"
+            }
+        ],
+        "phonetic": "/ˈɡæləp/"
+    },
+    {
+        "english": "gala",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "盛会，庆典"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "节日的，欢庆的"
+            }
+        ],
+        "phonetic": "/ˈɡɑːlə/"
+    },
+    {
+        "english": "cordial",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "热情友好的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "甜果汁饮料"
+            }
+        ],
+        "phonetic": "/ˈkɔːdiəl/"
+    },
+    {
+        "english": "nonsense",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "胡说，废话；荒谬的事"
+            }
+        ],
+        "phonetic": "/ˈnɒnsns/"
+    },
+    {
+        "english": "hiccup",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "打嗝；小问题"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "打嗝"
+            }
+        ],
+        "phonetic": "/ˈhɪkʌp/"
+    },
+    {
+        "english": "vittle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "食物，食品"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "给…供应食物"
+            }
+        ],
+        "phonetic": "/ˈvɪtl/"
+    },
+    {
+        "english": "till the cows come home",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "直到天荒地老"
+            }
+        ],
+        "phonetic": "/tɪl ðə kaʊz kʌm həʊm/"
+    },
+    {
+        "english": "drum up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "招揽，鼓动，召集"
+            }
+        ],
+        "phonetic": "/drʌm ʌp/"
+    },
+    {
+        "english": "heap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "堆；大量"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "堆积，装满"
+            }
+        ],
+        "phonetic": "/hiːp/"
+    },
+    {
+        "english": "saggy",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "下垂的，松弛的"
+            }
+        ],
+        "phonetic": "/ˈsæɡi/"
+    },
+    {
+        "english": "plow",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "犁"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "犁地；奋力前进"
+            }
+        ],
+        "phonetic": "/plaʊ/"
+    },
+    {
+        "english": "hip",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "臀部；髋"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "时髦的，赶潮流的"
+            }
+        ],
+        "phonetic": "/hɪp/"
+    },
+    {
+        "english": "hind",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "后部的，后面的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "雌鹿"
+            }
+        ],
+        "phonetic": "/haɪnd/"
+    },
+    {
+        "english": "nap",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小睡，打盹"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "小睡，打盹"
+            }
+        ],
+        "phonetic": "/næp/"
+    },
+    {
+        "english": "riveted on",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "被…吸引住；专注于"
+            }
+        ],
+        "phonetic": "/ˈrɪvɪtɪd ɒn/"
+    },
+    {
+        "english": "strut",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "趾高气扬地走"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "支柱，撑杆"
+            }
+        ],
+        "phonetic": "/strʌt/"
+    },
+    {
+        "english": "mesmerize",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "迷住，吸引；对…施催眠术"
+            }
+        ],
+        "phonetic": "/ˈmezməraɪz/"
+    },
+    {
+        "english": "filly",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "小母马；年轻女子"
+            }
+        ],
+        "phonetic": "/ˈfɪli/"
+    },
+    {
+        "english": "finale",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "尾声，结局；最后一场"
+            }
+        ],
+        "phonetic": "/fɪˈnɑːli/"
+    },
+    {
+        "english": "blaze",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "烈火，火焰"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "熊熊燃烧；闪耀"
+            }
+        ],
+        "phonetic": "/bleɪz/"
+    },
+    {
+        "english": "buccaneer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "海盗；冒险家"
+            }
+        ],
+        "phonetic": "/ˌbʌkəˈnɪə(r)/"
+    },
+    {
+        "english": "audition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "试镜，试演"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "试镜，试演"
+            }
+        ],
+        "phonetic": "/ɔːˈdɪʃn/"
+    },
+    {
+        "english": "terrifically",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "极好地；非常"
+            }
+        ],
+        "phonetic": "/təˈrɪfɪkli/"
+    },
+    {
+        "english": "humongous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "巨大的，极大的"
+            }
+        ],
+        "phonetic": "/hjuːˈmʌŋɡəs/"
+    },
+    {
+        "english": "hurray",
+        "pos": [
+            {
+                "abbreviation": "int.",
+                "meaning": "万岁，好哇"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "欢呼声"
+            }
+        ],
+        "phonetic": "/hʊˈreɪ/"
+    },
+    {
+        "english": "streamer",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "彩带，横幅"
+            }
+        ],
+        "phonetic": "/ˈstriːmə(r)/"
+    },
+    {
+        "english": "pinwheel",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "风车；玩具风车"
+            }
+        ],
+        "phonetic": "/ˈpɪnwiːl/"
+    },
+    {
+        "english": "cane",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "手杖；藤条"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "用藤条打"
+            }
+        ],
+        "phonetic": "/keɪn/"
+    },
+    {
+        "english": "sundae",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "圣代冰淇淋"
+            }
+        ],
+        "phonetic": "/ˈsʌndeɪ/"
+    },
+    {
+        "english": "fantabulous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极好的，绝妙的"
+            }
+        ],
+        "phonetic": "/fænˈtæbjələs/"
+    },
+    {
+        "english": "ensemble",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "合奏团，剧团；全套服装；全体，整体"
+            }
+        ],
+        "phonetic": "/ɒnˈsɒmbl/"
+    },
+    {
+        "english": "destined",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "注定的；预定的"
+            }
+        ],
+        "phonetic": "/ˈdestɪnd/"
+    },
+    {
+        "english": "stroll",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "散步，闲逛"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "散步，闲逛"
+            }
+        ],
+        "phonetic": "/strəʊl/"
+    },
+    {
+        "english": "sensation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "轰动；引起轰动的人或事"
+            }
+        ],
+        "phonetic": "/senˈseɪʃn/"
+    },
+    {
+        "english": "courtship",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "求爱，求婚"
+            }
+        ],
+        "phonetic": "/ˈkɔːtʃɪp/"
+    },
+    {
+        "english": "befit",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "适合，适宜"
+            }
+        ],
+        "phonetic": "/bɪˈfɪt/"
+    },
+    {
+        "english": "flora",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "植物群"
+            }
+        ],
+        "phonetic": "/ˈflɔːrə/"
+    },
+    {
+        "english": "fauna",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "动物群"
+            }
+        ],
+        "phonetic": "/ˈfɔːnə/"
+    },
+    {
+        "english": "buzzard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "秃鹰"
+            }
+        ],
+        "phonetic": "/ˈbʌzəd/"
+    },
+    {
+        "english": "flamingo",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "火烈鸟"
+            }
+        ],
+        "phonetic": "/fləˈmɪŋɡəʊ/"
+    },
+    {
+        "english": "dashing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "风度翩翩的，时髦的"
+            }
+        ],
+        "phonetic": "/ˈdæʃɪŋ/"
+    },
+    {
+        "english": "gent",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "绅士，男士"
+            }
+        ],
+        "phonetic": "/dʒent/"
+    },
+    {
+        "english": "belle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "美女，美人"
+            }
+        ],
+        "phonetic": "/bel/"
+    },
+    {
+        "english": "ball",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "舞会"
+            }
+        ],
+        "phonetic": "/bɔːl/"
+    },
+    {
+        "english": "clamor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "喧闹，叫嚣"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "大声要求，叫嚷"
+            }
+        ],
+        "phonetic": "/ˈklæmə(r)/"
+    },
+    {
+        "english": "butter up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "讨好，奉承"
+            }
+        ],
+        "phonetic": "/ˈbʌtə(r) ʌp/"
+    },
+    {
+        "english": "crumble",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "弄碎，崩溃"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "碎屑"
+            }
+        ],
+        "phonetic": "/ˈkrʌmbl/"
+    },
+    {
+        "english": "aggravating",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "令人恼火的"
+            }
+        ],
+        "phonetic": "/ˈæɡrəveɪtɪŋ/"
+    },
+    {
+        "english": "aggravate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "使恶化，加重；激怒"
+            }
+        ],
+        "phonetic": "/ˈæɡrəveɪt/"
+    },
+    {
+        "english": "gung-ho",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "热心的，卖力的，起劲的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "热心，起劲"
+            }
+        ],
+        "phonetic": "/ˌɡʌŋ ˈhəʊ/"
+    },
+    {
+        "english": "sentiment",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "情感，情绪；观点，看法"
+            }
+        ],
+        "phonetic": "/ˈsentɪmənt/"
+    }
+]  
