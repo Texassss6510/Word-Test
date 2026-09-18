@@ -452,5 +452,163 @@
             }
         ],
         "phonetic": "/dʒɪst/"
+    },
+    {
+        "english": "grammarian",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "语法学家"
+            }
+        ],
+        "phonetic": "/ɡrəˈmeəriən/"
+    },
+    {
+        "english": "dispute",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "争论；争端；纠纷"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "争论，辩论；对…提出质疑"
+            }
+        ],
+        "phonetic": "/dɪˈspjuːt/"
+    },
+    {
+        "english": "assurance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "保证；担保；信心"
+            }
+        ],
+        "phonetic": "/əˈʃʊərəns/"
+    },
+    {
+        "english": "eccentric",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "古怪的，反常的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "古怪的人"
+            }
+        ],
+        "phonetic": "/ɪkˈsentrɪk/"
+    },
+    {
+        "english": "reassurance",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "安慰，慰藉"
+            }
+        ],
+        "phonetic": "/ˌriːəˈʃʊərəns/"
+    },
+    {
+        "english": "alphabetical",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "按字母顺序的"
+            }
+        ],
+        "phonetic": "/ˌælfəˈbetɪkl/"
+    },
+    {
+        "english": "anywhere from... to...",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "从…到…之间（数量、范围等）"
+            }
+        ],
+        "phonetic": "/ˈeniweə(r) frəm ... tuː .../"
+    },
+    {
+        "english": "hard-and-fast",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "明确的，不容改变的；固定不变的"
+            }
+        ],
+        "phonetic": "/ˌhɑːd ən ˈfɑːst/"
+    },
+    {
+        "english": "hood",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "兜帽，头巾；引擎盖"
+            }
+        ],
+        "phonetic": "/hʊd/"
+    },
+    {
+        "english": "monk",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "僧侣，修道士"
+            }
+        ],
+        "phonetic": "/mʌŋk/"
+    },
+    {
+        "english": "ordinarily",
+        "pos": [
+            {
+                "abbreviation": "adv.",
+                "meaning": "通常地，平常地"
+            }
+        ],
+        "phonetic": "/ˈɔːdnrəli/"
+    },
+    {
+        "english": "compilation",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "汇编；编纂；合集"
+            }
+        ],
+        "phonetic": "/ˌkɒmpɪˈleɪʃn/"
+    },
+    {
+        "english": "corpus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "语料库；文集"
+            }
+        ],
+        "phonetic": "/ˈkɔːpəs/"
+    },
+    {
+        "english": "intuition",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "直觉，直觉力"
+            }
+        ],
+        "phonetic": "/ˌɪntjuˈɪʃn/"
+    },
+    {
+        "english": "in matters of",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "在…方面；就…而言"
+            }
+        ],
+        "phonetic": "/ɪn ˈmætəz əv/"
     }
 ] 
