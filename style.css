@@ -338,16 +338,249 @@ body {
                 display 280ms allow-discrete;
 }
 
-/* 单元下拉框是选完书本才出现的：让它淡入上浮，而不是“啪”地弹出来。
-   出场沿原路退回，进出对称。 */
-.word-list-selector.is-hidden {
+/* 三级控件出场都淡入上浮，而不是“啪”地弹出来；出场沿原路退回，进出对称。 */
+.word-list-selector.is-hidden,
+.segmented.is-hidden,
+.chip-grid.is-hidden {
     display: none;
     opacity: 0;
     transform: translateY(-8px);
 }
 
 @starting-style {
-    #unitSelector { opacity: 0; transform: translateY(-8px); }
+    #unitSelector,
+    #unitChips,
+    .segmented { opacity: 0; transform: translateY(-8px); }
+}
+
+/* ── 第一级：系列 ─────────────────────────────────────────────────────
+   名字最长（"NMET Vocabulary"）、数量不定，只能下拉。
+   给它最重的视觉分量，让它一眼就是这套选择里的“主角”。 */
+.select-primary {
+    padding: 16px 18px;
+    font-size: 1.12rem;
+    font-weight: 550;
+    letter-spacing: -0.01em;
+    border-radius: var(--r-lg);
+}
+
+/* ── 「开始学习」按钮 ──────────────────────────────────────────────────
+   材质和上面几级控件是同一块：同样的白色高光边、同样的投影 token，
+   区别只在填充——它把同一块玻璃染成了蓝色。
+   之前它自带一套更弱的描边（0.42）和更重的投影，
+   于是上面一排控件轮廓很清楚、它却有点"化"在背景里。
+   玻璃感落在切边上，这是 Apple 的做法：同一块材料，染色的是主操作。
+
+   尺寸【不再和上面等宽】：上面三级是"填表"，它是一个动作，
+   做得小一点才不像第四个输入框。宽度改成跟内容走，
+   靠 min-width 保住点击面积和视觉分量，居中由 .selection-group 负责。 */
+#loadWordsButton {
+    width: auto;
+    min-width: 200px;
+    padding: 13px 26px;
+    font-size: 1rem;
+    border-radius: var(--r-full);
+    border-color: rgba(255, 255, 255, 0.78);
+    box-shadow:
+        var(--shadow-rim),
+        var(--shadow-sm),
+        0 10px 24px -12px rgba(0, 95, 215, 0.70);
+}
+
+/* id 选择器权重高于 .primary-button 的通用规则，所以这两个状态得自己写，
+   否则禁用时还会留着蓝色的光晕，看着像可点的。 */
+#loadWordsButton:disabled {
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: var(--shadow-rim);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    #loadWordsButton:hover:not(:disabled) {
+        box-shadow:
+            var(--shadow-rim),
+            var(--shadow-sm),
+            0 14px 30px -12px rgba(0, 95, 215, 0.88);
+    }
+}
+
+/* ── 第三级：单元 —— 胶囊网格 ─────────────────────────────────────────
+   只有分册的系列（College English）用它：每册 8 个单元，
+   摊开一眼看全、一次点击就选中。像 NMET 那种 42 个单元的系列
+   再摊成胶囊就成了一堵墙，所以它们还是用上面的下拉。
+   每个胶囊自己管自己的选中态，没有滑动指示器（网格里没法滑）。
+   选中的那个用和分册滑块同一套「玻璃块」配方，两级语言一致。
+
+   用 grid 而不是 flex-wrap：8 个胶囊等宽排成 4×2，
+   和上面分册滑块的 4 段同一个节奏。flex-wrap 会排出 5+3 这种
+   参差的边，宽度还各不相同，看着像没对齐。
+   --cols 由 JS 按单元数量给（最多 4），只有这样
+   「只有 1 个单元」的 Book 1 才不会缩在四分之一格里。 */
+.chip-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr));
+    gap: 6px;
+    width: 100%;
+    max-width: 400px;
+    /* 和上下两级同一套出场：淡入 + 上浮，出场沿原路退回。
+       少了这段，@starting-style 就没有落脚处，胶囊会"啪"地弹出来。 */
+    transition: opacity 280ms var(--ease-out),
+                transform 280ms var(--ease-out),
+                display 280ms allow-discrete;
+}
+
+/* radio 视觉隐藏但保留可聚焦性 */
+.chip-grid input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.chip-grid label {
+    position: relative;
+    min-width: 0;
+    padding: 8px 10px;
+    font-size: 0.88rem;
+    font-weight: 550;
+    line-height: 1.2;
+    color: var(--text-secondary);
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    /* 底色和上面两级下拉/滑块【用同一个 token】：三级的材料是同一块。
+       之前这里是 0.34，比上面两级淡，一眼就能看出不是一批做的。
+       描边略柔一点（0.72 而非 0.78）——小胶囊数量多，
+       每颗都镶一圈很亮的高光会显得吵。 */
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: var(--r-full);
+    background-color: var(--mat-field-bg);
+    /* 未选中的比选中的略小一点：选中时「浮」起来，有果冻一样的弹出手感。
+       用 transition 而不是 keyframes —— 连续快速点选时不会从零重启。 */
+    transform: scale(0.97);
+    transition: transform 200ms var(--ease-out),
+                background-color 200ms var(--ease),
+                border-color 200ms var(--ease),
+                color 200ms var(--ease),
+                box-shadow 200ms var(--ease);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 选中 = 和分册滑块一模一样的玻璃块 */
+.chip-grid input:checked + label {
+    color: var(--text);
+    transform: scale(1);
+    border-color: transparent;
+    background-image: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.99) 0%,
+        rgba(255, 255, 255, 0.88) 100%);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 1),
+        inset 0 -1px 0 rgba(23, 32, 58, 0.06),
+        0 1px 2px rgba(23, 32, 58, 0.14),
+        0 6px 14px -6px rgba(23, 32, 58, 0.32);
+}
+
+.chip-grid label:active { transform: scale(0.93); }
+
+.chip-grid input:focus-visible + label {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .chip-grid input:not(:checked) + label:hover {
+        background-color: rgba(255, 255, 255, 0.56);
+        color: var(--text);
+    }
+}
+
+/* ── 第二级：分册 —— 分段控件 ─────────────────────────────────────────
+   只有 3–4 个短标签，摊开来比藏进下拉好：所有选项一眼可见，一次点击就选中。
+   用真实的 radio + label，键盘与读屏支持是白拿的。
+   表面配方和第一级下拉【完全一致】（同样的填充、描边、高光边）——
+   之前底色对不上，就是这里用了更低的白色透明度和一道内阴影。
+   第三级的两副面孔（胶囊网格 / 下拉）也共用这一套。 */
+.segmented {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    padding: 4px;
+    background-color: var(--mat-field-bg);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: var(--r-full);
+    box-shadow: var(--shadow-rim), var(--shadow-sm);
+    transition: opacity 280ms var(--ease-out),
+                transform 280ms var(--ease-out),
+                display 280ms allow-discrete;
+}
+
+/* 选中的滑块。
+   用真实元素而不是 ::before，因为 Liquid Glass 的果冻拉伸要靠 WAAPI 驱动，
+   伪元素没法被 JS 动画。它没有文字内容（标签是兄弟节点），
+   所以不会罩住文字。
+   这里只写静态落点，不加 transition——位移全部交给 JS。 */
+.segment-indicator {
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: calc((100% - 8px) / var(--n, 1));
+    border-radius: var(--r-full);
+    /* 玻璃块：上亮下暗的竖向渐变，而不是一片死白 */
+    background-image: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.99) 0%,
+        rgba(255, 255, 255, 0.88) 100%);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 1),      /* 上缘受光 */
+        inset 0 -1px 0 rgba(23, 32, 58, 0.06),     /* 下缘收边 */
+        0 1px 2px rgba(23, 32, 58, 0.14),          /* 贴合 */
+        0 6px 14px -6px rgba(23, 32, 58, 0.32);    /* 厚度 */
+    transform: translateX(calc(var(--i, 0) * 100%));
+    pointer-events: none;
+    will-change: transform;
+}
+
+/* radio 本体视觉隐藏但保留可聚焦性 */
+.segmented input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.segmented label {
+    position: relative;
+    /* 压在滑块之上，文字才不会被玻璃块盖住 */
+    z-index: 1;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 8px 6px;
+    font-size: 0.92rem;
+    font-weight: 550;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border-radius: var(--r-full);
+    transition: color 200ms var(--ease),
+                transform var(--d-press) var(--ease-out);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 按下即回馈——和页面上其它按钮同一套手感 */
+.segmented label:active { transform: scale(0.96); }
+
+.segmented input:checked + label { color: var(--text); }
+
+.segmented input:focus-visible + label {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .segmented input:not(:checked) + label:hover { color: var(--text); }
 }
 
 .word-list-selector:focus-visible,
@@ -357,7 +590,7 @@ body {
     outline: none;
 }
 
-#unitSelector { max-width: 400px; }
+/* 单元胶囊网格的宽度由上方的 .chip-grid 自己控制 */
 
 /* ==========================================================================
    按钮 — 本页的玻璃主角

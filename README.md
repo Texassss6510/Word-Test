@@ -12,7 +12,9 @@ No account, no install, works on desktop and mobile.
 
 ### 1. Pick a word list
 
-Choose a **book** — College English, CET 4, Stardew Valley, My Little Pony, or NMET Vocabulary…… A **unit** dropdown then appears; pick a unit and hit **Start Learning**.
+Choose a **book** — College English, CET 4, Stardew Valley, My Little Pony, or NMET Vocabulary…… Then pick a **unit** and hit **Start Learning**.
+
+The unit picker adapts to the book. College English is split into volumes (Book 1–3, INCE 2), so a **volume switcher** appears first and the units of that volume are laid out as **pills** — 8 of them, all visible, one tap each. The other books have a single flat list of units; with up to 42 units in NMET Vocabulary, a wall of pills would be unreadable, so those keep a **unit dropdown**. Either way the layout stays the same width, so nothing jumps around when you switch books.
 
 ### 2. Pick a mode
 
@@ -181,7 +183,9 @@ Icons from [Lucide](https://lucide.dev/) (ISC licence).
 
 ### 1. 选一本单词书
 
-先选**书本**——College English / CET 4 / Stardew Valley / My Little Pony / NMET Vocabulary……选完会出现**单元**下拉框，挑一个单元，点 **Start Learning**。
+先选**书本**——College English / CET 4 / Stardew Valley / My Little Pony / NMET Vocabulary……再挑一个**单元**，点 **Start Learning**。
+
+单元选择器会跟着书本变形。College English 分了册（Book 1–3、INCE 2），所以会先出一个**分册切换器**，然后把该册的单元摊成**胶囊**——8 个一屏看全，一次点击就选中。其余几本书都是单层列表；NMET Vocabulary 有 42 个单元，摊成一堵胶囊墙反而更难找，所以它们保留**单元下拉框**。两种形式的宽度一致，换书时版面不会跳。
 
 ### 2. 选一种模式
 

@@ -3,32 +3,54 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordBook = [
         {
             category: "College English",
-            lists: [
-                { name: "Book 1 - Unit 1", path: "College English/Book 1/B1U1.json" },
-                { name: "Book 2 - Unit 1", path: "College English/Book 2/B2U1.json" },
-                { name: "Book 2 - Unit 2", path: "College English/Book 2/B2U2.json" },
-                { name: "Book 2 - Unit 3", path: "College English/Book 2/B2U3.json" },
-                { name: "Book 2 - Unit 4", path: "College English/Book 2/B2U4.json" },
-                { name: "Book 2 - Unit 5", path: "College English/Book 2/B2U5.json" },
-                { name: "Book 2 - Unit 6", path: "College English/Book 2/B2U6.json" },
-                { name: "Book 2 - Unit 7", path: "College English/Book 2/B2U7.json" },
-                { name: "Book 2 - Unit 8", path: "College English/Book 2/B2U8.json" },
-                { name: "Book 3 - Unit 1", path: "College English/Book 3/B3U1.json" },
-                { name: "Book 3 - Unit 2", path: "College English/Book 3/B3U2.json" },
-                { name: "Book 3 - Unit 3", path: "College English/Book 3/B3U3.json" },
-                { name: "Book 3 - Unit 4", path: "College English/Book 3/B3U4.json" },
-                { name: "Book 3 - Unit 5", path: "College English/Book 3/B3U5.json" },
-                { name: "Book 3 - Unit 6", path: "College English/Book 3/B3U6.json" },
-                { name: "Book 3 - Unit 7", path: "College English/Book 3/B3U7.json" },
-                { name: "Book 3 - Unit 8", path: "College English/Book 3/B3U8.json" },
-                { name: "INCE 2 - Unit 1", path: "College English/INCE 2/Unit 1.json" },
-                { name: "INCE 2 - Unit 2", path: "College English/INCE 2/Unit 2.json" },
-                { name: "INCE 2 - Unit 3", path: "College English/INCE 2/Unit 3.json" },
-                { name: "INCE 2 - Unit 4", path: "College English/INCE 2/Unit 4.json" },
-                { name: "INCE 2 - Unit 5", path: "College English/INCE 2/Unit 5.json" },
-                { name: "INCE 2 - Unit 6", path: "College English/INCE 2/Unit 6.json" },
-                { name: "INCE 2 - Unit 7", path: "College English/INCE 2/Unit 7.json" },
-                { name: "INCE 2 - Unit 8", path: "College English/INCE 2/Unit 8.json" }
+            // 这个系列分册，所以用 groups 而不是 lists。
+            // 选择器会先让你选册、再出该册的单元，避免一个下拉框里堆 25 项。
+            groups: [
+                {
+                    name: "Book 1",
+                    lists: [
+                        { name: "Unit 1", path: "College English/Book 1/B1U1.json" }
+                    ]
+                },
+                {
+                    name: "Book 2",
+                    lists: [
+                        { name: "Unit 1", path: "College English/Book 2/B2U1.json" },
+                        { name: "Unit 2", path: "College English/Book 2/B2U2.json" },
+                        { name: "Unit 3", path: "College English/Book 2/B2U3.json" },
+                        { name: "Unit 4", path: "College English/Book 2/B2U4.json" },
+                        { name: "Unit 5", path: "College English/Book 2/B2U5.json" },
+                        { name: "Unit 6", path: "College English/Book 2/B2U6.json" },
+                        { name: "Unit 7", path: "College English/Book 2/B2U7.json" },
+                        { name: "Unit 8", path: "College English/Book 2/B2U8.json" }
+                    ]
+                },
+                {
+                    name: "Book 3",
+                    lists: [
+                        { name: "Unit 1", path: "College English/Book 3/B3U1.json" },
+                        { name: "Unit 2", path: "College English/Book 3/B3U2.json" },
+                        { name: "Unit 3", path: "College English/Book 3/B3U3.json" },
+                        { name: "Unit 4", path: "College English/Book 3/B3U4.json" },
+                        { name: "Unit 5", path: "College English/Book 3/B3U5.json" },
+                        { name: "Unit 6", path: "College English/Book 3/B3U6.json" },
+                        { name: "Unit 7", path: "College English/Book 3/B3U7.json" },
+                        { name: "Unit 8", path: "College English/Book 3/B3U8.json" }
+                    ]
+                },
+                {
+                    name: "INCE 2",
+                    lists: [
+                        { name: "Unit 1", path: "College English/INCE 2/Unit 1.json" },
+                        { name: "Unit 2", path: "College English/INCE 2/Unit 2.json" },
+                        { name: "Unit 3", path: "College English/INCE 2/Unit 3.json" },
+                        { name: "Unit 4", path: "College English/INCE 2/Unit 4.json" },
+                        { name: "Unit 5", path: "College English/INCE 2/Unit 5.json" },
+                        { name: "Unit 6", path: "College English/INCE 2/Unit 6.json" },
+                        { name: "Unit 7", path: "College English/INCE 2/Unit 7.json" },
+                        { name: "Unit 8", path: "College English/INCE 2/Unit 8.json" }
+                    ]
+                }
             ]
         },
         {
@@ -106,6 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DOM Elements ---
     const categorySelector = document.getElementById('categorySelector');
     const unitSelector = document.getElementById('unitSelector');
+    const unitChips = document.getElementById('unitChips');
+    const groupSegmented = document.getElementById('groupSegmented');
     const loadWordsButton = document.getElementById('loadWordsButton');
     const backToSelectionButton = document.getElementById('backToSelectionButton');
     const goBackButton = document.getElementById('goBackButton');
@@ -155,6 +179,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentListPath = null;
     let currentUnitName = "";
     let currentCategoryName = "";
+    // 分段控件用：当前选中的册，以及那块会「果冻拉伸」的滑块元素
+    let selectedGroupIndex = 0;
+    let segmentIndicator = null;
+    // 单元胶囊选中的是哪一项。用状态而不是读 DOM：
+    // 胶囊是一堆 radio，没有 .value 这种「整个控件一个值」的东西。
+    let selectedUnitPath = '';
+    let selectedUnitName = '';
 
     // --- 动效工具 ---
     const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -530,17 +561,143 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function populateUnitSelector(categoryIndex) {
-        const selectedGroup = wordBook[categoryIndex];
-        unitSelector.innerHTML = ''; // 清空旧的单元选项
+    /**
+     * 第三级 A —— 普通下拉：不分册的系列用它。
+     * 这些系列的单元可能只有一个（CET 4），也可能有 42 个（NMET），
+     * 摊成一堆胶囊反而更难找，下拉更合适。
+     * prefix 是所属分册名，完整名字只写进 dataset：
+     * 下拉框里显示 "Unit 3" 才干净，但导出文件名和顶部标识需要完整名。
+     */
+    function populateUnitSelector(lists, prefix) {
+        unitSelector.innerHTML = '';
+        unitChips.classList.add('is-hidden');
 
         // **根据您的要求，不添加“请选择”的默认项**
-        selectedGroup.lists.forEach(list => {
+        lists.forEach(list => {
             const option = document.createElement('option');
             option.value = list.path;
             option.textContent = list.name;
+            option.dataset.fullName = prefix ? `${prefix} - ${list.name}` : list.name;
             unitSelector.appendChild(option);
         });
+
+        unitSelector.classList.remove('is-hidden');
+        syncUnitSelectionFromSelect();
+    }
+
+    /** 把下拉框当前的选中项同步进状态。 */
+    function syncUnitSelectionFromSelect() {
+        const option = unitSelector.options[unitSelector.selectedIndex];
+        selectedUnitPath = option ? option.value : '';
+        selectedUnitName = option ? (option.dataset.fullName || option.textContent) : '';
+    }
+
+    /**
+     * 第三级 B —— 胶囊网格：只有分册的系列（College English）用它。
+     * 每册只有 8 个单元，摊开来一眼看全、一次点击就选中，
+     * 比「打开下拉 → 滚动 → 选择 → 关闭」少好几步。
+     */
+    function populateUnitChips(lists, prefix) {
+        unitChips.innerHTML = '';
+        unitSelector.classList.add('is-hidden');
+
+        // 每行最多 4 个 —— 和上面分册滑块的 4 段同一个节奏。
+        // 单元少于 4 个时（Book 1 只有 1 个）就按实际数量分列，
+        // 否则那一个胶囊会缩在四分之一格里，右边空一大块。
+        unitChips.style.setProperty('--cols', String(Math.max(1, Math.min(4, lists.length))));
+
+        if (lists.length === 0) {
+            selectedUnitPath = '';
+            selectedUnitName = '';
+            return;
+        }
+
+        lists.forEach((list, index) => {
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'unit';
+            input.id = `unit-${index}`;
+            input.value = list.path;
+            input.dataset.fullName = prefix ? `${prefix} - ${list.name}` : list.name;
+            input.checked = index === 0;
+
+            const label = document.createElement('label');
+            label.htmlFor = input.id;
+            label.textContent = list.name;
+
+            unitChips.append(input, label);
+        });
+
+        unitChips.classList.remove('is-hidden');
+
+        // 默认替你选好第一个：想换再点，而不是逼你非点一下才能开始
+        selectedUnitPath = lists[0].path;
+        selectedUnitName = prefix ? `${prefix} - ${lists[0].name}` : lists[0].name;
+    }
+
+    /**
+     * 生成分册的分段控件——只有分了册的系列（如 College English）才用得到。
+     * 用 radio + label 而不是下拉：3–4 个短标签摊开来所有选项一眼可见、
+     * 一次点击就选中，比「打开列表 → 滚动 → 选择 → 关闭」少好几步。
+     */
+    function populateGroupSelector(categoryIndex) {
+        const category = wordBook[categoryIndex];
+        groupSegmented.innerHTML = '';
+
+        // --n 给 CSS 算滑块宽度；--i 是静态落点，重置回第一段
+        groupSegmented.style.setProperty('--n', String(category.groups.length));
+        groupSegmented.style.setProperty('--i', '0');
+        selectedGroupIndex = 0;
+
+        // 滑块做成真实元素：Liquid Glass 的果冻拉伸要用 WAAPI 驱动，
+        // ::before 伪元素没法被 JS 动画。
+        segmentIndicator = document.createElement('span');
+        segmentIndicator.className = 'segment-indicator';
+        segmentIndicator.setAttribute('aria-hidden', 'true');
+        groupSegmented.appendChild(segmentIndicator);
+
+        category.groups.forEach((group, index) => {
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'volume';
+            input.id = `volume-${index}`;
+            input.value = String(index);
+            input.checked = index === 0;
+
+            const label = document.createElement('label');
+            label.htmlFor = input.id;
+            label.textContent = group.name;
+
+            groupSegmented.append(input, label);
+        });
+    }
+
+    /**
+     * 把滑块移到第 to 段——这是 Liquid Glass 里最关键的一笔。
+     *
+     * Apple 对这套材质的原话是「取法玻璃的光学性质与【液体的流动性】」，
+     * 且控件会在交互中「变成液态玻璃」。所以滑块不该是刚性平移：
+     * 它在途中横向拉伸（像一滴被拽着走的液体），到站再收回原宽。
+     * 社区实现把它称作 "jelly"（果冻），说的就是这个。
+     */
+    function moveIndicator(from, to) {
+        groupSegmented.style.setProperty('--i', String(to));
+        if (from === to || !segmentIndicator) return;
+
+        // 系统要求减少动态效果时，只做上面的静态落位
+        if (reducedMotionQuery.matches || typeof segmentIndicator.animate !== 'function') return;
+
+        segmentIndicator.getAnimations().forEach(animation => animation.cancel());
+        segmentIndicator.animate(
+            [
+                { transform: `translateX(${from * 100}%) scaleX(1)` },
+                // 途中拉伸到 1.18 倍：先被「拽长」再落回，才有液体感
+                { transform: `translateX(${(from + (to - from) * 0.55) * 100}%) scaleX(1.18)`, offset: 0.5 },
+                { transform: `translateX(${to * 100}%) scaleX(1)` }
+            ],
+            // 0.32 / 0.72 / 0 / 1 是 iOS 抽屉那条曲线：起步果断、收尾极稳
+            { duration: 420, easing: 'cubic-bezier(0.32, 0.72, 0, 1)' }
+        );
     }
 
     async function loadWordsFromServer(path) {
@@ -833,23 +990,77 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Event Handlers ---
+    /** 选中第 index 册：填好它的单元、把滑块移过去、放行「开始学习」。 */
+    function selectGroup(index) {
+        const category = wordBook[categorySelector.value];
+        const group = category.groups[index];
+        if (!group) return;
+
+        // 分册系列用胶囊摊开单元（只有 College English 走到这里）
+        populateUnitChips(group.lists, group.name);
+        moveIndicator(selectedGroupIndex, index);
+        selectedGroupIndex = index;
+        // 万一某册还没配单元，按钮就别放行——点下去也只会空转
+        loadWordsButton.disabled = !selectedUnitPath;
+    }
+
     categorySelector.addEventListener('change', () => {
         const selectedIndex = categorySelector.value;
-        if (selectedIndex) { // 如果选择的不是 "-- 请选择 --"
-            populateUnitSelector(selectedIndex);
-            unitSelector.classList.remove('is-hidden');
-            loadWordsButton.disabled = false; // 启用“开始学习”按钮
+
+        if (selectedIndex === '') { // 还没选
+            groupSegmented.classList.add('is-hidden');
+            unitChips.classList.add('is-hidden');
+            unitSelector.classList.add('is-hidden');
+            selectedUnitPath = '';
+            selectedUnitName = '';
+            loadWordsButton.disabled = true;
+            return;
+        }
+
+        const category = wordBook[selectedIndex];
+
+        if (category.groups) {
+            // 分了册的系列：分册用分段控件全部摊开，一眼看到 4 个册、一次点击就能换
+            populateGroupSelector(selectedIndex);
+            groupSegmented.classList.remove('is-hidden');
+            // 默认选中第一册并立刻填好单元。
+            // 原来用下拉时这里有个坑：默认项已经选中，用户若就想选它，
+            // 不会触发 change，单元框永远不出来。
+            selectGroup(0);
         } else {
-            unitSelector.classList.add('is-hidden'); // 隐藏单元菜单
-            loadWordsButton.disabled = true; // 禁用按钮
+            // 没分册的系列：直接出单元下拉（CET 4 / Stardew Valley / My Little Pony / NMET）
+            groupSegmented.classList.add('is-hidden');
+            populateUnitSelector(category.lists, '');
+            loadWordsButton.disabled = !selectedUnitPath;
         }
     });
 
+    // 分段控件：radio 的 change 会冒泡到容器，统一在这里处理
+    groupSegmented.addEventListener('change', (event) => {
+        if (event.target.name !== 'volume') return;
+        selectGroup(Number(event.target.value));
+    });
+
+    // 单元下拉：不分册的系列用它。改选即生效，点一下就能开始。
+    unitSelector.addEventListener('change', () => {
+        syncUnitSelectionFromSelect();
+        loadWordsButton.disabled = !selectedUnitPath;
+    });
+
+    // 单元胶囊：同样是 radio 冒泡。选中即生效，点一下就能开始。
+    unitChips.addEventListener('change', (event) => {
+        if (event.target.name !== 'unit') return;
+        selectedUnitPath = event.target.value;
+        selectedUnitName = event.target.dataset.fullName || event.target.value;
+        loadWordsButton.disabled = false;
+    });
+
     loadWordsButton.addEventListener('click', () => {
-        const path = unitSelector.value;
-        if (!path) return;
-        currentListPath = path; // 保存当前学习列表的路径
-        currentUnitName = unitSelector.options[unitSelector.selectedIndex].text;
+        if (!selectedUnitPath) return;
+        currentListPath = selectedUnitPath;
+        // dataset.fullName 带着分册名（"Book 2 - Unit 3"），
+        // 而胶囊上只显示 "Unit 3"——导出文件名和顶部标识需要完整名字
+        currentUnitName = selectedUnitName;
         // 一起记下是哪本书：单元名单独看常常有歧义（"Group 1"、"Unit 1" 到处都是）
         currentCategoryName = categorySelector.options[categorySelector.selectedIndex].text;
         updateAppView('readyToStart');

@@ -93,15 +93,32 @@
                 <div class="view-content">
                     <svg class="icon welcome-icon" aria-hidden="true"><use href="#i-book-open"/></svg>
                     <p class="instruction-text">Choose a word list to review</p>
+
+                    <!-- 三级并排、但只有 College English 会全部出现：
+                         它分册，所以是 系列 → 分册 → 单元，二三级做成可直接点的胶囊。
+                         其它系列只有两级（系列 → 单元），保持原来的下拉。
+                         依据：选项少且互斥时摊开比藏进下拉好
+                         （Luke Wroblewski：「下拉菜单应该是最后的选择」），
+                         但选项多到 42 个时，摊开反而更难找——所以不是所有系列都值得这么做。 -->
                     <div class="selection-group">
-                        <select id="categorySelector" class="word-list-selector" aria-label="Choose a word book">
+                        <!-- 第一级 —— 系列，所有系列共用 -->
+                        <select id="categorySelector" class="word-list-selector select-primary" aria-label="Choose a word book">
                             <option value="" disabled selected hidden>Select a book</option>
                         </select>
+
+                        <!-- 第二级 —— 分册：分段控件（只有 College English 有） -->
+                        <div id="groupSegmented" class="segmented is-hidden" role="radiogroup" aria-label="Choose a volume"></div>
+
+                        <!-- 第三级有两种形态，按系列二选一显示 -->
                         <select id="unitSelector" class="word-list-selector is-hidden" aria-label="Choose a unit"></select>
+                        <div id="unitChips" class="chip-grid is-hidden" role="radiogroup" aria-label="Choose a unit"></div>
+
+                        <!-- 主操作放在同一列里：它和上面三级是同一摞东西，
+                             拉到 group 外就得靠手调的 margin 去对齐，那个间距迟早会飘。 -->
+                        <button id="loadWordsButton" class="button primary-button" disabled>
+                            <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg> Start Learning
+                        </button>
                     </div>
-                    <button id="loadWordsButton" class="button primary-button" disabled>
-                        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg> Start Learning
-                    </button>
                 </div>
             </div>
 
