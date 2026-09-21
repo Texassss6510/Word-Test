@@ -610,5 +610,15 @@
             }
         ],
         "phonetic": "/ɪn ˈmætəz əv/"
+    },
+    {
+        "english": "layman",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "外行，门外汉"
+            }
+        ],
+        "phonetic": "/ˈleɪmən/"
     }
 ] 

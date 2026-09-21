@@ -1,1 +1,394 @@
-[]
+[
+    {
+        "english": "broccoli",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "西兰花，绿花椰菜"
+            }
+        ],
+        "phonetic": "/ˈbrɒkəli/"
+    },
+    {
+        "english": "antibiotic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "抗生素，抗菌素"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "抗菌的，抗生的"
+            }
+        ],
+        "phonetic": "/ˌæntibaɪˈɒtɪk/"
+    },
+    {
+        "english": "phosphorus",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "磷"
+            }
+        ],
+        "phonetic": "/ˈfɒsfərəs/"
+    },
+    {
+        "english": "humane",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "人道的，仁慈的，博爱的"
+            }
+        ],
+        "phonetic": "/hjuːˈmeɪn/"
+    },
+    {
+        "english": "waistline",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "腰围，腰线"
+            }
+        ],
+        "phonetic": "/ˈweɪstlaɪn/"
+    },
+    {
+        "english": "tempeh",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "天贝（一种发酵豆制品）"
+            }
+        ],
+        "phonetic": "/ˈtempeɪ/"
+    },
+    {
+        "english": "cholesterol",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "胆固醇"
+            }
+        ],
+        "phonetic": "/kəˈlestərɒl/"
+    },
+    {
+        "english": "rear",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "后部，背面"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "后面的，后部的"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "养育，饲养；栽种，培植"
+            }
+        ],
+        "phonetic": "/rɪə(r)/"
+    },
+    {
+        "english": "veggie",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "蔬菜；素食者"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "素食的；蔬菜的"
+            }
+        ],
+        "phonetic": "/ˈvedʒi/"
+    },
+    {
+        "english": "enlist",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "征募，入伍；争取，谋取"
+            }
+        ],
+        "phonetic": "/ɪnˈlɪst/"
+    },
+    {
+        "english": "serving",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "一份食物；分量，一人份"
+            }
+        ],
+        "phonetic": "/ˈsɜːvɪŋ/"
+    },
+    {
+        "english": "graze",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "吃草，放牧；擦伤，掠过"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "擦伤，擦痕"
+            }
+        ],
+        "phonetic": "/ɡreɪz/"
+    },
+    {
+        "english": "contaminate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "污染，弄脏；毒害，腐蚀"
+            }
+        ],
+        "phonetic": "/kənˈtæmɪneɪt/"
+    },
+    {
+        "english": "accountable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有责任的，应负责的"
+            }
+        ],
+        "phonetic": "/əˈkaʊntəbl/"
+    },
+    {
+        "english": "accountability",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "责任，问责；有责任"
+            }
+        ],
+        "phonetic": "/əˌkaʊntəˈbɪləti/"
+    },
+    {
+        "english": "hazard",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "危险，危害；冒险"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "使冒风险；冒险尝试"
+            }
+        ],
+        "phonetic": "/ˈhæzəd/"
+    },
+    {
+        "english": "substandard",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "不合格的，低于标准的"
+            }
+        ],
+        "phonetic": "/ˌsʌbˈstændəd/"
+    },
+    {
+        "english": "patty",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "肉饼，小馅饼"
+            }
+        ],
+        "phonetic": "/ˈpæti/"
+    },
+    {
+        "english": "lush",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "茂盛的，繁茂的；豪华的，丰富的"
+            }
+        ],
+        "phonetic": "/lʌʃ/"
+    },
+    {
+        "english": "meaty",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "肉多的，肉味的；内容丰富的"
+            }
+        ],
+        "phonetic": "/ˈmiːti/"
+    },
+    {
+        "english": "grievous",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "极其严重的，令人悲痛的"
+            }
+        ],
+        "phonetic": "/ˈɡriːvəs/"
+    },
+    {
+        "english": "quota",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "配额，定额；份额"
+            }
+        ],
+        "phonetic": "/ˈkwəʊtə/"
+    },
+    {
+        "english": "indulge",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "放纵，纵容；沉溺，尽情享受"
+            }
+        ],
+        "phonetic": "/ɪnˈdʌldʒ/"
+    },
+    {
+        "english": "in the long run",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "从长远来看，最终"
+            }
+        ],
+        "phonetic": "/ɪn ðə lɒŋ rʌn/"
+    },
+    {
+        "english": "congestion",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "拥堵，堵塞；充血，淤血"
+            }
+        ],
+        "phonetic": "/kənˈdʒestʃən/"
+    },
+    {
+        "english": "deteriorate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "恶化，变坏；退化"
+            }
+        ],
+        "phonetic": "/dɪˈtɪəriəreɪt/"
+    },
+    {
+        "english": "deterioration",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "恶化，变坏；退化"
+            }
+        ],
+        "phonetic": "/dɪˌtɪəriəˈreɪʃn/"
+    },
+    {
+        "english": "paraphrase",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "释义，改述"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "改述，释义"
+            }
+        ],
+        "phonetic": "/ˈpærəfreɪz/"
+    },
+    {
+        "english": "drastic",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "剧烈的，极端的"
+            }
+        ],
+        "phonetic": "/ˈdræstɪk/"
+    },
+    {
+        "english": "meadowland",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "草地，牧场"
+            }
+        ],
+        "phonetic": "/ˈmedəʊlænd/"
+    },
+    {
+        "english": "clause",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "从句，分句"
+            }
+        ],
+        "phonetic": "/klɔːz/"
+    },
+    {
+        "english": "groundwater",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "地下水"
+            }
+        ],
+        "phonetic": "/ˈɡraʊndwɔːtə(r)/"
+    },
+    {
+        "english": "cosmetic",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "化妆品，美容品"
+            },
+            {
+                "abbreviation": "adj.",
+                "meaning": "美容的，化妆的；表面的，装饰性的"
+            }
+        ],
+        "phonetic": "/kɒzˈmetɪk/"
+    },
+    {
+        "english": "volatile",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "易变的，不稳定的；易挥发的；易怒的"
+            }
+        ],
+        "phonetic": "/ˈvɒlətaɪl/"
+    },
+    {
+        "english": "volatility",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "波动性，不稳定性；挥发性"
+            }
+        ],
+        "phonetic": "/ˌvɒləˈtɪləti/"
+    },
+    {
+        "english": "stricken",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "受灾的；患病的"
+            }
+        ],
+        "phonetic": "/ˈstrɪkən/"
+    }
+]
