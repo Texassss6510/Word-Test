@@ -50,6 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         { name: "Unit 7", path: "College English/INCE 2/Unit 7.json" },
                         { name: "Unit 8", path: "College English/INCE 2/Unit 8.json" }
                     ]
+                },
+                {
+                    name: "VLS 2",
+                    lists: [
+                        { name: "Unit 1", path: "College English/VLS 2/Unit 1.json" },
+                        { name: "Unit 2", path: "College English/VLS 2/Unit 2.json" },
+                        { name: "Unit 3", path: "College English/VLS 2/Unit 3.json" },
+                        { name: "Unit 4", path: "College English/VLS 2/Unit 4.json" },
+                        { name: "Unit 5", path: "College English/VLS 2/Unit 5.json" },
+                        { name: "Unit 6", path: "College English/VLS 2/Unit 6.json" }
+                    ]
                 }
             ]
         },
@@ -637,8 +648,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * 生成分册的分段控件——只有分了册的系列（如 College English）才用得到。
-     * 用 radio + label 而不是下拉：3–4 个短标签摊开来所有选项一眼可见、
+     * 用 radio + label 而不是下拉：几个短标签摊开来所有选项一眼可见、
      * 一次点击就选中，比「打开列表 → 滚动 → 选择 → 关闭」少好几步。
+     * 目前 College English 有 5 册（Book 1/2/3、INCE 2、VLS 2），
+     * 还在分段控件能舒服容纳的范围内；再多就该换回下拉了。
      */
     function populateGroupSelector(categoryIndex) {
         const category = wordBook[categoryIndex];
@@ -1020,7 +1033,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const category = wordBook[selectedIndex];
 
         if (category.groups) {
-            // 分了册的系列：分册用分段控件全部摊开，一眼看到 4 个册、一次点击就能换
+            // 分了册的系列：分册用分段控件全部摊开，一眼看到 5 个册、一次点击就能换
             populateGroupSelector(selectedIndex);
             groupSegmented.classList.remove('is-hidden');
             // 默认选中第一册并立刻填好单元。

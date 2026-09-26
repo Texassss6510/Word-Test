@@ -1,0 +1,370 @@
+[
+    {
+        "english": "chronological",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "按时间顺序的"
+            }
+        ],
+        "phonetic": "/ˌkrɒnəˈlɒdʒɪkl/"
+    },
+    {
+        "english": "interject",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "插话，插嘴；突然插入"
+            }
+        ],
+        "phonetic": "/ˌɪntəˈdʒekt/"
+    },
+    {
+        "english": "intrigue",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "激起…的兴趣；密谋"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "阴谋，密谋"
+            }
+        ],
+        "phonetic": "/ɪnˈtriːɡ/"
+    },
+    {
+        "english": "aisle",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "过道，通道，走道"
+            }
+        ],
+        "phonetic": "/aɪl/"
+    },
+    {
+        "english": "savor",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "品味，享受"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "味道，风味"
+            }
+        ],
+        "phonetic": "/ˈseɪvə(r)/"
+    },
+    {
+        "english": "spice",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "香料，调味品"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "加香料于"
+            }
+        ],
+        "phonetic": "/spaɪs/"
+    },
+    {
+        "english": "bud",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "芽，花蕾"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "发芽，长出芽"
+            }
+        ],
+        "phonetic": "/bʌd/"
+    },
+    {
+        "english": "palate",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "味觉，口味；上颚"
+            }
+        ],
+        "phonetic": "/ˈpælət/"
+    },
+    {
+        "english": "nobility",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "贵族；高贵，高尚"
+            }
+        ],
+        "phonetic": "/nəʊˈbɪləti/"
+    },
+    {
+        "english": "commoner",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "平民，普通人"
+            }
+        ],
+        "phonetic": "/ˈkɒmənə(r)/"
+    },
+    {
+        "english": "reign",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "统治，君主统治时期；支配"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "统治，当政；盛行，支配"
+            }
+        ],
+        "phonetic": "/reɪn/"
+    },
+    {
+        "english": "precursor",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "先驱，前身；先兆，前兆"
+            }
+        ],
+        "phonetic": "/priːˈkɜːsə(r)/"
+    },
+    {
+        "english": "prestigious",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "有威望的，有声望的"
+            }
+        ],
+        "phonetic": "/preˈstɪdʒəs/"
+    },
+    {
+        "english": "fraternity",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "兄弟会；兄弟情谊"
+            }
+        ],
+        "phonetic": "/frəˈtɜːnəti/"
+    },
+    {
+        "english": "mushroom",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "迅速增长，迅速蔓延"
+            }
+        ],
+        "phonetic": "/ˈmʌʃrʊm/"
+    },
+    {
+        "english": "renovate",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "翻新，修复，整修"
+            }
+        ],
+        "phonetic": "/ˈrenəveɪt/"
+    },
+    {
+        "english": "expectancy",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "期望，期待"
+            }
+        ],
+        "phonetic": "/ɪkˈspektənsi/"
+    },
+    {
+        "english": "goldmine",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "金矿；宝库"
+            }
+        ],
+        "phonetic": "/ˈɡəʊldmaɪn/"
+    },
+    {
+        "english": "sticky",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "棘手的，难办的"
+            }
+        ],
+        "phonetic": "/ˈstɪki/"
+    },
+    {
+        "english": "intriguing",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "引人入胜的，有趣的，迷人的"
+            }
+        ],
+        "phonetic": "/ɪnˈtriːɡɪŋ/"
+    },
+    {
+        "english": "recipe",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "窍门，诀窍"
+            }
+        ],
+        "phonetic": "/ˈresəpi/"
+    },
+    {
+        "english": "kayak",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "皮划艇，独木舟"
+            },
+            {
+                "abbreviation": "v.",
+                "meaning": "划皮划艇"
+            }
+        ],
+        "phonetic": "/ˈkaɪæk/"
+    },
+    {
+        "english": "loanword",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "外来词，借词"
+            }
+        ],
+        "phonetic": "/ˈləʊnwɜːd/"
+    },
+    {
+        "english": "advisable",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "明智的，可取的"
+            }
+        ],
+        "phonetic": "/ədˈvaɪzəbl/"
+    },
+    {
+        "english": "by most standards",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "按大多数标准来看"
+            }
+        ],
+        "phonetic": "/baɪ məʊst ˈstændədz/"
+    },
+    {
+        "english": "imperative",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "命令的；祈使的"
+            },
+            {
+                "abbreviation": "n.",
+                "meaning": "命令；祈使语气"
+            }
+        ],
+        "phonetic": "/ɪmˈperətɪv/"
+    },
+    {
+        "english": "inconsistent",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "变化无常的；不一致的，矛盾的"
+            }
+        ],
+        "phonetic": "/ˌɪnkənˈsɪstənt/"
+    },
+    {
+        "english": "distract",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "分散（注意力），使分心；使混乱"
+            }
+        ],
+        "phonetic": "/dɪˈstrækt/"
+    },
+    {
+        "english": "methodology",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "方法论；一套方法"
+            }
+        ],
+        "phonetic": "/ˌmeθəˈdɒlədʒi/"
+    },
+    {
+        "english": "Chinese People's Liberation Army",
+        "pos": [
+            {
+                "abbreviation": "n.",
+                "meaning": "中国人民解放军"
+            }
+        ],
+        "phonetic": "/ˌtʃaɪˈniːz ˈpiːplz ˌlɪbəˈreɪʃn ˈɑːmi/"
+    },
+    {
+        "english": "wrap up",
+        "pos": [
+            {
+                "abbreviation": "phr.",
+                "meaning": "结束，完成；总结，概括；包裹"
+            }
+        ],
+        "phonetic": "/ræp ʌp/"
+    },
+    {
+        "english": "conceptual",
+        "pos": [
+            {
+                "abbreviation": "adj.",
+                "meaning": "概念上的，观念上的"
+            }
+        ],
+        "phonetic": "/kənˈseptʃuəl/"
+    },
+    {
+        "english": "exert",
+        "pos": [
+            {
+                "abbreviation": "v.",
+                "meaning": "运用，施加（影响、压力等）；努力，尽力"
+            }
+        ],
+        "phonetic": "/ɪɡˈzɜːt/"
+    },
+    {
+        "english": "versus",
+        "pos": [
+            {
+                "abbreviation": "prep.",
+                "meaning": "以……为对手；与…相比"
+            }
+        ],
+        "phonetic": "/ˈvɜːsəs/"
+    }
+]
